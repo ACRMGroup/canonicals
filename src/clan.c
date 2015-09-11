@@ -3,8 +3,8 @@
    Program:    clan
    File:       clan.c
    
-   Version:    V3.0
-   Date:       13.09.95
+   Version:    V3.2
+   Date:       02.10.95
    Function:   Perform cluster analysis on loop conformations
    
    Copyright:  (c) Dr. Andrew C. R. Martin 1995
@@ -63,6 +63,7 @@
    V3.0  13.09.95 Clustering now considers a set of distances from the
                   N-ter C-alpha as well as torsions
    V3.1  21.09.95 Added DISTANCE/ANGLE/NOANGLE keywords
+   V3.2  02.10.95 Modifications to decr.c
 
 *************************************************************************/
 /* Includes
@@ -1359,7 +1360,7 @@ BOOL DoClustering(BOOL CATorsions)
 */
 void Usage(void)
 {
-   fprintf(stderr,"\nCLAN V3.0 (c) 1995, Dr. Andrew C.R. Martin, UCL\n");
+   fprintf(stderr,"\nCLAN V3.2 (c) 1995, Dr. Andrew C.R. Martin, UCL\n");
 
    fprintf(stderr,"\nUsage: clan [-t] <datafile>\n");
    fprintf(stderr,"       -t Do true torsions\n");

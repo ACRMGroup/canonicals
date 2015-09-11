@@ -3,8 +3,8 @@
    Program:    
    File:       decr.c
    
-   Version:    V0.1
-   Date:       01.08.95
+   Version:    V3.2
+   Date:       02.10.95
    Function:   DEfine Critical Residues
    
    Copyright:  (c) Dr. Andrew C. R. Martin 1995
@@ -47,6 +47,8 @@
 
    Revision History:
    =================
+   V1.0  01.08.95 Original
+   V3.2  02.10.95 Modified for completely conserved residues
 
 *************************************************************************/
 /* Includes
@@ -337,6 +339,9 @@ void FillLoopInfo(LOOPINFO *loopinfo)
    03.08.95 Original    By: ACRM
    08.08.95 Added setting of clusterinfo->length from first loop's
             length
+   02.09.95 Added ->ConsRes[] and ->absolute[] handling
+            Corrected check on NULLs for each free() to != rather 
+            than ==
 */
 BOOL MergeProperties(int NLoops, LOOPINFO *loopinfo, int clusnum,
                      CLUSTERINFO *clusterinfo)
@@ -361,31 +366,46 @@ BOOL MergeProperties(int NLoops, LOOPINFO *loopinfo, int clusnum,
    /* Allocate memory in the clusterinfo structure to store properties
       for these residues
    */
-   clusterinfo->resnum = (int *)malloc(NRes * sizeof(int));
-   clusterinfo->chain  = (char *)malloc(NRes * sizeof(char));
-   clusterinfo->insert = (char *)malloc(NRes * sizeof(char));
+   clusterinfo->resnum         = (int *)malloc(NRes * sizeof(int));
+   clusterinfo->chain          = (char *)malloc(NRes * sizeof(char));
+   clusterinfo->insert         = (char *)malloc(NRes * sizeof(char));
    clusterinfo->ConservedProps = (USHORT *)malloc(NRes * sizeof(USHORT));
-   clusterinfo->RangeOfProps = (USHORT *)malloc(NRes * sizeof(USHORT));
+   clusterinfo->RangeOfProps   = (USHORT *)malloc(NRes * sizeof(USHORT));
+   clusterinfo->absolute       = (BOOL *)malloc(NRes * sizeof(BOOL));
+   clusterinfo->ConsRes        = (char *)malloc(NRes * sizeof(char));
 
-   if((clusterinfo->resnum == NULL) ||
-      (clusterinfo->chain  == NULL) ||
-      (clusterinfo->insert == NULL) ||
+   if((clusterinfo->resnum         == NULL) ||
+      (clusterinfo->chain          == NULL) ||
+      (clusterinfo->insert         == NULL) ||
       (clusterinfo->ConservedProps == NULL) ||
-      (clusterinfo->RangeOfProps == NULL))
+      (clusterinfo->RangeOfProps   == NULL) ||
+      (clusterinfo->absolute       == NULL) ||
+      (clusterinfo->ConsRes        == NULL))
    {
-      if(clusterinfo->resnum == NULL)
+      if(clusterinfo->resnum != NULL)
          free(clusterinfo->resnum);
-      if(clusterinfo->chain  == NULL)
+      if(clusterinfo->chain  != NULL)
          free(clusterinfo->chain);
-      if(clusterinfo->insert == NULL)
+      if(clusterinfo->insert != NULL)
          free(clusterinfo->insert);
-      if(clusterinfo->ConservedProps == NULL)
+      if(clusterinfo->ConservedProps != NULL)
          free(clusterinfo->ConservedProps);
-      if(clusterinfo->RangeOfProps == NULL)
+      if(clusterinfo->RangeOfProps != NULL)
          free(clusterinfo->RangeOfProps);
+      if(clusterinfo->ConsRes != NULL)
+         free(clusterinfo->ConsRes);
+      if(clusterinfo->absolute != NULL)
+         free(clusterinfo->absolute);
       return(FALSE);
    }
    
+   for(i=0; i<NRes; i++)
+   {
+      clusterinfo->ConsRes[i]  = '-';
+      clusterinfo->absolute[i] = TRUE;
+   }
+   
+
    /* Find the first loop in the specified cluster                      */
    first = (-1);
    for(i=0; i<NLoops; i++)
@@ -400,7 +420,7 @@ BOOL MergeProperties(int NLoops, LOOPINFO *loopinfo, int clusnum,
    /* This shouldn't happen as it's checked for in FlagCommonResidues() */
    if(first == (-1))
    {
-      fprintf(stderr,"Cockup! FlagCommonResidues() found cluster %d, but \
+      fprintf(stderr,"INTERR: FlagCommonResidues() found cluster %d, but \
 MergeProperties() can't\n",clusnum);
       return(FALSE);
    }
@@ -415,6 +435,8 @@ MergeProperties() can't\n",clusnum);
          clusterinfo->insert[k] = loopinfo[first].residues[j]->insert[0];
          clusterinfo->ConservedProps[k] = loopinfo[first].ResProps[j];
          clusterinfo->RangeOfProps[k]   = loopinfo[first].ResProps[j];
+         clusterinfo->ConsRes[k]        = loopinfo[first].AALoop[j];
+         
          k++;
       }
    }
@@ -427,6 +449,8 @@ MergeProperties() can't\n",clusnum);
          clusterinfo->insert[k] = loopinfo[first].contacts[j]->insert[0];
          clusterinfo->ConservedProps[k] = loopinfo[first].ContactProps[j];
          clusterinfo->RangeOfProps[k]   = loopinfo[first].ContactProps[j];
+         clusterinfo->ConsRes[k]        = loopinfo[first].AAContact[j];
+
          k++;
       }
    }
@@ -468,6 +492,8 @@ MergeProperties() can't\n",clusnum);
                      loopinfo[i].ResProps[j];
                   clusterinfo->RangeOfProps[k]   |= 
                      loopinfo[i].ResProps[j];
+                  if(clusterinfo->ConsRes[k] != loopinfo[i].AALoop[j])
+                     clusterinfo->absolute[k] = FALSE;
                }
                else
                {
@@ -510,6 +536,8 @@ common but not in loop 0\n",i);
                      loopinfo[i].ContactProps[j];
                   clusterinfo->RangeOfProps[k]   |= 
                      loopinfo[i].ContactProps[j];
+                  if(clusterinfo->ConsRes[k] != loopinfo[i].AAContact[j])
+                     clusterinfo->absolute[k] = FALSE;
                }
                else
                {
@@ -534,6 +562,7 @@ common but not in loop 0\n",i);
 
    02.08.95 Original    By: ACRM
    08.08.95 Added length
+   02.10.95 Added absolute and ConsRes
 */
 void BlankClusterInfo(CLUSTERINFO *clusterinfo)
 {
@@ -542,6 +571,8 @@ void BlankClusterInfo(CLUSTERINFO *clusterinfo)
    clusterinfo->insert         = NULL;
    clusterinfo->ConservedProps = NULL;
    clusterinfo->RangeOfProps   = NULL;
+   clusterinfo->absolute       = NULL;
+   clusterinfo->ConsRes        = NULL;
    clusterinfo->NRes           = 0;
    clusterinfo->length         = 0;
 }
@@ -1093,6 +1124,7 @@ void CleanLoopInfo(LOOPINFO *loopinfo, int NMembers)
    calls BlankClusterInfo() to clear everything.
 
    08.08.95 Original    By: ACRM
+   02.10.95 Added absolute and ConsRes
 */
 void CleanClusInfo(CLUSTERINFO *cinfo)
 {
@@ -1101,6 +1133,8 @@ void CleanClusInfo(CLUSTERINFO *cinfo)
    if(cinfo->insert         != NULL) free(cinfo->insert);
    if(cinfo->ConservedProps != NULL) free(cinfo->ConservedProps);
    if(cinfo->RangeOfProps   != NULL) free(cinfo->RangeOfProps);
+   if(cinfo->absolute       != NULL) free(cinfo->absolute);
+   if(cinfo->ConsRes        != NULL) free(cinfo->ConsRes);
 
    BlankClusterInfo(cinfo);
 }
@@ -1118,6 +1152,7 @@ void CleanClusInfo(CLUSTERINFO *cinfo)
 
    08.08.95 Original    By: ACRM
    14.08.95 Always prints number of members
+   02.10.95 Handles printing of absolutely conserved residues
 */
 void PrintMergedProperties(FILE *fp, int clusnum, CLUSTERINFO cinfo,
                            int NMembers)
@@ -1148,7 +1183,10 @@ cluster!\n");
                  cinfo.insert[i],
                  cinfo.ConservedProps[i]);
          PrintProps(fp,cinfo.ConservedProps[i]);
-         PrintSampleResidues(fp,cinfo.ConservedProps[i]);
+         if(cinfo.absolute[i])
+            fprintf(fp," [CONSERVED] (%c)",cinfo.ConsRes[i]);
+         else
+            PrintSampleResidues(fp,cinfo.ConservedProps[i]);
          fprintf(fp,"\n");
       }
    }

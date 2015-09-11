@@ -109,6 +109,8 @@ typedef struct
           *RangeOfProps;
    int    NRes,                  /* Number of common residue ids        */
           length;                /* Length of loop itself               */
+   BOOL   *absolute;
+   char   *ConsRes;
 }  CLUSTERINFO;
 
 
