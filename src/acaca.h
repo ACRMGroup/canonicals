@@ -3,11 +3,11 @@
    Program:    acaca suite
    File:       acaca.h
    
-   Version:    V3.6
-   Date:       09.01.96
+   Version:    V3.8
+   Date:       11.09.15
    Function:   Perform cluster analysis on loop conformations
    
-   Copyright:  (c) Dr. Andrew C. R. Martin 1995-6
+   Copyright:  (c) Dr. Andrew C. R. Martin 1995-2015
    Author:     Dr. Andrew C. R. Martin
    Address:    Biomolecular Structure & Modelling Unit,
                Department of Biochemistry & Molecular Biology,
@@ -15,9 +15,7 @@
                Gower Street,
                London.
                WC1E 6BT.
-   Phone:      (Home) +44 (0)1372 275775
-               (Work) +44 (0)171 387 7050 X 3284
-   EMail:      martin@biochem.ucl.ac.uk
+   EMail:      andrew@bioinf.org.uk
                
 **************************************************************************
 
@@ -61,6 +59,7 @@
    V3.6  09.01.96 Skipped
    V3.7  14.03.96 gPClusCut[] now 3 long rather than 2
    V3.7a 30.01.09 Increased MAXLOOPLEN and added comment
+   V3.8  11.09.15 Skipped
 
 *************************************************************************/
 /* Includes

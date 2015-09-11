@@ -3,11 +3,11 @@
    Program:    clan
    File:       clan.c
    
-   Version:    V3.6
-   Date:       09.01.96
+   Version:    V3.8
+   Date:       11.09.15
    Function:   Perform cluster analysis on loop conformations
    
-   Copyright:  (c) Dr. Andrew C. R. Martin 1995-6
+   Copyright:  (c) Dr. Andrew C. R. Martin 1995-2015
    Author:     Dr. Andrew C. R. Martin
    Address:    Biomolecular Structure & Modelling Unit,
                Department of Biochemistry & Molecular Biology,
@@ -15,9 +15,7 @@
                Gower Street,
                London.
                WC1E 6BT.
-   Phone:      (Home) +44 (0)1372 275775
-               (Work) +44 (0)171 387 7050 X 3284
-   EMail:      martin@biochem.ucl.ac.uk
+   EMail:      andrew@bioinf.org.uk
                
 **************************************************************************
 
@@ -74,7 +72,7 @@
                   critical residues
    V3.7  14.03.96 Cluster merging now considers CB as well
    V3.7a 30.01.09 Compile cleanups
-   
+   V3.8  11.09.15 More compile cleanups   
 
 *************************************************************************/
 /* Includes
@@ -568,8 +566,7 @@ BOOL ShowClusters(FILE *fp, REAL **data, int NVec, int VecDim,
         *height      = NULL,
         **clusters   = NULL,
         *TheClusters = NULL,
-        NClus,
-        OldNClus;
+        NClus;
    REAL *crit        = NULL,
         *critval     = NULL;
    BOOL ok           = TRUE;
@@ -634,7 +631,6 @@ BOOL ShowClusters(FILE *fp, REAL **data, int NVec, int VecDim,
 
          WriteResults(fp, TheClusters, NClus, data, NVec, VecDim, crit, 
                       FALSE);
-         OldNClus = NClus;
          if((NClus = PostCluster(fp, TheClusters, data, NVec, VecDim, 
                                  crit, NClus))==0)
          {
@@ -1393,10 +1389,12 @@ BOOL DoClustering(BOOL CATorsions)
    10.10.95 V3.4
    06.11.95 V3.5
    09.01.96 V3.6
+   11.09.15 V3.8   
+
 */
 void Usage(void)
 {
-   fprintf(stderr,"\nCLAN V3.6 (c) 1995, Dr. Andrew C.R. Martin, UCL\n");
+   fprintf(stderr,"\nCLAN V3.8 (c) 1995, Dr. Andrew C.R. Martin, UCL\n");
 
    fprintf(stderr,"\nUsage: clan [-t] <datafile>\n");
    fprintf(stderr,"       -t Do true torsions\n");

@@ -3,11 +3,11 @@
    Program:    
    File:       decr2.c
    
-   Version:    V3.7
-   Date:       06.02.96
+   Version:    V3.8
+   Date:       11.09.15
    Function:   DEfine Critical Residues
    
-   Copyright:  (c) Dr. Andrew C. R. Martin 1995-6
+   Copyright:  (c) Dr. Andrew C. R. Martin 1995-2015
    Author:     Dr. Andrew C. R. Martin
    Address:    Biomolecular Structure & Modelling Unit,
                Department of Biochemistry & Molecular Biology,
@@ -15,9 +15,7 @@
                Gower Street,
                London.
                WC1E 6BT.
-   Phone:      (Home) +44 (0)1372 275775
-               (Work) +44 (0)171 387 7050 X 3284
-   EMail:      INTERNET: martin@biochem.ucl.ac.uk
+   EMail:      andrew@bioinf.org.uk
                
 **************************************************************************
 
@@ -56,6 +54,7 @@
    V3.5  06.11.95 Skipped
    V3.6  09.01.96 Skipped
    V3.7  06.02.96 Separated out bits for findsdrs
+   V3.8  11.09.15 Skipped
 
 *************************************************************************/
 /* Includes

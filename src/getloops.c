@@ -3,11 +3,11 @@
    Program:    GetLoops
    File:       getloops.c
    
-   Version:    V3.6
-   Date:       09.01.96
+   Version:    V3.8
+   Date:       11.09.15
    Function:   Get loops specified in a clan input file
    
-   Copyright:  (c) Dr. Andrew C. R. Martin 1995-6
+   Copyright:  (c) Dr. Andrew C. R. Martin 1995-2015
    Author:     Dr. Andrew C. R. Martin
    Address:    Biomolecular Structure & Modelling Unit,
                Department of Biochemistry & Molecular Biology,
@@ -15,9 +15,7 @@
                Gower Street,
                London.
                WC1E 6BT.
-   Phone:      (Home) +44 (0)1372 275775
-               (Work) +44 (0)171 387 7050 X 3284
-   EMail:      INTERNET: martin@biochem.ucl.ac.uk
+   EMail:      andrew@bioinf.org.uk
                
 **************************************************************************
 
@@ -51,7 +49,7 @@
    V3.4  10.09.95 Skipped
    V3.5  06.11.95 Skipped
    V3.6  09.01.96 Filenames have start and end residues
-
+   V3.8  11.09.15 Skipped
 
 *************************************************************************/
 /* Includes
@@ -236,10 +234,12 @@ char *MakeOutFilename(char *filename)
 /*>void Usage(void)
    ----------------
    03.07.95 Original    By: ACRM
+   11.09.15 V3.8
 */
 void Usage(void)
 {
-   fprintf(stderr,"\nGetLoops V1.0 (c) Dr. Andrew C.R. Martin, UCL\n");
+   fprintf(stderr,"\nGetLoops V3.8 (c) 1995-2015 Dr. Andrew C.R. Martin, \
+UCL\n");
 
    fprintf(stderr,"\nUsage: getloops <filename>\n");
 

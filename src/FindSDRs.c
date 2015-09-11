@@ -46,11 +46,11 @@
    Program:    FindSDRs
    File:       FindSDRs.c
    
-   Version:    V1.1
-   Date:       31.03.09
+   Version:    V3.8
+   Date:       11.09.15
    Function:   Find SDRs in a set of loops
    
-   Copyright:  (c) Dr. Andrew C. R. Martin 1996-2009
+   Copyright:  (c) Dr. Andrew C. R. Martin 1996-2015
    Author:     Dr. Andrew C. R. Martin
    Address:    Biomolecular Structure & Modelling Unit,
                Department of Biochemistry & Molecular Biology,
@@ -126,6 +126,7 @@
                   of a given length
    V1.0a 30.01.09 Compile cleanups
    V1.1  01.04.09 Added check on Prolines at N-terminus
+   V3.8  11.09.15 Skipped
 
 *************************************************************************/
 /* Includes
@@ -632,10 +633,11 @@ BOOL ParseCmdLine(int argc, char **argv, char *infile, char *outfile,
    Prints a usage message
 
    02.02.96 Original   By: ACRM
+   11.09.15 V3.8
 */
 void Usage(void)
 {
-   fprintf(stderr,"\nFindSDRs V1.1 (c) 1996-2009, Dr. Andrew C.R. \
+   fprintf(stderr,"\nFindSDRs V3.8 (c) 1996-2015, Dr. Andrew C.R. \
 Martin, UCL\n");
 
    fprintf(stderr,"\nUsage: findsdrs [-k] [clanfile [outfile]]\n");

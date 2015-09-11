@@ -3,11 +3,11 @@
    Program:    
    File:       decr.c
    
-   Version:    V3.7
-   Date:       06.02.96
+   Version:    V3.8
+   Date:       11.09.15
    Function:   DEfine Critical Residues
    
-   Copyright:  (c) Dr. Andrew C. R. Martin 1995-6
+   Copyright:  (c) Dr. Andrew C. R. Martin 1995-2015
    Author:     Dr. Andrew C. R. Martin
    Address:    Biomolecular Structure & Modelling Unit,
                Department of Biochemistry & Molecular Biology,
@@ -15,9 +15,7 @@
                Gower Street,
                London.
                WC1E 6BT.
-   Phone:      (Home) +44 (0)1372 275775
-               (Work) +44 (0)171 387 7050 X 3284
-   EMail:      INTERNET: martin@biochem.ucl.ac.uk
+   EMail:      andrew@bioinf.org.uk
                
 **************************************************************************
 
@@ -57,6 +55,7 @@
    V3.6  09.01.96 Skipped
    V3.7  06.02.96 Separated out bits for findsdrs
    V3.7a 30.01.09 Fixed initial check on same residue
+   V3.8  11.09.15 Compile cleanup
 
 *************************************************************************/
 /* Includes
@@ -1224,12 +1223,15 @@ void PrintDeletedResidues(FILE *fp, CLUSTERINFO cinfo,
                           RESSPEC *ConsList, int NCons)
 {
    int  i;
+#ifdef UNUSED_CODE
    BOOL found;
+#endif
    
    /* Clear all found flags in the conserved list                       */
    for(i=0; i<NCons; i++)
       ConsList[i].flag = FALSE;
    
+#ifdef UNUSED_CODE
    /* For each residues in the cluster info structure, call InConsList()
       which (internally) sets the flags in the ConsList array
    */
@@ -1240,6 +1242,7 @@ void PrintDeletedResidues(FILE *fp, CLUSTERINFO cinfo,
                           cinfo.resnum[i], 
                           cinfo.insert[i]) != (-1));
    }
+#endif
 
    /* Run through the conserved list again, printing missing residues   */
    for(i=0; i<NCons; i++)
