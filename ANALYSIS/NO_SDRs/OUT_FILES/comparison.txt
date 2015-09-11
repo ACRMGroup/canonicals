@@ -1,0 +1,184 @@
+Checking PDBs of 7A for residues at SDRs of 7B for loop CDR-L2
+2ajx	7A	:2v7h:6fab:2a6d	7B	NISSV
+1jfq	7A	:2v7h:6fab:2a6d	7B	NISSV
+1r0a	7A	:2v7h:6fab:2a6d	7B	NISSV
+1z3g	7A	:2v7h:6fab:2a6d	7B	NISSV
+1dee	7A	:2v7h:6fab:2a6d	7B	NISSV
+1fns	7A	:2v7h:6fab:2a6d	7B	NISSV
+3hns	7A	:2v7h:6fab:2a6d	7B	NISSV
+1e4w	7A	:2v7h:6fab:2a6d	7B	NISSV
+2orb	7A	:2v7h:6fab:2a6d	7B	NISSV
+3cfd	7A	:2v7h:6fab:2a6d	7B	NISSV
+1s5i	7A	:2v7h:6fab:2a6d	7B	NISSV
+1nmb	7A	:2v7h:6fab:2a6d	7B	NISSV
+3hnt	7A	:2v7h:6fab:2a6d	7B	NISSV
+2hmi	7A	:2v7h:6fab:2a6d	7B	NISSV
+1ikf	7A	:2v7h:6fab:2a6d	7B	NISSV
+3hi5	7A	:2v7h:6fab:2a6d	7B	NISSV
+1oak	7A	:2v7h:6fab:2a6d	7B	NISSV
+1yed	7A	:2v7h:6fab:2a6d	7B	NISSV
+1cz8	7A	:2v7h:6fab:2a6d	7B	NISSV
+3cmo	7A	:2v7h:6fab:2a6d	7B	NISSV
+2or9	7A	:2v7h:6fab:2a6d	7B	NISSV
+2w65	7A	:2v7h:6fab:2a6d	7B	NISSV
+1hys	7A	:2v7h:6fab:2a6d	7B	NISSV
+1rzi	7A	:2v7h:6fab:2a6d	7B	NISSV
+2ajy	7A	:2v7h:6fab:2a6d	7B	NISSV
+1yef	7A	:2v7h:6fab:2a6d	7B	NISSV
+1nma	7A	:2v7h:6fab:2a6d	7B	NISSV
+1fbi	7A	:2v7h:6fab:2a6d	7B	NISSV
+1n6q	7A	:2v7h:6fab:2a6d	7B	NISSV
+1t03	7A	:2v7h:6fab:2a6d	7B	NISSV
+2ajv	7A	:2v7h:6fab:2a6d	7B	NISSV
+2vwe	7A	:2v7h:6fab:2a6d	7B	NISSV
+1mj7	7A	:2v7h:6fab:2a6d	7B	NISSV
+3hi6	7A	:2v7h:6fab:2a6d	7B	NISSV
+2w60	7A	:2v7h:6fab:2a6d	7B	NISSV
+1mf2	7A	:2v7h:6fab:2a6d	7B	NISSV
+1f8t	7A	:2v7h:6fab:2a6d	7B	NISSV
+2vxq	7A	:2v7h:6fab:2a6d	7B	NISSV
+2aju	7A	:2v7h:6fab:2a6d	7B	NISSV
+3cfe	7A	:2v7h:6fab:2a6d	7B	NISSV
+2eh7	7A	:2v7h:6fab:2a6d	7B	NISSV
+1sy6	7A	:2v7h:6fab:2a6d	7B	NISSV
+2ak1	7A	:2v7h:6fab:2a6d	7B	NISSV
+2fgw	7A	:2v7h:6fab:2a6d	7B	NISSV
+1igj	7A	:2v7h:6fab:2a6d	7B	NISSV
+1n5y	7A	:2v7h:6fab:2a6d	7B	NISSV
+1fe8	7A	:2v7h:6fab:2a6d	7B	NISSV
+1yeh	7A	:2v7h:6fab:2a6d	7B	NISSV
+1tqb	7A	:2v7h:6fab:2a6d	7B	NISSV
+1mie	7A	:2v7h:6fab:2a6d	7B	NISSV
+1tqc	7A	:2v7h:6fab:2a6d	7B	NISSV
+1nld	7A	:2v7h:6fab:2a6d	7B	NISSV
+1j5o	7A	:2v7h:6fab:2a6d	7B	NISSV
+1ynt	7A	:2v7h:6fab:2a6d	7B	NISSV
+1igi	7A	:2v7h:6fab:2a6d	7B	NISSV
+1yeg	7A	:2v7h:6fab:2a6d	7B	NISSV
+2ajs	7A	:2v7h:6fab:2a6d	7B	NISSV
+3hnv	7A	:2v7h:6fab:2a6d	7B	NISSV
+3fzu	7A	:2v7h:6fab:2a6d	7B	NISSV
+1emt	7A	:2v7h:6fab:2a6d	7B	NISSV
+2f19	7A	:2v7h:6fab:2a6d	7B	NISSV
+2hrp	7A	:2v7h:6fab:2a6d	7B	NISSV
+1r24	7A	:2v7h:6fab:2a6d	7B	NISSV
+1fgv	7A	:2v7h:6fab:2a6d	7B	NISSV
+1tpx	7A	:2v7h:6fab:2a6d	7B	NISSV
+1f90	7A	:2v7h:6fab:2a6d	7B	NISSV
+1e4x	7A	:2v7h:6fab:2a6d	7B	NISSV
+1dvf_2	7A	:2v7h:6fab:2a6d	7B	NISSV
+2eh8	7A	:2v7h:6fab:2a6d	7B	NISSV
+1bz7	7A	:2v7h:6fab:2a6d	7B	NISSV
+1mam	7A	:2v7h:6fab:2a6d	7B	NISSV
+1yec	7A	:2v7h:6fab:2a6d	7B	NISSV
+1xiw	7A	:2v7h:6fab:2a6d	7B	NISSV
+1a14	7A	:2v7h:6fab:2a6d	7B	NISSV
+2ajz	7A	:2v7h:6fab:2a6d	7B	NISSV
+1axt	7A	:2v7h:6fab:2a6d	7B	NISSV
+1fai	7A	:2v7h:6fab:2a6d	7B	NISSV
+1bj1	7A	:2v7h:6fab:2a6d	7B	NISSV
+-----------
+Checking PDBs of 7A for residues at SDRs of 7C for loop CDR-L2
+1gig	7A	:3bqu_2:2adg:2adj:1nc4:1nc2:1i8i:3i9g:2adi:1i8k	7C	NINPV
+1oaz	7A	:3bqu_2:2adg:2adj:1nc4:1nc2:1i8i:3i9g:2adi:1i8k	7C	NINPV
+1oau	7A	:3bqu_2:2adg:2adj:1nc4:1nc2:1i8i:3i9g:2adi:1i8k	7C	NINPV
+1ine	7A	:3bqu_2:2adg:2adj:1nc4:1nc2:1i8i:3i9g:2adi:1i8k	7C	NINPV
+2ntf	7A	:3bqu_2:2adg:2adj:1nc4:1nc2:1i8i:3i9g:2adi:1i8k	7C	NINPV
+1q0y	7A	:3bqu_2:2adg:2adj:1nc4:1nc2:1i8i:3i9g:2adi:1i8k	7C	NINPV
+1ngq	7A	:3bqu_2:2adg:2adj:1nc4:1nc2:1i8i:3i9g:2adi:1i8k	7C	NINPV
+1ind	7A	:3bqu_2:2adg:2adj:1nc4:1nc2:1i8i:3i9g:2adi:1i8k	7C	NINPV
+1a6w	7A	:3bqu_2:2adg:2adj:1nc4:1nc2:1i8i:3i9g:2adi:1i8k	7C	NINPV
+1pg7_2	7A	:3bqu_2:2adg:2adj:1nc4:1nc2:1i8i:3i9g:2adi:1i8k	7C	NINPV
+1mfd	7A	:3bqu_2:2adg:2adj:1nc4:1nc2:1i8i:3i9g:2adi:1i8k	7C	NINPV
+1jnh	7A	:3bqu_2:2adg:2adj:1nc4:1nc2:1i8i:3i9g:2adi:1i8k	7C	NINPV
+1mfe	7A	:3bqu_2:2adg:2adj:1nc4:1nc2:1i8i:3i9g:2adi:1i8k	7C	NINPV
+1oaq	7A	:3bqu_2:2adg:2adj:1nc4:1nc2:1i8i:3i9g:2adi:1i8k	7C	NINPV
+1mfb	7A	:3bqu_2:2adg:2adj:1nc4:1nc2:1i8i:3i9g:2adi:1i8k	7C	NINPV
+1ocw	7A	:3bqu_2:2adg:2adj:1nc4:1nc2:1i8i:3i9g:2adi:1i8k	7C	NINPV
+2op4	7A	:3bqu_2:2adg:2adj:1nc4:1nc2:1i8i:3i9g:2adi:1i8k	7C	NINPV
+1mfa	7A	:3bqu_2:2adg:2adj:1nc4:1nc2:1i8i:3i9g:2adi:1i8k	7C	NINPV
+1jn6	7A	:3bqu_2:2adg:2adj:1nc4:1nc2:1i8i:3i9g:2adi:1i8k	7C	NINPV
+1a6v	7A	:3bqu_2:2adg:2adj:1nc4:1nc2:1i8i:3i9g:2adi:1i8k	7C	NINPV
+1oar	7A	:3bqu_2:2adg:2adj:1nc4:1nc2:1i8i:3i9g:2adi:1i8k	7C	NINPV
+1yuh	7A	:3bqu_2:2adg:2adj:1nc4:1nc2:1i8i:3i9g:2adi:1i8k	7C	NINPV
+2vis	7A	:3bqu_2:2adg:2adj:1nc4:1nc2:1i8i:3i9g:2adi:1i8k	7C	NINPV
+2vit	7A	:3bqu_2:2adg:2adj:1nc4:1nc2:1i8i:3i9g:2adi:1i8k	7C	NINPV
+1a6u	7A	:3bqu_2:2adg:2adj:1nc4:1nc2:1i8i:3i9g:2adi:1i8k	7C	NINPV
+1mfc	7A	:3bqu_2:2adg:2adj:1nc4:1nc2:1i8i:3i9g:2adi:1i8k	7C	NINPV
+2vir	7A	:3bqu_2:2adg:2adj:1nc4:1nc2:1i8i:3i9g:2adi:1i8k	7C	NINPV
+2zpk	7A	:3bqu_2:2adg:2adj:1nc4:1nc2:1i8i:3i9g:2adi:1i8k	7C	NINPV
+1ngp	7A	:3bqu_2:2adg:2adj:1nc4:1nc2:1i8i:3i9g:2adi:1i8k	7C	NINPV
+1oax	7A	:3bqu_2:2adg:2adj:1nc4:1nc2:1i8i:3i9g:2adi:1i8k	7C	NINPV
+1sm3	7A	:3bqu_2:2adg:2adj:1nc4:1nc2:1i8i:3i9g:2adi:1i8k	7C	NINPV
+1q0x	7A	:3bqu_2:2adg:2adj:1nc4:1nc2:1i8i:3i9g:2adi:1i8k	7C	NINPV
+-----------
+Checking PDBs of 7A for residues at SDRs of 7D for loop CDR-L2
+
+7D has no SDRs. Exiting program.
+-----------
+Checking PDBs of 7A for residues at SDRs of 7E for loop CDR-L2
+
+7E has no SDRs. Exiting program.
+-----------
+Checking PDBs of 7D for residues at SDRs of 7A for loop CDR-L2
+
+7A has no SDRs. Exiting program.
+-----------
+Checking PDBs of 7D for residues at SDRs of 7B for loop CDR-L2
+-----------
+Checking PDBs of 7D for residues at SDRs of 7C for loop CDR-L2
+-----------
+Checking PDBs of 7D for residues at SDRs of 7E for loop CDR-L2
+
+7E has no SDRs. Exiting program.
+-----------
+Checking PDBs of 7E for residues at SDRs of 7A for loop CDR-L2
+
+7A has no SDRs. Exiting program.
+-----------
+Checking PDBs of 7E for residues at SDRs of 7B for loop CDR-L2
+-----------
+Checking PDBs of 7E for residues at SDRs of 7C for loop CDR-L2
+-----------
+Checking PDBs of 7E for residues at SDRs of 7D for loop CDR-L2
+
+7D has no SDRs. Exiting program.
+-----------
+Checking PDBs of 10F for residues at SDRs of 10B for loop CDR-H2
+3hi6	10F	:3hi5	10B	T-SVMWYIWPSGGNYYAIRW-
+-----------
+Checking PDBs of 10F for residues at SDRs of 10C for loop CDR-H2
+-----------
+Checking PDBs of 10F for residues at SDRs of 10D for loop CDR-H2
+-----------
+Checking PDBs of 10F for residues at SDRs of 10E for loop CDR-H2
+-----------
+Checking PDBs of 10F for residues at SDRs of 10G for loop CDR-H2
+-----------
+Checking PDBs of 10F for residues at SDRs of 10H for loop CDR-H2
+3hc3	10F	:3hc0	10H	YPTYLHWIYPGNVHQYNIAF
+-----------
+Checking PDBs of 10F for residues at SDRs of 10I for loop CDR-H2
+1fai	10F	:2f19	10I	LPTGVNWYINPGKGYSYNLVG
+-----------
+Checking PDBs of 10F for residues at SDRs of 10J for loop CDR-H2
+1d5i	10F	:1d6v	10J	FPSWIEEILPGSGSNYNFAY
+-----------
+Checking PDBs of 10F for residues at SDRs of 10K for loop CDR-H2
+-----------
+Checking PDBs of 10F for residues at SDRs of 10L for loop CDR-H2
+-----------
+Checking PDBs of 10F for residues at SDRs of 10M for loop CDR-H2
+-----------
+Checking PDBs of 10F for residues at SDRs of 10N for loop CDR-H2
+-----------
+Checking PDBs of 10F for residues at SDRs of 10O for loop CDR-H2
+-----------
+Checking PDBs of 10F for residues at SDRs of 10P for loop CDR-H2
+-----------
+Checking PDBs of 10F for residues at SDRs of 10Q for loop CDR-H2
+-----------
+Checking PDBs of 10F for residues at SDRs of 10R for loop CDR-H2
+-----------
+Checking PDBs of 10F for residues at SDRs of 10S for loop CDR-H2
+-----------

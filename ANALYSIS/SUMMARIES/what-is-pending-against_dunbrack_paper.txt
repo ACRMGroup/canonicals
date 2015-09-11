@@ -1,0 +1,26 @@
+30 March 2011
+-------------
+
+In the light of the Dunbrack paper, the following aspects need investigation (Notes, discussions and aspects that need addressing):
+
+1) What is the structural variability in CDRs with identical sequences.
+
+2) High B-factors - anything more than 50 should be regarded as being high.
+
+3) Paper says all 10-residue CDR-L1s are mouse kappa. IMGT has 83 human 10-residue sequences. 2zkh is a human antibody that has a 10-residue CDR-L1.
+
+4) Type III - Check if we can distinguish type III classes of the paper on the basis of SDRs.
+
+5) By moving away from Chothia's definition of canonical classes, they appear to be losing accuracy (accuracy around 88-96%).
+   Do we do 100% with SDR definitions?
+
+6) Investigate the number of classes for CDR-H1 in the paper.
+
+7) CDR-H2 important. Look out for the bit about H71 not being predictive. Are there other SDRs that
+   we can define to predict the canonical class.
+
+8) Changes in classes of the loops from the previous analysis.
+
+9) Some clusters got bigger from Andrew's previous analysis? The paper says that some crystal structures in Andrew's analysis
+   are poor quality and form singleton classes. The question now is do any of those previous clusters belong to larger
+   classes now and if they do, are there high resolution structures in those classes?

@@ -1,0 +1,4 @@
+Note that structures with missing residues in loops WILL BE APPENDED to the files
+which contain list of bad PDBs on the basis of high B-factors (identitified from
+all B-factors and those tailored for the B-factor of every structure).
+

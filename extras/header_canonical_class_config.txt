@@ -1,0 +1,15 @@
+! Each class is defined with the keyword LOOP followed by the loop ID,
+! class name and length. This is then followed by the key residue numbers
+! paired with the allowed amino acid types.
+! Blank lines and lines starting with a ! or # are ignored
+! The SOURCE keyword may follow the LOOP keyword, but is ignored by
+! KabatMan.
+!
+! Note that the lengths of the loops are as defined by AbM since the
+! Kabat numbering for H1 fails to place the inserted residues within
+! the Chothia loop...
+!
+! This indicates that the numbering used is Chothia numbering not Kabat
+! numbering. This keyword is only understood from KabatMan V2.16, so
+! don't use this file with earlier versions!!
+

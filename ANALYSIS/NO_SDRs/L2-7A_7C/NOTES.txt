@@ -1,0 +1,64 @@
+8th March, 2011
+---------------
+
+Examination of structures belonging to class 7C of CDR-L2.
+
+What all to check:
+
+1) Complexation with antigen.
+2) Whether the loop makes contacts with other chains.
+3) Re-check for temperature factors in the loop.
+
+
+1nc2 - Not complexed, no contacts with other chains in the unit cell.
+	Antibody 2d12.5.
+
+1nc4 - Not complexed, no contacts with other chains in the unit cell.
+	Antibody 2d12.5
+       Analyzed structure of 1nc4 fitted to 1dbb. The flip in conformation is
+       at the same place in CDR-L2 as in 3i9g (i.e. at L51). 1nc4 has an ASN at L51
+       which is pointing towards the surface.
+
+1i8i - Complexed with a small peptide antigen of EGFR. The light chain does
+not make any specific contacts with antigen. High temperature factor around
+P@L56.
+
+Analyzed structure of 1i8i fitted to 1dbb. The main deviation in CDR-L2 is at
+L51 (GLY@L51 in 1i8i). Similar to the structure 3i9g.
+
+1i8i - 7C
+1dbb - 7A
+
+3i9g - Compared 3i9g (median structure of 7C) with 1dbb (median structure of
+7A). In 1dbb, V@L51 seems to be making Hydrophobic contacts with L@L33. The main switch
+in conformation in CDR-L2 is at L51. The residue at L51 in 3i9g is a GLY is
+pointing towards the surface whereas the V@L51 in 1dbb is pointing towards the
+core of the light chain.
+
+3i9g - 7C
+1dbb - 7A
+
+1i8k - The same as 1i8i.
+
+
+-----------------
+27 April 2011
+
+Structural analysis of the following structures:
+
+1dbb: 7A
+1nc4: 7C
+1i8i: 7C
+3i9g: 7C
+
+A fit over CDR-L2 of the light chains of the above structures shows that
+the main flip in the CDR-L2 conformation occurs at L51. The residues at
+L51 are as follows:
+
+1dbb: V@L51
+1nc4: N@L51
+1i8i: G@L51
+3i9g: G@L51
+
+V@L51 in 1dbb is pointing towards the core of the light chain whereas the side
+chains of the other residues are pointing towards the surface.

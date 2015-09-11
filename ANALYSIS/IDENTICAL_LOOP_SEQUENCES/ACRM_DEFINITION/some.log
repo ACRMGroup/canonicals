@@ -1,0 +1,23 @@
+Global symbol "$pdbCode" requires explicit package name at get_loop_sequences.pl line 212.
+Global symbol "%canonicalClassHash" requires explicit package name at get_loop_sequences.pl line 216.
+Global symbol "$pdbCode" requires explicit package name at get_loop_sequences.pl line 216.
+Global symbol "$loopSequence" requires explicit package name at get_loop_sequences.pl line 220.
+Global symbol "$pdbCode" requires explicit package name at get_loop_sequences.pl line 220.
+Global symbol "%loopSequenceHash" requires explicit package name at get_loop_sequences.pl line 227.
+Global symbol "$loopSequence" requires explicit package name at get_loop_sequences.pl line 227.
+Global symbol "%loopSequenceHash" requires explicit package name at get_loop_sequences.pl line 229.
+Global symbol "$loopSequence" requires explicit package name at get_loop_sequences.pl line 229.
+Global symbol "$pdbCode" requires explicit package name at get_loop_sequences.pl line 229.
+Global symbol "$identicalLoopPDBCode" requires explicit package name at get_loop_sequences.pl line 233.
+Global symbol "%loopSequenceHash" requires explicit package name at get_loop_sequences.pl line 233.
+Global symbol "$loopSequence" requires explicit package name at get_loop_sequences.pl line 233.
+Global symbol "$pdbCode" requires explicit package name at get_loop_sequences.pl line 235.
+Global symbol "%canonicalClassHash" requires explicit package name at get_loop_sequences.pl line 236.
+Global symbol "$pdbCode" requires explicit package name at get_loop_sequences.pl line 236.
+Global symbol "$identicalLoopPDBCode" requires explicit package name at get_loop_sequences.pl line 237.
+Global symbol "%canonicalClassHash" requires explicit package name at get_loop_sequences.pl line 238.
+Global symbol "$identicalLoopPDBCode" requires explicit package name at get_loop_sequences.pl line 238.
+Global symbol "%loopSequenceHash" requires explicit package name at get_loop_sequences.pl line 243.
+Global symbol "$loopSequence" requires explicit package name at get_loop_sequences.pl line 243.
+Global symbol "$pdbCode" requires explicit package name at get_loop_sequences.pl line 243.
+Execution of get_loop_sequences.pl aborted due to compilation errors.

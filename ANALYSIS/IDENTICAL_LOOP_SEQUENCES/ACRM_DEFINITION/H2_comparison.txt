@@ -1,0 +1,2574 @@
+PDB Codes: 1u8j, 1u8o
+
+Canonical classes: 9A, 9A
+
+Loop sequence: IIYSDDDKR
+---------
+PDB Codes: 1cic_2, 1a7n
+
+Canonical classes: 9A, 9A
+
+Loop sequence: MIWGDGNTD
+---------
+PDB Codes: 1it9, 3gi8
+
+Canonical classes: 10F, 10F
+
+Loop sequence: EIDPSDSYTN
+---------
+PDB Codes: 1bey, 1ce1
+
+Canonical classes: 12B, 12B
+
+Loop sequence: FIRDKAKGYTTE
+---------
+PDB Codes: 1mhp, 3eot
+
+Canonical classes: 9A, 9A
+
+Loop sequence: TISGGGHTY
+---------
+PDB Codes: 3dv4, 3duu
+
+Canonical classes: 12B, 12B
+
+Loop sequence: FIRNKAKGYTVE
+---------
+PDB Codes: 1vfa, 1a7n
+
+Canonical classes: 9A, 9A
+
+Loop sequence: MIWGDGNTD
+---------
+PDB Codes: 2f5b, 1u8o
+
+Canonical classes: 9A, 9A
+
+Loop sequence: IIYSDDDKR
+---------
+PDB Codes: 1oau, 1oaz
+
+Canonical classes: 10F, 10F
+
+Loop sequence: RIDPNGGGTK
+---------
+PDB Codes: 2bob, 2ih3
+
+Canonical classes: 10F, 10F
+
+Loop sequence: EIIPSYGRAN
+---------
+PDB Codes: 3ejy, 2fed
+
+Canonical classes: 10B, 10B
+
+Loop sequence: EINPVSSTIN
+---------
+PDB Codes: 2vxu, 2vxt
+
+Canonical classes: 10F, 10F
+
+Loop sequence: DIDPYNGDTS
+---------
+PDB Codes: 1tjg, 1u8o
+
+Canonical classes: 9A, 9A
+
+Loop sequence: IIYSDDDKR
+---------
+PDB Codes: 1otu, 2fed
+
+Canonical classes: 10B, 10B
+
+Loop sequence: EINPVSSTIN
+---------
+PDB Codes: 2ht4, 2fed
+
+Canonical classes: 10B, 10B
+
+Loop sequence: EINPVSSTIN
+---------
+PDB Codes: 3cxd, 3dsf
+
+Canonical classes: 12B, 12B
+
+Loop sequence: RIRSQSNNYTTY
+---------
+PDB Codes: 1a3l, 1rur
+
+Canonical classes: 10F, 10F
+
+Loop sequence: DIYPGGVYTT
+---------
+PDB Codes: 1cfn, 1hi6
+
+Canonical classes: 10F, 10F
+
+Loop sequence: GIHPGSSGTA
+---------
+PDB Codes: 2itd, 2ih3
+
+Canonical classes: 10F, 10F
+
+Loop sequence: EIIPSYGRAN
+---------
+PDB Codes: 1bvl, 1a7n
+
+Canonical classes: 9A, 9A
+
+Loop sequence: MIWGDGNTD
+---------
+PDB Codes: 1a2y, 1a7n
+
+Canonical classes: 9A, 9A
+
+Loop sequence: MIWGDGNTD
+---------
+PDB Codes: 1ruq, 1rur
+
+Canonical classes: 10F, 10F
+
+Loop sequence: DIYPGGVYTT
+---------
+PDB Codes: 2dwd, 2ih3
+
+Canonical classes: 10F, 10F
+
+Loop sequence: EIIPSYGRAN
+---------
+PDB Codes: 1a4k, 1a4j
+
+Canonical classes: 10F, 10F
+
+Loop sequence: WINTYTGEPT
+---------
+PDB Codes: 2nxy, 2ny1
+
+Canonical classes: 10F, 10F
+
+Loop sequence: RIITILDVAH
+---------
+PDB Codes: 2dbl, 1dbm
+
+Canonical classes: 10F, 10F
+
+Loop sequence: WINIYTGEPT
+---------
+PDB Codes: 1d5i, 1d6v
+
+Canonical classes: 10F, 10J
+
+Loop sequence: EILPGSGSTN
+
+Of interest.....
+---------
+PDB Codes: 3hnt, 3hns
+
+Canonical classes: 10F, 10F
+
+Loop sequence: SIYPGNSDTN
+---------
+PDB Codes: 2nyy, 2gcy
+
+Canonical classes: 10B, 10B
+
+Loop sequence: TISDGGSYTY
+---------
+PDB Codes: 1a7o, 1a7n
+
+Canonical classes: 9A, 9A
+
+Loop sequence: MIWGDGNTD
+---------
+PDB Codes: 2fb4, 2ig2
+
+Canonical classes: 10B, 10B
+
+Loop sequence: IIWDDGSDQH
+---------
+PDB Codes: 2hmi, 1r0a
+
+Canonical classes: 9A, 9A
+
+Loop sequence: TIWWDDDNR
+---------
+PDB Codes: 1vfb, 1a7n
+
+Canonical classes: 9A, 9A
+
+Loop sequence: MIWGDGNTD
+---------
+PDB Codes: 1oak, 1fns
+
+Canonical classes: 9A, 9A
+
+Loop sequence: MIWGDGSTD
+---------
+PDB Codes: 2fee, 2fed
+
+Canonical classes: 10B, 10B
+
+Loop sequence: EINPVSSTIN
+---------
+PDB Codes: 1cz8, 1a4j
+
+Canonical classes: 10F, 10F
+
+Loop sequence: WINTYTGEPT
+---------
+PDB Codes: 3cfb, 1fl3
+
+Canonical classes: 9A, 9A
+
+Loop sequence: SISSGGITY
+---------
+PDB Codes: 3be1, 1fvc
+
+Canonical classes: 10F, 10F
+
+Loop sequence: RIYPTNGYTR
+---------
+PDB Codes: 2rcs, 2bdn
+
+Canonical classes: 10F, 10F
+
+Loop sequence: RIDPANGNTK
+---------
+PDB Codes: 1a7r, 1a7n
+
+Canonical classes: 9A, 9A
+
+Loop sequence: MIWGDGNTD
+---------
+PDB Codes: 3d85, 1p7k
+
+Canonical classes: 10F, 10F
+
+Loop sequence: YINPYNDGTK
+---------
+PDB Codes: 1ind, 1ine
+
+Canonical classes: 10C, 10C
+
+Loop sequence: TTLSGGGFTF
+---------
+PDB Codes: 2or9, 2orb
+
+Canonical classes: 10B, 10B
+
+Loop sequence: TIGSRGTYTH
+---------
+PDB Codes: 1a7p, 1a7n
+
+Canonical classes: 9A, 9A
+
+Loop sequence: MIWGDGNTD
+---------
+PDB Codes: 3gbn, 3gbm
+
+Canonical classes: 10F, 10F
+
+Loop sequence: GIIPIFGTTK
+---------
+PDB Codes: 1rz8, 2ny1
+
+Canonical classes: 10F, 10F
+
+Loop sequence: RIITILDVAH
+---------
+PDB Codes: 1zlv, 1zlu
+
+Canonical classes: 10B, 10B
+
+Loop sequence: SISTSSTYRD
+---------
+PDB Codes: 1cfq, 1hi6
+
+Canonical classes: 10F, 10F
+
+Loop sequence: GIHPGSSGTA
+---------
+PDB Codes: 3dus, 3duu
+
+Canonical classes: 12B, 12B
+
+Loop sequence: FIRNKAKGYTVE
+---------
+PDB Codes: 1hys, 1r0a
+
+Canonical classes: 9A, 9A
+
+Loop sequence: TIWWDDDNR
+---------
+PDB Codes: 1n8z, 1fvc
+
+Canonical classes: 10F, 10F
+
+Loop sequence: RIYPTNGYTR
+---------
+PDB Codes: 2zch, 2zcl
+
+Canonical classes: 10F, 10F
+
+Loop sequence: RIAPASGTTY
+---------
+PDB Codes: 1ifh, 1frg
+
+Canonical classes: 10B, 10B
+
+Loop sequence: TISNGGGYTY
+---------
+PDB Codes: 3eyf, 3eyo
+
+Canonical classes: 10B, 10B
+
+Loop sequence: VISSDGTDER
+---------
+PDB Codes: 1a6w, 1ngq
+
+Canonical classes: 10F, 10F
+
+Loop sequence: RIDPNSGGTK
+---------
+PDB Codes: 2exw, 2fed
+
+Canonical classes: 10B, 10B
+
+Loop sequence: EINPVSSTIN
+---------
+PDB Codes: 1ap2, 1mvu
+
+Canonical classes: 10F, 10F
+
+Loop sequence: RIDPANDNTK
+---------
+PDB Codes: 1xf3, 1p7k
+
+Canonical classes: 10F, 10F
+
+Loop sequence: YINPYNDGTK
+---------
+PDB Codes: 2ajy, 2ajx
+
+Canonical classes: 9D, 9D
+
+Loop sequence: YIRSSVITR
+---------
+PDB Codes: 3ijy, 3ijs
+
+Canonical classes: 12B, 12B
+
+Loop sequence: FIRNKAKGYTTE
+---------
+PDB Codes: 1mhh, 1ymh
+
+Canonical classes: 10F, 10F
+
+Loop sequence: WVNTETGEPT
+---------
+PDB Codes: 3ijh, 3ijs
+
+Canonical classes: 12B, 12B
+
+Loop sequence: FIRNKAKGYTTE
+---------
+PDB Codes: 3eoa, 2c1o
+
+Canonical classes: 10F, 10F
+
+Loop sequence: MIHPSDSETR
+---------
+PDB Codes: 2hvk, 2ih3
+
+Canonical classes: 10F, 10F
+
+Loop sequence: EIIPSYGRAN
+---------
+PDB Codes: 1kip, 1a7n
+
+Canonical classes: 9A, 9A
+
+Loop sequence: MIWGDGNTD
+---------
+PDB Codes: 1r3i, 2ih3
+
+Canonical classes: 10F, 10F
+
+Loop sequence: EIIPSYGRAN
+---------
+PDB Codes: 1q9k, 1q9r
+
+Canonical classes: 12B, 12B
+
+Loop sequence: FIRNKANGYTTE
+---------
+PDB Codes: 1nma, 1nmb
+
+Canonical classes: 10F, 10F
+
+Loop sequence: IFYPGNGDTS
+---------
+PDB Codes: 3det, 2fed
+
+Canonical classes: 10B, 10B
+
+Loop sequence: EINPVSSTIN
+---------
+PDB Codes: 1u8h, 1u8o
+
+Canonical classes: 9A, 9A
+
+Loop sequence: IIYSDDDKR
+---------
+PDB Codes: 1u8m, 1u8o
+
+Canonical classes: 9A, 9A
+
+Loop sequence: IIYSDDDKR
+---------
+PDB Codes: 1yqv, 1d6v
+
+Canonical classes: 10F, 10J
+
+Loop sequence: EILPGSGSTN
+
+Of interest.....
+---------
+PDB Codes: 1ott, 2fed
+
+Canonical classes: 10B, 10B
+
+Loop sequence: EINPVSSTIN
+---------
+PDB Codes: 1dbb, 1dbm
+
+Canonical classes: 10F, 10F
+
+Loop sequence: WINIYTGEPT
+---------
+PDB Codes: 3bt2, 2fd6
+
+Canonical classes: 10N, 10N
+
+Loop sequence: WIFHGSDNTE
+---------
+PDB Codes: 2jb5, 2jb6
+
+Canonical classes: 10F, 10F
+
+Loop sequence: NIEPYFGTAN
+---------
+PDB Codes: 1n6q, 1r0a
+
+Canonical classes: 9A, 9A
+
+Loop sequence: TIWWDDDNR
+---------
+PDB Codes: 2nlj, 2ih3
+
+Canonical classes: 10F, 10F
+
+Loop sequence: EIIPSYGRAN
+---------
+PDB Codes: 1t03, 1r0a
+
+Canonical classes: 9A, 9A
+
+Loop sequence: TIWWDDDNR
+---------
+PDB Codes: 1dl7, 1fns
+
+Canonical classes: 9A, 9A
+
+Loop sequence: MIWGDGSTD
+---------
+PDB Codes: 2c1p, 2c1o
+
+Canonical classes: 10F, 10F
+
+Loop sequence: MIHPSDSETR
+---------
+PDB Codes: 1kel, 3ijs
+
+Canonical classes: 12B, 12B
+
+Loop sequence: FIRNKAKGYTTE
+---------
+PDB Codes: 3dv6, 3duu
+
+Canonical classes: 12B, 12B
+
+Loop sequence: FIRNKAKGYTVE
+---------
+PDB Codes: 2nxz, 2ny1
+
+Canonical classes: 10F, 10F
+
+Loop sequence: RIITILDVAH
+---------
+PDB Codes: 2dtm, 2dqt
+
+Canonical classes: 9A, 9A
+
+Loop sequence: SISSGGSIY
+---------
+PDB Codes: 1yy9, 1yy8
+
+Canonical classes: 9A, 9A
+
+Loop sequence: VIWSGGNTD
+---------
+PDB Codes: 3clf, 2osl
+
+Canonical classes: 10F, 10F
+
+Loop sequence: AIYPGNGDTS
+---------
+PDB Codes: 2fx8, 2fx9
+
+Canonical classes: 10F, 10F
+
+Loop sequence: GVIPLLTITN
+---------
+PDB Codes: 2ny0, 2ny1
+
+Canonical classes: 10F, 10F
+
+Loop sequence: RIITILDVAH
+---------
+PDB Codes: 3dur, 3ijs
+
+Canonical classes: 12B, 12B
+
+Loop sequence: FIRNKAKGYTTE
+---------
+PDB Codes: 2ajv, 2ajx
+
+Canonical classes: 9D, 9D
+
+Loop sequence: YIRSSVITR
+---------
+PDB Codes: 2ddq, 1p7k
+
+Canonical classes: 10F, 10F
+
+Loop sequence: YINPYNDGTK
+---------
+PDB Codes: 2h2s, 2fed
+
+Canonical classes: 10B, 10B
+
+Loop sequence: EINPVSSTIN
+---------
+PDB Codes: 1hh6, 1hi6
+
+Canonical classes: 10F, 10F
+
+Loop sequence: GIHPGSSGTA
+---------
+PDB Codes: 3cfc, 1fl3
+
+Canonical classes: 9A, 9A
+
+Loop sequence: SISSGGITY
+---------
+PDB Codes: 2r23, 1q9r
+
+Canonical classes: 12B, 12B
+
+Loop sequence: FIRNKANGYTTE
+---------
+PDB Codes: 3bn9, 2vxs
+
+Canonical classes: 10B, 10B
+
+Loop sequence: AISGSGGSTY
+---------
+PDB Codes: 1fve, 1fvc
+
+Canonical classes: 10F, 10F
+
+Loop sequence: RIYPTNGYTR
+---------
+PDB Codes: 2hlf, 2fed
+
+Canonical classes: 10B, 10B
+
+Loop sequence: EINPVSSTIN
+---------
+PDB Codes: 1axs, 1d5b
+
+Canonical classes: 10F, 10F
+
+Loop sequence: EILPGSGGTH
+---------
+PDB Codes: 2r2e, 1q9r
+
+Canonical classes: 12B, 12B
+
+Loop sequence: FIRNKANGYTTE
+---------
+PDB Codes: 2hkf, 2hkh
+
+Canonical classes: 12B, 12B
+
+Loop sequence: RIRSKSNNYATY
+---------
+PDB Codes: 1dba, 1dbm
+
+Canonical classes: 10F, 10F
+
+Loop sequence: WINIYTGEPT
+---------
+PDB Codes: 1gc1, 2ny1
+
+Canonical classes: 10F, 10F
+
+Loop sequence: RIITILDVAH
+---------
+PDB Codes: 1ots, 2fed
+
+Canonical classes: 10B, 10B
+
+Loop sequence: EINPVSSTIN
+---------
+PDB Codes: 1fh5, 2gcy
+
+Canonical classes: 10B, 10B
+
+Loop sequence: TISDGGSYTY
+---------
+PDB Codes: 3b2u, 3b2v
+
+Canonical classes: 9A, 9A
+
+Loop sequence: YIYYSGSTD
+---------
+PDB Codes: 2dwe, 2ih3
+
+Canonical classes: 10F, 10F
+
+Loop sequence: EIIPSYGRAN
+---------
+PDB Codes: 1fdl, 1a7n
+
+Canonical classes: 9A, 9A
+
+Loop sequence: MIWGDGNTD
+---------
+PDB Codes: 3ck0, 1ck0
+
+Canonical classes: 12B, 12B
+
+Loop sequence: RIRSKGFNFATY
+---------
+PDB Codes: 2v7h, 1d6v
+
+Canonical classes: 10F, 10J
+
+Loop sequence: EILPGSGSTN
+
+Of interest.....
+---------
+PDB Codes: 1mfe, 1mfd
+
+Canonical classes: 10F, 10F
+
+Loop sequence: AIYPGNSATF
+---------
+PDB Codes: 2dqu, 2dqt
+
+Canonical classes: 9A, 9A
+
+Loop sequence: SISSGGSIY
+---------
+PDB Codes: 1zlw, 1zlu
+
+Canonical classes: 10B, 10B
+
+Loop sequence: SISTSSTYRD
+---------
+PDB Codes: 2htl, 2fed
+
+Canonical classes: 10B, 10B
+
+Loop sequence: EINPVSSTIN
+---------
+PDB Codes: 1u8p, 1u8o
+
+Canonical classes: 9A, 9A
+
+Loop sequence: IIYSDDDKR
+---------
+PDB Codes: 1cft, 1hi6
+
+Canonical classes: 10F, 10F
+
+Loop sequence: GIHPGSSGTA
+---------
+PDB Codes: 1q9l, 1q9r
+
+Canonical classes: 12B, 12B
+
+Loop sequence: FIRNKANGYTTE
+---------
+PDB Codes: 2i60, 2ny1
+
+Canonical classes: 10F, 10F
+
+Loop sequence: RIITILDVAH
+---------
+PDB Codes: 1k4c, 2ih3
+
+Canonical classes: 10F, 10F
+
+Loop sequence: EIIPSYGRAN
+---------
+PDB Codes: 2qql, 2qqk
+
+Canonical classes: 10F, 10F
+
+Loop sequence: YIYPDSGYTD
+---------
+PDB Codes: 1jpt, 1jps
+
+Canonical classes: 10F, 10F
+
+Loop sequence: LIDPEQGNTI
+---------
+PDB Codes: 1acy, 1ai1
+
+Canonical classes: 9A, 9A
+
+Loop sequence: RICYEGSIY
+---------
+PDB Codes: 1oaq, 1oaz
+
+Canonical classes: 10F, 10F
+
+Loop sequence: RIDPNGGGTK
+---------
+PDB Codes: 1tzg, 2fx9
+
+Canonical classes: 10F, 10F
+
+Loop sequence: GVIPLLTITN
+---------
+PDB Codes: 3bky, 2osl
+
+Canonical classes: 10F, 10F
+
+Loop sequence: AIYPGNGDTS
+---------
+PDB Codes: 1q9q, 1q9r
+
+Canonical classes: 12B, 12B
+
+Loop sequence: FIRNKANGYTTE
+---------
+PDB Codes: 1qbm, 1qbl
+
+Canonical classes: 10F, 10F
+
+Loop sequence: RIDPASGNTK
+---------
+PDB Codes: 3hi6, 3hi5
+
+Canonical classes: 10F, 10B
+
+Loop sequence: YIWPSGGNTY
+
+Of interest.....
+---------
+PDB Codes: 1cbv, 2hkh
+
+Canonical classes: 12B, 12B
+
+Loop sequence: RIRSKSNNYATY
+---------
+PDB Codes: 2w60, 2w65
+
+Canonical classes: 10F, 10F
+
+Loop sequence: WINTETGEPT
+---------
+PDB Codes: 2w9d, 2w9e
+
+Canonical classes: 10Q, 10K
+
+Loop sequence: NVYPNNGVTG
+
+Of interest.....
+---------
+PDB Codes: 35c8, 15c8
+
+Canonical classes: 10F, 10F
+
+Loop sequence: QIDPANGNTK
+---------
+PDB Codes: 1mf2, 1kno
+
+Canonical classes: 10B, 10B
+
+Loop sequence: YISSGSSTIY
+---------
+PDB Codes: 1lo3, 1lo2
+
+Canonical classes: 9A, 9A
+
+Loop sequence: SISYGGLIY
+---------
+PDB Codes: 1i8m, 1p7k
+
+Canonical classes: 10F, 10F
+
+Loop sequence: YINPYNDGTK
+---------
+PDB Codes: 1ay1, 1bgx
+
+Canonical classes: 9E, 9C
+
+Loop sequence: YITYSGTTD
+
+Of interest.....
+---------
+PDB Codes: 1q9t, 1q9r
+
+Canonical classes: 12B, 12B
+
+Loop sequence: FIRNKANGYTTE
+---------
+PDB Codes: 1j1p, 3d9a
+
+Canonical classes: 9A, 9A
+
+Loop sequence: YVSYSGSTY
+---------
+PDB Codes: 2bfv, 1cfv
+
+Canonical classes: 10M, 10M
+
+Loop sequence: AINSDGEPIY
+---------
+PDB Codes: 2fx7, 2fx9
+
+Canonical classes: 10F, 10F
+
+Loop sequence: GVIPLLTITN
+---------
+PDB Codes: 2hjf, 2ih3
+
+Canonical classes: 10F, 10F
+
+Loop sequence: EIIPSYGRAN
+---------
+PDB Codes: 2pw1, 1u8o
+
+Canonical classes: 9A, 9A
+
+Loop sequence: IIYSDDDKR
+---------
+PDB Codes: 3eys, 3eyu
+
+Canonical classes: 9A, 9A
+
+Loop sequence: HIWWDDDRS
+---------
+PDB Codes: 2dqi, 3d9a
+
+Canonical classes: 9A, 9A
+
+Loop sequence: YVSYSGSTY
+---------
+PDB Codes: 3cle, 2osl
+
+Canonical classes: 10F, 10F
+
+Loop sequence: AIYPGNGDTS
+---------
+PDB Codes: 1f8t, 1s5i
+
+Canonical classes: 9A, 9A
+
+Loop sequence: YITYSGSTG
+---------
+PDB Codes: 1rfd, 1qyg
+
+Canonical classes: 12B, 12B
+
+Loop sequence: EIRNKANNHATK
+---------
+PDB Codes: 2ny6, 2ny1
+
+Canonical classes: 10F, 10F
+
+Loop sequence: RIITILDVAH
+---------
+PDB Codes: 2ipu, 3eyu
+
+Canonical classes: 9A, 9A
+
+Loop sequence: HIWWDDDRS
+---------
+PDB Codes: 1j1x, 3d9a
+
+Canonical classes: 9A, 9A
+
+Loop sequence: YVSYSGSTY
+---------
+PDB Codes: 2hvj, 2ih3
+
+Canonical classes: 10F, 10F
+
+Loop sequence: EIIPSYGRAN
+---------
+PDB Codes: 2h8p, 2ih3
+
+Canonical classes: 10F, 10F
+
+Loop sequence: EIIPSYGRAN
+---------
+PDB Codes: 2hg5, 2ih3
+
+Canonical classes: 10F, 10F
+
+Loop sequence: EIIPSYGRAN
+---------
+PDB Codes: 1tet, 1zea
+
+Canonical classes: 10F, 10F
+
+Loop sequence: WINTYSGVPT
+---------
+PDB Codes: 2ny4, 2ny1
+
+Canonical classes: 10F, 10F
+
+Loop sequence: RIITILDVAH
+---------
+PDB Codes: 1cfs, 1hi6
+
+Canonical classes: 10F, 10F
+
+Loop sequence: GIHPGSSGTA
+---------
+PDB Codes: 1g9n, 2ny1
+
+Canonical classes: 10F, 10F
+
+Loop sequence: RIITILDVAH
+---------
+PDB Codes: 1q9w, 1q9o
+
+Canonical classes: 12B, 12B
+
+Loop sequence: FIRNKPKGYTTE
+---------
+PDB Codes: 2eiz, 3d9a
+
+Canonical classes: 9A, 9A
+
+Loop sequence: YVSYSGSTY
+---------
+PDB Codes: 1m71, 1m7i
+
+Canonical classes: 12B, 12B
+
+Loop sequence: EIRLKSNNYATH
+---------
+PDB Codes: 1r3k, 2ih3
+
+Canonical classes: 10F, 10F
+
+Loop sequence: EIIPSYGRAN
+---------
+PDB Codes: 3bpc, 1q9r
+
+Canonical classes: 12B, 12B
+
+Loop sequence: FIRNKANGYTTE
+---------
+PDB Codes: 2aju, 2ajx
+
+Canonical classes: 9D, 9D
+
+Loop sequence: YIRSSVITR
+---------
+PDB Codes: 1pg7_1, 1jps
+
+Canonical classes: 10F, 10F
+
+Loop sequence: LIDPEQGNTI
+---------
+PDB Codes: 1m7d, 1m7i
+
+Canonical classes: 12B, 12B
+
+Loop sequence: EIRLKSNNYATH
+---------
+PDB Codes: 3cfe, 3cfd
+
+Canonical classes: 9A, 9A
+
+Loop sequence: YISYSGRIR
+---------
+PDB Codes: 1mfb, 1mfd
+
+Canonical classes: 10F, 10F
+
+Loop sequence: AIYPGNSATF
+---------
+PDB Codes: 2dqc, 3d9a
+
+Canonical classes: 9A, 9A
+
+Loop sequence: YVSYSGSTY
+---------
+PDB Codes: 2zkh, 1v7n
+
+Canonical classes: 12B, 12B
+
+Loop sequence: EIRSKVNNHAIH
+---------
+PDB Codes: 2igf, 1igf
+
+Canonical classes: 10B, 10B
+
+Loop sequence: GISSGGSYTF
+---------
+PDB Codes: 2ht3, 2fed
+
+Canonical classes: 10B, 10B
+
+Loop sequence: EINPVSSTIN
+---------
+PDB Codes: 2mpa, 1mpa
+
+Canonical classes: 10F, 10F
+
+Loop sequence: GIYPGNRDTR
+---------
+PDB Codes: 2fjf, 2fjg
+
+Canonical classes: 10B, 10S
+
+Loop sequence: GITPAGGYTY
+
+Of interest.....
+---------
+PDB Codes: 3bkj, 2j88
+
+Canonical classes: 9A, 9A
+
+Loop sequence: HIYWDDDKR
+---------
+PDB Codes: 2ak1, 2ajx
+
+Canonical classes: 9D, 9D
+
+Loop sequence: YIRSSVITR
+---------
+PDB Codes: 43ca, 43c9
+
+Canonical classes: 9A, 9A
+
+Loop sequence: MIWGGGSIE
+---------
+PDB Codes: 3hb3, 1mqk
+
+Canonical classes: 10B, 10B
+
+Loop sequence: SINNGGGRTY
+---------
+PDB Codes: 1xct, 1ymh
+
+Canonical classes: 10F, 10F
+
+Loop sequence: WVNTETGEPT
+---------
+PDB Codes: 1mrf, 3gi8
+
+Canonical classes: 10F, 10F
+
+Loop sequence: EIDPSDSYTN
+---------
+PDB Codes: 1ggc, 1ggi
+
+Canonical classes: 9A, 9A
+
+Loop sequence: HIFWDGDKR
+---------
+PDB Codes: 1c08, 3d9a
+
+Canonical classes: 9A, 9A
+
+Loop sequence: YVSYSGSTY
+---------
+PDB Codes: 1ae6, 1ad9
+
+Canonical classes: 10F, 10F
+
+Loop sequence: WIDPGSGNTK
+---------
+PDB Codes: 1n5y, 1r0a
+
+Canonical classes: 9A, 9A
+
+Loop sequence: TIWWDDDNR
+---------
+PDB Codes: 1ocw, 1oaz
+
+Canonical classes: 10F, 10F
+
+Loop sequence: RIDPNGGGTK
+---------
+PDB Codes: 1j1o, 3d9a
+
+Canonical classes: 9A, 9A
+
+Loop sequence: YVSYSGSTY
+---------
+PDB Codes: 2eks, 3d9a
+
+Canonical classes: 9A, 9A
+
+Loop sequence: YVSYSGSTY
+---------
+PDB Codes: 1op3, 1zlu
+
+Canonical classes: 10B, 10B
+
+Loop sequence: SISTSSTYRD
+---------
+PDB Codes: 1clo, 1ad0
+
+Canonical classes: 12B, 12B
+
+Loop sequence: FIGNKANGYTTE
+---------
+PDB Codes: 1ic4, 3d9a
+
+Canonical classes: 9A, 9A
+
+Loop sequence: YVSYSGSTY
+---------
+PDB Codes: 2r0z, 3eyu
+
+Canonical classes: 9A, 9A
+
+Loop sequence: HIWWDDDRS
+---------
+PDB Codes: 2op4, 2ntf
+
+Canonical classes: 10F, 10F
+
+Loop sequence: TIYPGSDNTY
+---------
+PDB Codes: 1mre, 3gi8
+
+Canonical classes: 10F, 10F
+
+Loop sequence: EIDPSDSYTN
+---------
+PDB Codes: 1jgl, 1jhk
+
+Canonical classes: 10F, 10F
+
+Loop sequence: WLNTQSGVPE
+---------
+PDB Codes: 1hin, 1frg
+
+Canonical classes: 10B, 10B
+
+Loop sequence: TISNGGGYTY
+---------
+PDB Codes: 1yeh, 1yef
+
+Canonical classes: 10F, 10F
+
+Loop sequence: RIYPGTGSTY
+---------
+PDB Codes: 2ny5, 2ny1
+
+Canonical classes: 10F, 10F
+
+Loop sequence: RIITILDVAH
+---------
+PDB Codes: 1a3r, 1bbd
+
+Canonical classes: 10F, 10F
+
+Loop sequence: RLDPANGYTK
+---------
+PDB Codes: 1kiq, 1a7n
+
+Canonical classes: 9A, 9A
+
+Loop sequence: MIWGDGNTD
+---------
+PDB Codes: 1u8n, 1u8o
+
+Canonical classes: 9A, 9A
+
+Loop sequence: IIYSDDDKR
+---------
+PDB Codes: 32c2, 1kcv
+
+Canonical classes: 9A, 9A
+
+Loop sequence: YISYSGSTS
+---------
+PDB Codes: 1e6j, 1e6o
+
+Canonical classes: 10F, 10F
+
+Loop sequence: YINPSSGYSN
+---------
+PDB Codes: 1ncc, 1nca
+
+Canonical classes: 10F, 10F
+
+Loop sequence: WINTNTGEPT
+---------
+PDB Codes: 3ikc, 3ijs
+
+Canonical classes: 12B, 12B
+
+Loop sequence: FIRNKAKGYTTE
+---------
+PDB Codes: 2r1y, 1q9r
+
+Canonical classes: 12B, 12B
+
+Loop sequence: FIRNKANGYTTE
+---------
+PDB Codes: 1wt5, 2z4q
+
+Canonical classes: 10F, 10F
+
+Loop sequence: NIYPGSGGTN
+---------
+PDB Codes: 3eo9, 2c1o
+
+Canonical classes: 10F, 10F
+
+Loop sequence: MIHPSDSETR
+---------
+PDB Codes: 1iai_1, 1a4j
+
+Canonical classes: 10F, 10F
+
+Loop sequence: WINTYTGEPT
+---------
+PDB Codes: 1nbv, 2hkh
+
+Canonical classes: 12B, 12B
+
+Loop sequence: RIRSKSNNYATY
+---------
+PDB Codes: 2cgr, 1cgs
+
+Canonical classes: 10F, 10F
+
+Loop sequence: EILPGSGRTN
+---------
+PDB Codes: 1n64, 1ymh
+
+Canonical classes: 10F, 10F
+
+Loop sequence: WVNTETGEPT
+---------
+PDB Codes: 1ua6, 1uac
+
+Canonical classes: 9A, 9A
+
+Loop sequence: YVSSFGSTF
+---------
+PDB Codes: 1iai_2, 1aif
+
+Canonical classes: 12D, 12C
+
+Loop sequence: EIRLNSDNFATH
+
+Of interest.....
+---------
+PDB Codes: 3ejz, 2fed
+
+Canonical classes: 10B, 10B
+
+Loop sequence: EINPVSSTIN
+---------
+PDB Codes: 1ruk, 1ncw
+
+Canonical classes: 9A, 9A
+
+Loop sequence: YINYSGFTS
+---------
+PDB Codes: 2r1w, 1q9r
+
+Canonical classes: 12B, 12B
+
+Loop sequence: FIRNKANGYTTE
+---------
+PDB Codes: 1him, 1frg
+
+Canonical classes: 10B, 10B
+
+Loop sequence: TISNGGGYTY
+---------
+PDB Codes: 1tqc, 1tqb
+
+Canonical classes: 10F, 10F
+
+Loop sequence: WINTFTGEPT
+---------
+PDB Codes: 3bqu_1, 1u8o
+
+Canonical classes: 9A, 9A
+
+Loop sequence: IIYSDDDKR
+---------
+PDB Codes: 1ncb, 1nca
+
+Canonical classes: 10F, 10F
+
+Loop sequence: WINTNTGEPT
+---------
+PDB Codes: 1xf4, 1p7k
+
+Canonical classes: 10F, 10F
+
+Loop sequence: YINPYNDGTK
+---------
+PDB Codes: 1flr, 1t66
+
+Canonical classes: 12B, 12B
+
+Loop sequence: QIRNKPYNYETY
+---------
+PDB Codes: 1u91, 1u8o
+
+Canonical classes: 9A, 9A
+
+Loop sequence: IIYSDDDKR
+---------
+PDB Codes: 1bfv, 1cfv
+
+Canonical classes: 10M, 10M
+
+Loop sequence: AINSDGEPIY
+---------
+PDB Codes: 1r3j, 2ih3
+
+Canonical classes: 10F, 10F
+
+Loop sequence: EIIPSYGRAN
+---------
+PDB Codes: 1u92, 1u8o
+
+Canonical classes: 9A, 9A
+
+Loop sequence: IIYSDDDKR
+---------
+PDB Codes: 1k4d, 2ih3
+
+Canonical classes: 10F, 10F
+
+Loop sequence: EIIPSYGRAN
+---------
+PDB Codes: 1oay, 1oaz
+
+Canonical classes: 10F, 10F
+
+Loop sequence: RIDPNGGGTK
+---------
+PDB Codes: 1wc7, 1wcb
+
+Canonical classes: 12B, 12B
+
+Loop sequence: LIRNKANGYTKE
+---------
+PDB Codes: 1yym, 2ny1
+
+Canonical classes: 10F, 10F
+
+Loop sequence: RIITILDVAH
+---------
+PDB Codes: 1ncd, 1nca
+
+Canonical classes: 10F, 10F
+
+Loop sequence: WINTNTGEPT
+---------
+PDB Codes: 1mfa, 1mfd
+
+Canonical classes: 10F, 10F
+
+Loop sequence: AIYPGNSATF
+---------
+PDB Codes: 2ap2, 1mvu
+
+Canonical classes: 10F, 10F
+
+Loop sequence: RIDPANDNTK
+---------
+PDB Codes: 2r2h, 1q9r
+
+Canonical classes: 12B, 12B
+
+Loop sequence: FIRNKANGYTTE
+---------
+PDB Codes: 2ck0, 1ck0
+
+Canonical classes: 12B, 12B
+
+Loop sequence: RIRSKGFNFATY
+---------
+PDB Codes: 3bkm, 2j88
+
+Canonical classes: 9A, 9A
+
+Loop sequence: HIYWDDDKR
+---------
+PDB Codes: 2hfe, 2ih3
+
+Canonical classes: 10F, 10F
+
+Loop sequence: EIIPSYGRAN
+---------
+PDB Codes: 2i5y, 2ny1
+
+Canonical classes: 10F, 10F
+
+Loop sequence: RIITILDVAH
+---------
+PDB Codes: 2b1a, 2b0s
+
+Canonical classes: 10F, 10F
+
+Loop sequence: IFYPGDSDSR
+---------
+PDB Codes: 3c2a, 1q1j
+
+Canonical classes: 12B, 12B
+
+Loop sequence: RIKSRTDGGTTD
+---------
+PDB Codes: 2b1h, 2b0s
+
+Canonical classes: 10F, 10F
+
+Loop sequence: IFYPGDSDSR
+---------
+PDB Codes: 1pz5, 1m7i
+
+Canonical classes: 12B, 12B
+
+Loop sequence: EIRLKSNNYATH
+---------
+PDB Codes: 1u8k, 1u8o
+
+Canonical classes: 9A, 9A
+
+Loop sequence: IIYSDDDKR
+---------
+PDB Codes: 2dlf, 1dlf
+
+Canonical classes: 12B, 12B
+
+Loop sequence: EIRNKANNHATY
+---------
+PDB Codes: 1rzk, 2ny1
+
+Canonical classes: 10F, 10F
+
+Loop sequence: RIITILDVAH
+---------
+PDB Codes: 3c09, 3c08
+
+Canonical classes: 10F, 10F
+
+Loop sequence: EFNPSNGRTN
+---------
+PDB Codes: 1h0d, 1bln
+
+Canonical classes: 10B, 10B
+
+Loop sequence: TISSGGGNTY
+---------
+PDB Codes: 2fr4, 1p7k
+
+Canonical classes: 10F, 10F
+
+Loop sequence: YINPYNDGTK
+---------
+PDB Codes: 2yss, 3d9a
+
+Canonical classes: 9A, 9A
+
+Loop sequence: YVSYSGSTY
+---------
+PDB Codes: 1ynl, 1cgs
+
+Canonical classes: 10F, 10F
+
+Loop sequence: EILPGSGRTN
+---------
+PDB Codes: 1uz8, 1uz6
+
+Canonical classes: 10B, 10B
+
+Loop sequence: EINPDSSTIN
+---------
+PDB Codes: 1j5o, 1r0a
+
+Canonical classes: 9A, 9A
+
+Loop sequence: TIWWDDDNR
+---------
+PDB Codes: 1ic5, 3d9a
+
+Canonical classes: 9A, 9A
+
+Loop sequence: YVSYSGSTY
+---------
+PDB Codes: 1a0q, 1eap
+
+Canonical classes: 10F, 10F
+
+Loop sequence: YISPGNGDIK
+---------
+PDB Codes: 2pw2, 1u8o
+
+Canonical classes: 9A, 9A
+
+Loop sequence: IIYSDDDKR
+---------
+PDB Codes: 2brr, 1a4j
+
+Canonical classes: 10F, 10F
+
+Loop sequence: WINTYTGEPT
+---------
+PDB Codes: 1c1e, 2o5x
+
+Canonical classes: 10F, 10F
+
+Loop sequence: WINPYTGEST
+---------
+PDB Codes: 1c5c, 1c5b
+
+Canonical classes: 10F, 10F
+
+Loop sequence: LIDPSNGRTN
+---------
+PDB Codes: 1ngz, 1ngq
+
+Canonical classes: 10F, 10F
+
+Loop sequence: RIDPNSGGTK
+---------
+PDB Codes: 1jn6, 1jnh
+
+Canonical classes: 10F, 10F
+
+Loop sequence: AIYPGDDDAR
+---------
+PDB Codes: 2mcp, 1mcp
+
+Canonical classes: 12B, 12B
+
+Loop sequence: ASRNKGNKYTTE
+---------
+PDB Codes: 1ndm, 1dqq
+
+Canonical classes: 9A, 9A
+
+Loop sequence: YISYSGSTY
+---------
+PDB Codes: 1b4j, 1t04
+
+Canonical classes: 10F, 10F
+
+Loop sequence: RIDPSDGEVH
+---------
+PDB Codes: 2j4w, 2j5l
+
+Canonical classes: 10F, 10F
+
+Loop sequence: TISDGNSYTY
+---------
+PDB Codes: 1gaf, 1hkl
+
+Canonical classes: 10F, 10F
+
+Loop sequence: RIDPANVDTK
+---------
+PDB Codes: 2itc, 2ih3
+
+Canonical classes: 10F, 10F
+
+Loop sequence: EIIPSYGRAN
+---------
+PDB Codes: 2d03, 1t2q
+
+Canonical classes: 9A, 9A
+
+Loop sequence: VIWSGGSTD
+---------
+PDB Codes: 3hfm, 3d9a
+
+Canonical classes: 9F, 9A
+
+Loop sequence: YVSYSGSTY
+
+Of interest.....
+---------
+PDB Codes: 1nc4, 1nc2
+
+Canonical classes: 9A, 9A
+
+Loop sequence: VIWSGGGTA
+---------
+PDB Codes: 1p4i, 1p4b
+
+Canonical classes: 9A, 9A
+
+Loop sequence: VIWGDGITD
+---------
+PDB Codes: 1rua, 1ncw
+
+Canonical classes: 9A, 9A
+
+Loop sequence: YINYSGFTS
+---------
+PDB Codes: 1mjj, 1mju
+
+Canonical classes: 10F, 10F
+
+Loop sequence: NIYPGSSYTH
+---------
+PDB Codes: 1xcq, 1ymh
+
+Canonical classes: 10F, 10F
+
+Loop sequence: WVNTETGEPT
+---------
+PDB Codes: 1igi, 1igj
+
+Canonical classes: 10F, 10F
+
+Loop sequence: YISPYSGVTG
+---------
+PDB Codes: 1yeg, 1yef
+
+Canonical classes: 10F, 10F
+
+Loop sequence: RIYPGTGSTY
+---------
+PDB Codes: 1dvf_1, 1a7n
+
+Canonical classes: 9A, 9A
+
+Loop sequence: MIWGDGNTD
+---------
+PDB Codes: 1bfo, 1ce1
+
+Canonical classes: 12B, 12B
+
+Loop sequence: FIRDKAKGYTTE
+---------
+PDB Codes: 1i8k, 1i8i
+
+Canonical classes: 10B, 10B
+
+Loop sequence: SISTGGYNTY
+---------
+PDB Codes: 1v7m, 1v7n
+
+Canonical classes: 12B, 12B
+
+Loop sequence: EIRSKVNNHAIH
+---------
+PDB Codes: 3bae, 2j88
+
+Canonical classes: 9A, 9A
+
+Loop sequence: HIYWDDDKR
+---------
+PDB Codes: 2zck, 2zcl
+
+Canonical classes: 10F, 10F
+
+Loop sequence: RIAPASGTTY
+---------
+PDB Codes: 1opg, 1bm3
+
+Canonical classes: 10B, 10B
+
+Loop sequence: AISGGGTYIH
+---------
+PDB Codes: 2f5a, 1u8o
+
+Canonical classes: 9A, 9A
+
+Loop sequence: IIYSDDDKR
+---------
+PDB Codes: 2adi, 3ffd
+
+Canonical classes: 10B, 10B
+
+Loop sequence: TISSGGSYTY
+---------
+PDB Codes: 2ajs, 2ajx
+
+Canonical classes: 9D, 9D
+
+Loop sequence: YIRSSVITR
+---------
+PDB Codes: 2boc, 2ih3
+
+Canonical classes: 10F, 10F
+
+Loop sequence: EIIPSYGRAN
+---------
+PDB Codes: 1hil, 1frg
+
+Canonical classes: 10B, 10B
+
+Loop sequence: TISNGGGYTY
+---------
+PDB Codes: 2aeq, 2aep
+
+Canonical classes: 12E, 12B
+
+Loop sequence: LIRNKGNGYTME
+
+Of interest.....
+---------
+PDB Codes: 3hc0, 3hc3
+
+Canonical classes: 10H, 10F
+
+Loop sequence: WIYPGNVHAQ
+
+Of interest.....
+---------
+PDB Codes: 1ngw, 3fct
+
+Canonical classes: 10F, 10F
+
+Loop sequence: MIDPNSGGTK
+---------
+PDB Codes: 1yyl, 2ny1
+
+Canonical classes: 10F, 10F
+
+Loop sequence: RIITILDVAH
+---------
+PDB Codes: 1hh9, 1hi6
+
+Canonical classes: 10F, 10F
+
+Loop sequence: GIHPGSSGTA
+---------
+PDB Codes: 1op5, 1zlu
+
+Canonical classes: 10B, 10B
+
+Loop sequence: SISTSSTYRD
+---------
+PDB Codes: 1bvk, 1a7n
+
+Canonical classes: 9A, 9A
+
+Loop sequence: MIWGDGNTD
+---------
+PDB Codes: 1ynk, 1cgs
+
+Canonical classes: 10F, 10F
+
+Loop sequence: EILPGSGRTN
+---------
+PDB Codes: 1a6v, 1ngq
+
+Canonical classes: 10F, 10F
+
+Loop sequence: RIDPNSGGTK
+---------
+PDB Codes: 2dqj, 3d9a
+
+Canonical classes: 9A, 9A
+
+Loop sequence: YVSYSGSTY
+---------
+PDB Codes: 2ny2, 2ny1
+
+Canonical classes: 10F, 10F
+
+Loop sequence: RIITILDVAH
+---------
+PDB Codes: 1ahw, 1fgn
+
+Canonical classes: 10F, 10F
+
+Loop sequence: LIDPENGNTI
+---------
+PDB Codes: 3c6s, 3ggw
+
+Canonical classes: 12B, 12B
+
+Loop sequence: EIRLKSDNYATY
+---------
+PDB Codes: 2iff, 1d6v
+
+Canonical classes: 10F, 10J
+
+Loop sequence: EILPGSGSTN
+
+Of interest.....
+---------
+PDB Codes: 1om3, 1zlu
+
+Canonical classes: 10B, 10B
+
+Loop sequence: SISTSSTYRD
+---------
+PDB Codes: 1l7i, 1s78
+
+Canonical classes: 10F, 10F
+
+Loop sequence: DVNPNSGGSI
+---------
+PDB Codes: 1cly, 1ucb
+
+Canonical classes: 10B, 10B
+
+Loop sequence: YISQGGDITD
+---------
+PDB Codes: 1kem, 3ijs
+
+Canonical classes: 12B, 12B
+
+Loop sequence: FIRNKAKGYTTE
+---------
+PDB Codes: 2iq9, 2iqa
+
+Canonical classes: 9A, 9A
+
+Loop sequence: HIWWDDDKN
+---------
+PDB Codes: 1riv, 1qyg
+
+Canonical classes: 12B, 12B
+
+Loop sequence: EIRNKANNHATK
+---------
+PDB Codes: 1oar, 1oaz
+
+Canonical classes: 10F, 10F
+
+Loop sequence: RIDPNGGGTK
+---------
+PDB Codes: 1cl7, 1n4x
+
+Canonical classes: 10F, 10F
+
+Loop sequence: WINTETDEPT
+---------
+PDB Codes: 1nd0, 1ncw
+
+Canonical classes: 9A, 9A
+
+Loop sequence: YINYSGFTS
+---------
+PDB Codes: 2r9h, 2fed
+
+Canonical classes: 10B, 10B
+
+Loop sequence: EINPVSSTIN
+---------
+PDB Codes: 1rul, 1ncw
+
+Canonical classes: 9A, 9A
+
+Loop sequence: YINYSGFTS
+---------
+PDB Codes: 2atk, 2ih3
+
+Canonical classes: 10F, 10F
+
+Loop sequence: EIIPSYGRAN
+---------
+PDB Codes: 1u8l, 1u8o
+
+Canonical classes: 9A, 9A
+
+Loop sequence: IIYSDDDKR
+---------
+PDB Codes: 1dqd, 1dqq
+
+Canonical classes: 9A, 9A
+
+Loop sequence: YISYSGSTY
+---------
+PDB Codes: 1mim, 3cmo
+
+Canonical classes: 10F, 10F
+
+Loop sequence: AIYPGNSDTS
+---------
+PDB Codes: 2ht2, 2fed
+
+Canonical classes: 10B, 10B
+
+Loop sequence: EINPVSSTIN
+---------
+PDB Codes: 1u93, 1u8o
+
+Canonical classes: 9A, 9A
+
+Loop sequence: IIYSDDDKR
+---------
+PDB Codes: 1rum, 1ncw
+
+Canonical classes: 9A, 9A
+
+Loop sequence: YINYSGFTS
+---------
+PDB Codes: 3hnv, 3hns
+
+Canonical classes: 10F, 10F
+
+Loop sequence: SIYPGNSDTN
+---------
+PDB Codes: 2vis, 1gig
+
+Canonical classes: 9A, 9A
+
+Loop sequence: VIWAGGNTN
+---------
+PDB Codes: 1u8q, 1u8o
+
+Canonical classes: 9A, 9A
+
+Loop sequence: IIYSDDDKR
+---------
+PDB Codes: 1y0l, 3cfk
+
+Canonical classes: 10B, 10B
+
+Loop sequence: EINPDSRTIN
+---------
+PDB Codes: 2z92, 2z91
+
+Canonical classes: 9A, 9A
+
+Loop sequence: YIHYRGTTN
+---------
+PDB Codes: 1fvd, 1fvc
+
+Canonical classes: 10F, 10F
+
+Loop sequence: RIYPTNGYTR
+---------
+PDB Codes: 1zls, 1zlu
+
+Canonical classes: 10B, 10B
+
+Loop sequence: SISTSSTYRD
+---------
+PDB Codes: 2vit, 1gig
+
+Canonical classes: 9A, 9A
+
+Loop sequence: VIWAGGNTN
+---------
+PDB Codes: 1xf2, 1p7k
+
+Canonical classes: 10F, 10F
+
+Loop sequence: YINPYNDGTK
+---------
+PDB Codes: 1rup, 1ncw
+
+Canonical classes: 9A, 9A
+
+Loop sequence: YINYSGFTS
+---------
+PDB Codes: 1bql, 1d6v
+
+Canonical classes: 10F, 10J
+
+Loop sequence: EILPGSGSTN
+
+Of interest.....
+---------
+PDB Codes: 1ngy, 3fct
+
+Canonical classes: 10F, 10F
+
+Loop sequence: MIDPNSGGTK
+---------
+PDB Codes: 1f4x, 1f4y
+
+Canonical classes: 10B, 10B
+
+Loop sequence: FISSGGGRTS
+---------
+PDB Codes: 1ar1, 1mqk
+
+Canonical classes: 10B, 10B
+
+Loop sequence: SINNGGGRTY
+---------
+PDB Codes: 1dbk, 1dbm
+
+Canonical classes: 10F, 10F
+
+Loop sequence: WINIYTGEPT
+---------
+PDB Codes: 1rzj, 2ny1
+
+Canonical classes: 10F, 10F
+
+Loop sequence: RIITILDVAH
+---------
+PDB Codes: 2ny3, 2ny1
+
+Canonical classes: 10F, 10F
+
+Loop sequence: RIITILDVAH
+---------
+PDB Codes: 2o5z, 2o5x
+
+Canonical classes: 10F, 10F
+
+Loop sequence: WINPYTGEST
+---------
+PDB Codes: 1i3g, 1jhl
+
+Canonical classes: 10F, 10F
+
+Loop sequence: NIYPSDSYTN
+---------
+PDB Codes: 2adj, 3ffd
+
+Canonical classes: 10B, 10B
+
+Loop sequence: TISSGGSYTY
+---------
+PDB Codes: 2hrp, 1kno
+
+Canonical classes: 10B, 10B
+
+Loop sequence: YISSGSSTIY
+---------
+PDB Codes: 1a6u, 1ngq
+
+Canonical classes: 10F, 10F
+
+Loop sequence: RIDPNSGGTK
+---------
+PDB Codes: 2bmk, 1wcb
+
+Canonical classes: 12B, 12B
+
+Loop sequence: LIRNKANGYTKE
+---------
+PDB Codes: 1dqj, 1dqq
+
+Canonical classes: 9A, 9A
+
+Loop sequence: YISYSGSTY
+---------
+PDB Codes: 2fat, 2fd6
+
+Canonical classes: 10L, 10N
+
+Loop sequence: WIFHGSDNTE
+
+Of interest.....
+---------
+PDB Codes: 4fab, 1t66
+
+Canonical classes: 12B, 12B
+
+Loop sequence: QIRNKPYNYETY
+---------
+PDB Codes: 1f4w, 1f4y
+
+Canonical classes: 10B, 10B
+
+Loop sequence: FISSGGGRTS
+---------
+PDB Codes: 1clz, 1ucb
+
+Canonical classes: 10B, 10B
+
+Loop sequence: YISQGGDITD
+---------
+PDB Codes: 2exy, 2fed
+
+Canonical classes: 10B, 10B
+
+Loop sequence: EINPVSSTIN
+---------
+PDB Codes: 1mfc, 1mfd
+
+Canonical classes: 10F, 10F
+
+Loop sequence: AIYPGNSATF
+---------
+PDB Codes: 1u95, 1u8o
+
+Canonical classes: 9A, 9A
+
+Loop sequence: IIYSDDDKR
+---------
+PDB Codes: 1iqw, 3gi8
+
+Canonical classes: 10F, 10F
+
+Loop sequence: EIDPSDSYTN
+---------
+PDB Codes: 25c8, 15c8
+
+Canonical classes: 10F, 10F
+
+Loop sequence: QIDPANGNTK
+---------
+PDB Codes: 1cu4, 1cr9
+
+Canonical classes: 10F, 10F
+
+Loop sequence: WIDPENGNSE
+---------
+PDB Codes: 2ih1, 2ih3
+
+Canonical classes: 10F, 10F
+
+Loop sequence: EIIPSYGRAN
+---------
+PDB Codes: 3eo0, 3eo1
+
+Canonical classes: 10F, 10F
+
+Loop sequence: GVIPIVDIAN
+---------
+PDB Codes: 1fgv, 2fgw
+
+Canonical classes: 10F, 10F
+
+Loop sequence: GINPKNGGTS
+---------
+PDB Codes: 1tpx, 1tqb
+
+Canonical classes: 10F, 10F
+
+Loop sequence: WINTFTGEPT
+---------
+PDB Codes: 1riu, 1qyg
+
+Canonical classes: 12B, 12B
+
+Loop sequence: EIRNKANNHATK
+---------
+PDB Codes: 1f90, 1s5i
+
+Canonical classes: 9A, 9A
+
+Loop sequence: YITYSGSTG
+---------
+PDB Codes: 1e4x, 1e4w
+
+Canonical classes: 10F, 10F
+
+Loop sequence: EILPSNGRTN
+---------
+PDB Codes: 1bog, 1hi6
+
+Canonical classes: 10F, 10F
+
+Loop sequence: GIHPGSSGTA
+---------
+PDB Codes: 1q72, 1qyg
+
+Canonical classes: 12B, 12B
+
+Loop sequence: EIRNKANNHATK
+---------
+PDB Codes: 2eh8, 2eh7
+
+Canonical classes: 10F, 10F
+
+Loop sequence: RIYPGDGDTN
+---------
+PDB Codes: 1dqm, 1dqq
+
+Canonical classes: 9A, 9A
+
+Loop sequence: YISYSGSTY
+---------
+PDB Codes: 2r1x, 1q9r
+
+Canonical classes: 12B, 12B
+
+Loop sequence: FIRNKANGYTTE
+---------
+PDB Codes: 1g9m, 2ny1
+
+Canonical classes: 10F, 10F
+
+Loop sequence: RIITILDVAH
+---------
+PDB Codes: 1u8i, 1u8o
+
+Canonical classes: 9A, 9A
+
+Loop sequence: IIYSDDDKR
+---------
+PDB Codes: 2dd8, 2g75
+
+Canonical classes: 10F, 10F
+
+Loop sequence: GITPILGIAN
+---------
+PDB Codes: 1bz7, 1r24
+
+Canonical classes: 10B, 10B
+
+Loop sequence: YISSGGSSIN
+---------
+PDB Codes: 1qle, 1mqk
+
+Canonical classes: 10B, 10B
+
+Loop sequence: SINNGGGRTY
+---------
+PDB Codes: 1b2w, 1t04
+
+Canonical classes: 10F, 10F
+
+Loop sequence: RIDPSDGEVH
+---------
+PDB Codes: 1aj7, 2bdn
+
+Canonical classes: 10F, 10F
+
+Loop sequence: RIDPANGNTK
+---------
+PDB Codes: 2vir, 1gig
+
+Canonical classes: 9A, 9A
+
+Loop sequence: VIWAGGNTN
+---------
+PDB Codes: 3gi9, 3gi8
+
+Canonical classes: 10F, 10F
+
+Loop sequence: EIDPSDSYTN
+---------
+PDB Codes: 3cfj, 3cfk
+
+Canonical classes: 10B, 10B
+
+Loop sequence: EINPDSRTIN
+---------
+PDB Codes: 3f58, 1f58
+
+Canonical classes: 9A, 9A
+
+Loop sequence: YIHYSAGTN
+---------
+PDB Codes: 1qlr, 1dn0
+
+Canonical classes: 9A, 9A
+
+Loop sequence: EINHSGSTN
+---------
+PDB Codes: 1c12, 1kcv
+
+Canonical classes: 9A, 9A
+
+Loop sequence: YISYSGSTS
+---------
+PDB Codes: 2o5y, 2o5x
+
+Canonical classes: 10F, 10F
+
+Loop sequence: WINPYTGEST
+---------
+PDB Codes: 2r0w, 2iqa
+
+Canonical classes: 9A, 9A
+
+Loop sequence: HIWWDDDKN
+---------
+PDB Codes: 1fj1, 2w65
+
+Canonical classes: 10F, 10F
+
+Loop sequence: WINTETGEPT
+---------
+PDB Codes: 1jnl, 1jnn
+
+Canonical classes: 10F, 10F
+
+Loop sequence: RINPANGISK
+---------
+PDB Codes: 2gfb, 1kno
+
+Canonical classes: 10B, 10B
+
+Loop sequence: YISSGSSTIY
+---------
+PDB Codes: 1mrd, 3gi8
+
+Canonical classes: 10F, 10F
+
+Loop sequence: EIDPSDSYTN
+---------
+PDB Codes: 1mlb, 1mlc
+
+Canonical classes: 10F, 10F
+
+Loop sequence: EILPGSGSTY
+---------
+PDB Codes: 2f58, 1f58
+
+Canonical classes: 9A, 9A
+
+Loop sequence: YIHYSAGTN
+---------
+PDB Codes: 1cf8, 1hq4
+
+Canonical classes: 9A, 9A
+
+Loop sequence: YIRYSGDTR
+---------
+PDB Codes: 2htk, 2fed
+
+Canonical classes: 10B, 10B
+
+Loop sequence: EINPVSSTIN
+---------
+PDB Codes: 1ehl, 1keg
+
+Canonical classes: 10F, 10F
+
+Loop sequence: TIYPGNSDTS
+---------
+PDB Codes: 1l7t, 1i9i
+
+Canonical classes: 9A, 9A
+
+Loop sequence: SIVSGGNTY
+---------
+PDB Codes: 1r3l, 2ih3
+
+Canonical classes: 10F, 10F
+
+Loop sequence: EIIPSYGRAN
+---------
+PDB Codes: 1yec, 1yef
+
+Canonical classes: 10F, 10F
+
+Loop sequence: RIYPGTGSTY
+---------
+PDB Codes: 1ngp, 1ngq
+
+Canonical classes: 10F, 10F
+
+Loop sequence: RIDPNSGGTK
+---------
+PDB Codes: 1xf5, 1ymh
+
+Canonical classes: 10F, 10F
+
+Loop sequence: WVNTETGEPT
+---------
+PDB Codes: 1ru9, 1ncw
+
+Canonical classes: 9A, 9A
+
+Loop sequence: YINYSGFTS
+---------
+PDB Codes: 1oax, 1oaz
+
+Canonical classes: 10F, 10F
+
+Loop sequence: RIDPNGGGTK
+---------
+PDB Codes: 3d0v, 1u8o
+
+Canonical classes: 9A, 9A
+
+Loop sequence: IIYSDDDKR
+---------
+PDB Codes: 1ic7, 3d9a
+
+Canonical classes: 9A, 9A
+
+Loop sequence: YVSYSGSTY
+---------
+PDB Codes: 2gk0, 2gjz
+
+Canonical classes: 9A, 9A
+
+Loop sequence: VIWSGGSTN
+---------
+PDB Codes: 3bz4, 3ggw
+
+Canonical classes: 12B, 12B
+
+Loop sequence: EIRLKSDNYATY
+---------
+PDB Codes: 1dbj, 1dbm
+
+Canonical classes: 10F, 10F
+
+Loop sequence: WINIYTGEPT
+---------
+PDB Codes: 3bkc, 2j88
+
+Canonical classes: 9A, 9A
+
+Loop sequence: HIYWDDDKR
+---------
+PDB Codes: 1sm3, 1m7i
+
+Canonical classes: 12B, 12B
+
+Loop sequence: EIRLKSNNYATH
+---------
+PDB Codes: 1ggb, 1ggi
+
+Canonical classes: 9A, 9A
+
+Loop sequence: HIFWDGDKR
+---------
+PDB Codes: 1a14, 1nmb
+
+Canonical classes: 10F, 10F
+
+Loop sequence: IFYPGNGDTS
+---------
+PDB Codes: 1mnu, 1mpa
+
+Canonical classes: 10F, 10F
+
+Loop sequence: GIYPGNRDTR
+---------
+PDB Codes: 1wej, 1qbl
+
+Canonical classes: 10F, 10F
+
+Loop sequence: RIDPASGNTK
+---------
+PDB Codes: 1kir, 1a7n
+
+Canonical classes: 9A, 9A
+
+Loop sequence: MIWGDGNTD
+---------
+PDB Codes: 3g6a, 3g6d
+
+Canonical classes: 10B, 10B
+
+Loop sequence: GIAYDSSNTL
+---------
+PDB Codes: 2ajz, 2ajx
+
+Canonical classes: 9D, 9D
+
+Loop sequence: YIRSSVITR
+---------
+PDB Codes: 1q9v, 1q9r
+
+Canonical classes: 12B, 12B
+
+Loop sequence: FIRNKANGYTTE
+---------
+PDB Codes: 1i9j, 1i9i
+
+Canonical classes: 9A, 9A
+
+Loop sequence: SIVSGGNTY
+---------
+PDB Codes: 1q0x, 1q0y
+
+Canonical classes: 10F, 10F
+
+Loop sequence: EILPGSGDTI
+---------
+PDB Codes: 1t3f, 1t04
+
+Canonical classes: 10F, 10F
+
+Loop sequence: RIDPSDGEVH
+---------
+PDB Codes: 1fai, 2f19
+
+Canonical classes: 10F, 10I
+
+Loop sequence: YINPGKGYLS
+
+Of interest.....
+---------
+PDB Codes: 1s5h, 2ih3
+
+Canonical classes: 10F, 10F
+
+Loop sequence: EIIPSYGRAN
+---------
+PDB Codes: 2dqe, 2dqf
+
+Canonical classes: 9A, 9A
+
+Loop sequence: YVSASGSTY
+---------
+PDB Codes: 3bdy, 1fvc
+
+Canonical classes: 10F, 10F
+
+Loop sequence: RIYPTNGYTR
+---------
+PDB Codes: 2adg, 3ffd
+
+Canonical classes: 10B, 10B
+
+Loop sequence: TISSGGSYTY
+---------
+PDB Codes: 1bj1, 1a4j
+
+Canonical classes: 10F, 10F
+
+Loop sequence: WINTYTGEPT
+---------
+PDB Codes: 1ngx, 1ngq
+
+Canonical classes: 10F, 10F
+
+Loop sequence: RIDPNSGGTK
+---------
+PDB Codes: 2h2p, 2fed
+
+Canonical classes: 10B, 10B
+
+Loop sequence: EINPVSSTIN
+---------
+PDB Codes: 2r2b, 1q9r
+
+Canonical classes: 12B, 12B
+
+Loop sequence: FIRNKANGYTTE
+---------
+PDB Codes: 1lo0, 1lo2
+
+Canonical classes: 9A, 9A
+
+Loop sequence: SISYGGLIY
+---------

@@ -1,0 +1,22 @@
+# LOOP chothia_label auto_label
+L1  1   10A
+L1  2   11A
+L1  3   17A
+L1  4   16A
+L1  5   13A
+L1  6   14A
+L1  7   14B
+L2  1   7A
+L3  1   9A
+L3  2   9B
+L3  3   8A
+L3  4   9C
+L3  5   11A
+H1  1   10A
+H1  2   11A
+H1  3   12A
+H2  1   9A
+H2  2   10A
+H2  3   10B
+H2  4   12A  
+   

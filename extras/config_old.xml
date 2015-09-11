@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<pipeline name="Configuration for acaca">
+<!-- Alter the acaca_config information here to reflect the local installation. -->
+<acaca_config>
+    <acaca_home>/home/bsm2/jacob/projects/acaca</acaca_home>
+    <acaca_python_home>acaca_home/src/python</acaca_python_home>
+    <sacs_file>/acrm/www/html/abs/sacs/antibodies.xml</sacs_file>
+    <acrm_pdb_abnum_wrapper>acaca_home/src/perl/abnumpdb.pl</acrm_pdb_abnum_wrapper>
+    <pdb_file_location>/acrm/data/pdb/</pdb_file_location>
+</acaca_config>
+<!-- Programs are executed in the order written here. -->
+<!-- Programs need to have a description and either a "function" argument or -->
+<!-- an "executable" argument  -->
+<program executable="acaca_home/src/python/run_abnumpdb.py" description="Obtains Pdb filenames and passes them to scipts that number them">
+    <argument>sacs_file</argument>
+    <argument>acrm_pdb_abnum_wrapper</argument>
+    <argument>pdb_file_location</argument>
+</program>
+</pipeline>

@@ -1,0 +1,19 @@
+19 January 2011: Chat with Andrew
+---------------------------------
+
+Discussions on the next steps required:
+
+1) For every canonical class, identify SDRs that might have gaps in some structures.
+   Add gaps to the list of permissible residues to the canonical definitions life.
+
+2) Extend the canonicals assignment program so that the (OR) rules for the canonical classes
+   with clashes.
+
+3) Gather sequences of publicly available antibodies and their sources from Abysis.
+
+4) Assess percentage of sequences in the public domain that can be assigned a canonical class
+   on the basis of SDRs accurately.
+
+5) Gather data to see distribution of number of canonical classes to length of loop.
+
+6) Write a paper describing the results.

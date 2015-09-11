@@ -1,0 +1,18 @@
+1) Requirements in terms of files:
+
+   a) Canonical class definitions file with key residues in FASTA format:
+
+      >L1:16A
+      L26:L32....
+
+   b) Numbering files.
+
+   c) Loop definition.
+
+2) Steps:
+
+      a) Get a list of unique Fvs.
+
+      b) Identify c (CDR sequence), k (key residues in CDR), f (key residues in framework).
+
+      c) A program that takes an alignment and returns the pairwise sequence identity.

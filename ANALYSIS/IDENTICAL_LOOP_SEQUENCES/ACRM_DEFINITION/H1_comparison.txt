@@ -1,0 +1,2822 @@
+PDB Codes: 1oaz, 1z3g
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTSYWMH
+---------
+PDB Codes: 1u8j, 1u8o
+
+Canonical classes: 12A, 12A
+
+Loop sequence: GFSLSDFGVGVG
+---------
+PDB Codes: 1cic_2, 1a7n
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFSLTGYGVN
+---------
+PDB Codes: 1bey, 1ce1
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFTDFYMN
+---------
+PDB Codes: 1mhp, 3eot
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFSRYTMS
+---------
+PDB Codes: 3dv4, 3duu
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFTDYYMS
+---------
+PDB Codes: 1vfa, 1a7n
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFSLTGYGVN
+---------
+PDB Codes: 2f5b, 1u8o
+
+Canonical classes: 12A, 12A
+
+Loop sequence: GFSLSDFGVGVG
+---------
+PDB Codes: 1oau, 1z3g
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTSYWMH
+---------
+PDB Codes: 1a7q, 1a7n
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFSLTGYGVN
+---------
+PDB Codes: 2bob, 2ih3
+
+Canonical classes: 10N, 10N
+
+Loop sequence: GYTFTSDWIH
+---------
+PDB Codes: 3ejy, 2fed
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFDYSRYWMS
+---------
+PDB Codes: 3fct, 1z3g
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTSYWMH
+---------
+PDB Codes: 2vxu, 2vxt
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYSFTDYFIY
+---------
+PDB Codes: 1tjg, 1u8o
+
+Canonical classes: 12A, 12A
+
+Loop sequence: GFSLSDFGVGVG
+---------
+PDB Codes: 1otu, 2fed
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFDYSRYWMS
+---------
+PDB Codes: 2ht4, 2fed
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFDYSRYWMS
+---------
+PDB Codes: 3cxd, 3dsf
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFNIYAMN
+---------
+PDB Codes: 1a3l, 1rur
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTNYWLG
+---------
+PDB Codes: 1cfn, 1hi6
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYIFTDYEIH
+---------
+PDB Codes: 2itd, 2ih3
+
+Canonical classes: 10N, 10N
+
+Loop sequence: GYTFTSDWIH
+---------
+PDB Codes: 1s5i, 3cfd
+
+Canonical classes: 11A, 11A
+
+Loop sequence: GYSITSDYAWN
+---------
+PDB Codes: 1bvl, 1a7n
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFSLTGYGVN
+---------
+PDB Codes: 1a2y, 1a7n
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFSLTGYGVN
+---------
+PDB Codes: 2b2x, 3eot
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFSRYTMS
+---------
+PDB Codes: 1ruq, 1rur
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTNYWLG
+---------
+PDB Codes: 2dwd, 2ih3
+
+Canonical classes: 10N, 10N
+
+Loop sequence: GYTFTSDWIH
+---------
+PDB Codes: 3ffd, 1bm3
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFSSYGMS
+---------
+PDB Codes: 1q0y, 1d6v
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFSSYWIE
+---------
+PDB Codes: 1a4k, 1a4j
+
+Canonical classes: 10L, 10L
+
+Loop sequence: GYTFTNYGMN
+---------
+PDB Codes: 2nxy, 2ny1
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GDTFIRYSFT
+---------
+PDB Codes: 2dbl, 1dbm
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYAFTNYGVN
+---------
+PDB Codes: 1d5i, 1d6v
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFSSYWIE
+---------
+PDB Codes: 3hnt, 3hns
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYSFTNYWMH
+---------
+PDB Codes: 6fab, 1jfq
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTSNGIN
+---------
+PDB Codes: 1q9r, 3duu
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFTDYYMS
+---------
+PDB Codes: 1a7o, 1a7n
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFSLTGYGVN
+---------
+PDB Codes: 2fb4, 2ig2
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFIFSSYAMY
+---------
+PDB Codes: 2hmi, 1r0a
+
+Canonical classes: 12A, 12A
+
+Loop sequence: GFSLSTSGIGVT
+---------
+PDB Codes: 1vfb, 1a7n
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFSLTGYGVN
+---------
+PDB Codes: 1ikf, 2gcy
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFSDYYMY
+---------
+PDB Codes: 1oak, 1fns
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFSLTDYGVD
+---------
+PDB Codes: 1bgx, 3cfd
+
+Canonical classes: 11A, 11A
+
+Loop sequence: GYSITSDYAWN
+---------
+PDB Codes: 3ijs, 3duu
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFTDYYMS
+---------
+PDB Codes: 2fee, 2fed
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFDYSRYWMS
+---------
+PDB Codes: 3cfb, 1fl3
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GITFSRYIMS
+---------
+PDB Codes: 3be1, 1fvc
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFNIKDTYIH
+---------
+PDB Codes: 1ngq, 1z3g
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTSYWMH
+---------
+PDB Codes: 1a7r, 1a7n
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFSLTGYGVN
+---------
+PDB Codes: 1ucb, 2gcy
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFSDYYMY
+---------
+PDB Codes: 3cmo, 1z3g
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTSYWMH
+---------
+PDB Codes: 1ind, 1ine
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTLSGETMS
+---------
+PDB Codes: 1q9o, 3duu
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFTDYYMS
+---------
+PDB Codes: 2or9, 2orb
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFSHYGMS
+---------
+PDB Codes: 1a7p, 1a7n
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFSLTGYGVN
+---------
+PDB Codes: 3gbn, 3gbm
+
+Canonical classes: 10O, 10O
+
+Loop sequence: GGPFRSYAIS
+---------
+PDB Codes: 1rz8, 2ny1
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GDTFIRYSFT
+---------
+PDB Codes: 1zlv, 1zlu
+
+Canonical classes: 10A, 10A
+
+Loop sequence: NFRISAHTMN
+---------
+PDB Codes: 1wcb, 3duu
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFTDYYMS
+---------
+PDB Codes: 1cfq, 1hi6
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYIFTDYEIH
+---------
+PDB Codes: 3dus, 3duu
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFTDYYMS
+---------
+PDB Codes: 2vxs, 1kfa
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFSSYAMS
+---------
+PDB Codes: 1hys, 1r0a
+
+Canonical classes: 12A, 12A
+
+Loop sequence: GFSLSTSGIGVT
+---------
+PDB Codes: 1n8z, 1fvc
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFNIKDTYIH
+---------
+PDB Codes: 2zch, 2zcl
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTTYYIN
+---------
+PDB Codes: 3fmg, 1d6v
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFSSYWIE
+---------
+PDB Codes: 3eyf, 3eyo
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFKFGDHGIH
+---------
+PDB Codes: 1a6w, 1z3g
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTSYWMH
+---------
+PDB Codes: 2exw, 2fed
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFDYSRYWMS
+---------
+PDB Codes: 1ap2, 1mvu
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFNIKDDFMH
+---------
+PDB Codes: 1xf3, 1p7k
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTSYVMH
+---------
+PDB Codes: 2ajy, 2ajx
+
+Canonical classes: 11C, 11C
+
+Loop sequence: GYSITTNYAWT
+---------
+PDB Codes: 3ijy, 3duu
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFTDYYMS
+---------
+PDB Codes: 1mhh, 1ymh
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTDFSMH
+---------
+PDB Codes: 3ijh, 3duu
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFTDYYMS
+---------
+PDB Codes: 1nca, 1a4j
+
+Canonical classes: 10A, 10L
+
+Loop sequence: GYTFTNYGMN
+
+Of interest.....
+---------
+PDB Codes: 1yef, 1yed
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYIFTSYWIH
+---------
+PDB Codes: 2hvk, 2ih3
+
+Canonical classes: 10N, 10N
+
+Loop sequence: GYTFTSDWIH
+---------
+PDB Codes: 1r3i, 2ih3
+
+Canonical classes: 10N, 10N
+
+Loop sequence: GYTFTSDWIH
+---------
+PDB Codes: 1q9k, 3duu
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFTDYYMS
+---------
+PDB Codes: 1nma, 1nmb
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTNYNMY
+---------
+PDB Codes: 3det, 2fed
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFDYSRYWMS
+---------
+PDB Codes: 1u8h, 1u8o
+
+Canonical classes: 12A, 12A
+
+Loop sequence: GFSLSDFGVGVG
+---------
+PDB Codes: 1u8m, 1u8o
+
+Canonical classes: 12A, 12A
+
+Loop sequence: GFSLSDFGVGVG
+---------
+PDB Codes: 1yqv, 1ztx
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFSDYWIE
+---------
+PDB Codes: 1ott, 2fed
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFDYSRYWMS
+---------
+PDB Codes: 1dbb, 1dbm
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYAFTNYGVN
+---------
+PDB Codes: 3bt2, 2fd6
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYSFTNFYIH
+---------
+PDB Codes: 1fbi, 1z3g
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTSYWMH
+---------
+PDB Codes: 1qbl, 2rcs
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFNIKDTYMH
+---------
+PDB Codes: 1n6q, 1r0a
+
+Canonical classes: 12A, 12A
+
+Loop sequence: GFSLSTSGIGVT
+---------
+PDB Codes: 3hc3, 3hc4
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTTYYLH
+---------
+PDB Codes: 3d9a, 2dqg
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GDSITSDYWS
+---------
+PDB Codes: 1baf, 3cfd
+
+Canonical classes: 11A, 11A
+
+Loop sequence: GYSITSDYAWN
+---------
+PDB Codes: 2nlj, 2ih3
+
+Canonical classes: 10N, 10N
+
+Loop sequence: GYTFTSDWIH
+---------
+PDB Codes: 1t03, 1r0a
+
+Canonical classes: 12A, 12A
+
+Loop sequence: GFSLSTSGIGVT
+---------
+PDB Codes: 1dl7, 1a7n
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFSLTGYGVN
+---------
+PDB Codes: 2c1p, 2c1o
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYSFTNYWMN
+---------
+PDB Codes: 3dv6, 3duu
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFTDYYMS
+---------
+PDB Codes: 2nxz, 2ny1
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GDTFIRYSFT
+---------
+PDB Codes: 2nr6, 1fvc
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFNIKDTYIH
+---------
+PDB Codes: 2dtm, 2dqt
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFSNYAMS
+---------
+PDB Codes: 1uac, 2dqg
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GDSITSDYWS
+---------
+PDB Codes: 1yy9, 1yy8
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFSLTNYGVH
+---------
+PDB Codes: 2dqh, 2dqg
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GDSITSDYWS
+---------
+PDB Codes: 2fx8, 2fx9
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GGSFSTYALS
+---------
+PDB Codes: 2ny0, 2ny1
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GDTFIRYSFT
+---------
+PDB Codes: 1fgn, 1k6q
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFNIKDYYMH
+---------
+PDB Codes: 3dur, 3duu
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFTDYYMS
+---------
+PDB Codes: 15c8, 2rcs
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFNIKDTYMH
+---------
+PDB Codes: 2ajv, 2ajx
+
+Canonical classes: 11C, 11C
+
+Loop sequence: GYSITTNYAWT
+---------
+PDB Codes: 2ddq, 1p7k
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTSYVMH
+---------
+PDB Codes: 2h2s, 2fed
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFDYSRYWMS
+---------
+PDB Codes: 1hh6, 1hi6
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYIFTDYEIH
+---------
+PDB Codes: 1xgy, 1ad9
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTDYYIN
+---------
+PDB Codes: 3cfc, 1fl3
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GITFSRYIMS
+---------
+PDB Codes: 1nsn, 3cfd
+
+Canonical classes: 11D, 11A
+
+Loop sequence: GYSITSDYAWN
+
+Of interest.....
+---------
+PDB Codes: 2r23, 3duu
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFTDYYMS
+---------
+PDB Codes: 3bn9, 1kfa
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFSSYAMS
+---------
+PDB Codes: 1fve, 1fvc
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFNIKDTYIH
+---------
+PDB Codes: 2hlf, 2fed
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFDYSRYWMS
+---------
+PDB Codes: 1axs, 1d5b
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFSSFWIE
+---------
+PDB Codes: 2r2e, 3duu
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFTDYYMS
+---------
+PDB Codes: 1dlf, 1v7n
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFSDAWMD
+---------
+PDB Codes: 2hkf, 2hkh
+
+Canonical classes: 10X, 10F
+
+Loop sequence: GSTLNNYAMN
+
+Of interest.....
+---------
+PDB Codes: 1dba, 1dbm
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYAFTNYGVN
+---------
+PDB Codes: 1gc1, 2ny1
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GDTFIRYSFT
+---------
+PDB Codes: 1ots, 2fed
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFDYSRYWMS
+---------
+PDB Codes: 3b2u, 3b2v
+
+Canonical classes: 12D, 12D
+
+Loop sequence: GGSISSGDYYWS
+---------
+PDB Codes: 2dwe, 2ih3
+
+Canonical classes: 10N, 10N
+
+Loop sequence: GYTFTSDWIH
+---------
+PDB Codes: 1fdl, 1a7n
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFSLTGYGVN
+---------
+PDB Codes: 3ck0, 1ck0
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFNTDAMN
+---------
+PDB Codes: 1mfe, 1mfd
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTNYWMH
+---------
+PDB Codes: 2dqu, 2dqt
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFSNYAMS
+---------
+PDB Codes: 1zlw, 1zlu
+
+Canonical classes: 10A, 10A
+
+Loop sequence: NFRISAHTMN
+---------
+PDB Codes: 1yee, 1yed
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYIFTSYWIH
+---------
+PDB Codes: 2htl, 2fed
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFDYSRYWMS
+---------
+PDB Codes: 1u8p, 1u8o
+
+Canonical classes: 12A, 12A
+
+Loop sequence: GFSLSDFGVGVG
+---------
+PDB Codes: 1cft, 1hi6
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYIFTDYEIH
+---------
+PDB Codes: 1q9l, 3duu
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFTDYYMS
+---------
+PDB Codes: 2i60, 2ny1
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GDTFIRYSFT
+---------
+PDB Codes: 1k4c, 2ih3
+
+Canonical classes: 10N, 10N
+
+Loop sequence: GYTFTSDWIH
+---------
+PDB Codes: 2qql, 2qqk
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTISGYGIH
+---------
+PDB Codes: 1jpt, 1jps
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFNIKEYYMH
+---------
+PDB Codes: 1acy, 1ai1
+
+Canonical classes: 12A, 12A
+
+Loop sequence: GFSITRTNYCWH
+---------
+PDB Codes: 1oaq, 1z3g
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTSYWMH
+---------
+PDB Codes: 1tzg, 2fx9
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GGSFSTYALS
+---------
+PDB Codes: 3bky, 2osl
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTSYNMH
+---------
+PDB Codes: 1q9q, 3duu
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFTDYYMS
+---------
+PDB Codes: 1qbm, 2rcs
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFNIKDTYMH
+---------
+PDB Codes: 3hi6, 3hi5
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFSRYVMW
+---------
+PDB Codes: 2w60, 2w65
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTDYSIH
+---------
+PDB Codes: 2w9d, 2w9e
+
+Canonical classes: 10I, 10Z
+
+Loop sequence: RNTFTDYNLD
+
+Of interest.....
+---------
+PDB Codes: 35c8, 2rcs
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFNIKDTYMH
+---------
+PDB Codes: 1rzg, 2jb5
+
+Canonical classes: 10C, 10Y
+
+Loop sequence: GGTFSNYAIN
+
+Of interest.....
+---------
+PDB Codes: 3dvg, 3dvn
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFNVKTGLIH
+---------
+PDB Codes: 1lo3, 1lo2
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFSFRNYGMS
+---------
+PDB Codes: 1i8m, 1p7k
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTSYVMH
+---------
+PDB Codes: 1ay1, 3cfd
+
+Canonical classes: 11A, 11A
+
+Loop sequence: GYSITSDYAWN
+---------
+PDB Codes: 1q9t, 3duu
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFTDYYMS
+---------
+PDB Codes: 1mqk, 1ejo
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFSSYTMS
+---------
+PDB Codes: 1j1p, 2dqg
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GDSITSDYWS
+---------
+PDB Codes: 1uj3, 1k6q
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFNIKDYYMH
+---------
+PDB Codes: 2bfv, 1cfv
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFNTYYMS
+---------
+PDB Codes: 2fx7, 2fx9
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GGSFSTYALS
+---------
+PDB Codes: 2hjf, 2ih3
+
+Canonical classes: 10N, 10N
+
+Loop sequence: GYTFTSDWIH
+---------
+PDB Codes: 2pw1, 1u8o
+
+Canonical classes: 12A, 12A
+
+Loop sequence: GFSLSDFGVGVG
+---------
+PDB Codes: 2qhr, 2zuq
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFAFSSYDMS
+---------
+PDB Codes: 2v17, 3duu
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFTDYYMS
+---------
+PDB Codes: 3eys, 3eyu
+
+Canonical classes: 12A, 12A
+
+Loop sequence: GFSLSTSGMGVG
+---------
+PDB Codes: 2dqi, 2dqg
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GDSITSDYWS
+---------
+PDB Codes: 3cle, 3clf
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYRFTSYNMH
+---------
+PDB Codes: 1f8t, 3cfd
+
+Canonical classes: 11A, 11A
+
+Loop sequence: GYSITSDYAWN
+---------
+PDB Codes: 1rfd, 1qyg
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFSDAWVD
+---------
+PDB Codes: 2ny6, 2ny1
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GDTFIRYSFT
+---------
+PDB Codes: 2ipu, 3eyu
+
+Canonical classes: 12A, 12A
+
+Loop sequence: GFSLSTSGMGVG
+---------
+PDB Codes: 1j1x, 2dqg
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GDSITSDYWS
+---------
+PDB Codes: 2hvj, 2ih3
+
+Canonical classes: 10N, 10N
+
+Loop sequence: GYTFTSDWIH
+---------
+PDB Codes: 2h8p, 2ih3
+
+Canonical classes: 10N, 10N
+
+Loop sequence: GYTFTSDWIH
+---------
+PDB Codes: 2hg5, 2ih3
+
+Canonical classes: 10N, 10N
+
+Loop sequence: GYTFTSDWIH
+---------
+PDB Codes: 1tet, 1zea
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTTYGMS
+---------
+PDB Codes: 2ny4, 2ny1
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GDTFIRYSFT
+---------
+PDB Codes: 1cfs, 1hi6
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYIFTDYEIH
+---------
+PDB Codes: 1g9n, 2ny1
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GDTFIRYSFT
+---------
+PDB Codes: 1q9w, 3duu
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFTDYYMS
+---------
+PDB Codes: 1m71, 1m7i
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFSNYWME
+---------
+PDB Codes: 1r3k, 2ih3
+
+Canonical classes: 10N, 10N
+
+Loop sequence: GYTFTSDWIH
+---------
+PDB Codes: 3bpc, 3duu
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFTDYYMS
+---------
+PDB Codes: 2aju, 2ajx
+
+Canonical classes: 11C, 11C
+
+Loop sequence: GYSITTNYAWT
+---------
+PDB Codes: 1pg7_1, 1jps
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFNIKEYYMH
+---------
+PDB Codes: 3giz, 1dfb
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFNDYAMH
+---------
+PDB Codes: 1m7d, 1m7i
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFSNYWME
+---------
+PDB Codes: 3cfe, 3cfd
+
+Canonical classes: 11A, 11A
+
+Loop sequence: GYSITSDYAWN
+---------
+PDB Codes: 1mfb, 1mfd
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTNYWMH
+---------
+PDB Codes: 2zkh, 1v7n
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFSDAWMD
+---------
+PDB Codes: 2igf, 1igf
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFSRCAMS
+---------
+PDB Codes: 2ht3, 2fed
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFDYSRYWMS
+---------
+PDB Codes: 2mpa, 1mpa
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYSFTSYWLH
+---------
+PDB Codes: 2fjf, 2fjg
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTISDYWIH
+---------
+PDB Codes: 2qqn, 1kfa
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFSSYAMS
+---------
+PDB Codes: 2ak1, 2ajx
+
+Canonical classes: 11C, 11C
+
+Loop sequence: GYSITTNYAWT
+---------
+PDB Codes: 43ca, 43c9
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GISLSRYNVH
+---------
+PDB Codes: 3hb3, 1ejo
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFSSYTMS
+---------
+PDB Codes: 1xct, 1ymh
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTDFSMH
+---------
+PDB Codes: 1mrf, 1it9
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTSYWMQ
+---------
+PDB Codes: 1ggc, 1ggi
+
+Canonical classes: 12A, 12A
+
+Loop sequence: GFSLSTYGMGVS
+---------
+PDB Codes: 1c08, 2dqg
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GDSITSDYWS
+---------
+PDB Codes: 1ae6, 1ad9
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTDYYIN
+---------
+PDB Codes: 1n5y, 1r0a
+
+Canonical classes: 12A, 12A
+
+Loop sequence: GFSLSTSGIGVT
+---------
+PDB Codes: 1ocw, 1z3g
+
+Canonical classes: 10R, 10A
+
+Loop sequence: GYTFTSYWMH
+
+Of interest.....
+---------
+PDB Codes: 1j1o, 2dqg
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GDSITSDYWS
+---------
+PDB Codes: 2eks, 2eiz
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GDSIRSDYWS
+---------
+PDB Codes: 1op3, 1zlu
+
+Canonical classes: 10A, 10A
+
+Loop sequence: NFRISAHTMN
+---------
+PDB Codes: 1clo, 1ad0
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFTDYYMN
+---------
+PDB Codes: 2r0z, 3eyu
+
+Canonical classes: 12A, 12A
+
+Loop sequence: GFSLSTSGMGVG
+---------
+PDB Codes: 1h3p, 1kfa
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFSSYAMS
+---------
+PDB Codes: 2aab, 1kno
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFSSFGMH
+---------
+PDB Codes: 2op4, 2ntf
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTTYWIH
+---------
+PDB Codes: 1mre, 1it9
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTSYWMQ
+---------
+PDB Codes: 1hin, 1ifh
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFSFSSYGMS
+---------
+PDB Codes: 1yeh, 1yed
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYIFTSYWIH
+---------
+PDB Codes: 2ny5, 2ny1
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GDTFIRYSFT
+---------
+PDB Codes: 1a3r, 1bbd
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFNIKDIYIH
+---------
+PDB Codes: 1kiq, 1a7n
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFSLTGYGVN
+---------
+PDB Codes: 1u8n, 1u8o
+
+Canonical classes: 12A, 12A
+
+Loop sequence: GFSLSDFGVGVG
+---------
+PDB Codes: 1tqb, 1a4j
+
+Canonical classes: 10A, 10L
+
+Loop sequence: GYTFTNYGMN
+
+Of interest.....
+---------
+PDB Codes: 1e6j, 1e6o
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTSYTMH
+---------
+PDB Codes: 1ncc, 1a4j
+
+Canonical classes: 10A, 10L
+
+Loop sequence: GYTFTNYGMN
+
+Of interest.....
+---------
+PDB Codes: 3ikc, 3duu
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFTDYYMS
+---------
+PDB Codes: 2r1y, 3duu
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFTDYYMS
+---------
+PDB Codes: 1wt5, 1z3g
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTSYWMH
+---------
+PDB Codes: 3eo9, 3eoa
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYSFTGHWMN
+---------
+PDB Codes: 1iai_1, 1a4j
+
+Canonical classes: 10A, 10L
+
+Loop sequence: GYTFTNYGMN
+
+Of interest.....
+---------
+PDB Codes: 1nbv, 1cbv
+
+Canonical classes: 10C, 10G
+
+Loop sequence: GFSFNTNAMN
+
+Of interest.....
+---------
+PDB Codes: 2cgr, 1cgs
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFSEYWIE
+---------
+PDB Codes: 1n64, 1ymh
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTDFSMH
+---------
+PDB Codes: 1ua6, 2dqg
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GDSITSDYWS
+---------
+PDB Codes: 2r29, 2rcs
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFNIKDTYMH
+---------
+PDB Codes: 1iai_2, 1aif
+
+Canonical classes: 10Z, 10M
+
+Loop sequence: GFTFNNYWMS
+
+Of interest.....
+---------
+PDB Codes: 3ejz, 2fed
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFDYSRYWMS
+---------
+PDB Codes: 1ruk, 1ncw
+
+Canonical classes: 11A, 11A
+
+Loop sequence: GYSITSDFAWN
+---------
+PDB Codes: 2r1w, 3duu
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFTDYYMS
+---------
+PDB Codes: 1him, 1ifh
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFSFSSYGMS
+---------
+PDB Codes: 1tqc, 1a4j
+
+Canonical classes: 10A, 10L
+
+Loop sequence: GYTFTNYGMN
+
+Of interest.....
+---------
+PDB Codes: 3bqu_1, 1u8o
+
+Canonical classes: 12A, 12A
+
+Loop sequence: GFSLSDFGVGVG
+---------
+PDB Codes: 2ipt, 3eyu
+
+Canonical classes: 12A, 12A
+
+Loop sequence: GFSLSTSGMGVG
+---------
+PDB Codes: 1ncb, 1a4j
+
+Canonical classes: 10A, 10L
+
+Loop sequence: GYTFTNYGMN
+
+Of interest.....
+---------
+PDB Codes: 1xf4, 1p7k
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTSYVMH
+---------
+PDB Codes: 1flr, 1t66
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFSDYWMN
+---------
+PDB Codes: 1u91, 1u8o
+
+Canonical classes: 12A, 12A
+
+Loop sequence: GFSLSDFGVGVG
+---------
+PDB Codes: 1bfv, 1cfv
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFNTYYMS
+---------
+PDB Codes: 1r3j, 2ih3
+
+Canonical classes: 10N, 10N
+
+Loop sequence: GYTFTSDWIH
+---------
+PDB Codes: 1u92, 1u8o
+
+Canonical classes: 12A, 12A
+
+Loop sequence: GFSLSDFGVGVG
+---------
+PDB Codes: 1k4d, 2ih3
+
+Canonical classes: 10N, 10N
+
+Loop sequence: GYTFTSDWIH
+---------
+PDB Codes: 1oay, 1z3g
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTSYWMH
+---------
+PDB Codes: 1wc7, 3duu
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFTDYYMS
+---------
+PDB Codes: 1yym, 2ny1
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GDTFIRYSFT
+---------
+PDB Codes: 1ncd, 1a4j
+
+Canonical classes: 10A, 10L
+
+Loop sequence: GYTFTNYGMN
+
+Of interest.....
+---------
+PDB Codes: 1mfa, 1mfd
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTNYWMH
+---------
+PDB Codes: 2ap2, 1mvu
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFNIKDDFMH
+---------
+PDB Codes: 2r2h, 3duu
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFTDYYMS
+---------
+PDB Codes: 2ck0, 1ck0
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFNTDAMN
+---------
+PDB Codes: 3bkm, 3bkj
+
+Canonical classes: 12F, 12F
+
+Loop sequence: GFSIRTSKVGVS
+---------
+PDB Codes: 2hfe, 2ih3
+
+Canonical classes: 10N, 10N
+
+Loop sequence: GYTFTSDWIH
+---------
+PDB Codes: 1bln, 1ejo
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFSSYTMS
+---------
+PDB Codes: 2i5y, 2ny1
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GDTFIRYSFT
+---------
+PDB Codes: 2b1a, 2b0s
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYSFSDYWIG
+---------
+PDB Codes: 3c2a, 1q1j
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFSDVWLN
+---------
+PDB Codes: 2b1h, 2b0s
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYSFSDYWIG
+---------
+PDB Codes: 1pz5, 1m7i
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFSNYWME
+---------
+PDB Codes: 1s3k, 2gcy
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFSDYYMY
+---------
+PDB Codes: 1u8k, 1u8o
+
+Canonical classes: 12A, 12A
+
+Loop sequence: GFSLSDFGVGVG
+---------
+PDB Codes: 1rzk, 2ny1
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GDTFIRYSFT
+---------
+PDB Codes: 2dlf, 1v7n
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFSDAWMD
+---------
+PDB Codes: 1h0d, 1ejo
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFSSYTMS
+---------
+PDB Codes: 2fr4, 1p7k
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTSYVMH
+---------
+PDB Codes: 2yss, 2eiz
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GDSIRSDYWS
+---------
+PDB Codes: 1uz8, 1uz6
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFDFSGYWMS
+---------
+PDB Codes: 1j5o, 1r0a
+
+Canonical classes: 12A, 12A
+
+Loop sequence: GFSLSTSGIGVT
+---------
+PDB Codes: 1ic5, 2dqg
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GDSITSDYWS
+---------
+PDB Codes: 2pw2, 1u8o
+
+Canonical classes: 12A, 12A
+
+Loop sequence: GFSLSDFGVGVG
+---------
+PDB Codes: 2brr, 1a4j
+
+Canonical classes: 10A, 10L
+
+Loop sequence: GYTFTNYGMN
+
+Of interest.....
+---------
+PDB Codes: 1c1e, 2o5x
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYMFTNYGMN
+---------
+PDB Codes: 1hkl, 2rcs
+
+Canonical classes: 10K, 10A
+
+Loop sequence: GFNIKDTYMH
+
+Of interest.....
+---------
+PDB Codes: 1gpo, 2dqc
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GDSITSDFWS
+---------
+PDB Codes: 1c5c, 1c5b
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYSFTSYWMH
+---------
+PDB Codes: 1ngz, 1z3g
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTSYWMH
+---------
+PDB Codes: 1jn6, 1jnh
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYSFTTYWMQ
+---------
+PDB Codes: 2mcp, 1mcp
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFSDFYME
+---------
+PDB Codes: 1ndm, 2dqg
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GDSITSDYWS
+---------
+PDB Codes: 1b4j, 1t04
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYIFTSSWIN
+---------
+PDB Codes: 1y18, 3cfk
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFDFRRYWMT
+---------
+PDB Codes: 2j4w, 2j5l
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFIFSDYYMY
+---------
+PDB Codes: 1gaf, 2rcs
+
+Canonical classes: 10W, 10A
+
+Loop sequence: GFNIKDTYMH
+
+Of interest.....
+---------
+PDB Codes: 2itc, 2ih3
+
+Canonical classes: 10N, 10N
+
+Loop sequence: GYTFTSDWIH
+---------
+PDB Codes: 2d03, 1t2q
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFSLTSYGVH
+---------
+PDB Codes: 3hfm, 2dqg
+
+Canonical classes: 10K, 10A
+
+Loop sequence: GDSITSDYWS
+
+Of interest.....
+---------
+PDB Codes: 1nc4, 1nc2
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFSLTDYGVH
+---------
+PDB Codes: 1p4i, 1p4b
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFSLTDYGVN
+---------
+PDB Codes: 1rua, 1ncw
+
+Canonical classes: 11A, 11A
+
+Loop sequence: GYSITSDFAWN
+---------
+PDB Codes: 3bsz, 1c5b
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYSFTSYWMH
+---------
+PDB Codes: 1mjj, 1mju
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTNYWIN
+---------
+PDB Codes: 1xcq, 1ymh
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTDFSMH
+---------
+PDB Codes: 1igi, 1igj
+
+Canonical classes: 10B, 10J
+
+Loop sequence: GYIFTDFYMN
+
+Of interest.....
+---------
+PDB Codes: 1yeg, 1yed
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYIFTSYWIH
+---------
+PDB Codes: 1dvf_1, 1a7n
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFSLTGYGVN
+---------
+PDB Codes: 1bfo, 1ce1
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFTDFYMN
+---------
+PDB Codes: 1i8k, 1i8i
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFRKFGMS
+---------
+PDB Codes: 1v7m, 1v7n
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFSDAWMD
+---------
+PDB Codes: 3bae, 3bkj
+
+Canonical classes: 12F, 12F
+
+Loop sequence: GFSIRTSKVGVS
+---------
+PDB Codes: 2zck, 2zcl
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTTYYIN
+---------
+PDB Codes: 1opg, 1bm3
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFSSYGMS
+---------
+PDB Codes: 2f5a, 1u8o
+
+Canonical classes: 12A, 12A
+
+Loop sequence: GFSLSDFGVGVG
+---------
+PDB Codes: 2adi, 1bm3
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFSSYGMS
+---------
+PDB Codes: 2ajs, 2ajx
+
+Canonical classes: 11C, 11C
+
+Loop sequence: GYSITTNYAWT
+---------
+PDB Codes: 2boc, 2ih3
+
+Canonical classes: 10N, 10N
+
+Loop sequence: GYTFTSDWIH
+---------
+PDB Codes: 1hil, 1ifh
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFSFSSYGMS
+---------
+PDB Codes: 2aeq, 2aep
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFIDYYMS
+---------
+PDB Codes: 3hc0, 3hc4
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTTYYLH
+---------
+PDB Codes: 1ngw, 1z3g
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTSYWMH
+---------
+PDB Codes: 1yyl, 2ny1
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GDTFIRYSFT
+---------
+PDB Codes: 1hh9, 1hi6
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYIFTDYEIH
+---------
+PDB Codes: 1op5, 1zlu
+
+Canonical classes: 10A, 10A
+
+Loop sequence: NFRISAHTMN
+---------
+PDB Codes: 1bvk, 1a7n
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFSLTGYGVN
+---------
+PDB Codes: 1ynk, 1cgs
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFSEYWIE
+---------
+PDB Codes: 1a6v, 1z3g
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTSYWMH
+---------
+PDB Codes: 2dqj, 2dqg
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GDSITSDYWS
+---------
+PDB Codes: 2ny2, 2ny1
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GDTFIRYSFT
+---------
+PDB Codes: 1ahw, 1k6q
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFNIKDYYMH
+---------
+PDB Codes: 1etz, 3eyu
+
+Canonical classes: 12A, 12A
+
+Loop sequence: GFSLSTSGMGVG
+---------
+PDB Codes: 3c6s, 3ggw
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GLTFSNYWMS
+---------
+PDB Codes: 2iff, 1ztx
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFSDYWIE
+---------
+PDB Codes: 1om3, 1zlu
+
+Canonical classes: 10A, 10A
+
+Loop sequence: NFRISAHTMN
+---------
+PDB Codes: 1l7i, 1s78
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFTDYTMD
+---------
+PDB Codes: 1cly, 2gcy
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFSDYYMY
+---------
+PDB Codes: 1kem, 1kel
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFTDYYFN
+---------
+PDB Codes: 2iq9, 2iqa
+
+Canonical classes: 12A, 12A
+
+Loop sequence: GFSLRTSGMGVG
+---------
+PDB Codes: 1riv, 1qyg
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFSDAWVD
+---------
+PDB Codes: 1oar, 1z3g
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTSYWMH
+---------
+PDB Codes: 1cl7, 1n4x
+
+Canonical classes: 10A, 10A
+
+Loop sequence: NYAFTDYSMH
+---------
+PDB Codes: 1nd0, 1ncw
+
+Canonical classes: 11A, 11A
+
+Loop sequence: GYSITSDFAWN
+---------
+PDB Codes: 2r9h, 2fed
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFDYSRYWMS
+---------
+PDB Codes: 1rul, 1ncw
+
+Canonical classes: 11A, 11A
+
+Loop sequence: GYSITSDFAWN
+---------
+PDB Codes: 2atk, 2ih3
+
+Canonical classes: 10N, 10N
+
+Loop sequence: GYTFTSDWIH
+---------
+PDB Codes: 1u8l, 1u8o
+
+Canonical classes: 12A, 12A
+
+Loop sequence: GFSLSDFGVGVG
+---------
+PDB Codes: 2pcp, 1plg
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTDYYIH
+---------
+PDB Codes: 2ht2, 2fed
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFDYSRYWMS
+---------
+PDB Codes: 1u93, 1u8o
+
+Canonical classes: 12A, 12A
+
+Loop sequence: GFSLSDFGVGVG
+---------
+PDB Codes: 1rum, 1ncw
+
+Canonical classes: 11A, 11A
+
+Loop sequence: GYSITSDFAWN
+---------
+PDB Codes: 3hnv, 3hns
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYSFTNYWMH
+---------
+PDB Codes: 2vis, 1gig
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFLLISNGVH
+---------
+PDB Codes: 1u8q, 1u8o
+
+Canonical classes: 12A, 12A
+
+Loop sequence: GFSLSDFGVGVG
+---------
+PDB Codes: 1y0l, 3cfk
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFDFRRYWMT
+---------
+PDB Codes: 2z92, 2z91
+
+Canonical classes: 11A, 11A
+
+Loop sequence: GYSITSGYNWH
+---------
+PDB Codes: 1fvd, 1fvc
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFNIKDTYIH
+---------
+PDB Codes: 1zls, 1zlu
+
+Canonical classes: 10A, 10A
+
+Loop sequence: NFRISAHTMN
+---------
+PDB Codes: 2vit, 1gig
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFLLISNGVH
+---------
+PDB Codes: 1xf2, 1p7k
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTSYVMH
+---------
+PDB Codes: 1rup, 1ncw
+
+Canonical classes: 11A, 11A
+
+Loop sequence: GYSITSDFAWN
+---------
+PDB Codes: 1bql, 1ztx
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFSDYWIE
+---------
+PDB Codes: 2uyl, 1mj8
+
+Canonical classes: 10A, 10E
+
+Loop sequence: GYTFTSNWIN
+
+Of interest.....
+---------
+PDB Codes: 1ngy, 1z3g
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTSYWMH
+---------
+PDB Codes: 1f4x, 1f4y
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYVFSTYDMS
+---------
+PDB Codes: 1ar1, 1ejo
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFSSYTMS
+---------
+PDB Codes: 1dbk, 1dbm
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYAFTNYGVN
+---------
+PDB Codes: 1rzj, 2ny1
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GDTFIRYSFT
+---------
+PDB Codes: 2ny3, 2ny1
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GDTFIRYSFT
+---------
+PDB Codes: 2o5z, 2o5x
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYMFTNYGMN
+---------
+PDB Codes: 1i3g, 1fsk
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTSYWIN
+---------
+PDB Codes: 2adj, 1bm3
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFSSYGMS
+---------
+PDB Codes: 1mrc, 1it9
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTSYWMQ
+---------
+PDB Codes: 2hrp, 1mf2
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFMRFGMH
+---------
+PDB Codes: 1a6u, 1z3g
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTSYWMH
+---------
+PDB Codes: 2bmk, 3duu
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFTDYYMS
+---------
+PDB Codes: 1dqj, 1dqq
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GDSVTSDYWS
+---------
+PDB Codes: 2fat, 2fd6
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYSFTNFYIH
+---------
+PDB Codes: 4fab, 1t66
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFSDYWMN
+---------
+PDB Codes: 1f4w, 1f4y
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYVFSTYDMS
+---------
+PDB Codes: 1clz, 2gcy
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFSDYYMY
+---------
+PDB Codes: 2exy, 2fed
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFDYSRYWMS
+---------
+PDB Codes: 2dqd, 2dqg
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GDSITSDYWS
+---------
+PDB Codes: 1mfc, 1mfd
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTNYWMH
+---------
+PDB Codes: 1u95, 1u8o
+
+Canonical classes: 12A, 12A
+
+Loop sequence: GFSLSDFGVGVG
+---------
+PDB Codes: 1iqw, 1it9
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTSYWMQ
+---------
+PDB Codes: 25c8, 2rcs
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFNIKDTYMH
+---------
+PDB Codes: 1cu4, 1cr9
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFNIKDYYIQ
+---------
+PDB Codes: 2ih1, 2ih3
+
+Canonical classes: 10N, 10N
+
+Loop sequence: GYTFTSDWIH
+---------
+PDB Codes: 3eo0, 3eo1
+
+Canonical classes: 10H, 10E
+
+Loop sequence: GYTFSSNVIS
+
+Of interest.....
+---------
+PDB Codes: 1fgv, 2fgw
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTEYTMH
+---------
+PDB Codes: 1tpx, 1a4j
+
+Canonical classes: 10A, 10L
+
+Loop sequence: GYTFTNYGMN
+
+Of interest.....
+---------
+PDB Codes: 1riu, 1qyg
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFSDAWVD
+---------
+PDB Codes: 1f90, 3cfd
+
+Canonical classes: 11A, 11A
+
+Loop sequence: GYSITSDYAWN
+---------
+PDB Codes: 1e4x, 1e4w
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFTNYWMH
+---------
+PDB Codes: 1bog, 1hi6
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYIFTDYEIH
+---------
+PDB Codes: 1q72, 1qyg
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFSDAWVD
+---------
+PDB Codes: 2eh8, 2eh7
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYAFSSSWMN
+---------
+PDB Codes: 1dqm, 1dqq
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GDSVTSDYWS
+---------
+PDB Codes: 2r1x, 3duu
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFTDYYMS
+---------
+PDB Codes: 1g9m, 2ny1
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GDTFIRYSFT
+---------
+PDB Codes: 1u8i, 1u8o
+
+Canonical classes: 12A, 12A
+
+Loop sequence: GFSLSDFGVGVG
+---------
+PDB Codes: 1adq, 1w72
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFDDYAMH
+---------
+PDB Codes: 1mh5, 1mj8
+
+Canonical classes: 10A, 10E
+
+Loop sequence: GYTFTSNWIN
+
+Of interest.....
+---------
+PDB Codes: 2dd8, 2g75
+
+Canonical classes: 10P, 10P
+
+Loop sequence: GGTFSSYTIS
+---------
+PDB Codes: 1bz7, 1r24
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFSNFGMH
+---------
+PDB Codes: 1qle, 1ejo
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFSSYTMS
+---------
+PDB Codes: 1b2w, 1t04
+
+Canonical classes: 10S, 10A
+
+Loop sequence: GYIFTSSWIN
+
+Of interest.....
+---------
+PDB Codes: 1aj7, 2rcs
+
+Canonical classes: 10Q, 10A
+
+Loop sequence: GFNIKDTYMH
+
+Of interest.....
+---------
+PDB Codes: 1cic_1, 1mfd
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTNYWMH
+---------
+PDB Codes: 2vir, 1gig
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFLLISNGVH
+---------
+PDB Codes: 1mam, 3duu
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFTDYYMS
+---------
+PDB Codes: 3gi9, 3gi8
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTSYWMY
+---------
+PDB Codes: 3cfj, 3cfk
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFDFRRYWMT
+---------
+PDB Codes: 3f58, 1f58
+
+Canonical classes: 11B, 11B
+
+Loop sequence: GYSITSGYSWH
+---------
+PDB Codes: 1qlr, 1dn0
+
+Canonical classes: 10T, 10A
+
+Loop sequence: GGSFSDYYWS
+
+Of interest.....
+---------
+PDB Codes: 1j05, 2rcs
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFNIKDTYMH
+---------
+PDB Codes: 1c12, 3cfd
+
+Canonical classes: 11A, 11A
+
+Loop sequence: GYSITSDYAWN
+---------
+PDB Codes: 1igc, 1kno
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFSSFGMH
+---------
+PDB Codes: 2o5y, 2o5x
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYMFTNYGMN
+---------
+PDB Codes: 2r0w, 2iqa
+
+Canonical classes: 12A, 12A
+
+Loop sequence: GFSLRTSGMGVG
+---------
+PDB Codes: 1jnl, 1jnn
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFNIKDTYMF
+---------
+PDB Codes: 2gfb, 1kno
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFSSFGMH
+---------
+PDB Codes: 1mrd, 1it9
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTSYWMQ
+---------
+PDB Codes: 1mlb, 1mlc
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFSTYWIE
+---------
+PDB Codes: 2f58, 1f58
+
+Canonical classes: 11B, 11B
+
+Loop sequence: GYSITSGYSWH
+---------
+PDB Codes: 1cf8, 1hq4
+
+Canonical classes: 11A, 11A
+
+Loop sequence: GYSITSGYAWN
+---------
+PDB Codes: 2htk, 2fed
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFDYSRYWMS
+---------
+PDB Codes: 1ehl, 1keg
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYSFTSFWMH
+---------
+PDB Codes: 1r3l, 2ih3
+
+Canonical classes: 10N, 10N
+
+Loop sequence: GYTFTSDWIH
+---------
+PDB Codes: 1yec, 1yed
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYIFTSYWIH
+---------
+PDB Codes: 1ngp, 1z3g
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTSYWMH
+---------
+PDB Codes: 1xf5, 1ymh
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTDFSMH
+---------
+PDB Codes: 1ru9, 1ncw
+
+Canonical classes: 11A, 11A
+
+Loop sequence: GYSITSDFAWN
+---------
+PDB Codes: 1oax, 1z3g
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTSYWMH
+---------
+PDB Codes: 3d0v, 1u8o
+
+Canonical classes: 12A, 12A
+
+Loop sequence: GFSLSDFGVGVG
+---------
+PDB Codes: 1ic7, 1ic4
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GDSITSAYWS
+---------
+PDB Codes: 2gk0, 2gjz
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFSLTNYGVD
+---------
+PDB Codes: 3bz4, 3ggw
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GLTFSNYWMS
+---------
+PDB Codes: 1dbj, 1dbm
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYAFTNYGVN
+---------
+PDB Codes: 3bkc, 3bkj
+
+Canonical classes: 12F, 12F
+
+Loop sequence: GFSIRTSKVGVS
+---------
+PDB Codes: 1sm3, 1sbs
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFSNYWMN
+---------
+PDB Codes: 1ggb, 1ggi
+
+Canonical classes: 12A, 12A
+
+Loop sequence: GFSLSTYGMGVS
+---------
+PDB Codes: 1a14, 1nmb
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTNYNMY
+---------
+PDB Codes: 1mnu, 1mpa
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYSFTSYWLH
+---------
+PDB Codes: 1wej, 2rcs
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFNIKDTYMH
+---------
+PDB Codes: 1kir, 1a7n
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFSLTGYGVN
+---------
+PDB Codes: 3g6a, 3g6d
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFNSYWIN
+---------
+PDB Codes: 2ajz, 2ajx
+
+Canonical classes: 11C, 11C
+
+Loop sequence: GYSITTNYAWT
+---------
+PDB Codes: 1q9v, 3duu
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFTDYYMS
+---------
+PDB Codes: 1i9j, 1i9i
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFSTYALS
+---------
+PDB Codes: 1q0x, 1d6v
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFSSYWIE
+---------
+PDB Codes: 1t3f, 1t04
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYIFTSSWIN
+---------
+PDB Codes: 1fai, 2f19
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GYTFTSYGVN
+---------
+PDB Codes: 1s5h, 2ih3
+
+Canonical classes: 10N, 10N
+
+Loop sequence: GYTFTSDWIH
+---------
+PDB Codes: 2dqe, 2dqg
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GDSITSDYWS
+---------
+PDB Codes: 3bdy, 1fvc
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFNIKDTYIH
+---------
+PDB Codes: 2adg, 1bm3
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFSSYGMS
+---------
+PDB Codes: 1bj1, 1a4j
+
+Canonical classes: 10A, 10L
+
+Loop sequence: GYTFTNYGMN
+
+Of interest.....
+---------
+PDB Codes: 1ngx, 1z3g
+
+Canonical classes: 10U, 10A
+
+Loop sequence: GYTFTSYWMH
+
+Of interest.....
+---------
+PDB Codes: 2h2p, 2fed
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFDYSRYWMS
+---------
+PDB Codes: 2r2b, 3duu
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFTFTDYYMS
+---------
+PDB Codes: 1lo0, 1lo2
+
+Canonical classes: 10A, 10A
+
+Loop sequence: GFSFRNYGMS
+---------

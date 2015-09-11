@@ -1,0 +1,27 @@
+LOOP L2 ?/7B 7
+SOURCE [2v7h]
+L34 	N
+L48 	I
+L52 	S
+L56 	S
+L58 	V
+
+LOOP L2 ?/7C 7
+SOURCE [3i9g]
+L34 	N
+L48 	I
+L52 	N
+L56 	P
+L58 	V
+
+LOOP L2 ?/11A 11
+SOURCE [2qhr]
+L34 	E
+L35 	W
+L48 	M
+L50 	L
+L53 	D
+L54 	G
+L55 	G
+L58 	I
+

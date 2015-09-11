@@ -1,0 +1,57 @@
+1) Let's assume a set of 100 unique abs - X.
+
+2) Let's say for CDR-L1 (using CDR-L1 as an example), the following definitions apply:
+
+   a) c is CDR-L1 sequence.
+   b) k is the set of key residues in the CDR for the specific class of CDR-L1.
+   c) f is the set of key residues in the framework for the class of CDR-L1.
+
+3) For each x in X, do the following steps:
+
+4) Define X' as (X - x).
+
+5) For each x' in X':
+
+6) If the length of the CDR of x' is not the same as x, go to the next sequence.
+
+7) Performing the following steps:
+
+   Case I)
+
+   a) Calculate the sequence identity of x,x' over c.
+
+   b) Record the best PDB b.
+
+   c) Calculate the RMS over the the loop between b and x.
+
+
+   Case II)
+
+   a) Calculate the sequence identity of x,x' over k + f.
+
+   b) Record the best PDB b.
+
+   c) Calculate the RMS over the the loop between b and x.
+
+
+   Case III)
+
+   a) Calculate the sequence identity of x,x' over k + f.
+
+   b) Record ALL the best PDBs b - set B.
+
+   c) Calculate the sequence identity over (f + c) between every b (in B) and x.
+
+   c) For the best b in step (c), calculate the RMSD with x over the loop.
+
+
+Finally, a table that collates the outcome of the above experiments with the
+following information:
+
+1) Query PDB
+2) Best match in loop sequence: PDB
+3) RMSD with Step (2).
+4) Best match in key residues: PDB.
+5) RMSD with step (3).
+6) Best match in loop + key residues: PDB
+7) RMSD with step (6).

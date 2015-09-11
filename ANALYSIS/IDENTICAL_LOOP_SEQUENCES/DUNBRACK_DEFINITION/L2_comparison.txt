@@ -1,0 +1,3432 @@
+PDB Codes: 1oaz, 1gig
+
+Canonical classes: 7A, 7A
+
+Loop sequence: GGTNNRAP
+---------
+PDB Codes: 1u8j, 1u8o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDASSLES
+---------
+PDB Codes: 2dqf, 1bm3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KYASQSIS
+---------
+PDB Codes: 1cic_2, 1a7n
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YYTTTLAD
+---------
+PDB Codes: 2hkh, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 1cfv, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 1bey, 1ce1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YNTNNLQT
+---------
+PDB Codes: 1t66, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 1mhp, 3eot
+
+Canonical classes: 7A, 7E
+
+Loop sequence: YLTSNLAS
+
+Of interest.....
+---------
+PDB Codes: 3duu, 1il1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YWASTRES
+---------
+PDB Codes: 3dv4, 1il1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YWASTRES
+---------
+PDB Codes: 1vfa, 1a7n
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YYTTTLAD
+---------
+PDB Codes: 3hns, 2a6d
+
+Canonical classes: 7A, 7B
+
+Loop sequence: YYTSRLHS
+
+Of interest.....
+---------
+PDB Codes: 2f5b, 1u8o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDASSLES
+---------
+PDB Codes: 1oau, 1gig
+
+Canonical classes: 7A, 7A
+
+Loop sequence: GGTNNRAP
+---------
+PDB Codes: 2bob, 2ih3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KYASESIS
+---------
+PDB Codes: 1mvu, 1il1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YWASTRES
+---------
+PDB Codes: 1ine, 1gig
+
+Canonical classes: 7A, 7A
+
+Loop sequence: GGTNNRAP
+---------
+PDB Codes: 1fvc, 2qqk
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YSASFLYS
+---------
+PDB Codes: 1mpa, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 3ejy, 2fed
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDTSKLTS
+---------
+PDB Codes: 2osl, 1ad0
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YATSNLAS
+---------
+PDB Codes: 3fct, 3gk8
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YSASNRYT
+---------
+PDB Codes: 2vxu, 2vxt
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YATSSLDS
+---------
+PDB Codes: 1tjg, 1u8o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDASSLES
+---------
+PDB Codes: 1otu, 2fed
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDTSKLTS
+---------
+PDB Codes: 2ht4, 2fed
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDTSKLTS
+---------
+PDB Codes: 3cxd, 3dsf
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YAATNLAD
+---------
+PDB Codes: 1a3l, 1rur
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YQMSKLAS
+---------
+PDB Codes: 1m7i, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 1qfu, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 2iqa, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 1cfn, 1hi6
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YRANRLMI
+---------
+PDB Codes: 2g5b, 1il1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YWASTRES
+---------
+PDB Codes: 3cfd, 2a6d
+
+Canonical classes: 7A, 7B
+
+Loop sequence: YYTSRLHS
+
+Of interest.....
+---------
+PDB Codes: 2j88, 1p7k
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YNAKTLAE
+---------
+PDB Codes: 2itd, 2ih3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KYASESIS
+---------
+PDB Codes: 1s5i, 2c1o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YLVSKLDS
+---------
+PDB Codes: 1bvl, 1a7n
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YYTTTLAD
+---------
+PDB Codes: 1cgs, 1plg
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YRVSNRFS
+---------
+PDB Codes: 1a2y, 1a7n
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YYTTTLAD
+---------
+PDB Codes: 1ruq, 1rur
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YQMSKLAS
+---------
+PDB Codes: 1lo2, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 2dwd, 2ih3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KYASESIS
+---------
+PDB Codes: 1q0y, 1gig
+
+Canonical classes: 7A, 7A
+
+Loop sequence: GGTNNRAP
+---------
+PDB Codes: 1a4k, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 2nxy, 2ny1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YGASTRAT
+---------
+PDB Codes: 2dbl, 1dbm
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFY
+---------
+PDB Codes: 1d5i, 1d6v
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YRANRLVD
+---------
+PDB Codes: 3hnt, 2a6d
+
+Canonical classes: 7A, 7B
+
+Loop sequence: YYTSRLHS
+
+Of interest.....
+---------
+PDB Codes: 6fab, 1jfq
+
+Canonical classes: 7B, 7A
+
+Loop sequence: YFTSRSQS
+
+Of interest.....
+---------
+PDB Codes: 2nyy, 2gcy
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YRASNLEP
+---------
+PDB Codes: 1q9r, 1il1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YWASTRES
+---------
+PDB Codes: 2bdn, 1jrh
+
+Canonical classes: 7A, 7A
+
+Loop sequence: SGATSLET
+---------
+PDB Codes: 1a7o, 1a7n
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YYTTTLAD
+---------
+PDB Codes: 2fb4, 2ig2
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YRDAMRPS
+---------
+PDB Codes: 2hmi, 1r0a
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YYTSSLHS
+---------
+PDB Codes: 1vfb, 1a7n
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YYTTTLAD
+---------
+PDB Codes: 1p4b, 1gig
+
+Canonical classes: 7A, 7A
+
+Loop sequence: GGTNNRAP
+---------
+PDB Codes: 1ad9, 1mj8
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YRMSNLAS
+---------
+PDB Codes: 1oak, 1fns
+
+Canonical classes: 7A, 7A
+
+Loop sequence: FYTSSLHS
+---------
+PDB Codes: 3hi5, 1dee
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YAASSLQS
+---------
+PDB Codes: 3ijs, 1il1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YWASTRES
+---------
+PDB Codes: 2fee, 2fed
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDTSKLTS
+---------
+PDB Codes: 3cfb, 1fl3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YQMSNLAS
+---------
+PDB Codes: 2dqg, 1bm3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KYASQSIS
+---------
+PDB Codes: 1ngq, 1gig
+
+Canonical classes: 7A, 7A
+
+Loop sequence: GGTNNRAP
+---------
+PDB Codes: 2h1p, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 1a7r, 1a7n
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YYTTTLAD
+---------
+PDB Codes: 3d85, 1bm3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KYASQSIS
+---------
+PDB Codes: 1ucb, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 1rih, 1bm3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KYASQSIS
+---------
+PDB Codes: 1ind, 1gig
+
+Canonical classes: 7A, 7A
+
+Loop sequence: GGTNNRAP
+---------
+PDB Codes: 1frg, 1il1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YWASTRES
+---------
+PDB Codes: 2or9, 2orb
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YAISNRGS
+---------
+PDB Codes: 2zuq, 1il1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YWASTRES
+---------
+PDB Codes: 2dqt, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 1a7p, 1a7n
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YYTTTLAD
+---------
+PDB Codes: 3gbn, 3gbm
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDNNKRPS
+---------
+PDB Codes: 1rz8, 2ny1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YGASTRAT
+---------
+PDB Codes: 1zlv, 1zlu
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKASTLKT
+---------
+PDB Codes: 1cfq, 1hi6
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YRANRLMI
+---------
+PDB Codes: 1keg, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 3dus, 1il1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YWASTRES
+---------
+PDB Codes: 2w65, 2c1o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YLVSKLDS
+---------
+PDB Codes: 1hys, 1r0a
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YYTSSLHS
+---------
+PDB Codes: 1n8z, 2qqk
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YSASFLYS
+---------
+PDB Codes: 2zch, 2zcl
+
+Canonical classes: 7A, 7A
+
+Loop sequence: FAASNLAS
+---------
+PDB Codes: 12e8, 3gk8
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YSASNRYT
+---------
+PDB Codes: 1ifh, 1il1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YWASTRES
+---------
+PDB Codes: 3eyf, 3eyo
+
+Canonical classes: 7A, 7A
+
+Loop sequence: FDASIRAT
+---------
+PDB Codes: 1a6w, 1gig
+
+Canonical classes: 7A, 7A
+
+Loop sequence: GGTNNRAP
+---------
+PDB Codes: 1rzi, 1dee
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YAASSLQS
+---------
+PDB Codes: 1ymh, 1il1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YWASTRES
+---------
+PDB Codes: 2exw, 2fed
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDTSKLTS
+---------
+PDB Codes: 3eyu, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 1ap2, 1il1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YWASTRES
+---------
+PDB Codes: 1xf3, 1p7k
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YNAKTLAE
+---------
+PDB Codes: 1pg7_2, 1gig
+
+Canonical classes: 7A, 7A
+
+Loop sequence: GGTNNRAP
+---------
+PDB Codes: 2ajy, 2ajx
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YLMSTRAS
+---------
+PDB Codes: 1a6t, 1wcb
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YSTSNLAS
+---------
+PDB Codes: 3ijy, 1il1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YWASTRES
+---------
+PDB Codes: 1bbd, 1il1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YWASTRES
+---------
+PDB Codes: 43c9, 3gi8
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YFASTRES
+---------
+PDB Codes: 1mhh, 1il1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YWASTRES
+---------
+PDB Codes: 1uz6, 1fl3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YQMSNLAS
+---------
+PDB Codes: 3ijh, 1il1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YWASTRES
+---------
+PDB Codes: 2hvk, 2ih3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KYASESIS
+---------
+PDB Codes: 1kip, 1a7n
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YYTTTLAD
+---------
+PDB Codes: 2a1w, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 1r3i, 2ih3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KYASESIS
+---------
+PDB Codes: 1q9k, 1il1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YWASTRES
+---------
+PDB Codes: 1nma, 1nmb
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YYTSNLHS
+---------
+PDB Codes: 3det, 2fed
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDTSKLTS
+---------
+PDB Codes: 1u8h, 1u8o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDASSLES
+---------
+PDB Codes: 1mfd, 2ntf
+
+Canonical classes: 7A, 7A
+
+Loop sequence: GDTNNRAP
+---------
+PDB Codes: 1a5f, 1il1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YWASTRES
+---------
+PDB Codes: 1u8m, 1u8o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDASSLES
+---------
+PDB Codes: 1yqv, 1z3g
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDTSKLAS
+---------
+PDB Codes: 1ott, 2fed
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDTSKLTS
+---------
+PDB Codes: 1dbb, 1dbm
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFY
+---------
+PDB Codes: 3bt2, 2fd6
+
+Canonical classes: 7A, 7A
+
+Loop sequence: FEISKLAS
+---------
+PDB Codes: 1rmf, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 1fbi, 2a6d
+
+Canonical classes: 7A, 7B
+
+Loop sequence: YYTSRLHS
+
+Of interest.....
+---------
+PDB Codes: 2jb5, 2jb6
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YGGSNRPS
+---------
+PDB Codes: 1qbl, 1jhk
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YNAKTLAD
+---------
+PDB Codes: 1n6q, 1r0a
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YYTSSLHS
+---------
+PDB Codes: 3hc3, 3hc4
+
+Canonical classes: 7A, 7A
+
+Loop sequence: SSASYRYS
+---------
+PDB Codes: 3d9a, 1bm3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KYASQSIS
+---------
+PDB Codes: 1baf, 3c08
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDTSNLAS
+---------
+PDB Codes: 2nlj, 2ih3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KYASESIS
+---------
+PDB Codes: 1t03, 1r0a
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YYTSSLHS
+---------
+PDB Codes: 2aep, 1uwg
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YSASYRYS
+---------
+PDB Codes: 2w9e, 1z3g
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDTSKLAS
+---------
+PDB Codes: 2c1p, 2c1o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YLVSKLDS
+---------
+PDB Codes: 1kel, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 3dv6, 1il1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YWASTRES
+---------
+PDB Codes: 2nxz, 2ny1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YGASTRAT
+---------
+PDB Codes: 1yy8, 2ih3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KYASESIS
+---------
+PDB Codes: 1t2q, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 2nr6, 1s78
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YSASYRYT
+---------
+PDB Codes: 1t04, 1kcv
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YGASNRYT
+---------
+PDB Codes: 2dtm, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 1uac, 1bm3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KYASQSIS
+---------
+PDB Codes: 1n4x, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 1yy9, 2ih3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KYASESIS
+---------
+PDB Codes: 2dqh, 1bm3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KYASQSIS
+---------
+PDB Codes: 2fx8, 2fx9
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YGASSRPS
+---------
+PDB Codes: 2ny0, 2ny1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YGASTRAT
+---------
+PDB Codes: 1igf, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 1v7n, 1wcb
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YSTSNLAS
+---------
+PDB Codes: 1kno, 2rcs
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YAASTLDS
+---------
+PDB Codes: 1fgn, 1k6q
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YYATSLAD
+---------
+PDB Codes: 3dur, 1il1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YWASTRES
+---------
+PDB Codes: 15c8, 1wcb
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YSTSNLAS
+---------
+PDB Codes: 2ajv, 2ajx
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YLMSTRAS
+---------
+PDB Codes: 2ddq, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 1zea, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 2h2s, 2fed
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDTSKLTS
+---------
+PDB Codes: 1hh6, 1hi6
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YRANRLMI
+---------
+PDB Codes: 1xgy, 1mj8
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YRMSNLAS
+---------
+PDB Codes: 3cfc, 1fl3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YQMSNLAS
+---------
+PDB Codes: 2r23, 1il1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YWASTRES
+---------
+PDB Codes: 3bn9, 1dee
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YAASSLQS
+---------
+PDB Codes: 3grw, 2qqk
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YSASFLYS
+---------
+PDB Codes: 1eo8, 1z3g
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDTSKLAS
+---------
+PDB Codes: 2hlf, 2fed
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDTSKLTS
+---------
+PDB Codes: 1axs, 1d5b
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YRTNRLVD
+---------
+PDB Codes: 2r2e, 1il1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YWASTRES
+---------
+PDB Codes: 1dlf, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 2hkf, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 1dsf, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 1dba, 1dbm
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFY
+---------
+PDB Codes: 1gc1, 2ny1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YGASTRAT
+---------
+PDB Codes: 1ots, 2fed
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDTSKLTS
+---------
+PDB Codes: 1fh5, 1bm3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KYASQSIS
+---------
+PDB Codes: 3b2u, 3b2v
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDASNRAT
+---------
+PDB Codes: 2dwe, 2ih3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KYASESIS
+---------
+PDB Codes: 1fdl, 1a7n
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YYTTTLAD
+---------
+PDB Codes: 3ck0, 1ck0
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YWASTRGS
+---------
+PDB Codes: 1jhl, 3eoa
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YSGSTLQS
+---------
+PDB Codes: 2v7h, 1nmb
+
+Canonical classes: 7B, 7A
+
+Loop sequence: YYTSNLHS
+
+Of interest.....
+---------
+PDB Codes: 1mfe, 2ntf
+
+Canonical classes: 7A, 7A
+
+Loop sequence: GDTNNRAP
+---------
+PDB Codes: 2dqu, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 1zlw, 1zlu
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKASTLKT
+---------
+PDB Codes: 1yee, 2c1o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YLVSKLDS
+---------
+PDB Codes: 2htl, 2fed
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDTSKLTS
+---------
+PDB Codes: 1u8p, 1u8o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDASSLES
+---------
+PDB Codes: 2vwe, 1e4w
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YYTSTLHS
+---------
+PDB Codes: 1cft, 1hi6
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YRANRLMI
+---------
+PDB Codes: 1q9l, 1il1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YWASTRES
+---------
+PDB Codes: 2i60, 2ny1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YGASTRAT
+---------
+PDB Codes: 1dqq, 1bm3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KYASQSIS
+---------
+PDB Codes: 1mj7, 1mj8
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YRMSNLAS
+---------
+PDB Codes: 1k4c, 2ih3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KYASESIS
+---------
+PDB Codes: 2h9g, 2qqk
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YSASFLYS
+---------
+PDB Codes: 2qql, 2qqk
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YSASFLYS
+---------
+PDB Codes: 1qfw_1, 1ejo
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YRASNLES
+---------
+PDB Codes: 1jpt, 1jps
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YYATSLAE
+---------
+PDB Codes: 1acy, 1ai1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YIASNLES
+---------
+PDB Codes: 1oaq, 1gig
+
+Canonical classes: 7A, 7A
+
+Loop sequence: GGTNNRAP
+---------
+PDB Codes: 2fjg, 2qqk
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YSASFLYS
+---------
+PDB Codes: 1tzg, 2fx9
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YGASSRPS
+---------
+PDB Codes: 1q9q, 1il1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YWASTRES
+---------
+PDB Codes: 1qbm, 1jhk
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YNAKTLAD
+---------
+PDB Codes: 3hi6, 1dee
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YAASSLQS
+---------
+PDB Codes: 1cbv, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 2w60, 2c1o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YLVSKLDS
+---------
+PDB Codes: 2w9d, 1z3g
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDTSKLAS
+---------
+PDB Codes: 35c8, 1wcb
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YSTSNLAS
+---------
+PDB Codes: 1lo3, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 1i8m, 1p7k
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YNAKTLAE
+---------
+PDB Codes: 1bbj, 3dsf
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YAATNLAD
+---------
+PDB Codes: 1ay1, 1bgx
+
+Canonical classes: 7A, 7D
+
+Loop sequence: YDSTNLAS
+
+Of interest.....
+---------
+PDB Codes: 1q9t, 1il1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YWASTRES
+---------
+PDB Codes: 1ktr, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 1j1p, 1bm3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KYASQSIS
+---------
+PDB Codes: 1uj3, 1k6q
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YYATSLAD
+---------
+PDB Codes: 2bfv, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 2fx7, 2fx9
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YGASSRPS
+---------
+PDB Codes: 2hjf, 2ih3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KYASESIS
+---------
+PDB Codes: 2pw1, 1u8o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDASSLES
+---------
+PDB Codes: 2qhr, 2gsg
+
+Canonical classes: 11A, 11A
+
+Loop sequence: ELKKDGSHSTGD
+---------
+PDB Codes: 2v17, 3eoa
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YSGSTLQS
+---------
+PDB Codes: 3eys, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 3cle, 3clf
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YLASYRYS
+---------
+PDB Codes: 1f8t, 2c1o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YLVSKLDS
+---------
+PDB Codes: 1rfd, 1qyg
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YRVSNLAS
+---------
+PDB Codes: 2ny6, 2ny1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YGASTRAT
+---------
+PDB Codes: 2ipu, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 1j1x, 1bm3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KYASQSIS
+---------
+PDB Codes: 1ob1, 1seq
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YTTSNLAS
+---------
+PDB Codes: 1rhh, 2ny1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YGASTRAT
+---------
+PDB Codes: 2hvj, 2ih3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KYASESIS
+---------
+PDB Codes: 2vxq, 1dee
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YAASSLQS
+---------
+PDB Codes: 2h8p, 2ih3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KYASESIS
+---------
+PDB Codes: 2hg5, 2ih3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KYASESIS
+---------
+PDB Codes: 1i9i, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 1tet, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 2ny4, 2ny1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YGASTRAT
+---------
+PDB Codes: 1t4k, 1il1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YWASTRES
+---------
+PDB Codes: 1cfs, 1hi6
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YRANRLMI
+---------
+PDB Codes: 1g9n, 2ny1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YGASTRAT
+---------
+PDB Codes: 1q9w, 1q9o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YWAATRES
+---------
+PDB Codes: 1m71, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 1r3k, 2ih3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KYASESIS
+---------
+PDB Codes: 3bpc, 1il1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YWASTRES
+---------
+PDB Codes: 2aju, 2ajx
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YLMSTRAS
+---------
+PDB Codes: 1pg7_1, 1jps
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YYATSLAE
+---------
+PDB Codes: 2gjz, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 3giz, 3b2v
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDASNRAT
+---------
+PDB Codes: 1m7d, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 3cfe, 2a6d
+
+Canonical classes: 7A, 7B
+
+Loop sequence: YYTSRLHS
+
+Of interest.....
+---------
+PDB Codes: 2uud, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 1mfb, 2ntf
+
+Canonical classes: 7A, 7A
+
+Loop sequence: GDTNNRAP
+---------
+PDB Codes: 1w72, 2g75
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDDSDRPS
+---------
+PDB Codes: 2dqc, 1bm3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KYASQSIS
+---------
+PDB Codes: 2zkh, 1wcb
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YSTSNLAS
+---------
+PDB Codes: 2igf, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 2ht3, 2fed
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDTSKLTS
+---------
+PDB Codes: 2mpa, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 2qr0, 3dvn
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YSASSLYS
+---------
+PDB Codes: 2fjf, 2qqk
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YSASFLYS
+---------
+PDB Codes: 2eh7, 2c1o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YLVSKLDS
+---------
+PDB Codes: 1sy6, 1z3g
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDTSKLAS
+---------
+PDB Codes: 2ak1, 2ajx
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YLMSTRAS
+---------
+PDB Codes: 1osp, 1jrh
+
+Canonical classes: 7A, 7A
+
+Loop sequence: SGATSLET
+---------
+PDB Codes: 1ken, 1wcb
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YSTSNLAS
+---------
+PDB Codes: 43ca, 3gi8
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YFASTRES
+---------
+PDB Codes: 3hb3, 1mqk
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YNAKTLGE
+---------
+PDB Codes: 1xct, 1il1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YWASTRES
+---------
+PDB Codes: 1i9r, 1nsn
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KYASNLES
+---------
+PDB Codes: 1mrf, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 1ggc, 1ggi
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YRSSNLIS
+---------
+PDB Codes: 2fgw, 1e4w
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YYTSTLHS
+---------
+PDB Codes: 1c08, 1bm3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KYASQSIS
+---------
+PDB Codes: 1ae6, 1mj8
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YRMSNLAS
+---------
+PDB Codes: 1igj, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 1n5y, 1r0a
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YYTSSLHS
+---------
+PDB Codes: 1ocw, 1gig
+
+Canonical classes: 7A, 7A
+
+Loop sequence: GGTNNRAP
+---------
+PDB Codes: 2eks, 2eiz
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YYASQSIS
+---------
+PDB Codes: 1op3, 1zlu
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKASTLKT
+---------
+PDB Codes: 1clo, 1ad0
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YATSNLAS
+---------
+PDB Codes: 3ggw, 3c5s
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YHLSNLAS
+---------
+PDB Codes: 1ic4, 1bm3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KYASQSIS
+---------
+PDB Codes: 2r0z, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 1h3p, 1il1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YWASTRES
+---------
+PDB Codes: 2op4, 2ntf
+
+Canonical classes: 7A, 7A
+
+Loop sequence: GDTNNRAP
+---------
+PDB Codes: 1mre, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 1jgl, 1jhk
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YNAKTLAD
+---------
+PDB Codes: 1hin, 1il1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YWASTRES
+---------
+PDB Codes: 1fe8, 2a6d
+
+Canonical classes: 7A, 7B
+
+Loop sequence: YYTSRLHS
+
+Of interest.....
+---------
+PDB Codes: 1yeh, 1yef
+
+Canonical classes: 7A, 7A
+
+Loop sequence: HLVSKLDS
+---------
+PDB Codes: 2ny5, 2ny1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YGASTRAT
+---------
+PDB Codes: 1a3r, 1il1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YWASTRES
+---------
+PDB Codes: 1kiq, 1a7n
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YYTTTLAD
+---------
+PDB Codes: 1u8n, 1u8o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDASSLES
+---------
+PDB Codes: 32c2, 2gsi
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YLVSNLES
+---------
+PDB Codes: 1e6j, 1e6o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YEISKLAS
+---------
+PDB Codes: 1ncc, 1nca
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YWASTRHI
+---------
+PDB Codes: 3ikc, 1il1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YWASTRES
+---------
+PDB Codes: 2r1y, 1il1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YWASTRES
+---------
+PDB Codes: 1wt5, 2z4q
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSDRFS
+---------
+PDB Codes: 3eo9, 3eoa
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YSGSTLQS
+---------
+PDB Codes: 1nbv, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 3fn0, 3b2v
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDASNRAT
+---------
+PDB Codes: 2cgr, 1plg
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YRVSNRFS
+---------
+PDB Codes: 1n64, 1il1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YWASTRES
+---------
+PDB Codes: 1ua6, 1bm3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KYASQSIS
+---------
+PDB Codes: 1mie, 1mj8
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YRMSNLAS
+---------
+PDB Codes: 1iai_2, 1aif
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YGTSNLAS
+---------
+PDB Codes: 3ejz, 2fed
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDTSKLTS
+---------
+PDB Codes: 1ruk, 1ncw
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YLGTKLDS
+---------
+PDB Codes: 2r1w, 1il1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YWASTRES
+---------
+PDB Codes: 2cju, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 2o5x, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 1him, 1il1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YWASTRES
+---------
+PDB Codes: 1tqc, 1tqb
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YLVSRLDS
+---------
+PDB Codes: 3bqu_1, 1u8o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDASSLES
+---------
+PDB Codes: 2ipt, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 1ncb, 1nca
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YWASTRHI
+---------
+PDB Codes: 1xf4, 1p7k
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YNAKTLAE
+---------
+PDB Codes: 1kb5, 1mqk
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YNAKTLGE
+---------
+PDB Codes: 1flr, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 1mju, 1mj8
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YRMSNLAS
+---------
+PDB Codes: 1u91, 1u8o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDASSLES
+---------
+PDB Codes: 1bfv, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 1r3j, 2ih3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KYASESIS
+---------
+PDB Codes: 1u92, 1u8o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDASSLES
+---------
+PDB Codes: 2r8s, 3dvn
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YSASSLYS
+---------
+PDB Codes: 1k4d, 2ih3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KYASESIS
+---------
+PDB Codes: 1oay, 1gig
+
+Canonical classes: 7A, 7A
+
+Loop sequence: GGTNNRAP
+---------
+PDB Codes: 1wc7, 1wcb
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YSTSNLAS
+---------
+PDB Codes: 1yym, 2ny1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YGASTRAT
+---------
+PDB Codes: 1ncd, 1nca
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YWASTRHI
+---------
+PDB Codes: 1mfa, 2ntf
+
+Canonical classes: 7A, 7A
+
+Loop sequence: GDTNNRAP
+---------
+PDB Codes: 2ap2, 1il1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YWASTRES
+---------
+PDB Codes: 2r2h, 1il1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YWASTRES
+---------
+PDB Codes: 2ck0, 1ck0
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YWASTRGS
+---------
+PDB Codes: 3bkm, 3bkj
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YQVSTRFS
+---------
+PDB Codes: 1tzh, 1za3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YAASYLYS
+---------
+PDB Codes: 1orq, 1wcb
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YSTSNLAS
+---------
+PDB Codes: 2hfe, 2ih3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KYASESIS
+---------
+PDB Codes: 1bln, 2jel
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKISNRFS
+---------
+PDB Codes: 2i5y, 2ny1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YGASTRAT
+---------
+PDB Codes: 2b1a, 2b0s
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YRNDHRSS
+---------
+PDB Codes: 3c2a, 1q1j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YGNNKRPS
+---------
+PDB Codes: 2b1h, 2b0s
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YRNDHRSS
+---------
+PDB Codes: 1pz5, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 1s3k, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 1u8k, 1u8o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDASSLES
+---------
+PDB Codes: 2dlf, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 1rzk, 2ny1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YGASTRAT
+---------
+PDB Codes: 1nld, 2c1o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YLVSKLDS
+---------
+PDB Codes: 3c09, 3c08
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDTSNLAS
+---------
+PDB Codes: 1h0d, 1mf2
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YAASNQGS
+---------
+PDB Codes: 2fr4, 1p7k
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YNAKTLAE
+---------
+PDB Codes: 2yss, 2eiz
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YYASQSIS
+---------
+PDB Codes: 1ynl, 1plg
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YRVSNRFS
+---------
+PDB Codes: 1uz8, 1fl3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YQMSNLAS
+---------
+PDB Codes: 1j5o, 1r0a
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YYTSSLHS
+---------
+PDB Codes: 1ic5, 1bm3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KYASQSIS
+---------
+PDB Codes: 1a0q, 1eap
+
+Canonical classes: 7A, 7A
+
+Loop sequence: HYTSTLLP
+---------
+PDB Codes: 2pw2, 1u8o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDASSLES
+---------
+PDB Codes: 2brr, 1wcb
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YSTSNLAS
+---------
+PDB Codes: 1c1e, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 1gpo, 1bm3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KYASQSIS
+---------
+PDB Codes: 1c5c, 1c5b
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDATKLDS
+---------
+PDB Codes: 1ngz, 3gk8
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YSASNRYT
+---------
+PDB Codes: 1jn6, 1jnh
+
+Canonical classes: 7A, 7A
+
+Loop sequence: SGTNNRAP
+---------
+PDB Codes: 2mcp, 1mcp
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YGASTRES
+---------
+PDB Codes: 1ndm, 1bm3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KYASQSIS
+---------
+PDB Codes: 1ynt, 2a6d
+
+Canonical classes: 7A, 7B
+
+Loop sequence: YYTSRLHS
+
+Of interest.....
+---------
+PDB Codes: 1b4j, 1kcv
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YGASNRYT
+---------
+PDB Codes: 1y18, 3cfk
+
+Canonical classes: 7A, 7A
+
+Loop sequence: GGTNKRAP
+---------
+PDB Codes: 2j4w, 2j5l
+
+Canonical classes: 7A, 7A
+
+Loop sequence: HATSNLAS
+---------
+PDB Codes: 1gaf, 1hkl
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YAASTLHS
+---------
+PDB Codes: 2itc, 2ih3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KYASESIS
+---------
+PDB Codes: 2d03, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 3hfm, 1bm3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KYASQSIS
+---------
+PDB Codes: 1nc4, 1nc2
+
+Canonical classes: 7C, 7C
+
+Loop sequence: GGNNNRPP
+---------
+PDB Codes: 1p4i, 1gig
+
+Canonical classes: 7A, 7A
+
+Loop sequence: GGTNNRAP
+---------
+PDB Codes: 1rua, 1ncw
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YLGTKLDS
+---------
+PDB Codes: 3bsz, 1ejo
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YRASNLES
+---------
+PDB Codes: 1mjj, 1mj8
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YRMSNLAS
+---------
+PDB Codes: 2r0l, 2qqk
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YSASFLYS
+---------
+PDB Codes: 1xcq, 1il1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YWASTRES
+---------
+PDB Codes: 1igi, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 1yeg, 1yef
+
+Canonical classes: 7A, 7A
+
+Loop sequence: HLVSKLDS
+---------
+PDB Codes: 1dvf_1, 1a7n
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YYTTTLAD
+---------
+PDB Codes: 1bfo, 1ce1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YNTNNLQT
+---------
+PDB Codes: 1i8k, 1i8i
+
+Canonical classes: 7C, 7C
+
+Loop sequence: SEGNTLRP
+---------
+PDB Codes: 1v7m, 1wcb
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YSTSNLAS
+---------
+PDB Codes: 3bae, 3bkj
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YQVSTRFS
+---------
+PDB Codes: 2zck, 2zcl
+
+Canonical classes: 7A, 7A
+
+Loop sequence: FAASNLAS
+---------
+PDB Codes: 1opg, 1bm3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KYASQSIS
+---------
+PDB Codes: 2f5a, 1u8o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDASSLES
+---------
+PDB Codes: 1uyw, 1kcv
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YGASNRYT
+---------
+PDB Codes: 2adi, 1i8i
+
+Canonical classes: 7C, 7C
+
+Loop sequence: SEGNTLRP
+---------
+PDB Codes: 2ajs, 2ajx
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YLMSTRAS
+---------
+PDB Codes: 1hq4, 1wcb
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YSTSNLAS
+---------
+PDB Codes: 2boc, 2ih3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KYASESIS
+---------
+PDB Codes: 1hil, 1il1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YWASTRES
+---------
+PDB Codes: 2aeq, 1uwg
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YSASYRYS
+---------
+PDB Codes: 3hc0, 3hc4
+
+Canonical classes: 7A, 7A
+
+Loop sequence: SSASYRYS
+---------
+PDB Codes: 1ngw, 3gk8
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YSASNRYT
+---------
+PDB Codes: 3eyq, 3b2v
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDASNRAT
+---------
+PDB Codes: 1yyl, 2ny1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YGASTRAT
+---------
+PDB Codes: 3g6j, 2qqk
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YSASFLYS
+---------
+PDB Codes: 1hh9, 1hi6
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YRANRLMI
+---------
+PDB Codes: 1op5, 1zlu
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKASTLKT
+---------
+PDB Codes: 1bvk, 1a7n
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YYTTTLAD
+---------
+PDB Codes: 1ynk, 1plg
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YRVSNRFS
+---------
+PDB Codes: 1a6v, 1gig
+
+Canonical classes: 7A, 7A
+
+Loop sequence: GGTNNRAP
+---------
+PDB Codes: 2i9l, 1il1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YWASTRES
+---------
+PDB Codes: 1dql, 1dee
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YAASSLQS
+---------
+PDB Codes: 1fpt, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 2dqj, 1bm3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KYASQSIS
+---------
+PDB Codes: 2ny2, 2ny1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YGASTRAT
+---------
+PDB Codes: 1ahw, 1k6q
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YYATSLAD
+---------
+PDB Codes: 3c6s, 3c5s
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YHLSNLAS
+---------
+PDB Codes: 2iff, 1z3g
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDTSKLAS
+---------
+PDB Codes: 1om3, 1zlu
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKASTLKT
+---------
+PDB Codes: 1l7i, 1s78
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YSASYRYT
+---------
+PDB Codes: 1cly, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 1kem, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 2iq9, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 1riv, 1qyg
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YRVSNLAS
+---------
+PDB Codes: 1oar, 1gig
+
+Canonical classes: 7A, 7A
+
+Loop sequence: GGTNNRAP
+---------
+PDB Codes: 1cl7, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 1nd0, 1ncw
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YLGTKLDS
+---------
+PDB Codes: 2r9h, 2fed
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDTSKLTS
+---------
+PDB Codes: 1rul, 1ncw
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YLGTKLDS
+---------
+PDB Codes: 2atk, 2ih3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KYASESIS
+---------
+PDB Codes: 1u8l, 1u8o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDASSLES
+---------
+PDB Codes: 1dqd, 1seq
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YTTSNLAS
+---------
+PDB Codes: 1mim, 1z3g
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDTSKLAS
+---------
+PDB Codes: 2ht2, 2fed
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDTSKLTS
+---------
+PDB Codes: 1u93, 1u8o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDASSLES
+---------
+PDB Codes: 1rum, 1ncw
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YLGTKLDS
+---------
+PDB Codes: 3hnv, 2a6d
+
+Canonical classes: 7A, 7B
+
+Loop sequence: YYTSRLHS
+
+Of interest.....
+---------
+PDB Codes: 2vis, 1gig
+
+Canonical classes: 7A, 7A
+
+Loop sequence: GGTNNRAP
+---------
+PDB Codes: 1u8q, 1u8o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDASSLES
+---------
+PDB Codes: 1y0l, 3cfk
+
+Canonical classes: 7A, 7A
+
+Loop sequence: GGTNKRAP
+---------
+PDB Codes: 2z92, 2z91
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDTSKLPS
+---------
+PDB Codes: 1fvd, 1fve
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YSASFLES
+---------
+PDB Codes: 1iqd, 2ny1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YGASTRAT
+---------
+PDB Codes: 1zls, 1zlu
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKASTLKT
+---------
+PDB Codes: 3bgf, 2rcs
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YAASTLDS
+---------
+PDB Codes: 2vit, 1gig
+
+Canonical classes: 7A, 7A
+
+Loop sequence: GGTNNRAP
+---------
+PDB Codes: 2f19, 2a6d
+
+Canonical classes: 7A, 7B
+
+Loop sequence: YYTSRLHS
+
+Of interest.....
+---------
+PDB Codes: 1xf2, 1p7k
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YNAKTLAE
+---------
+PDB Codes: 1rup, 1ncw
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YLGTKLDS
+---------
+PDB Codes: 1bql, 1z3g
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDTSKLAS
+---------
+PDB Codes: 2uyl, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 1ngy, 3gk8
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YSASNRYT
+---------
+PDB Codes: 1f4x, 1f4y
+
+Canonical classes: 7A, 7A
+
+Loop sequence: GATNNRAA
+---------
+PDB Codes: 2fbj, 1e6o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YEISKLAS
+---------
+PDB Codes: 1ar1, 1mqk
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YNAKTLGE
+---------
+PDB Codes: 1dbk, 1dbm
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFY
+---------
+PDB Codes: 1rzj, 2ny1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YGASTRAT
+---------
+PDB Codes: 2ny3, 2ny1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YGASTRAT
+---------
+PDB Codes: 2o5z, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 2adj, 1i8i
+
+Canonical classes: 7C, 7C
+
+Loop sequence: SEGNTLRP
+---------
+PDB Codes: 1mrc, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 2hrp, 1mf2
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YAASNQGS
+---------
+PDB Codes: 1sbs, 1il1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YWASTRES
+---------
+PDB Codes: 1a6u, 1gig
+
+Canonical classes: 7A, 7A
+
+Loop sequence: GGTNNRAP
+---------
+PDB Codes: 2bmk, 1wcb
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YSTSNLAS
+---------
+PDB Codes: 1r24, 3cmo
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YYTSRLQS
+---------
+PDB Codes: 1dqj, 1bm3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KYASQSIS
+---------
+PDB Codes: 2fat, 2fd6
+
+Canonical classes: 7A, 7A
+
+Loop sequence: FEISKLAS
+---------
+PDB Codes: 4fab, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 1f4w, 1f4y
+
+Canonical classes: 7A, 7A
+
+Loop sequence: GATNNRAA
+---------
+PDB Codes: 1clz, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 2exy, 2fed
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDTSKLTS
+---------
+PDB Codes: 2dqd, 1bm3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KYASQSIS
+---------
+PDB Codes: 1mfc, 2ntf
+
+Canonical classes: 7A, 7A
+
+Loop sequence: GDTNNRAP
+---------
+PDB Codes: 1u95, 1u8o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDASSLES
+---------
+PDB Codes: 1ndg, 1bm3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KYASQSIS
+---------
+PDB Codes: 1iqw, 1it9
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YAASNLES
+---------
+PDB Codes: 25c8, 1wcb
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YSTSNLAS
+---------
+PDB Codes: 1cu4, 1cr9
+
+Canonical classes: 7A, 7A
+
+Loop sequence: FLVSKRDS
+---------
+PDB Codes: 2ih1, 2ih3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KYASESIS
+---------
+PDB Codes: 3eo0, 3eo1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YGASSRAP
+---------
+PDB Codes: 2jix, 1dee
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YAASSLQS
+---------
+PDB Codes: 2r56, 1dee
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YAASSLQS
+---------
+PDB Codes: 1tpx, 1tqb
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YLVSRLDS
+---------
+PDB Codes: 1riu, 1qyg
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YRVSNLAS
+---------
+PDB Codes: 1f90, 2c1o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YLVSKLDS
+---------
+PDB Codes: 1e4x, 1e4w
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YYTSTLHS
+---------
+PDB Codes: 1bog, 1hi6
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YRANRLMI
+---------
+PDB Codes: 1q72, 1qyg
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YRVSNLAS
+---------
+PDB Codes: 1dvf_2, 2a6d
+
+Canonical classes: 7A, 7B
+
+Loop sequence: YYTSRLHS
+
+Of interest.....
+---------
+PDB Codes: 2eh8, 2c1o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YLVSKLDS
+---------
+PDB Codes: 1dqm, 1bm3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KYASQSIS
+---------
+PDB Codes: 2r1x, 1il1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YWASTRES
+---------
+PDB Codes: 1g9m, 2ny1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YGASTRAT
+---------
+PDB Codes: 1u8i, 1u8o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDASSLES
+---------
+PDB Codes: 2hwz, 1z3g
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDTSKLAS
+---------
+PDB Codes: 1mh5, 1mj8
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YRMSNLAS
+---------
+PDB Codes: 2dd8, 2g75
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDDSDRPS
+---------
+PDB Codes: 3e8u, 1it9
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YAASNLES
+---------
+PDB Codes: 1bz7, 3cmo
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YYTSRLQS
+---------
+PDB Codes: 1qle, 1mqk
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YNAKTLGE
+---------
+PDB Codes: 1b2w, 1kcv
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YGASNRYT
+---------
+PDB Codes: 1aj7, 2rcs
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YAASTLDS
+---------
+PDB Codes: 1cic_1, 1i3g
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YWASTRHT
+---------
+PDB Codes: 2agj, 1u6a
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YGASSRAT
+---------
+PDB Codes: 2vir, 1gig
+
+Canonical classes: 7A, 7A
+
+Loop sequence: GGTNNRAP
+---------
+PDB Codes: 1mam, 2a6d
+
+Canonical classes: 7A, 7B
+
+Loop sequence: YYTSRLHS
+
+Of interest.....
+---------
+PDB Codes: 3gi9, 3gi8
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YFASTRES
+---------
+PDB Codes: 3cfj, 3cfk
+
+Canonical classes: 7A, 7A
+
+Loop sequence: GGTNKRAP
+---------
+PDB Codes: 3f58, 1f58
+
+Canonical classes: 7A, 7A
+
+Loop sequence: FAASTLES
+---------
+PDB Codes: 1qlr, 1dn0
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDASSRAT
+---------
+PDB Codes: 1j05, 1ejo
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YRASNLES
+---------
+PDB Codes: 1igc, 1kcv
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YGASNRYT
+---------
+PDB Codes: 1ors, 1wcb
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YSTSNLAS
+---------
+PDB Codes: 2o5y, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 2r0w, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 1fj1, 2adf
+
+Canonical classes: 7A, 7A
+
+Loop sequence: HYTSTLQP
+---------
+PDB Codes: 1jnl, 1jnn
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YNAKTLVD
+---------
+PDB Codes: 2gfb, 2rcs
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YAASTLDS
+---------
+PDB Codes: 1mrd, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 2hfg, 2qqk
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YSASFLYS
+---------
+PDB Codes: 1mlb, 1mlc
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KYVSQSSS
+---------
+PDB Codes: 2f58, 1f58
+
+Canonical classes: 7A, 7A
+
+Loop sequence: FAASTLES
+---------
+PDB Codes: 1cf8, 1wcb
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YSTSNLAS
+---------
+PDB Codes: 2htk, 2fed
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDTSKLTS
+---------
+PDB Codes: 1ehl, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 1r3l, 2ih3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KYASESIS
+---------
+PDB Codes: 1yec, 1yef
+
+Canonical classes: 7A, 7A
+
+Loop sequence: HLVSKLDS
+---------
+PDB Codes: 1ngp, 1gig
+
+Canonical classes: 7A, 7A
+
+Loop sequence: GGTNNRAP
+---------
+PDB Codes: 1xf5, 1il1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YWASTRES
+---------
+PDB Codes: 1fig, 1wcb
+
+Canonical classes: 7D, 7A
+
+Loop sequence: YSTSNLAS
+
+Of interest.....
+---------
+PDB Codes: 1ru9, 1ncw
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YLGTKLDS
+---------
+PDB Codes: 1oax, 1gig
+
+Canonical classes: 7A, 7A
+
+Loop sequence: GGTNNRAP
+---------
+PDB Codes: 3d0v, 1u8o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDASSLES
+---------
+PDB Codes: 1xiw, 2a6d
+
+Canonical classes: 7A, 7B
+
+Loop sequence: YYTSRLHS
+
+Of interest.....
+---------
+PDB Codes: 1ic7, 1bm3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KYASQSIS
+---------
+PDB Codes: 2gk0, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 3bz4, 3c5s
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YHLSNLAS
+---------
+PDB Codes: 1dbj, 1dbm
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFY
+---------
+PDB Codes: 3bkc, 3bkj
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YQVSTRFS
+---------
+PDB Codes: 1sm3, 1gig
+
+Canonical classes: 7A, 7A
+
+Loop sequence: GGTNNRAP
+---------
+PDB Codes: 1ggb, 1ggi
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YRSSNLIS
+---------
+PDB Codes: 1a14, 1nmb
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YYTSNLHS
+---------
+PDB Codes: 1mnu, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 1wej, 1jhk
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YNAKTLAD
+---------
+PDB Codes: 3g6a, 3g6d
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDDNDRPS
+---------
+PDB Codes: 2ajz, 2ajx
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YLMSTRAS
+---------
+PDB Codes: 1q9v, 1il1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YWASTRES
+---------
+PDB Codes: 1i9j, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 1axt, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------
+PDB Codes: 1q0x, 1gig
+
+Canonical classes: 7A, 7A
+
+Loop sequence: GGTNNRAP
+---------
+PDB Codes: 1t3f, 1kcv
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YGASNRYT
+---------
+PDB Codes: 1fai, 2a6d
+
+Canonical classes: 7A, 7B
+
+Loop sequence: YYTSRLHS
+
+Of interest.....
+---------
+PDB Codes: 1s5h, 2ih3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KYASESIS
+---------
+PDB Codes: 2dqe, 1bm3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KYASQSIS
+---------
+PDB Codes: 3bdy, 3be1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YWGSYLYS
+---------
+PDB Codes: 2adg, 1i8i
+
+Canonical classes: 7C, 7C
+
+Loop sequence: SEGNTLRP
+---------
+PDB Codes: 1bj1, 1cz8
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YFTSSLHS
+---------
+PDB Codes: 1ngx, 3gk8
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YSASNRYT
+---------
+PDB Codes: 2h2p, 2fed
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YDTSKLTS
+---------
+PDB Codes: 2r2b, 1il1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YWASTRES
+---------
+PDB Codes: 1lo0, 1a4j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: YKVSNRFS
+---------

@@ -1,0 +1,6 @@
+Loop CDR-H2:
+
+10B has 21 SDRs
+10H has 20 SDRs
+10I has 21 SDRs
+10J has 20 SDRs

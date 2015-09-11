@@ -1,0 +1,2790 @@
+PDB Codes: 1gig, 1nc2
+
+Canonical classes: 7A, 7C
+
+Loop sequence: ALWYSNHWV
+
+Of interest.....
+---------
+PDB Codes: 1u8j, 1u8o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQLHFYPHT
+---------
+PDB Codes: 1cic_2, 1a7n
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QHFWSTPRT
+---------
+PDB Codes: 1bey, 1ce1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: LQHISRPRT
+---------
+PDB Codes: 3dv4, 3duu
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KQSYNLRT
+---------
+PDB Codes: 1vfa, 1a7n
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QHFWSTPRT
+---------
+PDB Codes: 2f5b, 1u8o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQLHFYPHT
+---------
+PDB Codes: 1oau, 1oaz
+
+Canonical classes: 7A, 7A
+
+Loop sequence: ALWYSNHLV
+---------
+PDB Codes: 2bob, 2ih3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNRWPFT
+---------
+PDB Codes: 3ejy, 2fed
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQWSSHPQT
+---------
+PDB Codes: 2vxu, 2vxt
+
+Canonical classes: 7A, 7A
+
+Loop sequence: LQYASSPYT
+---------
+PDB Codes: 1tjg, 1u8o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQLHFYPHT
+---------
+PDB Codes: 1otu, 2fed
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQWSSHPQT
+---------
+PDB Codes: 2ht4, 2fed
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQWSSHPQT
+---------
+PDB Codes: 3cxd, 3dsf
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QHFWGTPFT
+---------
+PDB Codes: 2ntf, 1nc2
+
+Canonical classes: 7A, 7C
+
+Loop sequence: ALWYSNHWV
+
+Of interest.....
+---------
+PDB Codes: 1a3l, 1rur
+
+Canonical classes: 7A, 7A
+
+Loop sequence: AQNLELPYT
+---------
+PDB Codes: 1cfn, 1hi6
+
+Canonical classes: 7A, 7A
+
+Loop sequence: LQYDDFPLT
+---------
+PDB Codes: 2g5b, 3duu
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KQSYNLRT
+---------
+PDB Codes: 1kfa, 2hkh
+
+Canonical classes: 7A, 7A
+
+Loop sequence: SQSTHVPFT
+---------
+PDB Codes: 2itd, 2ih3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNRWPFT
+---------
+PDB Codes: 1bvl, 1a7n
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QHFWSTPRT
+---------
+PDB Codes: 1a2y, 1a7n
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QHFWSTPRT
+---------
+PDB Codes: 2b2x, 1mhp
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQWSGNPWT
+---------
+PDB Codes: 1ruq, 1rur
+
+Canonical classes: 7A, 7A
+
+Loop sequence: AQNLELPYT
+---------
+PDB Codes: 2dwd, 2ih3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNRWPFT
+---------
+PDB Codes: 3ffd, 2gsg
+
+Canonical classes: 11A, 11A
+
+Loop sequence: GVGDTIKEQFVYV
+---------
+PDB Codes: 2nxy, 2ny1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQYNNWPPRYT
+---------
+PDB Codes: 2dbl, 1dbm
+
+Canonical classes: 7A, 7A
+
+Loop sequence: SQSSHVPPT
+---------
+PDB Codes: 1d5i, 1d6v
+
+Canonical classes: 7A, 7A
+
+Loop sequence: LQYDEFPYT
+---------
+PDB Codes: 3hnt, 3hns
+
+Canonical classes: 7A, 7A
+
+Loop sequence: HQDTKPPYT
+---------
+PDB Codes: 6fab, 1jfq
+
+Canonical classes: 7B, 7A
+
+Loop sequence: QQGNALPRT
+
+Of interest.....
+---------
+PDB Codes: 1q9r, 3duu
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KQSYNLRT
+---------
+PDB Codes: 2fb4, 2ig2
+
+Canonical classes: 7A, 7A
+
+Loop sequence: AAWDVSLNAYV
+---------
+PDB Codes: 2hmi, 1r0a
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQYSKFPWT
+---------
+PDB Codes: 1vfb, 1a7n
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QHFWSTPRT
+---------
+PDB Codes: 1p4b, 1nc2
+
+Canonical classes: 7A, 7C
+
+Loop sequence: ALWYSNHWV
+
+Of interest.....
+---------
+PDB Codes: 1oak, 1fns
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQYEKLPWT
+---------
+PDB Codes: 2fee, 2fed
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQWSSHPQT
+---------
+PDB Codes: 3cfb, 1fl3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: AQNLELPPT
+---------
+PDB Codes: 2dqg, 2dqf
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNSWPYT
+---------
+PDB Codes: 3be1, 1fvc
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQHYTTPPT
+---------
+PDB Codes: 1ngq, 1nc2
+
+Canonical classes: 7A, 7C
+
+Loop sequence: ALWYSNHWV
+
+Of interest.....
+---------
+PDB Codes: 2h1p, 1t66
+
+Canonical classes: 7A, 7A
+
+Loop sequence: SQSTHVPWT
+---------
+PDB Codes: 1a7r, 1a7n
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QHFWSTPRT
+---------
+PDB Codes: 1ind, 1ine
+
+Canonical classes: 7A, 7A
+
+Loop sequence: ALWYSNLWV
+---------
+PDB Codes: 1q9o, 3duu
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KQSYNLRT
+---------
+PDB Codes: 2or9, 2orb
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQTKEVPWT
+---------
+PDB Codes: 2zuq, 1ck0
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KQSYNLYT
+---------
+PDB Codes: 1rz8, 2ny1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQYNNWPPRYT
+---------
+PDB Codes: 1zlv, 1zlu
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QHYAGYSAT
+---------
+PDB Codes: 1cfq, 1hi6
+
+Canonical classes: 7A, 7A
+
+Loop sequence: LQYDDFPLT
+---------
+PDB Codes: 3dus, 3duu
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KQSYNLRT
+---------
+PDB Codes: 1hys, 1r0a
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQYSKFPWT
+---------
+PDB Codes: 1n8z, 1fvc
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQHYTTPPT
+---------
+PDB Codes: 2zch, 2zcl
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNEDPYT
+---------
+PDB Codes: 12e8, 3fct
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQYSSYPLT
+---------
+PDB Codes: 3eyf, 3eyo
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQRSMWPPVT
+---------
+PDB Codes: 1a6w, 1nc2
+
+Canonical classes: 7A, 7C
+
+Loop sequence: ALWYSNHWV
+
+Of interest.....
+---------
+PDB Codes: 2exw, 2fed
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQWSSHPQT
+---------
+PDB Codes: 3eyu, 2iqa
+
+Canonical classes: 7A, 7A
+
+Loop sequence: FQGSHVPLT
+---------
+PDB Codes: 1ap2, 1mvu
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QNDYSYPLT
+---------
+PDB Codes: 1xf3, 1p7k
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QHHYGTPLT
+---------
+PDB Codes: 1pg7_2, 1nc2
+
+Canonical classes: 7A, 7C
+
+Loop sequence: ALWYSNHWV
+
+Of interest.....
+---------
+PDB Codes: 2ajy, 2ajx
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQFVEYPFT
+---------
+PDB Codes: 3ijy, 3ijs
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KQSNNLRT
+---------
+PDB Codes: 1mhh, 1ymh
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KQAYIPPLT
+---------
+PDB Codes: 3ijh, 3ijs
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KQSNNLRT
+---------
+PDB Codes: 1yef, 1yed
+
+Canonical classes: 7A, 7A
+
+Loop sequence: VQGTHFPYT
+---------
+PDB Codes: 2hvk, 2ih3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNRWPFT
+---------
+PDB Codes: 1kip, 1a7n
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QHFWSTPRT
+---------
+PDB Codes: 1r3i, 2ih3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNRWPFT
+---------
+PDB Codes: 1q9k, 3duu
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KQSYNLRT
+---------
+PDB Codes: 1nma, 1nmb
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQDFTLPFT
+---------
+PDB Codes: 3det, 2fed
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQWSSHPQT
+---------
+PDB Codes: 1u8h, 1u8o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQLHFYPHT
+---------
+PDB Codes: 1a5f, 1bbd
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QNNYNYPLT
+---------
+PDB Codes: 2z91, 1z3g
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQWSSNPPT
+---------
+PDB Codes: 1u8m, 1u8o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQLHFYPHT
+---------
+PDB Codes: 2fd6, 1e6o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQWNYPFT
+---------
+PDB Codes: 1ott, 2fed
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQWSSHPQT
+---------
+PDB Codes: 1d5b, 1d6v
+
+Canonical classes: 7A, 7A
+
+Loop sequence: LQYDEFPYT
+---------
+PDB Codes: 1dbb, 1dbm
+
+Canonical classes: 7A, 7A
+
+Loop sequence: SQSSHVPPT
+---------
+PDB Codes: 3bt2, 1e6o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQWNYPFT
+---------
+PDB Codes: 2jb5, 2jb6
+
+Canonical classes: 7A, 7A
+
+Loop sequence: RSWDSNLSYSV
+---------
+PDB Codes: 1qyg, 1ad9
+
+Canonical classes: 7A, 7A
+
+Loop sequence: MQHLEYPFT
+---------
+PDB Codes: 1n6q, 1r0a
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQYSKFPWT
+---------
+PDB Codes: 3hc3, 3hc4
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQYDTYPFT
+---------
+PDB Codes: 3d9a, 2dqf
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNSWPYT
+---------
+PDB Codes: 2nlj, 2ih3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNRWPFT
+---------
+PDB Codes: 1t03, 1r0a
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQYSKFPWT
+---------
+PDB Codes: 1dl7, 1nc2
+
+Canonical classes: 7A, 7C
+
+Loop sequence: ALWYSNHWV
+
+Of interest.....
+---------
+PDB Codes: 2c1p, 2c1o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: VQGSHFPPT
+---------
+PDB Codes: 3dv6, 3duu
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KQSYNLRT
+---------
+PDB Codes: 2nxz, 2ny1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQYNNWPPRYT
+---------
+PDB Codes: 1t2q, 2iqa
+
+Canonical classes: 7A, 7A
+
+Loop sequence: FQGSHVPLT
+---------
+PDB Codes: 2dtm, 2dqt
+
+Canonical classes: 7A, 7A
+
+Loop sequence: FQGSHVPPT
+---------
+PDB Codes: 1uac, 2dqf
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNSWPYT
+---------
+PDB Codes: 1yy9, 1yy8
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQNNNWPTT
+---------
+PDB Codes: 2dqh, 2dqf
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNSWPYT
+---------
+PDB Codes: 2fx8, 2fx9
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQYGQSLST
+---------
+PDB Codes: 2ny0, 2ny1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQYNNWPPRYT
+---------
+PDB Codes: 1igf, 2dqt
+
+Canonical classes: 7A, 7A
+
+Loop sequence: FQGSHVPPT
+---------
+PDB Codes: 1kno, 2vxt
+
+Canonical classes: 7A, 7A
+
+Loop sequence: LQYASSPYT
+---------
+PDB Codes: 3dur, 3duu
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KQSYNLRT
+---------
+PDB Codes: 2ajv, 2ajx
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQFVEYPFT
+---------
+PDB Codes: 2ddq, 2iqa
+
+Canonical classes: 7A, 7A
+
+Loop sequence: FQGSHVPLT
+---------
+PDB Codes: 2h2s, 2fed
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQWSSHPQT
+---------
+PDB Codes: 1hh6, 1hi6
+
+Canonical classes: 7A, 7A
+
+Loop sequence: LQYDDFPLT
+---------
+PDB Codes: 3cfc, 1fl3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: AQNLELPPT
+---------
+PDB Codes: 2r23, 3duu
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KQSYNLRT
+---------
+PDB Codes: 1fve, 1fvc
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQHYTTPPT
+---------
+PDB Codes: 2hlf, 2fed
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQWSSHPQT
+---------
+PDB Codes: 1axs, 1d6v
+
+Canonical classes: 7A, 7A
+
+Loop sequence: LQYDEFPYT
+---------
+PDB Codes: 2r2e, 3duu
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KQSYNLRT
+---------
+PDB Codes: 1dlf, 2hkh
+
+Canonical classes: 7A, 7A
+
+Loop sequence: SQSTHVPFT
+---------
+PDB Codes: 2hkf, 2hkh
+
+Canonical classes: 7A, 7A
+
+Loop sequence: SQSTHVPFT
+---------
+PDB Codes: 1dsf, 1rmf
+
+Canonical classes: 7A, 7A
+
+Loop sequence: SQSTHVPLT
+---------
+PDB Codes: 1dba, 1dbm
+
+Canonical classes: 7A, 7A
+
+Loop sequence: SQSSHVPPT
+---------
+PDB Codes: 1gc1, 2ny1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQYNNWPPRYT
+---------
+PDB Codes: 1ots, 2fed
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQWSSHPQT
+---------
+PDB Codes: 1fh5, 1bm3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNSWPLT
+---------
+PDB Codes: 3b2u, 3b2v
+
+Canonical classes: 7A, 7A
+
+Loop sequence: HQYGSTPLT
+---------
+PDB Codes: 2dwe, 2ih3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNRWPFT
+---------
+PDB Codes: 1fdl, 1a7n
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QHFWSTPRT
+---------
+PDB Codes: 3ck0, 1ck0
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KQSYNLYT
+---------
+PDB Codes: 2v7h, 2a6d
+
+Canonical classes: 7B, 7B
+
+Loop sequence: QQGNTLPRT
+---------
+PDB Codes: 1mfe, 1mfd
+
+Canonical classes: 7A, 7A
+
+Loop sequence: ALWCNNHWI
+---------
+PDB Codes: 2dqu, 2dqt
+
+Canonical classes: 7A, 7A
+
+Loop sequence: FQGSHVPPT
+---------
+PDB Codes: 1zlw, 1zlu
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QHYAGYSAT
+---------
+PDB Codes: 1yee, 1yed
+
+Canonical classes: 7A, 7A
+
+Loop sequence: VQGTHFPYT
+---------
+PDB Codes: 2htl, 2fed
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQWSSHPQT
+---------
+PDB Codes: 1u8p, 1u8o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQLHFYPHT
+---------
+PDB Codes: 1cft, 1hi6
+
+Canonical classes: 7A, 7A
+
+Loop sequence: LQYDDFPLT
+---------
+PDB Codes: 1q9l, 3duu
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KQSYNLRT
+---------
+PDB Codes: 2i60, 2ny1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQYNNWPPRYT
+---------
+PDB Codes: 1dqq, 2dqf
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNSWPYT
+---------
+PDB Codes: 1mj7, 1ad9
+
+Canonical classes: 7A, 7A
+
+Loop sequence: MQHLEYPFT
+---------
+PDB Codes: 1k4c, 2ih3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNRWPFT
+---------
+PDB Codes: 2h9g, 3grw
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSYTTPPT
+---------
+PDB Codes: 2qql, 2qqk
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQAWAYLPT
+---------
+PDB Codes: 1jpt, 1jps
+
+Canonical classes: 7A, 7A
+
+Loop sequence: LQHGESPWT
+---------
+PDB Codes: 2jel, 1f3d
+
+Canonical classes: 7A, 7A
+
+Loop sequence: FQGSHVPYT
+---------
+PDB Codes: 1acy, 1ai1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQNNEDPPT
+---------
+PDB Codes: 1oaq, 1oaz
+
+Canonical classes: 7A, 7A
+
+Loop sequence: ALWYSNHLV
+---------
+PDB Codes: 2fjg, 3grw
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSYTTPPT
+---------
+PDB Codes: 1tzg, 2fx9
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQYGQSLST
+---------
+PDB Codes: 1q9q, 3duu
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KQSYNLRT
+---------
+PDB Codes: 1qbm, 1qbl
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QHFWSTPWT
+---------
+PDB Codes: 3hi6, 3hi5
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSYSTPS
+---------
+PDB Codes: 1cbv, 1rmf
+
+Canonical classes: 7A, 7A
+
+Loop sequence: SQSTHVPLT
+---------
+PDB Codes: 2w60, 2w65
+
+Canonical classes: 7A, 7A
+
+Loop sequence: WQGTHFPLT
+---------
+PDB Codes: 2w9d, 2w9e
+
+Canonical classes: 7A, 7A
+
+Loop sequence: HQWRSNPYT
+---------
+PDB Codes: 35c8, 15c8
+
+Canonical classes: 7A, 7A
+
+Loop sequence: HQYHRSPYT
+---------
+PDB Codes: 3dvg, 3dvn
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQYSSYSSLFT
+---------
+PDB Codes: 1lo3, 1lo2
+
+Canonical classes: 7A, 7A
+
+Loop sequence: FQGSHFPLA
+---------
+PDB Codes: 1i8m, 1p7k
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QHHYGTPLT
+---------
+PDB Codes: 1ay1, 1bgx
+
+Canonical classes: 7A, 7D
+
+Loop sequence: QQWSTYPLT
+
+Of interest.....
+---------
+PDB Codes: 1q9t, 3duu
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KQSYNLRT
+---------
+PDB Codes: 1ktr, 1ucb
+
+Canonical classes: 7A, 7A
+
+Loop sequence: FQGSHVPFT
+---------
+PDB Codes: 1uj3, 1fgn
+
+Canonical classes: 7A, 7A
+
+Loop sequence: LQHGESPYT
+---------
+PDB Codes: 2bfv, 1cfv
+
+Canonical classes: 7A, 7A
+
+Loop sequence: SQSSHVPLT
+---------
+PDB Codes: 2fx7, 2fx9
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQYGQSLST
+---------
+PDB Codes: 2hjf, 2ih3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNRWPFT
+---------
+PDB Codes: 2pw1, 1u8o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQLHFYPHT
+---------
+PDB Codes: 2qhr, 2gsg
+
+Canonical classes: 11A, 11A
+
+Loop sequence: GVGDTIKEQFVYV
+---------
+PDB Codes: 3eys, 2iqa
+
+Canonical classes: 7A, 7A
+
+Loop sequence: FQGSHVPLT
+---------
+PDB Codes: 2dqi, 2dqf
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNSWPYT
+---------
+PDB Codes: 3cle, 3clf
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQYSSFPLT
+---------
+PDB Codes: 1f8t, 1s5i
+
+Canonical classes: 7A, 7A
+
+Loop sequence: VQGTHFPRT
+---------
+PDB Codes: 1rfd, 1ad9
+
+Canonical classes: 7A, 7A
+
+Loop sequence: MQHLEYPFT
+---------
+PDB Codes: 2ny6, 2ny1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQYNNWPPRYT
+---------
+PDB Codes: 2ipu, 2iqa
+
+Canonical classes: 7A, 7A
+
+Loop sequence: FQGSHVPLT
+---------
+PDB Codes: 2hvj, 2ih3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNRWPFT
+---------
+PDB Codes: 2h8p, 2ih3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNRWPFT
+---------
+PDB Codes: 2hg5, 2ih3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNRWPFT
+---------
+PDB Codes: 1i9i, 2dqt
+
+Canonical classes: 7A, 7A
+
+Loop sequence: FQGSHVPPT
+---------
+PDB Codes: 1tet, 1zea
+
+Canonical classes: 7A, 7A
+
+Loop sequence: FQGSHIPFT
+---------
+PDB Codes: 2ny4, 2ny1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQYNNWPPRYT
+---------
+PDB Codes: 1cfs, 1hi6
+
+Canonical classes: 7A, 7A
+
+Loop sequence: LQYDDFPLT
+---------
+PDB Codes: 1g9n, 2ny1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQYNNWPPRYT
+---------
+PDB Codes: 1q9w, 3duu
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KQSYNLRT
+---------
+PDB Codes: 2eiz, 2dqf
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNSWPYT
+---------
+PDB Codes: 1m71, 1m7i
+
+Canonical classes: 7A, 7A
+
+Loop sequence: SQTTHVPT
+---------
+PDB Codes: 1r3k, 2ih3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNRWPFT
+---------
+PDB Codes: 3bpc, 3duu
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KQSYNLRT
+---------
+PDB Codes: 2aju, 2ajx
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQFVEYPFT
+---------
+PDB Codes: 1pg7_1, 1jps
+
+Canonical classes: 7A, 7A
+
+Loop sequence: LQHGESPWT
+---------
+PDB Codes: 1m7d, 1m7i
+
+Canonical classes: 7A, 7A
+
+Loop sequence: SQTTHVPT
+---------
+PDB Codes: 3cfe, 3cfd
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQGTTLPPT
+---------
+PDB Codes: 2uud, 1f3d
+
+Canonical classes: 7A, 7A
+
+Loop sequence: FQGSHVPYT
+---------
+PDB Codes: 1mfb, 1mfd
+
+Canonical classes: 7A, 7A
+
+Loop sequence: ALWCNNHWI
+---------
+PDB Codes: 2dqc, 2dqf
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNSWPYT
+---------
+PDB Codes: 1ggi, 1ejo
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNEDPLT
+---------
+PDB Codes: 2zkh, 1v7n
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQRSGYPRT
+---------
+PDB Codes: 2igf, 2dqt
+
+Canonical classes: 7A, 7A
+
+Loop sequence: FQGSHVPPT
+---------
+PDB Codes: 2ht3, 2fed
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQWSSHPQT
+---------
+PDB Codes: 2mpa, 1mpa
+
+Canonical classes: 7A, 7A
+
+Loop sequence: SQSTHVPRT
+---------
+PDB Codes: 2fjf, 3grw
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSYTTPPT
+---------
+PDB Codes: 2ak1, 2ajx
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQFVEYPFT
+---------
+PDB Codes: 43ca, 43c9
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQHYRAPRT
+---------
+PDB Codes: 3hb3, 1mqk
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QHHYGTPPLT
+---------
+PDB Codes: 1xct, 1ymh
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KQAYIPPLT
+---------
+PDB Codes: 1mrf, 1mpa
+
+Canonical classes: 7A, 7A
+
+Loop sequence: SQSTHVPRT
+---------
+PDB Codes: 1ggc, 1ejo
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNEDPLT
+---------
+PDB Codes: 1c08, 2dqf
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNSWPYT
+---------
+PDB Codes: 1ae6, 1ad9
+
+Canonical classes: 7A, 7A
+
+Loop sequence: MQHLEYPFT
+---------
+PDB Codes: 1n5y, 1r0a
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQYSKFPWT
+---------
+PDB Codes: 1ocw, 1oaz
+
+Canonical classes: 7A, 7A
+
+Loop sequence: ALWYSNHLV
+---------
+PDB Codes: 1j1o, 2dqf
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNSWPYT
+---------
+PDB Codes: 2eks, 2dqf
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNSWPYT
+---------
+PDB Codes: 1op3, 1zlu
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QHYAGYSAT
+---------
+PDB Codes: 1clo, 1ad0
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QHWSSKPPT
+---------
+PDB Codes: 3ggw, 3c5s
+
+Canonical classes: 7A, 7A
+
+Loop sequence: AHNVELPRT
+---------
+PDB Codes: 1ic4, 2dqf
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNSWPYT
+---------
+PDB Codes: 2r0z, 2iqa
+
+Canonical classes: 7A, 7A
+
+Loop sequence: FQGSHVPLT
+---------
+PDB Codes: 2op4, 1nc2
+
+Canonical classes: 7A, 7C
+
+Loop sequence: ALWYSNHWV
+
+Of interest.....
+---------
+PDB Codes: 1mre, 1mpa
+
+Canonical classes: 7A, 7A
+
+Loop sequence: SQSTHVPRT
+---------
+PDB Codes: 1jgl, 1jhk
+
+Canonical classes: 7A, 7A
+
+Loop sequence: HHFWSTPWT
+---------
+PDB Codes: 1hin, 1ifh
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QNDYSNPLT
+---------
+PDB Codes: 1yeh, 1yed
+
+Canonical classes: 7A, 7A
+
+Loop sequence: VQGTHFPYT
+---------
+PDB Codes: 2ny5, 2ny1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQYNNWPPRYT
+---------
+PDB Codes: 1a3r, 1bbd
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QNNYNYPLT
+---------
+PDB Codes: 1kiq, 1a7n
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QHFWSTPRT
+---------
+PDB Codes: 1u8n, 1u8o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQLHFYPHT
+---------
+PDB Codes: 3hae, 3gje
+
+Canonical classes: 7A, 7A
+
+Loop sequence: WSFAGSYYV
+---------
+PDB Codes: 1e6j, 1e6o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQWNYPFT
+---------
+PDB Codes: 1ncc, 1nca
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQHYSPPWT
+---------
+PDB Codes: 3ikc, 3ijs
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KQSNNLRT
+---------
+PDB Codes: 2r1y, 3duu
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KQSYNLRT
+---------
+PDB Codes: 1wt5, 2z4q
+
+Canonical classes: 7A, 7A
+
+Loop sequence: FQGSHIPPT
+---------
+PDB Codes: 3eo9, 3eoa
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQHNEYPLT
+---------
+PDB Codes: 1nbv, 1rmf
+
+Canonical classes: 7A, 7A
+
+Loop sequence: SQSTHVPLT
+---------
+PDB Codes: 2cgr, 1cgs
+
+Canonical classes: 7A, 7A
+
+Loop sequence: SQGTHVPYT
+---------
+PDB Codes: 1n64, 1ymh
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KQAYIPPLT
+---------
+PDB Codes: 1ua6, 2dqf
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNSWPYT
+---------
+PDB Codes: 1mie, 1ad9
+
+Canonical classes: 7A, 7A
+
+Loop sequence: MQHLEYPFT
+---------
+PDB Codes: 1iai_2, 1aif
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQWNSYPYT
+---------
+PDB Codes: 3ejz, 2fed
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQWSSHPQT
+---------
+PDB Codes: 1ruk, 1ncw
+
+Canonical classes: 7A, 7A
+
+Loop sequence: WQGTHFPYT
+---------
+PDB Codes: 2r1w, 3duu
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KQSYNLRT
+---------
+PDB Codes: 2cju, 1f3d
+
+Canonical classes: 7A, 7A
+
+Loop sequence: FQGSHVPYT
+---------
+PDB Codes: 1him, 1ifh
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QNDYSNPLT
+---------
+PDB Codes: 1tqc, 1tqb
+
+Canonical classes: 7A, 7A
+
+Loop sequence: WQGSHFPQT
+---------
+PDB Codes: 3bqu_1, 1u8o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQLHFYPHT
+---------
+PDB Codes: 2ipt, 2iqa
+
+Canonical classes: 7A, 7A
+
+Loop sequence: FQGSHVPLT
+---------
+PDB Codes: 1ncb, 1nca
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQHYSPPWT
+---------
+PDB Codes: 1xf4, 1p7k
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QHHYGTPLT
+---------
+PDB Codes: 1flr, 1t66
+
+Canonical classes: 7A, 7A
+
+Loop sequence: SQSTHVPWT
+---------
+PDB Codes: 1mju, 1mj8
+
+Canonical classes: 7A, 7A
+
+Loop sequence: LQHLEYPFT
+---------
+PDB Codes: 1u91, 1u8o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQLHFYPHT
+---------
+PDB Codes: 1bfv, 1cfv
+
+Canonical classes: 7A, 7A
+
+Loop sequence: SQSSHVPLT
+---------
+PDB Codes: 1r3j, 2ih3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNRWPFT
+---------
+PDB Codes: 1u92, 1u8o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQLHFYPHT
+---------
+PDB Codes: 1k4d, 2ih3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNRWPFT
+---------
+PDB Codes: 1oay, 1oaz
+
+Canonical classes: 7A, 7A
+
+Loop sequence: ALWYSNHLV
+---------
+PDB Codes: 1wc7, 1wcb
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQRSTYPFT
+---------
+PDB Codes: 1yym, 2ny1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQYNNWPPRYT
+---------
+PDB Codes: 1ncd, 1nca
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQHYSPPWT
+---------
+PDB Codes: 2ap2, 1mvu
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QNDYSYPLT
+---------
+PDB Codes: 2r2h, 3duu
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KQSYNLRT
+---------
+PDB Codes: 2ck0, 1ck0
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KQSYNLYT
+---------
+PDB Codes: 3bkm, 3bkj
+
+Canonical classes: 7A, 7A
+
+Loop sequence: FQASLVPLT
+---------
+PDB Codes: 2hfe, 2ih3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNRWPFT
+---------
+PDB Codes: 2i5y, 2ny1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQYNNWPPRYT
+---------
+PDB Codes: 2b1a, 2b0s
+
+Canonical classes: 7A, 7A
+
+Loop sequence: AAWDDSRGGPDWV
+---------
+PDB Codes: 3c2a, 1q1j
+
+Canonical classes: 7A, 7A
+
+Loop sequence: ATWDSGLSADWV
+---------
+PDB Codes: 2b1h, 2b0s
+
+Canonical classes: 7A, 7A
+
+Loop sequence: AAWDDSRGGPDWV
+---------
+PDB Codes: 1pz5, 1m7i
+
+Canonical classes: 7A, 7A
+
+Loop sequence: SQTTHVPT
+---------
+PDB Codes: 1s3k, 1ucb
+
+Canonical classes: 7A, 7A
+
+Loop sequence: FQGSHVPFT
+---------
+PDB Codes: 1u8k, 1u8o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQLHFYPHT
+---------
+PDB Codes: 2dlf, 2hkh
+
+Canonical classes: 7A, 7A
+
+Loop sequence: SQSTHVPFT
+---------
+PDB Codes: 1rzk, 2ny1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQYNNWPPRYT
+---------
+PDB Codes: 3c09, 3c08
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQWSSHIFT
+---------
+PDB Codes: 2fr4, 1p7k
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QHHYGTPLT
+---------
+PDB Codes: 2yss, 2dqf
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNSWPYT
+---------
+PDB Codes: 1ynl, 1cgs
+
+Canonical classes: 7A, 7A
+
+Loop sequence: SQGTHVPYT
+---------
+PDB Codes: 1uz8, 1uz6
+
+Canonical classes: 7A, 7A
+
+Loop sequence: AQNLEVPWT
+---------
+PDB Codes: 1j5o, 1r0a
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQYSKFPWT
+---------
+PDB Codes: 1ic5, 2dqf
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNSWPYT
+---------
+PDB Codes: 1a0q, 1eap
+
+Canonical classes: 7A, 7A
+
+Loop sequence: LQYYNLRT
+---------
+PDB Codes: 2pw2, 1u8o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQLHFYPHT
+---------
+PDB Codes: 1c1e, 2o5x
+
+Canonical classes: 7A, 7A
+
+Loop sequence: FQSTHFFPT
+---------
+PDB Codes: 1hkl, 2rcs
+
+Canonical classes: 7A, 7A
+
+Loop sequence: LQYASYPRT
+---------
+PDB Codes: 1c5c, 1c5b
+
+Canonical classes: 7A, 7A
+
+Loop sequence: LQYASFPRT
+---------
+PDB Codes: 1ngz, 3fct
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQYSSYPLT
+---------
+PDB Codes: 1jn6, 1jnh
+
+Canonical classes: 7A, 7A
+
+Loop sequence: ALWFSNQFI
+---------
+PDB Codes: 2mcp, 1mcp
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QNDHSYPLT
+---------
+PDB Codes: 1ndm, 2dqf
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNSWPYT
+---------
+PDB Codes: 1b4j, 1t04
+
+Canonical classes: 7A, 7A
+
+Loop sequence: GQSYNYPFT
+---------
+PDB Codes: 1y18, 3cfk
+
+Canonical classes: 7A, 7A
+
+Loop sequence: ALWNSNHLV
+---------
+PDB Codes: 2j4w, 2j5l
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQWSSHPPT
+---------
+PDB Codes: 1gaf, 2rcs
+
+Canonical classes: 7A, 7A
+
+Loop sequence: LQYASYPRT
+---------
+PDB Codes: 2itc, 2ih3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNRWPFT
+---------
+PDB Codes: 3hfm, 2dqf
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNSWPYT
+---------
+PDB Codes: 1nc4, 1nc2
+
+Canonical classes: 7C, 7C
+
+Loop sequence: ALWYSNHWV
+---------
+PDB Codes: 1p4i, 1nc2
+
+Canonical classes: 7A, 7C
+
+Loop sequence: ALWYSNHWV
+
+Of interest.....
+---------
+PDB Codes: 1rua, 1ncw
+
+Canonical classes: 7A, 7A
+
+Loop sequence: WQGTHFPYT
+---------
+PDB Codes: 3bsz, 2zcl
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNEDPYT
+---------
+PDB Codes: 1mjj, 1mj8
+
+Canonical classes: 7A, 7A
+
+Loop sequence: LQHLEYPFT
+---------
+PDB Codes: 2r0l, 3grw
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSYTTPPT
+---------
+PDB Codes: 1xcq, 1ymh
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KQAYIPPLT
+---------
+PDB Codes: 1igi, 1igj
+
+Canonical classes: 7A, 7A
+
+Loop sequence: SQTTHVPPT
+---------
+PDB Codes: 1yeg, 1yed
+
+Canonical classes: 7A, 7A
+
+Loop sequence: VQGTHFPYT
+---------
+PDB Codes: 1dvf_1, 1a7n
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QHFWSTPRT
+---------
+PDB Codes: 1bfo, 1ce1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: LQHISRPRT
+---------
+PDB Codes: 1i8k, 1i8i
+
+Canonical classes: 7C, 7C
+
+Loop sequence: LQSFNVPLT
+---------
+PDB Codes: 1v7m, 1v7n
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQRSGYPRT
+---------
+PDB Codes: 3bae, 3bkj
+
+Canonical classes: 7A, 7A
+
+Loop sequence: FQASLVPLT
+---------
+PDB Codes: 2zck, 2zcl
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNEDPYT
+---------
+PDB Codes: 1opg, 1bm3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNSWPLT
+---------
+PDB Codes: 2f5a, 1u8o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQLHFYPHT
+---------
+PDB Codes: 2ajs, 2ajx
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQFVEYPFT
+---------
+PDB Codes: 2boc, 2ih3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNRWPFT
+---------
+PDB Codes: 1hil, 1ifh
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QNDYSNPLT
+---------
+PDB Codes: 2aeq, 2aep
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQFNRYPLT
+---------
+PDB Codes: 3hc0, 3hc4
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQYDTYPFT
+---------
+PDB Codes: 1ngw, 3fct
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQYSSYPLT
+---------
+PDB Codes: 1yyl, 2ny1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQYNNWPPRYT
+---------
+PDB Codes: 1hh9, 1hi6
+
+Canonical classes: 7A, 7A
+
+Loop sequence: LQYDDFPLT
+---------
+PDB Codes: 1op5, 1zlu
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QHYAGYSAT
+---------
+PDB Codes: 1bvk, 1a7n
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QHFWSTPRT
+---------
+PDB Codes: 1ynk, 1cgs
+
+Canonical classes: 7A, 7A
+
+Loop sequence: SQGTHVPYT
+---------
+PDB Codes: 1a6v, 1nc2
+
+Canonical classes: 7A, 7C
+
+Loop sequence: ALWYSNHWV
+
+Of interest.....
+---------
+PDB Codes: 2dqj, 2dqf
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNSWPYT
+---------
+PDB Codes: 2ny2, 2ny1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQYNNWPPRYT
+---------
+PDB Codes: 1ahw, 1fgn
+
+Canonical classes: 7A, 7A
+
+Loop sequence: LQHGESPYT
+---------
+PDB Codes: 1etz, 1nc2
+
+Canonical classes: 7A, 7C
+
+Loop sequence: ALWYSNHWV
+
+Of interest.....
+---------
+PDB Codes: 3c6s, 3c5s
+
+Canonical classes: 7A, 7A
+
+Loop sequence: AHNVELPRT
+---------
+PDB Codes: 2iff, 1yqv
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQWGRNPT
+---------
+PDB Codes: 1om3, 1zlu
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QHYAGYSAT
+---------
+PDB Codes: 1l7i, 1s78
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQYYIYPYT
+---------
+PDB Codes: 1cly, 1ucb
+
+Canonical classes: 7A, 7A
+
+Loop sequence: FQGSHVPFT
+---------
+PDB Codes: 1kem, 1kel
+
+Canonical classes: 7A, 7A
+
+Loop sequence: FQGSHVPRT
+---------
+PDB Codes: 2iq9, 2iqa
+
+Canonical classes: 7A, 7A
+
+Loop sequence: FQGSHVPLT
+---------
+PDB Codes: 1riv, 1ad9
+
+Canonical classes: 7A, 7A
+
+Loop sequence: MQHLEYPFT
+---------
+PDB Codes: 1oar, 1oaz
+
+Canonical classes: 7A, 7A
+
+Loop sequence: ALWYSNHLV
+---------
+PDB Codes: 1cl7, 1n4x
+
+Canonical classes: 7A, 7A
+
+Loop sequence: FQGSHFPPT
+---------
+PDB Codes: 1nd0, 1ncw
+
+Canonical classes: 7A, 7A
+
+Loop sequence: WQGTHFPYT
+---------
+PDB Codes: 2r9h, 2fed
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQWSSHPQT
+---------
+PDB Codes: 1rul, 1ncw
+
+Canonical classes: 7A, 7A
+
+Loop sequence: WQGTHFPYT
+---------
+PDB Codes: 2atk, 2ih3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNRWPFT
+---------
+PDB Codes: 1u8l, 1u8o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQLHFYPHT
+---------
+PDB Codes: 2ht2, 2fed
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQWSSHPQT
+---------
+PDB Codes: 1u93, 1u8o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQLHFYPHT
+---------
+PDB Codes: 1yuh, 1nc2
+
+Canonical classes: 7A, 7C
+
+Loop sequence: ALWYSNHWV
+
+Of interest.....
+---------
+PDB Codes: 1rum, 1ncw
+
+Canonical classes: 7A, 7A
+
+Loop sequence: WQGTHFPYT
+---------
+PDB Codes: 3hnv, 3hns
+
+Canonical classes: 7A, 7A
+
+Loop sequence: HQDTKPPYT
+---------
+PDB Codes: 2vis, 1nc2
+
+Canonical classes: 7A, 7C
+
+Loop sequence: ALWYSNHWV
+
+Of interest.....
+---------
+PDB Codes: 1u8q, 1u8o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQLHFYPHT
+---------
+PDB Codes: 1y0l, 3cfk
+
+Canonical classes: 7A, 7A
+
+Loop sequence: ALWNSNHLV
+---------
+PDB Codes: 2z92, 1z3g
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQWSSNPPT
+---------
+PDB Codes: 1fvd, 1fvc
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQHYTTPPT
+---------
+PDB Codes: 1zls, 1zlu
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QHYAGYSAT
+---------
+PDB Codes: 2vit, 1nc2
+
+Canonical classes: 7A, 7C
+
+Loop sequence: ALWYSNHWV
+
+Of interest.....
+---------
+PDB Codes: 1xf2, 1p7k
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QHHYGTPLT
+---------
+PDB Codes: 1rup, 1ncw
+
+Canonical classes: 7A, 7A
+
+Loop sequence: WQGTHFPYT
+---------
+PDB Codes: 1bql, 1yqv
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQWGRNPT
+---------
+PDB Codes: 2uyl, 1kel
+
+Canonical classes: 7A, 7A
+
+Loop sequence: FQGSHVPRT
+---------
+PDB Codes: 1ngy, 3fct
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQYSSYPLT
+---------
+PDB Codes: 1f4x, 1f4y
+
+Canonical classes: 7A, 7A
+
+Loop sequence: ALWYSGHWV
+---------
+PDB Codes: 1ar1, 1mqk
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QHHYGTPPLT
+---------
+PDB Codes: 1dbk, 1dbm
+
+Canonical classes: 7A, 7A
+
+Loop sequence: SQSSHVPPT
+---------
+PDB Codes: 1rzj, 2ny1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQYNNWPPRYT
+---------
+PDB Codes: 2ny3, 2ny1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQYNNWPPRYT
+---------
+PDB Codes: 2o5z, 2o5x
+
+Canonical classes: 7A, 7A
+
+Loop sequence: FQSTHFFPT
+---------
+PDB Codes: 1i3g, 3fct
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQYSSYPLT
+---------
+PDB Codes: 2adj, 2adi
+
+Canonical classes: 7C, 7C
+
+Loop sequence: LQSDTLPLT
+---------
+PDB Codes: 1mrc, 1mpa
+
+Canonical classes: 7A, 7A
+
+Loop sequence: SQSTHVPRT
+---------
+PDB Codes: 2hrp, 1mf2
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSKEVPWT
+---------
+PDB Codes: 1a6u, 1nc2
+
+Canonical classes: 7A, 7C
+
+Loop sequence: ALWYSNHWV
+
+Of interest.....
+---------
+PDB Codes: 2bmk, 1wcb
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQRSTYPFT
+---------
+PDB Codes: 1dqj, 2dqf
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNSWPYT
+---------
+PDB Codes: 2fat, 1e6o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQWNYPFT
+---------
+PDB Codes: 4fab, 1t66
+
+Canonical classes: 7A, 7A
+
+Loop sequence: SQSTHVPWT
+---------
+PDB Codes: 1f4w, 1f4y
+
+Canonical classes: 7A, 7A
+
+Loop sequence: ALWYSGHWV
+---------
+PDB Codes: 1clz, 1ucb
+
+Canonical classes: 7A, 7A
+
+Loop sequence: FQGSHVPFT
+---------
+PDB Codes: 2exy, 2fed
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQWSSHPQT
+---------
+PDB Codes: 2dqd, 2dqf
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNSWPYT
+---------
+PDB Codes: 1mfc, 1mfd
+
+Canonical classes: 7A, 7A
+
+Loop sequence: ALWCNNHWI
+---------
+PDB Codes: 1u95, 1u8o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQLHFYPHT
+---------
+PDB Codes: 1ndg, 2dqf
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNSWPYT
+---------
+PDB Codes: 1iqw, 1it9
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNEDPRT
+---------
+PDB Codes: 25c8, 15c8
+
+Canonical classes: 7A, 7A
+
+Loop sequence: HQYHRSPYT
+---------
+PDB Codes: 1cu4, 1cr9
+
+Canonical classes: 7A, 7A
+
+Loop sequence: WQGTHFPHT
+---------
+PDB Codes: 2ih1, 2ih3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNRWPFT
+---------
+PDB Codes: 3eo0, 3eo1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQYADSPIT
+---------
+PDB Codes: 1fgv, 2fgw
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQGNTLPPT
+---------
+PDB Codes: 1tpx, 1tqb
+
+Canonical classes: 7A, 7A
+
+Loop sequence: WQGSHFPQT
+---------
+PDB Codes: 1riu, 1ad9
+
+Canonical classes: 7A, 7A
+
+Loop sequence: MQHLEYPFT
+---------
+PDB Codes: 1f90, 1s5i
+
+Canonical classes: 7A, 7A
+
+Loop sequence: VQGTHFPRT
+---------
+PDB Codes: 1e4x, 1e4w
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQGGALPFT
+---------
+PDB Codes: 1bog, 1hi6
+
+Canonical classes: 7A, 7A
+
+Loop sequence: LQYDDFPLT
+---------
+PDB Codes: 1q72, 1ad9
+
+Canonical classes: 7A, 7A
+
+Loop sequence: MQHLEYPFT
+---------
+PDB Codes: 2eh8, 2eh7
+
+Canonical classes: 7A, 7A
+
+Loop sequence: VQGTHFPQT
+---------
+PDB Codes: 1dqm, 2dqf
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNSWPYT
+---------
+PDB Codes: 2r1x, 3duu
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KQSYNLRT
+---------
+PDB Codes: 1g9m, 2ny1
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQYNNWPPRYT
+---------
+PDB Codes: 1u8i, 1u8o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQLHFYPHT
+---------
+PDB Codes: 1mh5, 1mj8
+
+Canonical classes: 7A, 7A
+
+Loop sequence: LQHLEYPFT
+---------
+PDB Codes: 2dd8, 2g75
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QVWDSSSDYV
+---------
+PDB Codes: 3e8u, 1f11
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNEDPFT
+---------
+PDB Codes: 1bz7, 1r24
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQGKTLPYT
+---------
+PDB Codes: 1qle, 1mqk
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QHHYGTPPLT
+---------
+PDB Codes: 1b2w, 1t04
+
+Canonical classes: 7A, 7A
+
+Loop sequence: GQSYNYPFT
+---------
+PDB Codes: 1aj7, 2rcs
+
+Canonical classes: 7A, 7A
+
+Loop sequence: LQYASYPRT
+---------
+PDB Codes: 2vir, 1nc2
+
+Canonical classes: 7A, 7C
+
+Loop sequence: ALWYSNHWV
+
+Of interest.....
+---------
+PDB Codes: 3gi9, 3gi8
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQHYSTPYT
+---------
+PDB Codes: 3cfj, 3cfk
+
+Canonical classes: 7A, 7A
+
+Loop sequence: ALWNSNHLV
+---------
+PDB Codes: 2zpk, 1nc2
+
+Canonical classes: 7A, 7C
+
+Loop sequence: ALWYSNHWV
+
+Of interest.....
+---------
+PDB Codes: 3f58, 1f58
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSHEDPLT
+---------
+PDB Codes: 1qlr, 1dn0
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQYGSSPLT
+---------
+PDB Codes: 2o5y, 2o5x
+
+Canonical classes: 7A, 7A
+
+Loop sequence: FQSTHFFPT
+---------
+PDB Codes: 2r0w, 2iqa
+
+Canonical classes: 7A, 7A
+
+Loop sequence: FQGSHVPLT
+---------
+PDB Codes: 1jnl, 1jnn
+
+Canonical classes: 7A, 7A
+
+Loop sequence: HHFWNTPYT
+---------
+PDB Codes: 2gfb, 2vxt
+
+Canonical classes: 7A, 7A
+
+Loop sequence: LQYASSPYT
+---------
+PDB Codes: 1mrd, 1mpa
+
+Canonical classes: 7A, 7A
+
+Loop sequence: SQSTHVPRT
+---------
+PDB Codes: 1mlb, 1mlc
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNSWPRT
+---------
+PDB Codes: 2f58, 1f58
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSHEDPLT
+---------
+PDB Codes: 1cf8, 1hq4
+
+Canonical classes: 7A, 7A
+
+Loop sequence: LQWSSFPYT
+---------
+PDB Codes: 2htk, 2fed
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQWSSHPQT
+---------
+PDB Codes: 1ehl, 1keg
+
+Canonical classes: 7A, 7A
+
+Loop sequence: FQGSLVPT
+---------
+PDB Codes: 1r3l, 2ih3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNRWPFT
+---------
+PDB Codes: 1yec, 1yed
+
+Canonical classes: 7A, 7A
+
+Loop sequence: VQGTHFPYT
+---------
+PDB Codes: 1ngp, 1nc2
+
+Canonical classes: 7A, 7C
+
+Loop sequence: ALWYSNHWV
+
+Of interest.....
+---------
+PDB Codes: 1xf5, 1ymh
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KQAYIPPLT
+---------
+PDB Codes: 1ru9, 1ncw
+
+Canonical classes: 7A, 7A
+
+Loop sequence: WQGTHFPYT
+---------
+PDB Codes: 1oax, 1oaz
+
+Canonical classes: 7A, 7A
+
+Loop sequence: ALWYSNHLV
+---------
+PDB Codes: 3d0v, 1u8o
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQLHFYPHT
+---------
+PDB Codes: 1xiw, 1dvf_2
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQGNTLPWT
+---------
+PDB Codes: 1ic7, 2dqf
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNSWPYT
+---------
+PDB Codes: 2gk0, 2gjz
+
+Canonical classes: 7A, 7A
+
+Loop sequence: FQGSHLPPT
+---------
+PDB Codes: 3bz4, 3c5s
+
+Canonical classes: 7A, 7A
+
+Loop sequence: AHNVELPRT
+---------
+PDB Codes: 1dbj, 1dbm
+
+Canonical classes: 7A, 7A
+
+Loop sequence: SQSSHVPPT
+---------
+PDB Codes: 3bkc, 3bkj
+
+Canonical classes: 7A, 7A
+
+Loop sequence: FQASLVPLT
+---------
+PDB Codes: 1sm3, 1nc2
+
+Canonical classes: 7A, 7C
+
+Loop sequence: ALWYSNHWV
+
+Of interest.....
+---------
+PDB Codes: 1ggb, 1ejo
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNEDPLT
+---------
+PDB Codes: 1a14, 1nmb
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQDFTLPFT
+---------
+PDB Codes: 1mnu, 1mpa
+
+Canonical classes: 7A, 7A
+
+Loop sequence: SQSTHVPRT
+---------
+PDB Codes: 1wej, 1qbl
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QHFWSTPWT
+---------
+PDB Codes: 1kir, 1a7n
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QHFWSTPRT
+---------
+PDB Codes: 3g6a, 3g6d
+
+Canonical classes: 7A, 7A
+
+Loop sequence: GTWDMVTNNV
+---------
+PDB Codes: 2ajz, 2ajx
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQFVEYPFT
+---------
+PDB Codes: 1q9v, 3duu
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KQSYNLRT
+---------
+PDB Codes: 1i9j, 2dqt
+
+Canonical classes: 7A, 7A
+
+Loop sequence: FQGSHVPPT
+---------
+PDB Codes: 1axt, 1cgs
+
+Canonical classes: 7A, 7A
+
+Loop sequence: SQGTHVPYT
+---------
+PDB Codes: 1q0x, 1q0y
+
+Canonical classes: 7A, 7A
+
+Loop sequence: ALWSNNKLV
+---------
+PDB Codes: 1t3f, 1t04
+
+Canonical classes: 7A, 7A
+
+Loop sequence: GQSYNYPFT
+---------
+PDB Codes: 1fai, 2f19
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQGSTLPRT
+---------
+PDB Codes: 1s5h, 2ih3
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNRWPFT
+---------
+PDB Codes: 2dqe, 2dqf
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQSNSWPYT
+---------
+PDB Codes: 3bdy, 1fvc
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQHYTTPPT
+---------
+PDB Codes: 2adg, 2adi
+
+Canonical classes: 7C, 7C
+
+Loop sequence: LQSDTLPLT
+---------
+PDB Codes: 1bj1, 1cz8
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQYSTVPWT
+---------
+PDB Codes: 1ngx, 3fct
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQYSSYPLT
+---------
+PDB Codes: 2h2p, 2fed
+
+Canonical classes: 7A, 7A
+
+Loop sequence: QQWSSHPQT
+---------
+PDB Codes: 2r2b, 3duu
+
+Canonical classes: 7A, 7A
+
+Loop sequence: KQSYNLRT
+---------
+PDB Codes: 1lo0, 1lo2
+
+Canonical classes: 7A, 7A
+
+Loop sequence: FQGSHFPLA
+---------

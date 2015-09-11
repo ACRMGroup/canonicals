@@ -1,0 +1,2920 @@
+PDB Codes: 1gig, 1nc2
+
+Canonical classes: 14B, 14B
+
+Loop sequence: RSSTGAVTTSNYAN
+---------
+PDB Codes: 1oaz, 1nc2
+
+Canonical classes: 14B, 14B
+
+Loop sequence: RSSTGAVTTSNYAN
+---------
+PDB Codes: 1u8j, 1u8o
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQGVTSALA
+---------
+PDB Codes: 1jhk, 1a7n
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASGNIHNYLA
+---------
+PDB Codes: 1cic_2, 1a7n
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASGNIHNYLA
+---------
+PDB Codes: 2hkh, 1a4j
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSQSLVHSNGNTYLH
+---------
+PDB Codes: 1bey, 1ce1
+
+Canonical classes: 11A, 11A
+
+Loop sequence: KASQNIDKYLN
+---------
+PDB Codes: 1t66, 1a4j
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSQSLVHSNGNTYLH
+---------
+PDB Codes: 3dv4, 3duu
+
+Canonical classes: 17A, 17A
+
+Loop sequence: KSSQSLFKSRNQKNYLA
+---------
+PDB Codes: 1vfa, 1a7n
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASGNIHNYLA
+---------
+PDB Codes: 2f5b, 1u8o
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQGVTSALA
+---------
+PDB Codes: 1oau, 1nc2
+
+Canonical classes: 14B, 14B
+
+Loop sequence: RSSTGAVTTSNYAN
+---------
+PDB Codes: 2bob, 2ih3
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSIGTDIH
+---------
+PDB Codes: 1ine, 1nc2
+
+Canonical classes: 14B, 14B
+
+Loop sequence: RSSTGAVTTSNYAN
+---------
+PDB Codes: 3ejy, 2fed
+
+Canonical classes: 10A, 10A
+
+Loop sequence: SASSSVSYIH
+---------
+PDB Codes: 2vxu, 2vxt
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQDIGSKLY
+---------
+PDB Codes: 1tjg, 1u8o
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQGVTSALA
+---------
+PDB Codes: 1otu, 2fed
+
+Canonical classes: 10A, 10A
+
+Loop sequence: SASSSVSYIH
+---------
+PDB Codes: 2ht4, 2fed
+
+Canonical classes: 10A, 10A
+
+Loop sequence: SASSSVSYIH
+---------
+PDB Codes: 3cxd, 3dsf
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASENIYSFLA
+---------
+PDB Codes: 1a3l, 1rur
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSKSLLNSNGIIHMY
+---------
+PDB Codes: 1cfn, 1hi6
+
+Canonical classes: 11A, 11A
+
+Loop sequence: KASQDINSFLT
+---------
+PDB Codes: 1kfa, 1a4j
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSQSLVHSNGNTYLH
+---------
+PDB Codes: 3cfd, 2a6d
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQDISNYLN
+---------
+PDB Codes: 2itd, 2ih3
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSIGTDIH
+---------
+PDB Codes: 1bvl, 1a7n
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASGNIHNYLA
+---------
+PDB Codes: 1a2y, 1a7n
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASGNIHNYLA
+---------
+PDB Codes: 1ruq, 1rur
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSKSLLNSNGIIHMY
+---------
+PDB Codes: 2dwd, 2ih3
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSIGTDIH
+---------
+PDB Codes: 3ffd, 2gsg
+
+Canonical classes: 12E, 12E
+
+Loop sequence: TLSSQHSTYTIE
+---------
+PDB Codes: 1q0y, 1nc2
+
+Canonical classes: 14B, 14B
+
+Loop sequence: RSSTGAVTTSNYAN
+---------
+PDB Codes: 2nxy, 2ny1
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASESVSSDLA
+---------
+PDB Codes: 1nmb, 2a6d
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQDISNYLN
+---------
+PDB Codes: 2dbl, 1dbm
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSQSLIHSNGNTYLH
+---------
+PDB Codes: 1d5i, 1d6v
+
+Canonical classes: 11A, 11A
+
+Loop sequence: KASQDINSYLS
+---------
+PDB Codes: 3hnt, 3hns
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQDIGSYLN
+---------
+PDB Codes: 6fab, 1jfq
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQDINNFLN
+---------
+PDB Codes: 2nyy, 2gcy
+
+Canonical classes: 15G, 15G
+
+Loop sequence: RASESVDSYGHSFMQ
+---------
+PDB Codes: 1a7o, 1a7n
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASGNIHNYLA
+---------
+PDB Codes: 2fb4, 2ig2
+
+Canonical classes: 13A, 13A
+
+Loop sequence: SGTSSNIGSSTVN
+---------
+PDB Codes: 2hmi, 1r0a
+
+Canonical classes: 11A, 11A
+
+Loop sequence: SASQDISSYLN
+---------
+PDB Codes: 1vfb, 1a7n
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASGNIHNYLA
+---------
+PDB Codes: 1oak, 1fns
+
+Canonical classes: 11A, 11A
+
+Loop sequence: SASQDINKYLN
+---------
+PDB Codes: 1yed, 2c1o
+
+Canonical classes: 16A, 16A
+
+Loop sequence: KSSQSLLYSNGKTYLN
+---------
+PDB Codes: 3ijs, 1q9r
+
+Canonical classes: 17A, 17A
+
+Loop sequence: KSSQSLLNSRTRKNYLA
+---------
+PDB Codes: 2fee, 2fed
+
+Canonical classes: 10A, 10A
+
+Loop sequence: SASSSVSYIH
+---------
+PDB Codes: 3cfb, 1fl3
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSTKSLLHSNGITYLY
+---------
+PDB Codes: 2dqg, 2dqf
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSIGNNLH
+---------
+PDB Codes: 1ngq, 1nc2
+
+Canonical classes: 14B, 14B
+
+Loop sequence: RSSTGAVTTSNYAN
+---------
+PDB Codes: 2h1p, 1a4j
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSQSLVHSNGNTYLH
+---------
+PDB Codes: 1a7r, 1a7n
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASGNIHNYLA
+---------
+PDB Codes: 1rih, 1bm3
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSISNNLH
+---------
+PDB Codes: 3cmo, 2a6d
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQDISNYLN
+---------
+PDB Codes: 1ind, 1nc2
+
+Canonical classes: 14B, 14B
+
+Loop sequence: RSSTGAVTTSNYAN
+---------
+PDB Codes: 2zuq, 1q9r
+
+Canonical classes: 17B, 17A
+
+Loop sequence: KSSQSLLNSRTRKNYLA
+
+Of interest.....
+---------
+PDB Codes: 1a7p, 1a7n
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASGNIHNYLA
+---------
+PDB Codes: 3gbn, 3gbm
+
+Canonical classes: 13A, 13A
+
+Loop sequence: SGSSSNIGNDYVS
+---------
+PDB Codes: 1rz8, 2ny1
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASESVSSDLA
+---------
+PDB Codes: 1zlv, 1zlu
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSIETWLA
+---------
+PDB Codes: 1cfq, 1hi6
+
+Canonical classes: 11A, 11A
+
+Loop sequence: KASQDINSFLT
+---------
+PDB Codes: 1keg, 2iqa
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSQSIVHSNGNTYLE
+---------
+PDB Codes: 3dus, 3duu
+
+Canonical classes: 17A, 17A
+
+Loop sequence: KSSQSLFKSRNQKNYLA
+---------
+PDB Codes: 1hys, 1r0a
+
+Canonical classes: 11A, 11A
+
+Loop sequence: SASQDISSYLN
+---------
+PDB Codes: 1n8z, 1fvc
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQDVNTAVA
+---------
+PDB Codes: 2zch, 2zcl
+
+Canonical classes: 15B, 15B
+
+Loop sequence: KASQSVDFDGDSYMN
+---------
+PDB Codes: 1za3, 1fvc
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQDVNTAVA
+---------
+PDB Codes: 3eyf, 3eyo
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSVGGYLT
+---------
+PDB Codes: 1a6w, 1nc2
+
+Canonical classes: 14B, 14B
+
+Loop sequence: RSSTGAVTTSNYAN
+---------
+PDB Codes: 1ymh, 1q9r
+
+Canonical classes: 17A, 17A
+
+Loop sequence: KSSQSLLNSRTRKNYLA
+---------
+PDB Codes: 2exw, 2fed
+
+Canonical classes: 10A, 10A
+
+Loop sequence: SASSSVSYIH
+---------
+PDB Codes: 3eyu, 2iqa
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSQSIVHSNGNTYLE
+---------
+PDB Codes: 1ap2, 1mvu
+
+Canonical classes: 17A, 17A
+
+Loop sequence: KSSQSLLNSGNQKNYLT
+---------
+PDB Codes: 1xf3, 1p7k
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASENIYSYLA
+---------
+PDB Codes: 1pg7_2, 1nc2
+
+Canonical classes: 14B, 14B
+
+Loop sequence: RSSTGAVTTSNYAN
+---------
+PDB Codes: 2ajy, 2ajx
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSRSLLYKDGRTYLN
+---------
+PDB Codes: 3ijy, 1q9r
+
+Canonical classes: 17A, 17A
+
+Loop sequence: KSSQSLLNSRTRKNYLA
+---------
+PDB Codes: 1mhh, 1q9r
+
+Canonical classes: 17A, 17A
+
+Loop sequence: KSSQSLLNSRTRKNYLA
+---------
+PDB Codes: 3ijh, 1q9r
+
+Canonical classes: 17A, 17A
+
+Loop sequence: KSSQSLLNSRTRKNYLA
+---------
+PDB Codes: 1yef, 2c1o
+
+Canonical classes: 16A, 16A
+
+Loop sequence: KSSQSLLYSNGKTYLN
+---------
+PDB Codes: 2hvk, 2ih3
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSIGTDIH
+---------
+PDB Codes: 1kip, 1a7n
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASGNIHNYLA
+---------
+PDB Codes: 1r3i, 2ih3
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSIGTDIH
+---------
+PDB Codes: 1q9k, 1q9r
+
+Canonical classes: 17A, 17A
+
+Loop sequence: KSSQSLLNSRTRKNYLA
+---------
+PDB Codes: 1nma, 2a6d
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQDISNYLN
+---------
+PDB Codes: 3det, 2fed
+
+Canonical classes: 10A, 10A
+
+Loop sequence: SASSSVSYIH
+---------
+PDB Codes: 1u8h, 1u8o
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQGVTSALA
+---------
+PDB Codes: 1u8m, 1u8o
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQGVTSALA
+---------
+PDB Codes: 2fd6, 1e6o
+
+Canonical classes: 10A, 10A
+
+Loop sequence: SASSSVSYMH
+---------
+PDB Codes: 1ott, 2fed
+
+Canonical classes: 10A, 10A
+
+Loop sequence: SASSSVSYIH
+---------
+PDB Codes: 1dbb, 1dbm
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSQSLIHSNGNTYLH
+---------
+PDB Codes: 3bt2, 1e6o
+
+Canonical classes: 10A, 10A
+
+Loop sequence: SASSSVSYMH
+---------
+PDB Codes: 1fbi, 2a6d
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQDISNYLN
+---------
+PDB Codes: 2jb5, 2jb6
+
+Canonical classes: 14H, 14H
+
+Loop sequence: TGTSSDVGSNNYVS
+---------
+PDB Codes: 1qbl, 1a7n
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASGNIHNYLA
+---------
+PDB Codes: 1n6q, 1r0a
+
+Canonical classes: 11A, 11A
+
+Loop sequence: SASQDISSYLN
+---------
+PDB Codes: 3hc3, 3hc4
+
+Canonical classes: 11A, 11A
+
+Loop sequence: KASQNVGINVA
+---------
+PDB Codes: 3d9a, 2dqf
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSIGNNLH
+---------
+PDB Codes: 2nlj, 2ih3
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSIGTDIH
+---------
+PDB Codes: 1t03, 1r0a
+
+Canonical classes: 11A, 11A
+
+Loop sequence: SASQDISSYLN
+---------
+PDB Codes: 1dl7, 1nc2
+
+Canonical classes: 14B, 14B
+
+Loop sequence: RSSTGAVTTSNYAN
+---------
+PDB Codes: 2w9e, 1e6o
+
+Canonical classes: 10A, 10A
+
+Loop sequence: SASSSVSYMH
+---------
+PDB Codes: 2c1p, 2c1o
+
+Canonical classes: 16A, 16A
+
+Loop sequence: KSSQSLLYSNGKTYLN
+---------
+PDB Codes: 3dv6, 3duu
+
+Canonical classes: 17A, 17A
+
+Loop sequence: KSSQSLFKSRNQKNYLA
+---------
+PDB Codes: 2nxz, 2ny1
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASESVSSDLA
+---------
+PDB Codes: 2dtm, 2dqt
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSQTIVHSNGDTYLD
+---------
+PDB Codes: 1uac, 2dqf
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSIGNNLH
+---------
+PDB Codes: 1yy9, 1yy8
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSIGTNIH
+---------
+PDB Codes: 2dqh, 2dqf
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSIGNNLH
+---------
+PDB Codes: 2fx8, 2fx9
+
+Canonical classes: 12D, 12D
+
+Loop sequence: RASQSVGNNKLA
+---------
+PDB Codes: 2ny0, 2ny1
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASESVSSDLA
+---------
+PDB Codes: 1v7n, 1bgx
+
+Canonical classes: 10A, 10A
+
+Loop sequence: SASSSVSYMY
+---------
+PDB Codes: 1kno, 2rcs
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQEISGYLS
+---------
+PDB Codes: 3dur, 3duu
+
+Canonical classes: 17A, 17A
+
+Loop sequence: KSSQSLFKSRNQKNYLA
+---------
+PDB Codes: 2ajv, 2ajx
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSRSLLYKDGRTYLN
+---------
+PDB Codes: 2ddq, 2iqa
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSQSIVHSNGNTYLE
+---------
+PDB Codes: 2h2s, 2fed
+
+Canonical classes: 10A, 10A
+
+Loop sequence: SASSSVSYIH
+---------
+PDB Codes: 1hh6, 1hi6
+
+Canonical classes: 11A, 11A
+
+Loop sequence: KASQDINSFLT
+---------
+PDB Codes: 3cfc, 1fl3
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSTKSLLHSNGITYLY
+---------
+PDB Codes: 2r23, 1q9r
+
+Canonical classes: 17A, 17A
+
+Loop sequence: KSSQSLLNSRTRKNYLA
+---------
+PDB Codes: 3grw, 2qqk
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQDVSTAVA
+---------
+PDB Codes: 1fve, 1fvc
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQDVNTAVA
+---------
+PDB Codes: 2hlf, 2fed
+
+Canonical classes: 10A, 10A
+
+Loop sequence: SASSSVSYIH
+---------
+PDB Codes: 1axs, 1d5b
+
+Canonical classes: 11A, 11A
+
+Loop sequence: KASQDINSYLN
+---------
+PDB Codes: 2r2e, 1q9r
+
+Canonical classes: 17A, 17A
+
+Loop sequence: KSSQSLLNSRTRKNYLA
+---------
+PDB Codes: 1dlf, 1a4j
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSQSLVHSNGNTYLH
+---------
+PDB Codes: 2hkf, 1a4j
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSQSLVHSNGNTYLH
+---------
+PDB Codes: 1dba, 1dbm
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSQSLIHSNGNTYLH
+---------
+PDB Codes: 1gc1, 2ny1
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASESVSSDLA
+---------
+PDB Codes: 1ots, 2fed
+
+Canonical classes: 10A, 10A
+
+Loop sequence: SASSSVSYIH
+---------
+PDB Codes: 1fh5, 1bm3
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSISNNLH
+---------
+PDB Codes: 3b2u, 3b2v
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSVSSYLA
+---------
+PDB Codes: 2dwe, 2ih3
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSIGTDIH
+---------
+PDB Codes: 1fdl, 1a7n
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASGNIHNYLA
+---------
+PDB Codes: 3ck0, 1ck0
+
+Canonical classes: 17A, 17A
+
+Loop sequence: KSSQNLLHSITRKNYLA
+---------
+PDB Codes: 1mfe, 1mfd
+
+Canonical classes: 14B, 14B
+
+Loop sequence: RSSTGTVTSGNHAN
+---------
+PDB Codes: 2dqu, 2dqt
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSQTIVHSNGDTYLD
+---------
+PDB Codes: 1zlw, 1zlu
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSIETWLA
+---------
+PDB Codes: 2htl, 2fed
+
+Canonical classes: 10A, 10A
+
+Loop sequence: SASSSVSYIH
+---------
+PDB Codes: 1u8p, 1u8o
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQGVTSALA
+---------
+PDB Codes: 1cft, 1hi6
+
+Canonical classes: 11A, 11A
+
+Loop sequence: KASQDINSFLT
+---------
+PDB Codes: 1q9l, 1q9r
+
+Canonical classes: 17A, 17A
+
+Loop sequence: KSSQSLLNSRTRKNYLA
+---------
+PDB Codes: 2i60, 2ny1
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASESVSSDLA
+---------
+PDB Codes: 1dqq, 1bm3
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSISNNLH
+---------
+PDB Codes: 1k4c, 2ih3
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSIGTDIH
+---------
+PDB Codes: 2h9g, 2qqk
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQDVSTAVA
+---------
+PDB Codes: 2qql, 2qqk
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQDVSTAVA
+---------
+PDB Codes: 1jpt, 1jps
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASRDIKSYLN
+---------
+PDB Codes: 1acy, 1ai1
+
+Canonical classes: 15G, 15G
+
+Loop sequence: RASESVDSYGKSFMH
+---------
+PDB Codes: 1oaq, 1nc2
+
+Canonical classes: 14B, 14B
+
+Loop sequence: RSSTGAVTTSNYAN
+---------
+PDB Codes: 2fjg, 2qqk
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQDVSTAVA
+---------
+PDB Codes: 1tzg, 2fx9
+
+Canonical classes: 12D, 12D
+
+Loop sequence: RASQSVGNNKLA
+---------
+PDB Codes: 1q9q, 1q9r
+
+Canonical classes: 17A, 17A
+
+Loop sequence: KSSQSLLNSRTRKNYLA
+---------
+PDB Codes: 1qbm, 1a7n
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASGNIHNYLA
+---------
+PDB Codes: 3hi6, 3hi5
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSIGSYLN
+---------
+PDB Codes: 1cbv, 1a4j
+
+Canonical classes: 16B, 16A
+
+Loop sequence: RSSQSLVHSNGNTYLH
+
+Of interest.....
+---------
+PDB Codes: 2w60, 2w65
+
+Canonical classes: 16A, 16A
+
+Loop sequence: KSSQSLLDSDGKTYLN
+---------
+PDB Codes: 2w9d, 1e6o
+
+Canonical classes: 10B, 10A
+
+Loop sequence: SASSSVSYMH
+
+Of interest.....
+---------
+PDB Codes: 35c8, 15c8
+
+Canonical classes: 12C, 12C
+
+Loop sequence: TASSSVSSSNLH
+---------
+PDB Codes: 3dvg, 3dvn
+
+Canonical classes: 11D, 11F
+
+Loop sequence: RASQSVSSAVA
+
+Of interest.....
+---------
+PDB Codes: 1lo3, 1lo2
+
+Canonical classes: 16A, 16A
+
+Loop sequence: TSSQTIVHTNGNTYLE
+---------
+PDB Codes: 1i8m, 1p7k
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASENIYSYLA
+---------
+PDB Codes: 1ay1, 1bgx
+
+Canonical classes: 10A, 10A
+
+Loop sequence: SASSSVSYMY
+---------
+PDB Codes: 1q9t, 1q9r
+
+Canonical classes: 17A, 17A
+
+Loop sequence: KSSQSLLNSRTRKNYLA
+---------
+PDB Codes: 1mqk, 1p7k
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASENIYSYLA
+---------
+PDB Codes: 1ktr, 2iqa
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSQSIVHSNGNTYLE
+---------
+PDB Codes: 1j1p, 2dqf
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSIGNNLH
+---------
+PDB Codes: 2bfv, 1cfv
+
+Canonical classes: 16D, 16D
+
+Loop sequence: RSSQSLVSNNRRNYLH
+---------
+PDB Codes: 2fx7, 2fx9
+
+Canonical classes: 12D, 12D
+
+Loop sequence: RASQSVGNNKLA
+---------
+PDB Codes: 2hjf, 2ih3
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSIGTDIH
+---------
+PDB Codes: 2pw1, 1u8o
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQGVTSALA
+---------
+PDB Codes: 3eys, 2iqa
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSQSIVHSNGNTYLE
+---------
+PDB Codes: 2dqi, 2dqf
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSIGNNLH
+---------
+PDB Codes: 3cle, 3clf
+
+Canonical classes: 11A, 11A
+
+Loop sequence: KASQNVGNIIA
+---------
+PDB Codes: 1f8t, 1s5i
+
+Canonical classes: 16A, 16A
+
+Loop sequence: ESSQSLLYSNGKTYLN
+---------
+PDB Codes: 1seq, 1e6o
+
+Canonical classes: 10A, 10A
+
+Loop sequence: SASSSVSYMH
+---------
+PDB Codes: 1rfd, 1qyg
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSKSLLHSNGYTYLH
+---------
+PDB Codes: 2ny6, 2ny1
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASESVSSDLA
+---------
+PDB Codes: 2ipu, 2iqa
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSQSIVHSNGNTYLE
+---------
+PDB Codes: 1j1x, 2dqf
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSIGNNLH
+---------
+PDB Codes: 2hvj, 2ih3
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSIGTDIH
+---------
+PDB Codes: 2h8p, 2ih3
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSIGTDIH
+---------
+PDB Codes: 2hg5, 2ih3
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSIGTDIH
+---------
+PDB Codes: 1tet, 1zea
+
+Canonical classes: 16A, 16A
+
+Loop sequence: KSSQSIVHSSGNTYFE
+---------
+PDB Codes: 2ny4, 2ny1
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASESVSSDLA
+---------
+PDB Codes: 1cfs, 1hi6
+
+Canonical classes: 11A, 11A
+
+Loop sequence: KASQDINSFLT
+---------
+PDB Codes: 1g9n, 2ny1
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASESVSSDLA
+---------
+PDB Codes: 1q9w, 1q9o
+
+Canonical classes: 17A, 17A
+
+Loop sequence: KSSQSLLNSRTRKSYLA
+---------
+PDB Codes: 2eiz, 2dqf
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSIGNNLH
+---------
+PDB Codes: 1m71, 1m7i
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSQSLLHSDGNTYLH
+---------
+PDB Codes: 1qkz, 1a4j
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSQSLVHSNGNTYLH
+---------
+PDB Codes: 1r3k, 2ih3
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSIGTDIH
+---------
+PDB Codes: 3bpc, 1q9r
+
+Canonical classes: 17A, 17A
+
+Loop sequence: KSSQSLLNSRTRKNYLA
+---------
+PDB Codes: 2aju, 2ajx
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSRSLLYKDGRTYLN
+---------
+PDB Codes: 1pg7_1, 1jps
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASRDIKSYLN
+---------
+PDB Codes: 2gjz, 2iqa
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSQSIVHSNGNTYLE
+---------
+PDB Codes: 3giz, 3b2v
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSVSSYLA
+---------
+PDB Codes: 1ezv, 1jfq
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQDINNFLN
+---------
+PDB Codes: 1m7d, 1m7i
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSQSLLHSDGNTYLH
+---------
+PDB Codes: 3cfe, 2a6d
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQDISNYLN
+---------
+PDB Codes: 2q76, 1bm3
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSISNNLH
+---------
+PDB Codes: 2uud, 2iqa
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSQSIVHSNGNTYLE
+---------
+PDB Codes: 1mfb, 1mfd
+
+Canonical classes: 14B, 14B
+
+Loop sequence: RSSTGTVTSGNHAN
+---------
+PDB Codes: 2dqc, 2dqf
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSIGNNLH
+---------
+PDB Codes: 2zkh, 1bgx
+
+Canonical classes: 10A, 10A
+
+Loop sequence: SASSSVSYMY
+---------
+PDB Codes: 2igf, 1igf
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSNQTILLSDGDTYLE
+---------
+PDB Codes: 2ht3, 2fed
+
+Canonical classes: 10A, 10A
+
+Loop sequence: SASSSVSYIH
+---------
+PDB Codes: 2mpa, 1mpa
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSQALVHSNGNTYLH
+---------
+PDB Codes: 2qr0, 3dvn
+
+Canonical classes: 11A, 11F
+
+Loop sequence: RASQSVSSAVA
+
+Of interest.....
+---------
+PDB Codes: 2fjf, 2qqk
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQDVSTAVA
+---------
+PDB Codes: 2eh7, 2c1o
+
+Canonical classes: 16A, 16A
+
+Loop sequence: KSSQSLLYSNGKTYLN
+---------
+PDB Codes: 1sy6, 1z3g
+
+Canonical classes: 10A, 10A
+
+Loop sequence: SASSSVSYMN
+---------
+PDB Codes: 2ak1, 2ajx
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSRSLLYKDGRTYLN
+---------
+PDB Codes: 43ca, 43c9
+
+Canonical classes: 17A, 17A
+
+Loop sequence: KSSQSLLNISNQKNYLA
+---------
+PDB Codes: 3hb3, 1p7k
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASENIYSYLA
+---------
+PDB Codes: 1xct, 1q9r
+
+Canonical classes: 17A, 17A
+
+Loop sequence: KSSQSLLNSRTRKNYLA
+---------
+PDB Codes: 1mrf, 1a4j
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSQSLVHSNGNTYLH
+---------
+PDB Codes: 1ggc, 1ggi
+
+Canonical classes: 15B, 15A
+
+Loop sequence: RASESVDDDGNSFLH
+
+Of interest.....
+---------
+PDB Codes: 2fgw, 2v7h
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQDINNYLN
+---------
+PDB Codes: 1c08, 2dqf
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSIGNNLH
+---------
+PDB Codes: 1ae6, 1ad9
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSKSLLHSNGDTFLY
+---------
+PDB Codes: 1n5y, 1r0a
+
+Canonical classes: 11A, 11A
+
+Loop sequence: SASQDISSYLN
+---------
+PDB Codes: 1ocw, 1nc2
+
+Canonical classes: 14B, 14B
+
+Loop sequence: RSSTGAVTTSNYAN
+---------
+PDB Codes: 1j1o, 2dqf
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSIGNNLH
+---------
+PDB Codes: 2eks, 2dqf
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSIGNNLH
+---------
+PDB Codes: 1op3, 1zlu
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSIETWLA
+---------
+PDB Codes: 1clo, 1ad0
+
+Canonical classes: 10A, 10A
+
+Loop sequence: RASSSVTYIH
+---------
+PDB Codes: 3ggw, 3c5s
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSKSLLHSDGITYLY
+---------
+PDB Codes: 1mlc, 1bm3
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSISNNLH
+---------
+PDB Codes: 1ic4, 2dqf
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSIGNNLH
+---------
+PDB Codes: 2r0z, 2iqa
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSQSIVHSNGNTYLE
+---------
+PDB Codes: 2op4, 2ntf
+
+Canonical classes: 14B, 14B
+
+Loop sequence: RSSTGAVTTRNYAN
+---------
+PDB Codes: 1mre, 1a4j
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSQSLVHSNGNTYLH
+---------
+PDB Codes: 1jgl, 1a7n
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASGNIHNYLA
+---------
+PDB Codes: 1hin, 1ifh
+
+Canonical classes: 17A, 17A
+
+Loop sequence: TSSQSLFNSGKQKNYLT
+---------
+PDB Codes: 1yeh, 2c1o
+
+Canonical classes: 16A, 16A
+
+Loop sequence: KSSQSLLYSNGKTYLN
+---------
+PDB Codes: 2ny5, 2ny1
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASESVSSDLA
+---------
+PDB Codes: 1a3r, 1bbd
+
+Canonical classes: 17A, 17A
+
+Loop sequence: KSSQSLLNSRTQKNYLT
+---------
+PDB Codes: 1kiq, 1a7n
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASGNIHNYLA
+---------
+PDB Codes: 1u8n, 1u8o
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQGVTSALA
+---------
+PDB Codes: 1tqb, 2w65
+
+Canonical classes: 16A, 16A
+
+Loop sequence: KSSQSLLDSDGKTYLN
+---------
+PDB Codes: 3hae, 3gje
+
+Canonical classes: 14H, 14H
+
+Loop sequence: TGTSRDVGGYNYVS
+---------
+PDB Codes: 1e6j, 1e6o
+
+Canonical classes: 10A, 10A
+
+Loop sequence: SASSSVSYMH
+---------
+PDB Codes: 1ncc, 1nca
+
+Canonical classes: 11A, 11A
+
+Loop sequence: KASQDVSTAVV
+---------
+PDB Codes: 3ikc, 1q9r
+
+Canonical classes: 17A, 17A
+
+Loop sequence: KSSQSLLNSRTRKNYLA
+---------
+PDB Codes: 2r1y, 1q9r
+
+Canonical classes: 17A, 17A
+
+Loop sequence: KSSQSLLNSRTRKNYLA
+---------
+PDB Codes: 1wt5, 2z4q
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSQNIVHNNGITYLE
+---------
+PDB Codes: 3eo9, 3eoa
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASKTISKYLA
+---------
+PDB Codes: 1iai_1, 1ztx
+
+Canonical classes: 11A, 11A
+
+Loop sequence: KASQDVSTAVA
+---------
+PDB Codes: 1nbv, 1a4j
+
+Canonical classes: 16B, 16A
+
+Loop sequence: RSSQSLVHSNGNTYLH
+
+Of interest.....
+---------
+PDB Codes: 2cgr, 1cgs
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RPSQSLVHSNGNTYLH
+---------
+PDB Codes: 1n64, 1q9r
+
+Canonical classes: 17A, 17A
+
+Loop sequence: KSSQSLLNSRTRKNYLA
+---------
+PDB Codes: 1ua6, 2dqf
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSIGNNLH
+---------
+PDB Codes: 1mie, 1mj7
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSKSLLHSNGNTYLN
+---------
+PDB Codes: 1iai_2, 1aif
+
+Canonical classes: 12C, 12C
+
+Loop sequence: SVSSSISSSNLH
+---------
+PDB Codes: 3ejz, 2fed
+
+Canonical classes: 10A, 10A
+
+Loop sequence: SASSSVSYIH
+---------
+PDB Codes: 1ruk, 1ncw
+
+Canonical classes: 16A, 16A
+
+Loop sequence: KSSQRLLNSNGKTFLN
+---------
+PDB Codes: 2r1w, 1q9r
+
+Canonical classes: 17A, 17A
+
+Loop sequence: KSSQSLLNSRTRKNYLA
+---------
+PDB Codes: 2cju, 2iqa
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSQSIVHSNGNTYLE
+---------
+PDB Codes: 2o5x, 1a4j
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSQSLVHSNGNTYLH
+---------
+PDB Codes: 1him, 1ifh
+
+Canonical classes: 17A, 17A
+
+Loop sequence: TSSQSLFNSGKQKNYLT
+---------
+PDB Codes: 1tqc, 2w65
+
+Canonical classes: 16A, 16A
+
+Loop sequence: KSSQSLLDSDGKTYLN
+---------
+PDB Codes: 3bqu_1, 1u8o
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQGVTSALA
+---------
+PDB Codes: 2ipt, 2iqa
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSQSIVHSNGNTYLE
+---------
+PDB Codes: 1ncb, 1nca
+
+Canonical classes: 11A, 11A
+
+Loop sequence: KASQDVSTAVV
+---------
+PDB Codes: 1xf4, 1p7k
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASENIYSYLA
+---------
+PDB Codes: 1mju, 1mj8
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSKSLLHSNGNTYLY
+---------
+PDB Codes: 1u91, 1u8o
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQGVTSALA
+---------
+PDB Codes: 1bfv, 1cfv
+
+Canonical classes: 16D, 16D
+
+Loop sequence: RSSQSLVSNNRRNYLH
+---------
+PDB Codes: 1r3j, 2ih3
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSIGTDIH
+---------
+PDB Codes: 1u92, 1u8o
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQGVTSALA
+---------
+PDB Codes: 2r8s, 3dvn
+
+Canonical classes: 11A, 11F
+
+Loop sequence: RASQSVSSAVA
+
+Of interest.....
+---------
+PDB Codes: 1k4d, 2ih3
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSIGTDIH
+---------
+PDB Codes: 1oay, 1nc2
+
+Canonical classes: 14B, 14B
+
+Loop sequence: RSSTGAVTTSNYAN
+---------
+PDB Codes: 1wc7, 1wcb
+
+Canonical classes: 10A, 10A
+
+Loop sequence: SATSGVNYMH
+---------
+PDB Codes: 1yym, 2ny1
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASESVSSDLA
+---------
+PDB Codes: 1ncd, 1nca
+
+Canonical classes: 11A, 11A
+
+Loop sequence: KASQDVSTAVV
+---------
+PDB Codes: 1mfa, 1mfd
+
+Canonical classes: 14B, 14B
+
+Loop sequence: RSSTGTVTSGNHAN
+---------
+PDB Codes: 2ap2, 1mvu
+
+Canonical classes: 17A, 17A
+
+Loop sequence: KSSQSLLNSGNQKNYLT
+---------
+PDB Codes: 2r2h, 1q9r
+
+Canonical classes: 17A, 17A
+
+Loop sequence: KSSQSLLNSRTRKNYLA
+---------
+PDB Codes: 2ck0, 1ck0
+
+Canonical classes: 17A, 17A
+
+Loop sequence: KSSQNLLHSITRKNYLA
+---------
+PDB Codes: 3bkm, 3bkj
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSQSIVHSNGHTYLE
+---------
+PDB Codes: 2hfe, 2ih3
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSIGTDIH
+---------
+PDB Codes: 2i5y, 2ny1
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASESVSSDLA
+---------
+PDB Codes: 2b1a, 2b0s
+
+Canonical classes: 13A, 13A
+
+Loop sequence: SGTSSNVENNYVY
+---------
+PDB Codes: 3c2a, 1q1j
+
+Canonical classes: 13A, 13A
+
+Loop sequence: SGSSSNIGNNYVL
+---------
+PDB Codes: 2b1h, 2b0s
+
+Canonical classes: 13A, 13A
+
+Loop sequence: SGTSSNVENNYVY
+---------
+PDB Codes: 1pz5, 1m7i
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSQSLLHSDGNTYLH
+---------
+PDB Codes: 1u8k, 1u8o
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQGVTSALA
+---------
+PDB Codes: 2dlf, 1a4j
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSQSLVHSNGNTYLH
+---------
+PDB Codes: 1rzk, 2ny1
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASESVSSDLA
+---------
+PDB Codes: 1nld, 2w65
+
+Canonical classes: 16A, 16A
+
+Loop sequence: KSSQSLLDSDGKTYLN
+---------
+PDB Codes: 2fr4, 1p7k
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASENIYSYLA
+---------
+PDB Codes: 2yss, 2dqf
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSIGNNLH
+---------
+PDB Codes: 1ynl, 1cgs
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RPSQSLVHSNGNTYLH
+---------
+PDB Codes: 1uz8, 1uz6
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSKSLLYSNGITYLY
+---------
+PDB Codes: 1j5o, 1r0a
+
+Canonical classes: 11A, 11A
+
+Loop sequence: SASQDISSYLN
+---------
+PDB Codes: 1ic5, 2dqf
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSIGNNLH
+---------
+PDB Codes: 1a0q, 1eap
+
+Canonical classes: 11A, 11A
+
+Loop sequence: KASQDIKKYIG
+---------
+PDB Codes: 2pw2, 1u8o
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQGVTSALA
+---------
+PDB Codes: 1c1e, 1a4j
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSQSLVHSNGNTYLH
+---------
+PDB Codes: 1f11, 1it9
+
+Canonical classes: 15G, 15G
+
+Loop sequence: KASQSVDYDGDSYMN
+---------
+PDB Codes: 1c5c, 1c5b
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RTSQEISGYLS
+---------
+PDB Codes: 1ngz, 12e8
+
+Canonical classes: 11A, 11A
+
+Loop sequence: KASQNVGTAVA
+---------
+PDB Codes: 1jn6, 1jnh
+
+Canonical classes: 14B, 14B
+
+Loop sequence: RSSSGAITTSHYAN
+---------
+PDB Codes: 2mcp, 1mcp
+
+Canonical classes: 17A, 17A
+
+Loop sequence: KSSQSLLNSGNQKNFLA
+---------
+PDB Codes: 1ndm, 1bm3
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSISNNLH
+---------
+PDB Codes: 1ynt, 2a6d
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQDISNYLN
+---------
+PDB Codes: 1b4j, 1t04
+
+Canonical classes: 11A, 11A
+
+Loop sequence: KASENVDTYVS
+---------
+PDB Codes: 1y18, 3cfk
+
+Canonical classes: 14B, 14B
+
+Loop sequence: RSSSGAVTTSNYAT
+---------
+PDB Codes: 2j4w, 2j5l
+
+Canonical classes: 10A, 10A
+
+Loop sequence: RARSSVSYMH
+---------
+PDB Codes: 1gaf, 1hkl
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQEINGYLG
+---------
+PDB Codes: 2itc, 2ih3
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSIGTDIH
+---------
+PDB Codes: 2d03, 1t2q
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSQSLVHSSGNTYLH
+---------
+PDB Codes: 3hfm, 2dqf
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSIGNNLH
+---------
+PDB Codes: 1nc4, 1nc2
+
+Canonical classes: 14B, 14B
+
+Loop sequence: RSSTGAVTTSNYAN
+---------
+PDB Codes: 1p4i, 1p4b
+
+Canonical classes: 14B, 14B
+
+Loop sequence: RSSTGAVTTSNYAS
+---------
+PDB Codes: 1rua, 1ncw
+
+Canonical classes: 16A, 16A
+
+Loop sequence: KSSQRLLNSNGKTFLN
+---------
+PDB Codes: 3bsz, 1ejo
+
+Canonical classes: 15G, 15G
+
+Loop sequence: RASESVDSYGNSFMH
+---------
+PDB Codes: 1mjj, 1mj8
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSKSLLHSNGNTYLY
+---------
+PDB Codes: 2r0l, 2qqk
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQDVSTAVA
+---------
+PDB Codes: 1xcq, 1q9r
+
+Canonical classes: 17A, 17A
+
+Loop sequence: KSSQSLLNSRTRKNYLA
+---------
+PDB Codes: 1igi, 1igj
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSQSLVHSNGNTYLN
+---------
+PDB Codes: 1yeg, 2c1o
+
+Canonical classes: 16A, 16A
+
+Loop sequence: KSSQSLLYSNGKTYLN
+---------
+PDB Codes: 1dvf_1, 1a7n
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASGNIHNYLA
+---------
+PDB Codes: 1bfo, 1ce1
+
+Canonical classes: 11A, 11A
+
+Loop sequence: KASQNIDKYLN
+---------
+PDB Codes: 1i8k, 1i8i
+
+Canonical classes: 11A, 11A
+
+Loop sequence: MTSTDIDDDMN
+---------
+PDB Codes: 1v7m, 1bgx
+
+Canonical classes: 10A, 10A
+
+Loop sequence: SASSSVSYMY
+---------
+PDB Codes: 3bae, 3bkj
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSQSIVHSNGHTYLE
+---------
+PDB Codes: 2zck, 2zcl
+
+Canonical classes: 15B, 15B
+
+Loop sequence: KASQSVDFDGDSYMN
+---------
+PDB Codes: 1opg, 1bm3
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSISNNLH
+---------
+PDB Codes: 2f5a, 1u8o
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQGVTSALA
+---------
+PDB Codes: 2ajs, 2ajx
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSRSLLYKDGRTYLN
+---------
+PDB Codes: 2boc, 2ih3
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSIGTDIH
+---------
+PDB Codes: 1hil, 1ifh
+
+Canonical classes: 17A, 17A
+
+Loop sequence: TSSQSLFNSGKQKNYLT
+---------
+PDB Codes: 2aeq, 2aep
+
+Canonical classes: 11A, 11A
+
+Loop sequence: KASQNVGTNVA
+---------
+PDB Codes: 3hc0, 3hc4
+
+Canonical classes: 11A, 11A
+
+Loop sequence: KASQNVGINVA
+---------
+PDB Codes: 1ngw, 3fct
+
+Canonical classes: 11A, 11A
+
+Loop sequence: KASQNVGTPVA
+---------
+PDB Codes: 3eyq, 3b2v
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSVSSYLA
+---------
+PDB Codes: 1yyl, 2ny1
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASESVSSDLA
+---------
+PDB Codes: 3g6j, 2qqk
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQDVSTAVA
+---------
+PDB Codes: 1hh9, 1hi6
+
+Canonical classes: 11A, 11A
+
+Loop sequence: KASQDINSFLT
+---------
+PDB Codes: 1op5, 1zlu
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSIETWLA
+---------
+PDB Codes: 1bvk, 1a7n
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASGNIHNYLA
+---------
+PDB Codes: 1ynk, 1cgs
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RPSQSLVHSNGNTYLH
+---------
+PDB Codes: 1a6v, 1nc2
+
+Canonical classes: 14B, 14B
+
+Loop sequence: RSSTGAVTTSNYAN
+---------
+PDB Codes: 2dqj, 2dqf
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSIGNNLH
+---------
+PDB Codes: 2ny2, 2ny1
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASESVSSDLA
+---------
+PDB Codes: 1ahw, 1fgn
+
+Canonical classes: 11A, 11A
+
+Loop sequence: KASQDIRKYLN
+---------
+PDB Codes: 3c6s, 3c5s
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSKSLLHSDGITYLY
+---------
+PDB Codes: 2iff, 1yqv
+
+Canonical classes: 10A, 10A
+
+Loop sequence: SASSSVNYMY
+---------
+PDB Codes: 1om3, 1zlu
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSIETWLA
+---------
+PDB Codes: 1l7i, 1s78
+
+Canonical classes: 11A, 11A
+
+Loop sequence: KASQDVSIGVA
+---------
+PDB Codes: 1cly, 1ucb
+
+Canonical classes: 16E, 16H
+
+Loop sequence: RSSQIIVHNNGNTYLE
+
+Of interest.....
+---------
+PDB Codes: 1kem, 1kel
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RFSQSIVHSNGNTYLE
+---------
+PDB Codes: 2iq9, 2iqa
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSQSIVHSNGNTYLE
+---------
+PDB Codes: 1riv, 1qyg
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSKSLLHSNGYTYLH
+---------
+PDB Codes: 1oar, 1nc2
+
+Canonical classes: 14B, 14B
+
+Loop sequence: RSSTGAVTTSNYAN
+---------
+PDB Codes: 1cl7, 1n4x
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSQTIVHNNGNTYLE
+---------
+PDB Codes: 1nd0, 1ncw
+
+Canonical classes: 16A, 16A
+
+Loop sequence: KSSQRLLNSNGKTFLN
+---------
+PDB Codes: 2r9h, 2fed
+
+Canonical classes: 10A, 10A
+
+Loop sequence: SASSSVSYIH
+---------
+PDB Codes: 1rul, 1ncw
+
+Canonical classes: 16A, 16A
+
+Loop sequence: KSSQRLLNSNGKTFLN
+---------
+PDB Codes: 2atk, 2ih3
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSIGTDIH
+---------
+PDB Codes: 1u8l, 1u8o
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQGVTSALA
+---------
+PDB Codes: 1dqd, 1e6o
+
+Canonical classes: 10A, 10A
+
+Loop sequence: SASSSVSYMH
+---------
+PDB Codes: 2ht2, 2fed
+
+Canonical classes: 10A, 10A
+
+Loop sequence: SASSSVSYIH
+---------
+PDB Codes: 1u93, 1u8o
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQGVTSALA
+---------
+PDB Codes: 1yuh, 1nc2
+
+Canonical classes: 14B, 14B
+
+Loop sequence: RSSTGAVTTSNYAN
+---------
+PDB Codes: 1rum, 1ncw
+
+Canonical classes: 16A, 16A
+
+Loop sequence: KSSQRLLNSNGKTFLN
+---------
+PDB Codes: 3hnv, 3hns
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQDIGSYLN
+---------
+PDB Codes: 2vis, 1nc2
+
+Canonical classes: 14B, 14B
+
+Loop sequence: RSSTGAVTTSNYAN
+---------
+PDB Codes: 1u8q, 1u8o
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQGVTSALA
+---------
+PDB Codes: 1y0l, 3cfk
+
+Canonical classes: 14B, 14B
+
+Loop sequence: RSSSGAVTTSNYAT
+---------
+PDB Codes: 3bqu_2, 2adi
+
+Canonical classes: 11A, 11A
+
+Loop sequence: ITSTDIDDDMN
+---------
+PDB Codes: 2z92, 2z91
+
+Canonical classes: 10A, 10A
+
+Loop sequence: SASSSVSSVH
+---------
+PDB Codes: 1fvd, 1fvc
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQDVNTAVA
+---------
+PDB Codes: 1emt, 1cz8
+
+Canonical classes: 11A, 11A
+
+Loop sequence: SASQDISNYLN
+---------
+PDB Codes: 1zls, 1zlu
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSIETWLA
+---------
+PDB Codes: 3bgf, 2rcs
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQEISGYLS
+---------
+PDB Codes: 2vit, 1nc2
+
+Canonical classes: 14B, 14B
+
+Loop sequence: RSSTGAVTTSNYAN
+---------
+PDB Codes: 2f19, 2a6d
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQDISNYLN
+---------
+PDB Codes: 1xf2, 1p7k
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASENIYSYLA
+---------
+PDB Codes: 1rup, 1ncw
+
+Canonical classes: 16A, 16A
+
+Loop sequence: KSSQRLLNSNGKTFLN
+---------
+PDB Codes: 1bql, 1yqv
+
+Canonical classes: 10A, 10A
+
+Loop sequence: SASSSVNYMY
+---------
+PDB Codes: 1ngy, 3fct
+
+Canonical classes: 11A, 11A
+
+Loop sequence: KASQNVGTPVA
+---------
+PDB Codes: 1f4x, 1f4y
+
+Canonical classes: 14B, 14B
+
+Loop sequence: RSSTGTVTTSNYAN
+---------
+PDB Codes: 1ar1, 1p7k
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASENIYSYLA
+---------
+PDB Codes: 1dbk, 1dbm
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSQSLIHSNGNTYLH
+---------
+PDB Codes: 1rzj, 2ny1
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASESVSSDLA
+---------
+PDB Codes: 2ny3, 2ny1
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASESVSSDLA
+---------
+PDB Codes: 2o5z, 1a4j
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSQSLVHSNGNTYLH
+---------
+PDB Codes: 2adj, 2adi
+
+Canonical classes: 11A, 11A
+
+Loop sequence: ITSTDIDDDMN
+---------
+PDB Codes: 1mrc, 1a4j
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSQSLVHSNGNTYLH
+---------
+PDB Codes: 2hrp, 1mf2
+
+Canonical classes: 15G, 15B
+
+Loop sequence: RASESVDYYGKSFMN
+
+Of interest.....
+---------
+PDB Codes: 1a6u, 1nc2
+
+Canonical classes: 14B, 14B
+
+Loop sequence: RSSTGAVTTSNYAN
+---------
+PDB Codes: 2bmk, 1wcb
+
+Canonical classes: 10A, 10A
+
+Loop sequence: SATSGVNYMH
+---------
+PDB Codes: 1dqj, 1bm3
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSISNNLH
+---------
+PDB Codes: 2fat, 1e6o
+
+Canonical classes: 10A, 10A
+
+Loop sequence: SASSSVSYMH
+---------
+PDB Codes: 1f4w, 1f4y
+
+Canonical classes: 14B, 14B
+
+Loop sequence: RSSTGTVTTSNYAN
+---------
+PDB Codes: 1clz, 1ucb
+
+Canonical classes: 16E, 16H
+
+Loop sequence: RSSQIIVHNNGNTYLE
+
+Of interest.....
+---------
+PDB Codes: 2exy, 2fed
+
+Canonical classes: 10A, 10A
+
+Loop sequence: SASSSVSYIH
+---------
+PDB Codes: 2dqd, 2dqf
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSIGNNLH
+---------
+PDB Codes: 1mfc, 1mfd
+
+Canonical classes: 14B, 14B
+
+Loop sequence: RSSTGTVTSGNHAN
+---------
+PDB Codes: 1u95, 1u8o
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQGVTSALA
+---------
+PDB Codes: 1ndg, 1bm3
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSISNNLH
+---------
+PDB Codes: 1iqw, 1it9
+
+Canonical classes: 15G, 15G
+
+Loop sequence: KASQSVDYDGDSYMN
+---------
+PDB Codes: 25c8, 15c8
+
+Canonical classes: 12C, 12C
+
+Loop sequence: TASSSVSSSNLH
+---------
+PDB Codes: 1cu4, 1cr9
+
+Canonical classes: 16A, 16A
+
+Loop sequence: KSSQSLLDSDGKTYLI
+---------
+PDB Codes: 2ih1, 2ih3
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSIGTDIH
+---------
+PDB Codes: 3eo0, 3eo1
+
+Canonical classes: 12C, 12C
+
+Loop sequence: RASQSLGSSYLA
+---------
+PDB Codes: 1fgv, 2v7h
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQDINNYLN
+---------
+PDB Codes: 1tpx, 2w65
+
+Canonical classes: 16A, 16A
+
+Loop sequence: KSSQSLLDSDGKTYLN
+---------
+PDB Codes: 1riu, 1qyg
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSKSLLHSNGYTYLH
+---------
+PDB Codes: 1f90, 1s5i
+
+Canonical classes: 16A, 16A
+
+Loop sequence: ESSQSLLYSNGKTYLN
+---------
+PDB Codes: 1e4x, 1e4w
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQDISHYLN
+---------
+PDB Codes: 1bog, 1hi6
+
+Canonical classes: 11A, 11A
+
+Loop sequence: KASQDINSFLT
+---------
+PDB Codes: 1q72, 1qyg
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSKSLLHSNGYTYLH
+---------
+PDB Codes: 1dvf_2, 2a6d
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQDISNYLN
+---------
+PDB Codes: 2eh8, 2c1o
+
+Canonical classes: 16A, 16A
+
+Loop sequence: KSSQSLLYSNGKTYLN
+---------
+PDB Codes: 1dqm, 1bm3
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSISNNLH
+---------
+PDB Codes: 2r1x, 1q9r
+
+Canonical classes: 17A, 17A
+
+Loop sequence: KSSQSLLNSRTRKNYLA
+---------
+PDB Codes: 1g9m, 2ny1
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASESVSSDLA
+---------
+PDB Codes: 1u8i, 1u8o
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQGVTSALA
+---------
+PDB Codes: 1adq, 2g75
+
+Canonical classes: 11C, 11C
+
+Loop sequence: GGNNIGSKSVH
+---------
+PDB Codes: 1mh5, 1mj8
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSKSLLHSNGNTYLY
+---------
+PDB Codes: 2dd8, 2g75
+
+Canonical classes: 11C, 11C
+
+Loop sequence: GGNNIGSKSVH
+---------
+PDB Codes: 1bz7, 1r24
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQDIGNFLN
+---------
+PDB Codes: 1qle, 1p7k
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASENIYSYLA
+---------
+PDB Codes: 1b2w, 1t04
+
+Canonical classes: 11A, 11A
+
+Loop sequence: KASENVDTYVS
+---------
+PDB Codes: 1aj7, 2rcs
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQEISGYLS
+---------
+PDB Codes: 2vir, 1nc2
+
+Canonical classes: 14B, 14B
+
+Loop sequence: RSSTGAVTTSNYAN
+---------
+PDB Codes: 3gi9, 3gi8
+
+Canonical classes: 17A, 17B
+
+Loop sequence: KSSQSLLNTSNQKNYLA
+
+Of interest.....
+---------
+PDB Codes: 3cfj, 3cfk
+
+Canonical classes: 14B, 14B
+
+Loop sequence: RSSSGAVTTSNYAT
+---------
+PDB Codes: 2zpk, 1nc2
+
+Canonical classes: 14B, 14B
+
+Loop sequence: RSSTGAVTTSNYAN
+---------
+PDB Codes: 3f58, 1f58
+
+Canonical classes: 15G, 15G
+
+Loop sequence: KASQGVDFDGASFMN
+---------
+PDB Codes: 1qlr, 1dn0
+
+Canonical classes: 12D, 12D
+
+Loop sequence: GASQSVSSNYLA
+---------
+PDB Codes: 1igc, 1uyw
+
+Canonical classes: 11A, 11A
+
+Loop sequence: KASENVVTYVS
+---------
+PDB Codes: 2o5y, 1a4j
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSQSLVHSNGNTYLH
+---------
+PDB Codes: 2r0w, 2iqa
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSQSIVHSNGNTYLE
+---------
+PDB Codes: 1fj1, 2adf
+
+Canonical classes: 11A, 11A
+
+Loop sequence: KASQDINKYIA
+---------
+PDB Codes: 1jnl, 1jnn
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASGNIYNYLA
+---------
+PDB Codes: 2gfb, 2rcs
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQEISGYLS
+---------
+PDB Codes: 1mrd, 1a4j
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSQSLVHSNGNTYLH
+---------
+PDB Codes: 2hfg, 2qqk
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQDVSTAVA
+---------
+PDB Codes: 1mlb, 1bm3
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSISNNLH
+---------
+PDB Codes: 2f58, 1f58
+
+Canonical classes: 15G, 15G
+
+Loop sequence: KASQGVDFDGASFMN
+---------
+PDB Codes: 1cf8, 1hq4
+
+Canonical classes: 12C, 12C
+
+Loop sequence: SASSSVSSNYVY
+---------
+PDB Codes: 2htk, 2fed
+
+Canonical classes: 10A, 10A
+
+Loop sequence: SASSSVSYIH
+---------
+PDB Codes: 1ehl, 2iqa
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSQSIVHSNGNTYLE
+---------
+PDB Codes: 1r3l, 2ih3
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSIGTDIH
+---------
+PDB Codes: 1yec, 2c1o
+
+Canonical classes: 16A, 16A
+
+Loop sequence: KSSQSLLYSNGKTYLN
+---------
+PDB Codes: 1ngp, 1nc2
+
+Canonical classes: 14B, 14B
+
+Loop sequence: RSSTGAVTTSNYAN
+---------
+PDB Codes: 1xf5, 1q9r
+
+Canonical classes: 17A, 17A
+
+Loop sequence: KSSQSLLNSRTRKNYLA
+---------
+PDB Codes: 1ru9, 1ncw
+
+Canonical classes: 16A, 16A
+
+Loop sequence: KSSQRLLNSNGKTFLN
+---------
+PDB Codes: 1oax, 1nc2
+
+Canonical classes: 14B, 14B
+
+Loop sequence: RSSTGAVTTSNYAN
+---------
+PDB Codes: 3d0v, 1u8o
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQGVTSALA
+---------
+PDB Codes: 1ic7, 2dqf
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSIGNNLH
+---------
+PDB Codes: 2gk0, 2iqa
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSQSIVHSNGNTYLE
+---------
+PDB Codes: 3bz4, 3c5s
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSKSLLHSDGITYLY
+---------
+PDB Codes: 1dbj, 1dbm
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSQSLIHSNGNTYLH
+---------
+PDB Codes: 3bkc, 3bkj
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSQSIVHSNGHTYLE
+---------
+PDB Codes: 1sm3, 1nc2
+
+Canonical classes: 14B, 14B
+
+Loop sequence: RSSTGAVTTSNYAN
+---------
+PDB Codes: 1ggb, 1ggi
+
+Canonical classes: 15B, 15A
+
+Loop sequence: RASESVDDDGNSFLH
+
+Of interest.....
+---------
+PDB Codes: 1a14, 2a6d
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQDISNYLN
+---------
+PDB Codes: 1mnu, 1mpa
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSQALVHSNGNTYLH
+---------
+PDB Codes: 1wej, 1a7n
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASGNIHNYLA
+---------
+PDB Codes: 1kir, 1a7n
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASGNIHNYLA
+---------
+PDB Codes: 3g6a, 3g6d
+
+Canonical classes: 11C, 11C
+
+Loop sequence: SGDNIGGTFVS
+---------
+PDB Codes: 2ajz, 2ajx
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSRSLLYKDGRTYLN
+---------
+PDB Codes: 1q9v, 1q9r
+
+Canonical classes: 17A, 17A
+
+Loop sequence: KSSQSLLNSRTRKNYLA
+---------
+PDB Codes: 1i9j, 1i9i
+
+Canonical classes: 16A, 16A
+
+Loop sequence: RSSQSIVHSNGNSYLE
+---------
+PDB Codes: 1q0x, 1nc2
+
+Canonical classes: 14B, 14B
+
+Loop sequence: RSSTGAVTTSNYAN
+---------
+PDB Codes: 1t3f, 1t04
+
+Canonical classes: 11A, 11A
+
+Loop sequence: KASENVDTYVS
+---------
+PDB Codes: 1fai, 2a6d
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQDISNYLN
+---------
+PDB Codes: 1s5h, 2ih3
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSIGTDIH
+---------
+PDB Codes: 2dqe, 2dqf
+
+Canonical classes: 11A, 11A
+
+Loop sequence: RASQSIGNNLH
+---------
+PDB Codes: 3bdy, 3be1
+
+Canonical classes: 15F, 15D
+
+Loop sequence: RASQDIPRSISGYVA
+
+Of interest.....
+---------
+PDB Codes: 2adg, 2adi
+
+Canonical classes: 11A, 11A
+
+Loop sequence: ITSTDIDDDMN
+---------
+PDB Codes: 1bj1, 1cz8
+
+Canonical classes: 11A, 11A
+
+Loop sequence: SASQDISNYLN
+---------
+PDB Codes: 1ngx, 12e8
+
+Canonical classes: 11A, 11A
+
+Loop sequence: KASQNVGTAVA
+---------
+PDB Codes: 2h2p, 2fed
+
+Canonical classes: 10A, 10A
+
+Loop sequence: SASSSVSYIH
+---------
+PDB Codes: 2r2b, 1q9r
+
+Canonical classes: 17A, 17A
+
+Loop sequence: KSSQSLLNSRTRKNYLA
+---------
+PDB Codes: 1lo0, 1lo2
+
+Canonical classes: 16A, 16A
+
+Loop sequence: TSSQTIVHTNGNTYLE
+---------

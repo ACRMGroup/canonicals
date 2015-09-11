@@ -1,0 +1,2 @@
+1it9 has an RMSD of 1.281 on CA with 1acy_L.
+                    1.626 on all atoms with 1acy_L.

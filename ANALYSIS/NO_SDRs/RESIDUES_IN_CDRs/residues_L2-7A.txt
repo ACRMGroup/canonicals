@@ -1,0 +1,7 @@
+Position: L51, Residues: AMTSVPINGLD
+Position: L55, Residues: IAQHFEYPMTDVGKRSL
+Position: L54, Residues: SRLQV
+Position: L52, Residues: SNTKADIRY
+Position: L53, Residues: QTRSNIKEFYMHD
+Position: L50, Residues: YLFDRNGSKEWAHQMITV
+Position: L56, Residues: STPDEYIALG

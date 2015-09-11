@@ -1,0 +1,160 @@
+7 March 2011
+------------
+
+Recap of what has been done so far regarding the canonicals work:
+
+1) Jake's pipeline of programs have been run.
+2) Potential overlaps between canonical classes of loops of the same length have been analyzed.
+3) Overlaps between canonical classes that have no SDRs and those that have SDRs have been analyzed.
+
+Summary of analysis:
+
+1) Overlaps between classes that have defined SDRs.
+
+   -> CDR-L1, classes 16B and 16A
+
+        Priority class: 16B
+        Subordinate: 16A
+
+        Conclusions: Odd structures (Edmundson) for all structures in 16B.
+
+   -> CDR-L1, classes 15G and 15H
+
+        Priority: 15H
+        Subordinate: 15G
+
+        Conclusions: Not very high resolution structures, high B-factors in
+        the loops.
+
+   -> CDR-H1, classes 10A and 10Z
+
+        Priority: 10Z
+        Subordinate: 10A
+
+   -> CDR-H2, classes 9A and 9B
+
+        Priority: 9B
+        Subordinate: 9A
+
+   -> CDR-H2, classes 10L and 10N
+
+        Note: Both have the same set of SDRs. However, the clash can be explained in terms of
+              of high B-factors in CDR-H2.
+
+
+2) Overlaps between classes that don't have SDRs (class A) and those that do have SDRs (class B).
+
+   What was done: Residues at SDR positions of B were extracted for PDBs belonging to class A. These were compared
+                  with PDBs belonging to class B and any overlaps in the residues were recorded.
+
+   -> CDR-L2, classes 7A and 7B
+
+        Percentage of 7-residue loops belonging to 7A: 742/757 = 98%
+        Percentage of 7-residue loops belonging to 7B: 3/757 = 0.4%
+
+        Priority class: 7B (Class B, i.e. has SDRs)
+        Sub-ordinate class: 7A (class A, i.e. does not have any SDRs)
+
+        Note: 78 structures beloging to class 7A have the same SDRs as 3
+              structures belonging to 7B (PDBs 2v7h, 6fab, 2a6d). Further
+              details about the PDBs belonging to 7B.
+
+        2v7h: 2.8A (Res), 0.267 (R-free). B-factors in CDR-L2 are very high.
+
+        6fab: 1.9A (Res), 0.209 (R-factor, no R-free). Fairly normal B-factors
+              for the most part in CDR-L2, with the exception of a couple of
+              side-chains.
+
+        2a6d: 2.9A (Res), 0.264 (R-free). High B-factors (more than 30) in most of CDR-L2 with
+              the exception of H@L55 and S@L56.
+
+
+   -> CDR-L2, classes 7A and 7C
+
+        Percentage of 7-residue loops belonging to 7A: 742/757 = 98%
+        Percentage of 7-residue loops belonging to 7C: 9/757 = 1.2%
+
+        Priority class: 7C (Class B, i.e. has SDRs)
+        Sub-ordinate class: 7A (class A, i.e. does not have any SDRs)
+
+        Note: 32 structures beloging to class 7A have the same SDRs as 9
+              structures belonging to 7C (3bqu_2, 2adg, 2adj, 1nc4, 1nc2,
+               1i8i, 3i9g, 2adi, 1i8k).
+
+
+        3bqu_2: Chains C and D of 3bqu. 3A (Res), 0.295 (R-free).
+
+        2adg: 2.5A (Res), 0.244 (R-free). High B-factors (> 30) from
+              R@L55-G@L57.
+
+        2adj: 2.9 (Res), 0.3 (R-free).
+
+        1nc4: 2.25 (Res), 0.248 (R-free). Normal B-factors.
+
+        1nc2: 2.1 (Res), 0.247 (R-free). Normal B-factors.
+
+        1i8i: 2.4 (Res), 0.262 (R-free). Normal B-factors.
+
+        3i9g: 1.9 (Res), 0.219 (R-free). Normal B-factors.
+
+        2adi: 2.8 (Res), 0.269 (R-free). High B-factors.
+
+        1i8k: 1.8 (Res), 0.224 (R-free). Normal B-factors.
+
+
+   -> CDR-H2, classes 10F and 10B.
+
+        Percentage of 10-residue loops belonging to 10F: 354/486 = 72.8%
+        Percentage of 10-residue loops belonging to 10B: 110/486 = 22.6%
+
+        Priority class: 10B
+        Sub-ordinate class: 10F
+
+        One structure from 10F (3hi6) has the same SDRs as a structure from
+        10B (3hi5).
+
+        3hi6: 2.3A (Res), 0.226 (R-free), Normal B-factors in CDR-H2 (H52-H58).
+        3hi5: 2.5A (Res), 0.277 (R-free), High B-factors in CDR-H2.
+
+   -> CDR-H2, classes 10F and 10I.
+
+        Percentage of 10-residue loops belonging to 10F: 354/486 = 72.8%
+        Percentage of 10-residue loops belonging to 10I: 1/486 = Negligible.
+
+        Priority class: 10I
+        Sub-ordinate class: 10F
+
+        One structure from 10F (1fai) has the same SDRs as a structure from
+        10B (2f19).
+
+        1fai: 2.7A (Res), 0.189 (R-factor, no R-free). Very high B-factors in CDR-H2.
+        2f19: 2.8A (Res), 0.182 (R-factor, no R-free). Very high B-factors in CDR-H2.
+
+   -> CDR-H2, classes 10F and 10J.
+
+        Percentage of 10-residue loops belonging to 10F: 354/486 = 72.8%
+        Percentage of 10-residue loops belonging to 10J: 1/486 = Negligible.
+
+        Priority class: 10J
+        Sub-ordinate class: 10F
+
+        One structure from 10F (1d5i) has the same SDRs as a structure from
+        10J (1d6v).
+
+        1d5i: 2.0A (Res), 0.263 (R-free), High B-factors (upwards of 30) in CDR-H2.
+        1d6v: 2.0A (Res), 0.264 (R-free), High B-factors in CDR-H2.
+
+
+
+NOTES ON ANALYSIS AFTER THE DUNBRACK PAPER:
+-------------------------------------------
+
+1) 
+
+--> CDR-L2: 
+
+--> CDR-H1 - They have a single large cluster of Type I and 39 structures over 11 different clusters.
+They say there is no obvious sequence difference between the 11 different clusters. In our analysis,
+there are unique sets of SDRs that define every canonical class.
+
+--> In 17 of 31 CDR-H1 10-residues classes, H71 has been identified as an SDR.

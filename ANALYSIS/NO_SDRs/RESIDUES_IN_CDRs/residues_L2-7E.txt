@@ -1,0 +1,7 @@
+Position: L50, Residues: L
+Position: L51, Residues: T
+Position: L52, Residues: S
+Position: L53, Residues: N
+Position: L54, Residues: L
+Position: L55, Residues: A
+Position: L56, Residues: S

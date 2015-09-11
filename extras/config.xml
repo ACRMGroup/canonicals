@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<pipeline name="Configuration for acaca">
+<!-- Alter the acaca_config information here to reflect the local installation. -->
+<acaca_config>
+    <acaca_home>/home/bsm2/abhi/CANONICALS/acaca</acaca_home>
+    <acaca_python_home>acaca_home/src/python</acaca_python_home>
+    <sacs_file>/acrm/www/html/abs/sacs/antibodies.xml</sacs_file>
+    <complete_file_list>/home/bsm2/abhi/CANONICALS/NEW_DATASET/full_pdb_files.lst</complete_file_list>
+    <acrm_pdb_abnum_wrapper>acaca_home/src/perl/abnumpdb.pl</acrm_pdb_abnum_wrapper>
+    <pdb_file_location>/acrm/data/pdb/</pdb_file_location>
+    <pdb_numbered_dir>/home/bsm2/abhi/CANONICALS/NEW_DATASET/NUMBERED_Fv_PDB/</pdb_numbered_dir>
+</acaca_config>
+<!-- Programs are executed in the order written here. -->
+<!-- Programs need to have a description and either a "function" argument or -->
+<!-- an "executable" argument  -->
+<program executable="acaca_python_home/create_pdb_file_list.py" description="Obtains Pdb Ig filenames and writes to file">
+    <argument>sacs_file</argument>
+    <argument>pdb_file_location</argument>
+    <argument>complete_file_list</argument>
+</program>
+<program executable="acaca_python_home/number_pdb.py" description="Numbers pdb files and copies them into another location">
+    <argument>complete_file_list</argument>
+    <argument>acaca_home/src/perl/</argument>
+    <argument>pdb_numbered_dir</argument>
+</program>
+<program executable="acaca_python_home/make_clan_files.py" description="Create the clan configuration files">
+    <argument>pdb_numbered_dir</argument>
+    <argument>acaca_home/config</argument>
+    <argument>acaca_home/config/region.xml</argument>
+</program>
+<program executable="acaca_home/tools/acaca2009/src/clan" description="runs clan on CDR L1">
+    <argument>-t</argument>
+    <argument>acaca_home/config/L1.clan</argument>
+</program>
+<program executable="acaca_home/tools/acaca2009/src/clan" description="runs clan on CDR L2">
+    <argument>-t</argument>
+    <argument>acaca_home/config/L2.clan</argument>
+</program>
+<program executable="acaca_home/tools/acaca2009/src/clan" description="runs clan on CDR L3">
+    <argument>-t</argument>
+    <argument>acaca_home/config/L3.clan</argument>
+</program>
+<program executable="acaca_home/tools/acaca2009/src/clan" description="runs clan on CDR H1">
+    <argument>-t</argument>
+    <argument>acaca_home/config/H1.clan</argument>
+</program>
+<program executable="acaca_home/tools/acaca2009/src/clan" description="runs clan on CDR H2">
+    <argument>-t</argument>
+    <argument>acaca_home/config/H2.clan</argument>
+</program>
+<program executable="acaca_home/tools/acaca2009/src/clan" description="runs clan on CDR H3">
+    <argument>-t</argument>
+    <argument>acaca_home/config/H3.clan</argument>
+</program>
+<program executable="acaca_home/src/python/run_findsdrs.py" description="runs_findsdrs on the clan files.">
+    <argument>acaca_home/results/</argument>
+    <argument>acaca_home/tools/acaca2009/src/findsdrs</argument>
+</program>
+<program executable="acaca_home/src/python/cluster_members.py" description="match old clusters to new clusters L1">
+    <argument>acaca_home/results/L1_clan.out</argument>
+    <argument>acaca_home/results/acaca_2007/l1_clan.out</argument>
+</program>
+<program executable="acaca_home/src/python/cluster_members.py" description="match old clusters to new clusters L2">
+    <argument>acaca_home/results/L2_clan.out</argument>
+    <argument>acaca_home/results/acaca_2007/l2_clan.out</argument>
+</program>
+<program executable="acaca_home/src/python/cluster_members.py" description="match old clusters to new clusters L3">
+    <argument>acaca_home/results/L3_clan.out</argument>
+    <argument>acaca_home/results/acaca_2007/l3_clan.out</argument>
+</program>
+<program executable="acaca_home/src/python/cluster_members.py" description="match old clusters to new clusters H1">
+    <argument>acaca_home/results/H1_clan.out</argument>
+    <argument>acaca_home/results/acaca_2007/h1_clan.out</argument>
+</program>
+<program executable="acaca_home/src/python/cluster_members.py" description="match old clusters to new clusters H2">
+    <argument>acaca_home/results/H2_clan.out</argument>
+    <argument>acaca_home/results/acaca_2007/h2_clan.out</argument>
+</program>
+<program executable="acaca_home/src/python/cluster_members.py" description="match old clusters to new clusters H3">
+    <argument>acaca_home/results/H3_clan.out</argument>
+    <argument>acaca_home/results/acaca_2007/h3_clan.out</argument>
+</program>
+<program executable="acaca_home/src/python/produce_canonical_class_config.py" description="Forms canonical class config file.">
+    <argument>acaca_home/results</argument>
+    <argument>acaca_home/config</argument>
+</program>
+
+</pipeline>

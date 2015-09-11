@@ -1,0 +1,145 @@
+
+                  PPPPP                FFFFFF ii   tt
+                  PP  PP               FF          tt
+                  PP  PP rrrrr   oooo  FF     ii  ttttt
+                  PPPPP  rr  rr oo  oo FFFF   ii   tt
+                  PP     rr     oo  oo FF     ii   tt
+                  PP     rr     oo  oo FF     ii   tt
+                  PP     rr      oooo  FF      ii   ttt
+
+                      Protein Least Squares Fitting
+
+                               Version 3.1
+
+      Copyright (c) Dr. Andrew C.R. Martin, SciTech Software 1992-2009
+              Copyright (c) Dr. Craig T. Porter, UCL 2008-2009
+
+
+   Starting script: 'profit_script.prf'
+   Reading reference structure...
+   Reading mobile structure...
+
+   Mobile Structure:  1
+   1jfq_L.pdb Chain 'L'
+   6fab_L.pdb Chain 'L'
+   Score: 517 Normalised score: 4.74
+   DIQMTQIPSSLSASLGDRVSISCRASQDINNFLNWYQQKPDGTIKLLIYFTSRSQSGVPS
+   DIQMTQIPSSLSASLGDRVSISCRASQDINNFLNWYQQKPDGTIKLLIYFTSRSQSGVPS
+
+   RFSGSGSGTDYSLTISNLEQEDIATYFCQQGNALPRTFGGGTKLEIKRA
+   RFSGSGSGTDYSLTISNLEQEDIATYFCQQGNALPRTFGGGTKLEIKRA
+
+
+   Fitting structures...
+   RMS: 1.483
+     L1  ASP  :      L1  ASP    RMS: 1.138
+     L2  ILE  :      L2  ILE    RMS: 0.234
+     L3  GLN  :      L3  GLN    RMS: 0.323
+     L4  MET  :      L4  MET    RMS: 0.202
+     L5  THR  :      L5  THR    RMS: 1.278
+     L6  GLN  :      L6  GLN    RMS: 0.247
+     L7  ILE  :      L7  ILE    RMS: 1.944
+     L8  PRO  :      L8  PRO    RMS: 1.283
+     L9  SER  :      L9  SER    RMS: 0.850
+    L10  SER  :     L10  SER    RMS: 0.815
+    L11  LEU  :     L11  LEU    RMS: 1.324
+    L12  SER  :     L12  SER    RMS: 0.322
+    L13  ALA  :     L13  ALA    RMS: 0.219
+    L14  SER  :     L14  SER    RMS: 0.418
+    L15  LEU  :     L15  LEU    RMS: 1.354
+    L16  GLY  :     L16  GLY    RMS: 0.553
+    L17  ASP  :     L17  ASP    RMS: 1.183
+    L18  ARG  :     L18  ARG    RMS: 1.079
+    L19  VAL  :     L19  VAL    RMS: 0.292
+    L20  SER  :     L20  SER    RMS: 0.296
+    L21  ILE  :     L21  ILE    RMS: 0.314
+    L22  SER  :     L22  SER    RMS: 0.649
+    L23  CYS  :     L23  CYS    RMS: 0.250
+    L24  ARG  :     L24  ARG    RMS: 1.339
+    L25  ALA  :     L25  ALA    RMS: 0.231
+    L26  SER  :     L26  SER    RMS: 0.254
+    L27  GLN  :     L27  GLN    RMS: 0.366
+    L28  ASP  :     L28  ASP    RMS: 0.402
+    L29  ILE  :     L29  ILE    RMS: 0.286
+    L30  ASN  :     L30  ASN    RMS: 1.245
+    L31  ASN  :     L31  ASN    RMS: 0.285
+    L32  PHE  :     L32  PHE    RMS: 1.457
+    L33  LEU  :     L33  LEU    RMS: 0.293
+    L34  ASN  :     L34  ASN    RMS: 0.316
+    L35  TRP  :     L35  TRP    RMS: 0.197
+    L36  TYR  :     L36  TYR    RMS: 1.385
+    L37  GLN  :     L37  GLN    RMS: 0.215
+    L38  GLN  :     L38  GLN    RMS: 0.187
+    L39  LYS  :     L39  LYS    RMS: 1.437
+    L40  PRO  :     L40  PRO    RMS: 1.188
+    L41  ASP  :     L41  ASP    RMS: 3.920
+    L42  GLY  :     L42  GLY    RMS: 0.363
+    L43  THR  :     L43  THR    RMS: 0.214
+    L44  ILE  :     L44  ILE    RMS: 0.384
+    L45  LYS  :     L45  LYS    RMS: 1.111
+    L46  LEU  :     L46  LEU    RMS: 0.332
+    L47  LEU  :     L47  LEU    RMS: 0.461
+    L48  ILE  :     L48  ILE    RMS: 0.466
+    L49  TYR  :     L49  TYR    RMS: 0.345
+    L50  PHE  :     L50  PHE    RMS: 0.380
+    L51  THR  :     L51  THR    RMS: 1.682
+    L52  SER  :     L52  SER    RMS: 3.887
+    L53  ARG  :     L53  ARG    RMS: 4.786
+    L54  SER  :     L54  SER    RMS: 4.787
+    L55  GLN  :     L55  GLN    RMS: 6.772
+    L56  SER  :     L56  SER    RMS: 4.002
+    L57  GLY  :     L57  GLY    RMS: 1.994
+    L58  VAL  :     L58  VAL    RMS: 0.718
+    L59  PRO  :     L59  PRO    RMS: 0.335
+    L60  SER  :     L60  SER    RMS: 0.412
+    L61  ARG  :     L61  ARG    RMS: 0.414
+    L62  PHE  :     L62  PHE    RMS: 1.463
+    L63  SER  :     L63  SER    RMS: 0.448
+    L64  GLY  :     L64  GLY    RMS: 0.324
+    L65  SER  :     L65  SER    RMS: 0.459
+    L66  GLY  :     L66  GLY    RMS: 0.487
+    L67  SER  :     L67  SER    RMS: 0.744
+    L68  GLY  :     L68  GLY    RMS: 0.365
+    L69  THR  :     L69  THR    RMS: 0.458
+    L70  ASP  :     L70  ASP    RMS: 0.382
+    L71  TYR  :     L71  TYR    RMS: 0.299
+    L72  SER  :     L72  SER    RMS: 0.520
+    L73  LEU  :     L73  LEU    RMS: 0.245
+    L74  THR  :     L74  THR    RMS: 0.282
+    L75  ILE  :     L75  ILE    RMS: 0.330
+    L76  SER  :     L76  SER    RMS: 0.465
+    L77  ASN  :     L77  ASN    RMS: 1.629
+    L78  LEU  :     L78  LEU    RMS: 0.334
+    L79  GLU  :     L79  GLU    RMS: 0.655
+    L80  GLN  :     L80  GLN    RMS: 1.388
+    L81  GLU  :     L81  GLU    RMS: 0.884
+    L82  ASP  :     L82  ASP    RMS: 0.267
+    L83  ILE  :     L83  ILE    RMS: 1.884
+    L84  ALA  :     L84  ALA    RMS: 0.225
+    L85  THR  :     L85  THR    RMS: 0.278
+    L86  TYR  :     L86  TYR    RMS: 1.395
+    L87  PHE  :     L87  PHE    RMS: 0.192
+    L88  CYS  :     L88  CYS    RMS: 0.149
+    L89  GLN  :     L89  GLN    RMS: 0.334
+    L90  GLN  :     L90  GLN    RMS: 1.036
+    L91  GLY  :     L91  GLY    RMS: 0.195
+    L92  ASN  :     L92  ASN    RMS: 0.355
+    L93  ALA  :     L93  ALA    RMS: 0.272
+    L94  LEU  :     L94  LEU    RMS: 0.696
+    L95  PRO  :     L95  PRO    RMS: 0.215
+    L96  ARG  :     L96  ARG    RMS: 0.587
+    L97  THR  :     L97  THR    RMS: 0.239
+    L98  PHE  :     L98  PHE    RMS: 0.224
+    L99  GLY  :     L99  GLY    RMS: 0.153
+   L100  GLY  :    L100  GLY    RMS: 0.223
+   L101  GLY  :    L101  GLY    RMS: 0.214
+   L102  THR  :    L102  THR    RMS: 0.197
+   L103  LYS  :    L103  LYS    RMS: 2.741
+   L104  LEU  :    L104  LEU    RMS: 0.217
+   L105  GLU  :    L105  GLU    RMS: 0.279
+   L106  ILE  :    L106  ILE    RMS: 0.415
+   L107  LYS  :    L107  LYS    RMS: 1.501
+   L108  ARG  :    L108  ARG    RMS: 3.735
+   L109  ALA  :    L109  ALA    RMS: 0.241
+   Finished script: 'profit_script.prf'
+

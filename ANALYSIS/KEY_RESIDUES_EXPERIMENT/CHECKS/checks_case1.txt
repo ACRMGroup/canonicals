@@ -1,0 +1,21 @@
+Case 1:
+
+L1
+L1,L24-L34,3c08,8A,SASVTYMY,,,,-100000,
+Unable to read /home/bsm2/abhi/CANONICALS/NEW_DATASET/NUMBERED_Fv_PDB/.pdb
+
+L2
+----------
+
+L3
+----------
+
+H1
+H1,H26-H35,3c5s,7A,GSNYWMS,,,,-100000,
+Unable to read /home/bsm2/abhi/CANONICALS/NEW_DATASET/NUMBERED_Fv_PDB/.pdb
+----------
+
+H2
+H2,H50-H58,3c5s,5A,EIRTY,,,,-100000,
+Unable to read /home/bsm2/abhi/CANONICALS/NEW_DATASET/NUMBERED_Fv_PDB/.pdb
+----------

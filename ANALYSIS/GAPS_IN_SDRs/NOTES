@@ -1,0 +1,9 @@
+Steps involved:
+
+1) Get a list of all PDBs and their mappings to canonical classes.
+
+2) For every canonical class:
+
+   --> Gather a list of SDRs
+   --> Find critical residues in every structure assigned to that canonical class.
+   --> All SDRs where a gap has been observed in at least one structure should be recorded.

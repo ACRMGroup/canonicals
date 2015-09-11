@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<regions>
+<region_def scheme='kabat' numbered_by='chothia' region_type='CDR L1' name='L1' start='L24' end='L34'/>
+<region_def scheme='kabat' numbered_by='chothia' region_type='CDR L2' name='L2' start='L50' end='L56'/>
+<region_def scheme='kabat' numbered_by='chothia' region_type='CDR L3' name='L3' start='L89' end='L97'/>
+<region_def scheme='kabat' numbered_by='chothia' region_type='CDR H1' name='H1' start='H31' end='H35'/>
+<region_def scheme='kabat' numbered_by='chothia' region_type='CDR H2' name='H2' start='H50' end='H65'/>
+<region_def scheme='kabat' numbered_by='chothia' region_type='CDR H3' name='H3' start='H95' end='H102'/>
+<region_def scheme='kabat' numbered_by='chothia' region_type='FRAMEWORK L1' name='LFR1' start='L1' end='L23'/>
+<region_def scheme='kabat' numbered_by='chothia' region_type='FRAMEWORK L2' name='LFR2' start='L35' end='L49'/>
+<region_def scheme='kabat' numbered_by='chothia' region_type='FRAMEWORK L3' name='LFR3' start='L57' end='L88'/>
+<region_def scheme='kabat' numbered_by='chothia' region_type='FRAMEWORK L4' name='LFR4' start='L98' end='L109'/>
+<region_def scheme='kabat' numbered_by='chothia' region_type='FRAMEWORK H1' name='HFR1' start='H1' end='H30'/>
+<region_def scheme='kabat' numbered_by='chothia' region_type='FRAMEWORK H2' name='HFR2' start='H36' end='H49'/>
+<region_def scheme='kabat' numbered_by='chothia' region_type='FRAMEWORK H3' name='HFR3' start='H66' end='H94'/>
+<region_def scheme='kabat' numbered_by='chothia' region_type='FRAMEWORK H4' name='HFR4' start='H103' end='H113'/>
+<region_def scheme='abm' numbered_by='chothia' region_type='CDR L1' name='L1' start='L24' end='L34' />
+<region_def scheme='abm' numbered_by='chothia' region_type='CDR L2' name='L2' start='L50' end='L56'/>
+<region_def scheme='abm' numbered_by='chothia' region_type='CDR L3' name='L3' start='L89' end='L97'/>
+<region_def scheme='abm' numbered_by='chothia' region_type='CDR H1' name='H1' start='H26' end='H35'/>
+<region_def scheme='abm' numbered_by='chothia' region_type='CDR H2' name='H2' start='H50' end='H58'/>
+<region_def scheme='abm' numbered_by='chothia' region_type='CDR H3' name='H3' start='H95' end='H102'/>
+<region_def scheme='abm' numbered_by='chothia' region_type='FRAMEWORK L1' name='LFR1' start='L1' end='L23'/>
+<region_def scheme='abm' numbered_by='chothia' region_type='FRAMEWORK L2' name='LFR2' start='L35' end='L49'/>
+<region_def scheme='abm' numbered_by='chothia' region_type='FRAMEWORK L3' name='LFR3' start='L57' end='L88'/>
+<region_def scheme='abm' numbered_by='chothia' region_type='FRAMEWORK L4' name='LFR4' start='L98' end='L109'/>
+<region_def scheme='abm' numbered_by='chothia' region_type='FRAMEWORK H1' name='HFR1' start='H1' end='H25'/>
+<region_def scheme='abm' numbered_by='chothia' region_type='FRAMEWORK H2' name='HFR2' start='H36' end='H49'/>
+<region_def scheme='abm' numbered_by='chothia' region_type='FRAMEWORK H3' name='HFR3' start='H66' end='H94'/>
+<region_def scheme='abm' numbered_by='chothia' region_type='FRAMEWORK H4' name='HFR4' start='H103' end='H113'/>
+<region_def scheme='chothia' numbered_by='chothia' region_type='CDR L1' name='L1' start='L24' end='L34' />
+<region_def scheme='chothia' numbered_by='chothia' region_type='CDR L2' name='L2' start='L50' end='L56' />
+<region_def scheme='chothia' numbered_by='chothia' region_type='CDR L3' name='L3' start='L89' end='L97' />
+<region_def scheme='chothia' numbered_by='chothia' region_type='CDR H1' name='H1' start='H26' end='H32' />
+<region_def scheme='chothia' numbered_by='chothia' region_type='CDR H2' name='H2' start='H50' end='H56' />
+<region_def scheme='chothia' numbered_by='chothia' region_type='CDR H3' name='H3' start='H95' end='H102' />
+<region_def scheme='chothia' numbered_by='chothia' region_type='FRAMEWORK L1' name='LFR1' start='L1' end='L23' />
+<region_def scheme='chothia' numbered_by='chothia' region_type='FRAMEWORK L2' name='LFR2' start='L35' end='L49' />
+<region_def scheme='chothia' numbered_by='chothia' region_type='FRAMEWORK L3' name='LFR3' start='L57' end='L88' />
+<region_def scheme='chothia' numbered_by='chothia' region_type='FRAMEWORK L4' name='LFR4' start='L98' end='L109'/>
+<region_def scheme='chothia' numbered_by='chothia' region_type='FRAMEWORK H1' name='HFR1' start='H1' end='H25'/>
+<region_def scheme='chothia' numbered_by='chothia' region_type='FRAMEWORK H2' name='HFR2' start='H33' end='H49'/>
+<region_def scheme='chothia' numbered_by='chothia' region_type='FRAMEWORK H3' name='HFR3' start='H57' end='H94'/>
+<region_def scheme='chothia' numbered_by='chothia' region_type='FRAMEWORK H4' name='HFR4' start='H103' end='H113'/>
+<region_def scheme='contact' numbered_by='chothia' region_type='CDR L1' name='L1' start='L30' end='L36'/>
+<region_def scheme='contact' numbered_by='chothia' region_type='CDR L2' name='L2' start='L46' end='L55'/>
+<region_def scheme='contact' numbered_by='chothia' region_type='CDR L3' name='L3' start='L89' end='L96'/>
+<region_def scheme='contact' numbered_by='chothia' region_type='CDR H1' name='H1' start='H30' end='H35'/>
+<region_def scheme='contact' numbered_by='chothia' region_type='CDR H2' name='H2' start='H47' end='H58'/>
+<region_def scheme='contact' numbered_by='chothia' region_type='CDR H3' name='H3' start='H93' end='H101'/>
+<region_def scheme='contact' numbered_by='chothia' region_type='FRAMEWORK L1' name='LFR1' start='L1' end='L23'/>
+<region_def scheme='contact' numbered_by='chothia' region_type='FRAMEWORK L2' name='LFR2' start='L35' end='L49'/>
+<region_def scheme='contact' numbered_by='chothia' region_type='FRAMEWORK L3' name='LFR3' start='L57' end='L88'/>
+<region_def scheme='contact' numbered_by='chothia' region_type='FRAMEWORK L4' name='LFR4' start='L97' end='L109'/>
+<region_def scheme='contact' numbered_by='chothia' region_type='FRAMEWORK H1' name='HFR1' start='H1' end='H29'/>
+<region_def scheme='contact' numbered_by='chothia' region_type='FRAMEWORK H2' name='HFR2' start='H36' end='H46'/>
+<region_def scheme='contact' numbered_by='chothia' region_type='FRAMEWORK H3' name='HFR3' start='H59' end='H92'/>
+<region_def scheme='contact' numbered_by='chothia' region_type='FRAMEWORK H4' name='HFR4' start='H102' end='H113'/>
+</regions>

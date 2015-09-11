@@ -1,0 +1,3 @@
+The file "missing_pdb_codes.lst" contains a list of PDB codes that were included in
+the Dunbrack analysis in their antibody loops paper but were skipped in our analysis
+while analyzing canonical classes of loops in antibodies.

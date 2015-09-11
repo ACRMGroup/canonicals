@@ -1,0 +1,23 @@
+1) CDR-L2
+
+   Clusters:
+
+   -> 1 (Class 7A)
+   -> 4 (7D)
+   -> 6 (7E)
+
+2) CDR-H2
+
+   Clusters:
+
+   -> 1 (Class 10F)
+
+
+Number of structures adopting these classes (taken from /home/bsm2/abhi/CANONICALS/acaca/ANALYSIS/GAPS_IN_SDRs/pdb_codes_*.out):
+
+Loop	Cluster	Class	No.Structs	% of loops of same length
+
+L2	1	7A	742		742/757 = 98 %
+L2	4	7D	2		Negligible
+L2	6	7E	1		Negligible
+H2	1	10F	354		354/486 = 72.84%

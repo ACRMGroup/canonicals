@@ -1,0 +1,6 @@
+WHen fitting 1i9r_L.pdb: Reference
+             2r29_L.pdb: Mobile
+
+   RMS over all atoms: 1.845
+   RMS over CA: 1.535
+
