@@ -85,8 +85,6 @@
 #define HBOND_FLAG     0x2000
 #define NOHBOND_FLAG   0x4000
 
-#define DELETED_FLAG   0x8000
-
 typedef struct
 {
    PDB    **contacts,
@@ -112,8 +110,7 @@ typedef struct
    int    NRes,                  /* Number of common residue ids        */
           length;                /* Length of loop itself               */
    BOOL   *absolute,
-          *First,
-          *deletable;
+          *First;
    char   *ConsRes;
 }  CLUSTERINFO;
 

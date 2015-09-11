@@ -3,8 +3,8 @@
    Program:    clan
    File:       clan.c
    
-   Version:    V3.2
-   Date:       02.10.95
+   Version:    V3.3
+   Date:       04.10.95
    Function:   Perform cluster analysis on loop conformations
    
    Copyright:  (c) Dr. Andrew C. R. Martin 1995
@@ -64,6 +64,8 @@
                   N-ter C-alpha as well as torsions
    V3.1  21.09.95 Added DISTANCE/ANGLE/NOANGLE keywords
    V3.2  02.10.95 Modifications to decr.c
+   V3.3  04.10.95 Modified critical residue definition to show residues
+                  which are conserved in at least one cluster.
 
 *************************************************************************/
 /* Includes
@@ -71,6 +73,7 @@
 #define MAIN
 #include "acaca.h"
 #include "decr.h"
+
 
 /************************************************************************/
 /* Defines and macros
@@ -106,6 +109,7 @@
 */
 #define IOFFSET(n,i,j) (j+(i-1)*n-(i*(i+1))/2)
 
+
 /************************************************************************/
 /* Globals
 */
@@ -113,8 +117,6 @@ static MKeyWd sKeyWords[PARSER_NCOMM];         /* Parser keywords       */
 static char   *sStrParam[PARSER_MAXSTRPARAM];  /* Parser string params  */
 static REAL   sRealParam[PARSER_MAXREALPARAM]; /* Parser real params    */
 static int    sInfoLevel = 0;                  /* Info level            */
-
-
 
 
 /************************************************************************/
@@ -1360,7 +1362,7 @@ BOOL DoClustering(BOOL CATorsions)
 */
 void Usage(void)
 {
-   fprintf(stderr,"\nCLAN V3.2 (c) 1995, Dr. Andrew C.R. Martin, UCL\n");
+   fprintf(stderr,"\nCLAN V3.3 (c) 1995, Dr. Andrew C.R. Martin, UCL\n");
 
    fprintf(stderr,"\nUsage: clan [-t] <datafile>\n");
    fprintf(stderr,"       -t Do true torsions\n");
@@ -1763,128 +1765,6 @@ DATALIST *FindMedian(int *clusters, REAL **data, int NVec, int VecDim,
 
    /* Return the loop pointer                                           */
    return(p);
-}
-
-
-/************************************************************************/
-/*>BOOL DefineCriticalResidues(FILE *fp, int *clusters, REAL **data, 
-                               int NVec, int VecDim, REAL *crit, 
-                               int NClus)
-   -----------------------------------------------------------------
-   Input:   FILE   *fp         Output file pointer
-            int    *clusters   Clustering table
-            REAL   **data      Data for clustering
-            int    NVec        Number of vectors
-            int    VecDim      Dimesion of vector
-            REAL   *crit       Critical values
-            int    NClus       Number of clusters
-
-   Does all set up from definition of clusters to call routines which
-   analyse critical residues.
-
-   08.08.95 Original    By: ACRM
-   15.08.95 Modified to use cluster vector rather than matrix
-*/
-BOOL DefineCriticalResidues(FILE *fp, int *clusters, REAL **data, 
-                            int NVec, int VecDim, REAL *crit, int NClus)
-{
-   int         clusnum,
-               i,  j,
-               NMembers;
-   LOOPINFO    *loopinfo;
-   DATALIST    *p;
-   CLUSTERINFO cinfo;
-   PDB         *pdb,
-               *pdb_start,
-               *pdb_end;
-
-   /* Allocate memory for maximum possible amount of loop data          */
-   if((loopinfo=(LOOPINFO *)malloc(NVec * sizeof(LOOPINFO)))==NULL)
-      return(FALSE);
-
-   /* Initialise the properties lookup tables                           */
-   InitProperties();
-   
-   /* Blank the cluster info structure                                  */
-   BlankClusterInfo(&cinfo);
-   
-   /* Print a header                                                    */
-   fprintf(fp, "\nBEGIN CRITICALRESIDUES %d\n", NClus);
-
-   /* For each cluster in turn                                          */
-   for(clusnum=1; clusnum<=NClus; clusnum++)
-   {
-      /* Currently no members in this cluster                           */
-      NMembers = 0;
-      
-      /* Run through the cluster table to find members of this cluster  */
-      for(i=0; i<NVec; i++)
-      {
-         /* If this is the current cluster                              */
-         if(clusters[i] == clusnum)
-         {
-            /* Find the PDB linked list for this example                */
-            for(j=0, p=gDataList; j<i && p!=NULL; j++, NEXT(p));
-
-            /* Find PDB pointers for the structure and the start and end 
-               of the loop itself.
-            */
-            pdb       = p->allatompdb;
-            pdb_start = FindResidueSpec(pdb, p->start);
-            pdb_end   = FindResidueSpec(pdb, p->end);
-            if(pdb_end != NULL)
-               pdb_end   = FindNextResidue(pdb_end);
-            
-            if(pdb_start != NULL)
-            {
-               /* Store the loop properties in the array                */
-               if(!FindNeighbourProps(pdb, pdb_start, pdb_end, clusnum,
-                                      &(loopinfo[NMembers])))
-               {
-                  free(loopinfo);
-                  return(FALSE);
-               }
-               
-               NMembers++;
-            }
-            else
-            {
-               fprintf(stderr,"Unable to find start residue (%s) in PDB \
-file (%s)\n",p->start,p->loopid);
-               return(FALSE);
-            }
-         }  /* Correct cluster                                          */
-      }  /* End of for(each vector)                                     */
-
-      /* If there were some members in this cluster                     */
-      if(NMembers)
-      {
-         /* We've accumulated loop info for each member of this cluster, 
-            so merge the properties, filling in a cluster info structure.
-         */
-         if(!MergeProperties(NMembers, loopinfo, clusnum, &cinfo))
-         {
-            fprintf(fp, "END CRITICALRESIDUES (failed!)\n");
-            fprintf(stderr,"MergeProperties() failed\n");
-            return(FALSE);
-         }
-         
-         
-         /* Print merged properties for this cluster                    */
-         PrintMergedProperties(fp, clusnum, cinfo, NMembers);
-         
-         /* Clean up allocated memory in the loopinfo and clusinfo 
-            structures
-         */
-         CleanLoopInfo(loopinfo, NMembers);
-         CleanClusInfo(&cinfo);
-      }
-   }  /* End of for(each cluster)                                       */
-
-   fprintf(fp, "END CRITICALRESIDUES\n");
-   free(loopinfo);
-
-   return(TRUE);
 }
 
 
@@ -2582,6 +2462,220 @@ DATALIST *FindLoop(int *clusters, int NVec, int ClusNum, int loopnum)
    }
    
    return(NULL);
+}
+
+
+/************************************************************************/
+/*>BOOL DefineCriticalResidues(FILE *fp, int *clusters, REAL **data, 
+                               int NVec, int VecDim, REAL *crit, 
+                               int NClus)
+   -----------------------------------------------------------------
+   Input:   FILE   *fp         Output file pointer
+            int    *clusters   Clustering table
+            REAL   **data      Data for clustering
+            int    NVec        Number of vectors
+            int    VecDim      Dimesion of vector
+            REAL   *crit       Critical values
+            int    NClus       Number of clusters
+
+   Does all set up from definition of clusters to call routines which
+   analyse critical residues.
+
+   08.08.95 Original    By: ACRM
+   15.08.95 Modified to use cluster vector rather than matrix
+   04.10.95 Modified additionally to show details of residues conserved
+            in at least one cluster. This required changing the old
+            code to handle cinfo as an array.
+   05.10.95 Removed First checking for MergeAllProperties() as this
+            is now done on a per-residue basis within that routine.
+*/
+BOOL DefineCriticalResidues(FILE *fp, int *clusters, REAL **data, 
+                            int NVec, int VecDim, REAL *crit, int NClus)
+{
+   int         clusnum,
+               i,  j,
+               *NMembers,
+               NCons,
+               InfoPos   = 0,
+               InfoStart = 0;
+   LOOPINFO    *loopinfo;
+   DATALIST    *p;
+   CLUSTERINFO *cinfo;
+   PDB         *pdb,
+               *pdb_start,
+               *pdb_end;
+   RESSPEC     *ConsList = NULL;
+
+   /* Allocate memory for maximum possible amount of loop data          */
+   if((loopinfo=(LOOPINFO *)malloc(NVec * sizeof(LOOPINFO)))==NULL)
+      return(FALSE);
+
+   /* Allocate memory for the cluster info structures                   */
+   if((cinfo=(CLUSTERINFO *)malloc(NClus * sizeof(CLUSTERINFO)))==NULL)
+   {
+      free(loopinfo);
+      return(FALSE);
+   }
+
+   /* Allocate array to store number of members of each cluster         */
+   if((NMembers=(int *)malloc((NClus+1) * sizeof(int)))==NULL)
+   {
+      free(loopinfo);
+      free(cinfo);
+      return(FALSE);
+   }
+
+   for(i=0; i<=NClus; i++)
+      NMembers[i] = 0;
+   
+   /* Initialise the properties lookup tables                           */
+   InitProperties();
+   
+   /* Blank the cluster info structures                                 */
+   for(i=0; i<NClus; i++)
+      BlankClusterInfo(&(cinfo[i]));
+   
+   /* Print a header                                                    */
+   fprintf(fp, "\nBEGIN CRITICALRESIDUES %d\n", NClus);
+
+   /* For each cluster in turn                                          */
+   for(clusnum=1; clusnum<=NClus; clusnum++)
+   {
+      /* Currently no members in this cluster                           */
+      NMembers[clusnum] = 0;
+      
+      /* Run through the cluster table to find members of this cluster  */
+      for(i=0; i<NVec; i++)
+      {
+         /* If this is the current cluster                              */
+         if(clusters[i] == clusnum)
+         {
+            /* Find the PDB linked list for this example                */
+            for(j=0, p=gDataList; j<i && p!=NULL; j++, NEXT(p));
+
+            /* Find PDB pointers for the structure and the start and end 
+               of the loop itself.
+            */
+            pdb       = p->allatompdb;
+            pdb_start = FindResidueSpec(pdb, p->start);
+            pdb_end   = FindResidueSpec(pdb, p->end);
+            if(pdb_end != NULL)
+               pdb_end   = FindNextResidue(pdb_end);
+            
+            if(pdb_start != NULL)
+            {
+               /* Store the loop properties in the array                */
+               if(!FindNeighbourProps(pdb, pdb_start, pdb_end, clusnum,
+                                      &(loopinfo[InfoPos])))
+               {
+                  free(loopinfo);
+                  return(FALSE);
+               }
+               
+               InfoPos++;
+               (NMembers[clusnum])++;
+            }
+            else
+            {
+               fprintf(stderr,"Unable to find start residue (%s) in PDB \
+file (%s)\n",p->start,p->loopid);
+               return(FALSE);
+            }
+         }  /* Correct cluster                                          */
+      }  /* End of for(each vector)                                     */
+
+      InfoStart += NMembers[clusnum-1];
+
+      /* If there were some members in this cluster                     */
+      if(NMembers[clusnum])
+      {
+         /* We've accumulated loop info for each member of this cluster, 
+            so merge the properties, filling in a cluster info structure.
+            Note that we use the number of members of the previous
+            clusters as an offset for the loopinfo array. clusnum
+            starts at 1 and NMembers[0] is set to 0
+         */
+         if(!MergeProperties(NMembers[clusnum], 
+                             loopinfo+InfoStart, clusnum, 
+                             &(cinfo[clusnum-1])))
+         {
+            fprintf(fp, "END CRITICALRESIDUES (failed!)\n");
+            fprintf(stderr,"MergeProperties() failed\n");
+            return(FALSE);
+         }
+         
+         /* Print merged properties for this cluster                    */
+         PrintMergedProperties(fp, clusnum, cinfo[clusnum-1], 
+                               NMembers[clusnum]);
+         fprintf(fp,"\n");
+      }
+   }  /* End of for(each cluster)                                       */
+   fprintf(fp, "END CRITICALRESIDUES\n");
+
+   /* Build a list of all the residues which are conserved in any one
+      cluster
+   */
+   InfoStart = 0;
+   if((ConsList = BuildConservedList(cinfo, NClus, &NCons))!=NULL)
+   {
+      /* Print a header                                                 */
+      fprintf(fp, "\nBEGIN ALLCRITICALRESIDUES %d\n", NClus);
+
+      /* Clean out our current cluster information                      */
+      for(i=0; i<NClus; i++)
+         CleanClusInfo(&(cinfo[i]));
+
+      /* For each cluster in turn                                       */
+      for(clusnum=1; clusnum<=NClus; clusnum++)
+      {
+         InfoStart += NMembers[clusnum-1];
+
+         /* If there were some members in this cluster                  */
+         if(NMembers[clusnum])
+         {
+            for(i=0; i<NVec; i++)
+            {
+               /* If this is our cluster                                */
+               if(clusters[i] == clusnum)
+               {
+                  /* Find the PDB linked list for this example          */
+                  for(j=0, p=gDataList; j<i && p!=NULL; j++, NEXT(p));
+
+                  /* Find PDB pointer for the structure.                */
+                  pdb = p->allatompdb;
+
+                  if(!MergeAllProperties(pdb, ConsList, NCons,
+                                         &(cinfo[clusnum-1])))
+                  {
+                     fprintf(fp, "END ALLCRITICALRESIDUES (failed!)\n");
+                     fprintf(stderr,"MergeAllProperties() failed\n");
+                     return(FALSE);
+                  }
+               }  /* Correct cluster                                    */
+            }  /* End of for(each vector)                               */
+         }  /* There were members of this cluster                       */
+         
+         /* Print merged properties for this cluster                    */
+         PrintMergedProperties(fp, clusnum, cinfo[clusnum-1], 
+                               NMembers[clusnum]);
+         PrintDeletedResidues(fp, cinfo[clusnum-1], ConsList, NCons);
+         fprintf(fp,"\n");
+      }
+      fprintf(fp, "END ALLCRITICALRESIDUES\n");
+   }
+   
+   
+
+   /* Clean up allocated memory in the loopinfo and clusinfo structures */
+   CleanLoopInfo(loopinfo, NVec);
+   for(i=0; i<NClus; i++)
+      CleanClusInfo(&(cinfo[i]));
+      
+   free(loopinfo);
+   free(cinfo);
+   free(NMembers);
+
+   return(TRUE);
 }
 
 

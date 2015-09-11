@@ -61,14 +61,13 @@
 /************************************************************************/
 /* Defines and macros
 */
-#define MAXPROPAA 21             /* 20 aa's plus - for deletion         */
 
 
 /************************************************************************/
 /* Globals
 */
-USHORT sPropsArray[MAXPROPAA];   /* Properties for the 20 aa's and -    */
-char   sResArray[MAXPROPAA];     /* 1-letter codes in same order        */
+USHORT sPropsArray[20];   /* Properties for each of the 20 amino acids  */
+char   sResArray[20];     /* Amino acid 1-letter codes in same order    */
 
 
 /************************************************************************/
@@ -351,7 +350,7 @@ void FillLoopInfo(LOOPINFO *loopinfo)
             Corrected check on NULLs for each free() to != rather 
             than ==
    05.10.95 Added clusterinfo->First = NULL;
-   10.10.95 Added clusterinfo->deletable = NULL;
+
 */
 BOOL MergeProperties(int NLoops, LOOPINFO *loopinfo, int clusnum,
                      CLUSTERINFO *clusterinfo)
@@ -384,7 +383,6 @@ BOOL MergeProperties(int NLoops, LOOPINFO *loopinfo, int clusnum,
    clusterinfo->absolute       = (BOOL *)malloc(NRes * sizeof(BOOL));
    clusterinfo->ConsRes        = (char *)malloc(NRes * sizeof(char));
    clusterinfo->First          = NULL;
-   clusterinfo->deletable      = NULL;
 
    if((clusterinfo->resnum         == NULL) ||
       (clusterinfo->chain          == NULL) ||
@@ -766,46 +764,23 @@ int FlagCommonResidues(int NLoops, LOOPINFO *loopinfo, int clusnum)
 
 
 /************************************************************************/
-/*>void PrintProps(FILE *fp, USHORT props, BOOL deletable)
-   ------------------------------------------------------
+/*>void PrintProps(FILE *fp, USHORT props)
+   ---------------------------------------
    Input:   FILE   *fp         Output file pointer
             USHORT props       Properties value
-            BOOL   deletable   Is the residue deletable?
 
    Print the properties associated with the props value as moderately
    verbose, but parsable, text.
 
    03.08.95 Original    By: ACRM
-   06.10.95 Added deleted handling
-   10.10.95 Deleted now handled as separate array
 */
-void PrintProps(FILE *fp, USHORT props, BOOL deletable)
+void PrintProps(FILE *fp, USHORT props)
 {
-   /* Note that we and this with everything but the DELETED_FLAG first.
-      This effectively makes sure we switch off the DELETED_FLAG before
-      making this comparison
-   */
-#ifdef OLD_VERSION
-   if((props & ~DELETED_FLAG) == (USHORT)0)
+   if(props == (USHORT)0)
    {
       fprintf(fp,"No conserved properties");
-
-      if(deletable)
-         fprintf(fp,"/deletable/");
-
       return;
    }
-#else
-   if(props==(USHORT)0)
-   {
-      fprintf(fp,"No conserved properties");
-
-      if(ISSET(props, DELETED_FLAG))
-         fprintf(fp,"/deletable/");
-
-      return;
-   }      
-#endif
    
    if(ISSET(props, GLY_FLAG))
    {
@@ -876,12 +851,6 @@ void PrintProps(FILE *fp, USHORT props, BOOL deletable)
    if(ISSET(props, OTHER_FLAG))
       fprintf(fp,"not glycine or proline/");
 
-#ifdef OLD_VERSION
-   if(ISSET(props, DELETED_FLAG))
-#else
-   if(deletable)
-#endif
-      fprintf(fp,"deletable/");
 }
 
 
@@ -891,7 +860,6 @@ void PrintProps(FILE *fp, USHORT props, BOOL deletable)
    Initialise static global property flags tables.
    
    01.08.95 Original    By: ACRM
-   06.10.95 Added -
 */
 void InitProperties(void)
 {
@@ -1054,9 +1022,6 @@ void InitProperties(void)
    SET(sPropsArray[19], LARGE_FLAG);
    SET(sPropsArray[19], OTHER_FLAG);
    SET(sPropsArray[19], HBOND_FLAG);
-
-   sResArray[20] = '-';
-   SET(sPropsArray[20], DELETED_FLAG);
 }
 
 
@@ -1073,13 +1038,12 @@ void InitProperties(void)
    03.08.95 Original    By: ACRM
    08.08.95 Changed so it returns the properties rather than outputting
             them.
-   06.10.95 Changed to use MAXPROPAA constant rather than 20
 */
 USHORT SetProperties(char res)
 {
    int   i;
    
-   for(i=0; i<MAXPROPAA; i++)
+   for(i=0; i<20; i++)
    {
       if(sResArray[i] == res)
       {
@@ -1091,37 +1055,21 @@ USHORT SetProperties(char res)
 
 
 /************************************************************************/
-/*>void PrintSampleResidues(FILE *fp, USHORT props, BOOL deletable)
-   ----------------------------------------------------------------
-   Input:   FILE   *fp        Output file pointer
-            USHORT props      Properties flags
-            BOOL   deletable  Is the residue deletable?
+/*>void PrintSampleResidues(FILE *fp, USHORT props)
+   ------------------------------------------------
+   Input:   FILE   *fp      Output file pointer
+            USHORT props    Properties flags
 
    Prints sample amino acids which possess a set of properties.
 
    03.08.95 Original    By: ACRM
    10.08.95 Prints all 20 aas rather than a - if no conserved properties
-   06.10.95 Added handling of the deleted property which is effectively
-            just an additional amino acid rather than a residue
-            property as such
-   10.10.95 Deletable now handled with separate parameter
 */
- void PrintSampleResidues(FILE *fp, USHORT props, BOOL deletable)
+void PrintSampleResidues(FILE *fp, USHORT props)
 {
-   int    i;
-#ifdef OLD_VERSION
-   USHORT PropsCopy;
-#endif
+   int i;
 
    fprintf(fp,"  (");
-
-#ifdef OLD_VERSION
-   /* Copy the properties flag set                                      */
-   PropsCopy = props;
-
-   /* Switch off the deleted flag                                       */
-   UNSET(props, DELETED_FLAG);
-#endif
    
    if(props == (USHORT)0)
    {
@@ -1137,16 +1085,6 @@ USHORT SetProperties(char res)
          }
       }
    }
-
-   /* If the deleted flag was set in our copy of the properties, then
-      print a -
-   */
-#ifdef OLD_VERSION
-   if(ISSET(PropsCopy, DELETED_FLAG))
-#else
-   if(deletable)
-#endif
-      fprintf(fp,"-");
 
    fprintf(fp,")");
 }
@@ -1231,13 +1169,11 @@ void CleanClusInfo(CLUSTERINFO *cinfo)
    08.08.95 Original    By: ACRM
    14.08.95 Always prints number of members
    02.10.95 Handles printing of absolutely conserved residues
-   10.10.95 Modified printing for deletable as separate flag
 */
 void PrintMergedProperties(FILE *fp, int clusnum, CLUSTERINFO cinfo,
                            int NMembers)
 {
-   int    i;
-   USHORT props;
+   int i;
    
    fprintf(fp,"CLUSTER %d (Length = %d, Members = %d)\n",
            clusnum,cinfo.length,NMembers);
@@ -1257,38 +1193,18 @@ cluster!\n");
    {
       for(i=0;i<cinfo.NRes;i++)
       {
-         props = cinfo.ConservedProps[i];
-         if(cinfo.deletable!=NULL && cinfo.deletable[i])
-            props |= DELETED_FLAG;
-         
          if(!(cinfo.absolute[i] && cinfo.ConsRes[i] == '-'))
          {
             fprintf(fp,"%c%3d%c 0x%04x ",
                     cinfo.chain[i],
                     cinfo.resnum[i],
                     cinfo.insert[i],
-                    props);
-            PrintProps(fp,cinfo.ConservedProps[i],
-                       ((cinfo.deletable==NULL)?FALSE:
-                        cinfo.deletable[i]));
+                    cinfo.ConservedProps[i]);
+            PrintProps(fp,cinfo.ConservedProps[i]);
             if(cinfo.absolute[i])
-            {
-#ifdef OLD_VERSION
-               if(ISSET(cinfo.ConservedProps[i], DELETED_FLAG))
-#else
-               if(cinfo.deletable!=NULL && cinfo.deletable[i])
-#endif
-                  fprintf(fp," [CONSERVED/deletable] (%c-)",
-                          cinfo.ConsRes[i]);
-               else
-                  fprintf(fp," [CONSERVED] (%c)",cinfo.ConsRes[i]);
-            }
+               fprintf(fp," [CONSERVED] (%c)",cinfo.ConsRes[i]);
             else
-            {
-               PrintSampleResidues(fp,cinfo.ConservedProps[i],
-                                   ((cinfo.deletable==NULL)?FALSE:
-                                    cinfo.deletable[i]));
-            }
+               PrintSampleResidues(fp,cinfo.ConservedProps[i]);
             fprintf(fp,"\n");
          }
       }
@@ -1423,11 +1339,6 @@ int InConsList(RESSPEC *ConsList, int NCons, char chain, int resnum,
             Removed First parameter and changed CLUSTERINFO structure
             such that each residue has a `First' parameter. Added handling
             of this.
-   06.10.95 Added deleted property handling
-   09.10.95 Wasn't clearing `first' flag if - occurred first time so -
-            information was written over on the next go rather than ORed
-   10.10.95 Handles deletable as a separate array rather than as a residue
-            property flag. Simplifies various logic!
 */
 BOOL MergeAllProperties(PDB *pdb,
                         RESSPEC *ConsList, int NRes,
@@ -1458,8 +1369,6 @@ BOOL MergeAllProperties(PDB *pdb,
       clusterinfo->absolute       = (BOOL   *)malloc(NRes*sizeof(BOOL));
       clusterinfo->ConsRes        = (char   *)malloc(NRes*sizeof(char));
       clusterinfo->First          = (BOOL   *)malloc(NRes*sizeof(BOOL));
-      clusterinfo->deletable      = (BOOL   *)malloc(NRes*sizeof(BOOL));
-      
       
       if((clusterinfo->resnum         == NULL) ||
          (clusterinfo->chain          == NULL) ||
@@ -1468,7 +1377,6 @@ BOOL MergeAllProperties(PDB *pdb,
          (clusterinfo->RangeOfProps   == NULL) ||
          (clusterinfo->absolute       == NULL) ||
          (clusterinfo->First          == NULL) ||
-         (clusterinfo->deletable      == NULL) ||
          (clusterinfo->ConsRes        == NULL))
       {
          if(clusterinfo->resnum != NULL)
@@ -1487,26 +1395,19 @@ BOOL MergeAllProperties(PDB *pdb,
             free(clusterinfo->absolute);
          if(clusterinfo->First != NULL)
             free(clusterinfo->First);
-         if(clusterinfo->deletable != NULL)
-            free(clusterinfo->deletable);
          return(FALSE);
       }
 
       for(i=0; i<NRes; i++)
       {
-         clusterinfo->ConsRes[i]   = '-';
-         clusterinfo->absolute[i]  = TRUE;
-         clusterinfo->First[i]     = TRUE;
-         clusterinfo->deletable[i] = FALSE;
+         clusterinfo->ConsRes[i]  = '-';
+         clusterinfo->absolute[i] = TRUE;
+         clusterinfo->First[i]    = TRUE;
       }
 
       clusterinfo->NRes = NRes;
    }
    
-   /* Clear all found flags in the conserved list                       */
-   for(i=0; i<NRes; i++)
-      ConsList[i].flag = FALSE;
-
    for(p=pdb; p!=NULL; NEXT(p))
    {
       if(!strncmp(p->atnam,"CA  ",4))
@@ -1532,20 +1433,7 @@ BOOL MergeAllProperties(PDB *pdb,
             }
             else
             {
-#ifdef OLD_VERSION
-               USHORT temp = 0x0000;
-
-               /* We have to store the DELETED_FLAG status, unset it,
-                  and with the properties of this residue and restore
-                  the DELETED_FLAG status
-               */
-               temp = clusterinfo->ConservedProps[k] & DELETED_FLAG;
-               UNSET(clusterinfo->ConservedProps[k], DELETED_FLAG);
-#endif
                clusterinfo->ConservedProps[k] &= SetProperties(res);
-#ifdef OLD_VERSION
-               clusterinfo->ConservedProps[k] |= temp;
-#endif
                clusterinfo->RangeOfProps[k]   |= SetProperties(res);
                if(res != clusterinfo->ConsRes[k])
                   clusterinfo->absolute[k] = FALSE;
@@ -1554,39 +1442,6 @@ BOOL MergeAllProperties(PDB *pdb,
       }
    }
 
-   /* For each residue in our conserved list                            */
-   for(i=0; i<NRes; i++)
-   {
-      /* If we haven't looked at this residue, then it must be deleted
-         in this protein. Strictly, the deleted property is not a
-         conserved property in the same was as others. In effect it
-         represents an additional amino acid type allowed at a given
-         position, so it is ORed with both Conserved and RangeOf
-         properties.
-      */
-      if(!ConsList[i].flag)  /* i.e. This residue is deleted            */
-      {
-         clusterinfo->deletable[i] = TRUE;
-#ifdef OLD_VERSION         
-         if(clusterinfo->First[i])
-         {
-            clusterinfo->ConservedProps[i] = SetProperties('-');
-            clusterinfo->RangeOfProps[i]   = SetProperties('-');
-            clusterinfo->ConsRes[i]        = '-';
-            
-            clusterinfo->First[i]          = FALSE;
-         }
-         else
-         {
-            clusterinfo->ConservedProps[i] |= SetProperties('-');
-            clusterinfo->RangeOfProps[i]   |= SetProperties('-');
-            if(clusterinfo->ConsRes[i] != '-')
-               clusterinfo->absolute[i] = FALSE;
-         }
-#endif
-      }
-   }
-   
    return(TRUE);
 }
 
