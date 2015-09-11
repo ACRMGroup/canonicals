@@ -51,6 +51,7 @@
    V3.4  10.09.95 Skipped
    V3.5  06.11.95 Skipped
    V3.6  09.01.96 Skipped
+   V3.6a 30.01.09 Compile cleanups
 
 *************************************************************************/
 /* Includes
@@ -527,6 +528,7 @@ void CleanUp(REAL **data1, int NData1, int VecLen1,
                                  0 on error
 
    27.07.95 Original    By: ACRM
+   30.01.09 Initialize some variables
 */
 int ReadClusters(FILE *fp, CLUSTER *clusters)
 {
@@ -536,7 +538,7 @@ int ReadClusters(FILE *fp, CLUSTER *clusters)
    int     NClusters = 0,
            SecPos    = 0,
            i,
-           loopnum;
+           loopnum = 0;
 
    rewind(fp);
    
@@ -714,6 +716,7 @@ int MatchCluster(REAL **data, int NData, int VecLength,
    50% in any dimension.
 
    28.07.95 Original    By: ACRM
+   30.01.09 Initialize some variables
 */
 int ConfirmCluster(REAL **data, int NVec, int VecLen, 
                    CLUSTER *clusters, int TheCluster, REAL *vector,
@@ -723,8 +726,8 @@ int ConfirmCluster(REAL **data, int NVec, int VecLen,
         DistMedian,
         DistNearest,
         dist,
-        MaxVal,
-        MinVal;
+        MaxVal = 0.0,
+        MinVal = 0.0;
    int  i, j, ok,
         NMembers;
 

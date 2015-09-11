@@ -60,6 +60,7 @@
    V3.5  06.11.95 Added gStringList
    V3.6  09.01.96 Skipped
    V3.7  14.03.96 gPClusCut[] now 3 long rather than 2
+   V3.7a 30.01.09 Increased MAXLOOPLEN and added comment
 
 *************************************************************************/
 /* Includes
@@ -83,7 +84,7 @@
 /* Defines and macros
 */
 #define MAXBUFF              160
-#define MAXLOOPLEN           30
+#define MAXLOOPLEN           40  /* Note this must be actual maximum +2 */
 #define TORPERRES            3
 #define MAXLOOPID            32
 

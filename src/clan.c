@@ -73,6 +73,8 @@
    V3.6  09.01.96 Added code to free up unneeded storage when not doing
                   critical residues
    V3.7  14.03.96 Cluster merging now considers CB as well
+   V3.7a 30.01.09 Compile cleanups
+   
 
 *************************************************************************/
 /* Includes
@@ -694,6 +696,7 @@ BOOL ShowClusters(FILE *fp, REAL **data, int NVec, int VecDim,
             February 1986 available in STATLIB.
    26.06.95 Fixed frees on error
    29.06.95 Fix the pointers in the data array when finished
+   30.01.09 Initialize some variables
 */
 BOOL HierClus(int NVec, int VecDim, int ClusterMethod, REAL **data, 
               int *ia, int *ib, REAL *crit)
@@ -708,9 +711,9 @@ BOOL HierClus(int NVec, int VecDim, int ClusterMethod, REAL **data,
         k, 
         i2, 
         j2, 
-        jj, 
-        im, 
-        jm,
+        jj = 0, 
+        im = 0, 
+        jm = 0,
         *NearNeighb = NULL;
    REAL DMin, 
         x, 
@@ -1694,17 +1697,18 @@ void WriteClusData(FILE *fp, int NVec, int VecDim, REAL **data)
             to [NClus-2] rather than [NClus]
    15.08.95 Uses 1D cluster vector rather than the 2D matrix
    12.09.95 Added NMemb output parameter
+   30.01.09 Initialize some variables
 */
 DATALIST *FindMedian(int *clusters, REAL **data, int NVec, int VecDim, 
                      int ClusNum, int *NMemb)
 {
    DATALIST *p;
    int      i, j,
-            best;
+            best = 0;
    REAL     *minval, 
             *maxval,
             *medval,
-            mindist,
+            mindist = 10000.0,
             dist;
    BOOL     Done = FALSE;
 
@@ -1849,13 +1853,14 @@ void FillClusterArray(int **clusters, int NVec, int NClus,
    06.07.95 Original    By: ACRM
    26.09.95 If FitPDB() returned an error, the lists weren't being
             reassembled
+   30.01.09 Initialize some variables
 */
 REAL RmsPDB(PDB *pdb1, PDB *pdb2, int length)
 {
-   PDB  *end1, 
-        *end2, 
+   PDB  *end1 = NULL, 
+        *end2 = NULL, 
         *p;
-   REAL rms;
+   REAL rms = 0.0;
    BOOL ok = TRUE;
   
    if(length)
@@ -1904,11 +1909,12 @@ REAL RmsPDB(PDB *pdb1, PDB *pdb2, int length)
    Note that pdb2 will be moved in space at the end of this.
 
    26.09.95 Original based on RmsPDB   By: ACRM
+   30.01.09 Initialize some variables
 */
 REAL RmsCAPDB(PDB *pdb1, PDB *pdb2, int length)
 {
-   PDB  *end1, 
-        *end2, 
+   PDB  *end1 = NULL, 
+        *end2 = NULL, 
         *p,
         *pdbca1 = NULL,
         *pdbca2 = NULL;
@@ -1984,16 +1990,16 @@ REAL RmsCAPDB(PDB *pdb1, PDB *pdb2, int length)
             reassembled
    14.03.96 Changed to use FitCaPDB() which fits the complete PDB linked
             lists on CAs.
+   30.01.09 Removed redundant variables
+   30.01.09 Initialize some variables
 */
 REAL MaxCADeviationPDB(PDB *pdb1, PDB *pdb2, int length)
 {
-   PDB  *end1, 
-        *end2, 
-        *p,   *q,
-        *pcb, *qcb;
+   PDB  *end1 = NULL, 
+        *end2 = NULL, 
+        *p,   *q;
    REAL dev,
         maxdev = (REAL)0.0;
-   int  natoms;
    BOOL ok = TRUE;
 
    if(length)
@@ -2067,16 +2073,17 @@ expired!\n");
    Note that pdb2 will be moved in space at the end of this.
 
    14.03.96 Original based on MaxCADeviationPDB()   By: ACRM
+   30.01.09 Removed redundant variables
+   30.01.09 Initialize some variables
 */
 REAL MaxCBDeviationPDB(PDB *pdb1, PDB *pdb2, int length)
 {
-   PDB  *end1, 
-        *end2, 
+   PDB  *end1 = NULL, 
+        *end2 = NULL, 
         *p,   *q,
         *pcb, *qcb;
    REAL dev,
         maxdev = (REAL)0.0;
-   int  natoms;
    BOOL ok = TRUE;
 
    if(length)

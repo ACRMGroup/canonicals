@@ -61,6 +61,7 @@
    V3.6  09.01.96 Frees memory not needed when not doing critical residues
                   Truncated structures were causing the whole data list to
                   be freed.
+   V3.6a 30.01.09 Compile cleanups
 
 *************************************************************************/
 /* Includes
@@ -415,11 +416,12 @@ BOOL FindCAResidues(PDB *pdbca, char chain1, int resnum1, char insert1,
    09.01.96 Added !gDoCritRes handling
             Truncated structures were causing the whole data list to
             be freed rather than just this entry.
+   30.01.09 Initialize some variables
 */
 BOOL StoreTorsions(PDB *allatompdb, PDB *pdb, PDB *p_start, PDB *p_end, 
                    char *filename, char *start, char *end)
 {
-   PDB             *p1, *p2, 
+   PDB             *p1, *p2 = NULL, 
                    *p3, *p4;
    static DATALIST *p = NULL,
                    *prev = NULL;

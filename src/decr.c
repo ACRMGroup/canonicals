@@ -56,6 +56,7 @@
    V3.5  06.11.95 Skipped
    V3.6  09.01.96 Skipped
    V3.7  06.02.96 Separated out bits for findsdrs
+   V3.7a 30.01.09 Fixed initial check on same residue
 
 *************************************************************************/
 /* Includes
@@ -261,6 +262,7 @@ BOOL FindNeighbourProps(PDB *pdb, PDB *start, PDB *stop, int clusnum,
    bounded by q_start/q_stop
 
    01.08.95 Original    By: ACRM
+   30.01.09 Corrected initial self-contact check
 */
 BOOL ResidueContact(PDB *p_start, PDB *p_stop, PDB *q_start, PDB *q_stop,
                     REAL dist)
@@ -268,7 +270,7 @@ BOOL ResidueContact(PDB *p_start, PDB *p_stop, PDB *q_start, PDB *q_stop,
    PDB *p, *q;
 
    /* Ignore contact with itself                                        */
-   if(p==q)
+   if(p_start==q_start)  /* 30.01.09 Corrected from p and q             */
       return(FALSE);
 
    /* Square the distance to save on doing square roots                 */

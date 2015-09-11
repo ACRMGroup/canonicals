@@ -46,11 +46,11 @@
    Program:    FindSDRs
    File:       FindSDRs.c
    
-   Version:    V1.0
-   Date:       02.02.96
+   Version:    V1.1
+   Date:       31.03.09
    Function:   Find SDRs in a set of loops
    
-   Copyright:  (c) Dr. Andrew C. R. Martin 1996
+   Copyright:  (c) Dr. Andrew C. R. Martin 1996-2009
    Author:     Dr. Andrew C. R. Martin
    Address:    Biomolecular Structure & Modelling Unit,
                Department of Biochemistry & Molecular Biology,
@@ -58,9 +58,7 @@
                Gower Street,
                London.
                WC1E 6BT.
-   Phone:      (Home) +44 (0)1372 275775
-               (Work) +44 (0)171 419 3890
-   EMail:      INTERNET: martin@biochem.ucl.ac.uk
+   EMail:      andrew@bioinf.org.uk
                
 **************************************************************************
 
@@ -126,6 +124,8 @@
    V0.1  02.02.96 Original development version
    V1.0  29.04.96 Finds rogues when parent isn't the largest cluster
                   of a given length
+   V1.0a 30.01.09 Compile cleanups
+   V1.1  01.04.09 Added check on Prolines at N-terminus
 
 *************************************************************************/
 /* Includes
@@ -170,7 +170,7 @@
 #define CPCOMMAND       "cp"
 
 /* Command to create an access file from PDB                            */
-#define SOLVACC         "./runasurf %s %s" 
+#define SOLVACC         "/home/bsm2/abhi/CANONICALS/acaca/tools/acaca2009/src/runasurf %s %s" 
 
 /* Dir for temp files; may need to be a blank string                    */
 #define TEMPDIR         ""
@@ -280,6 +280,7 @@ int      gMinLoopLength,
    Main program for defining SDRs from output of CLAN
 
    02.02.96 Original   By: ACRM
+   30.01.09 Initialize some variables
 */
 int main(int argc, char **argv)
 {
@@ -287,7 +288,7 @@ int main(int argc, char **argv)
         OutFile[MAXBUFF];
    FILE *in  = stdin,
         *out = stdout;
-   int  nclus, nloops;
+   int  nclus = 0, nloops;
    BOOL KeepSA;
 
    if(ParseCmdLine(argc, argv, InFile, OutFile, &KeepSA))
@@ -634,8 +635,8 @@ BOOL ParseCmdLine(int argc, char **argv, char *infile, char *outfile,
 */
 void Usage(void)
 {
-   fprintf(stderr,"\nFindSDRs V1.0 (c) 1996, Dr. Andrew C.R. Martin, \
-UCL\n");
+   fprintf(stderr,"\nFindSDRs V1.1 (c) 1996-2009, Dr. Andrew C.R. \
+Martin, UCL\n");
 
    fprintf(stderr,"\nUsage: findsdrs [-k] [clanfile [outfile]]\n");
    fprintf(stderr,"       -k  Keep any generated SA files\n");
@@ -1279,6 +1280,7 @@ PDB *ReadPDBAsSA(char *filename, BOOL KeepSAFile)
       
       /* Create the command for building the SA file and run it         */
       sprintf(buffer,SOLVACC,tempfile,safile);
+
       system(buffer);
 
       /* Remove our temp file if it didn't exists before we started     */
@@ -1477,6 +1479,7 @@ accessibility file from %s\n",
 #ifdef DEBUG
          fprintf(stderr,"Marking HPhobs for %s\n",
                  gLoopClus[LoopNum].filename);
+         fflush(stderr);
 #endif
 
          /* Clear the flags which indicate partner residues             */
@@ -1604,12 +1607,13 @@ accessibility file from %s\n",
             One and only one of the two residues must be in the loop
    09.02.96 Added code to handle S/C--B/B HBonds if both residues
             are in the loop. 
+   30.01.09 Initialize some variables
 */
 BOOL MarkHBonders(CLUSINFO *ClusInfo, int clusnum, int nloops)
 {
    PDB  *pdb,
-        *res1,
-        *res2;
+        *res1 = NULL,
+        *res2 = NULL;
    int  i, j,
         natom,
         LoopNum,
@@ -1886,6 +1890,7 @@ BOOL FillSDRsForCluster(SDRLIST *sdrlist, int clusnum, int nloops)
    15.02.96 Added code to unify on loops of same length
    16.02.96 Added elimination of non-informative SDRs added on length
             and notification of rogue clusters
+   30.01.09 Initialize some variables
 */
 BOOL ReportUnifiedSDRs(FILE *out, int nclus, int nloops)
 {
@@ -1894,7 +1899,7 @@ BOOL ReportUnifiedSDRs(FILE *out, int nclus, int nloops)
            res,
            i;
    SDRLIST *sdrlist = NULL,
-           *s;
+           *s = NULL;
    char    resspec[16],
            firstres[16],
            lastres[16];
@@ -2589,6 +2594,7 @@ BOOL IsRogue(int clus, int LargestClus)
    cluster is a cis proline.
 
    22.03.96 Original   By: ACRM
+   01.04.09 Added check that the Proline is not the Nter residue
 */
 BOOL IsCisProline(CLUSINFO *ClusInfo, int clusnum, int resoffset, 
                   int nloops)
@@ -2608,7 +2614,6 @@ BOOL IsCisProline(CLUSINFO *ClusInfo, int clusnum, int resoffset,
    FILE *fp;
    REAL angle;
    
-
    /* Run through all the loops                                         */
    for(LoopNum=0; LoopNum<nloops; LoopNum++)
    {
@@ -2649,51 +2654,57 @@ BOOL IsCisProline(CLUSINFO *ClusInfo, int clusnum, int resoffset,
          /* Find the previous residue. This is a little messy since the
             PDB linked list is not doubly linked
          */
-         for(prev = pdb; prev->next != ResPro; NEXT(prev));
-         ResPrev = FindResidue(pdb,
-                               prev->chain[0],
-                               prev->resnum,
-                               prev->insert[0]);
-
-         /* Find the next residue                                       */
-         ResNext = FindNextResidue(ResPro);
-
-         /* Find the atoms describing the omega torsion angle           */
-         for(p=ResPrev; p!=ResPro; NEXT(p))
+         /* 01.04.09 ACRM Added check that the Proline is not the Nter 
+            residue      
+         */
+         if(ResPro != pdb)
          {
-            if(!strncmp(p->atnam,"CA  ",4))
-               CA1 = p;
-            if(!strncmp(p->atnam,"C   ",4))
-               C1  = p;
-         }
-         for(p=ResPro; p!=ResNext; NEXT(p))
-         {
-            if(!strncmp(p->atnam,"N   ",4))
-               N2  = p;
-            if(!strncmp(p->atnam,"CA  ",4))
-               CA2 = p;
-         }
-         
-         if(CA1==NULL || C1==NULL || N2==NULL || CA2==NULL)
-         {
-            fprintf(stderr,"Warning: Missing atom around possible \
+            for(prev = pdb; prev->next != ResPro; NEXT(prev));
+            ResPrev = FindResidue(pdb,
+                                  prev->chain[0],
+                                  prev->resnum,
+                                  prev->insert[0]);
+            
+            /* Find the next residue                                    */
+            ResNext = FindNextResidue(ResPro);
+            
+            /* Find the atoms describing the omega torsion angle        */
+            for(p=ResPrev; p!=ResPro; NEXT(p))
+            {
+               if(!strncmp(p->atnam,"CA  ",4))
+                  CA1 = p;
+               if(!strncmp(p->atnam,"C   ",4))
+                  C1  = p;
+            }
+            for(p=ResPro; p!=ResNext; NEXT(p))
+            {
+               if(!strncmp(p->atnam,"N   ",4))
+                  N2  = p;
+               if(!strncmp(p->atnam,"CA  ",4))
+                  CA2 = p;
+            }
+            
+            if(CA1==NULL || C1==NULL || N2==NULL || CA2==NULL)
+            {
+               fprintf(stderr,"Warning: Missing atom around possible \
 cis-proline in %s %c%d%c\n",
-                    gLoopClus[LoopNum].filename,
-                    ClusInfo->chain[resoffset],
-                    ClusInfo->resnum[resoffset],
-                    ClusInfo->insert[resoffset]);
-         }
-         else
-         {
-            angle = phi(CA1->x, CA1->y, CA1->z,
-                        C1->x,  C1->y,  C1->z,
-                        N2->x,  N2->y,  N2->z,
-                        CA2->x, CA2->y, CA2->z);
-            FREELIST(pdb, PDB);
-            if((angle > (-PI/2.0)) && (angle < (PI/2.0)))
-               return(TRUE);
+                       gLoopClus[LoopNum].filename,
+                       ClusInfo->chain[resoffset],
+                       ClusInfo->resnum[resoffset],
+                       ClusInfo->insert[resoffset]);
+            }
             else
-               return(FALSE);
+            {
+               angle = phi(CA1->x, CA1->y, CA1->z,
+                           C1->x,  C1->y,  C1->z,
+                           N2->x,  N2->y,  N2->z,
+                           CA2->x, CA2->y, CA2->z);
+               FREELIST(pdb, PDB);
+               if((angle > (-PI/2.0)) && (angle < (PI/2.0)))
+                  return(TRUE);
+               else
+                  return(FALSE);
+            }
          }
 
          /* Free the PDB linked list and see if there's another struct. */
