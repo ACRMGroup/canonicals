@@ -1,13 +1,13 @@
 /*************************************************************************
 
    Program:    
-   File:       decr.h
+   File:       resprops.h
    
-   Version:    V0.1
-   Date:       01.08.95
-   Function:   DEfine Critical Residues
+   Version:    V1.0
+   Date:       02.02.96
+   Function:   Residue property flags
    
-   Copyright:  (c) Dr. Andrew C. R. Martin 1995
+   Copyright:  (c) Dr. Andrew C. R. Martin 1995-6
    Author:     Dr. Andrew C. R. Martin
    Address:    Biomolecular Structure & Modelling Unit,
                Department of Biochemistry & Molecular Biology,
@@ -47,21 +47,21 @@
 
    Revision History:
    =================
+   V1.0  02.02.96 Original extracted from decr.h
 
 *************************************************************************/
 /* Includes
 */
-#include <stdlib.h>
 #include "bioplib/SysDefs.h"
-#include "bioplib/pdb.h"
-#include "bioplib/seq.h"
-#include "bioplib/macros.h"
 
 /************************************************************************/
 /* Defines and macros
 */
-#define ALLOCQUANTUM 16
-#define CONTACTDIST  ((REAL)4.0)
+
+/* This is the variable type used to store property flags. It must be
+   sufficiently wide for all the flags we use. (Currently 2 bytes.)
+*/
+typedef USHORT PROP_T;
 
 /* Bit-wise flags for residue properties                                */
 #define HPHOB_FLAG     0x0001
@@ -85,48 +85,5 @@
 #define HBOND_FLAG     0x2000
 #define NOHBOND_FLAG   0x4000
 
-typedef struct
-{
-   PDB    **contacts,
-          **residues;
-   USHORT *ContactProps,
-          *ResProps;
-   char   *AALoop,
-          *AAContact;
-   int    length,
-          clusnum,
-          ncontacts;
-   BOOL   *ResFlag,
-          *ContactFlag;
-}  LOOPINFO;
-
-typedef struct
-{
-   int    *resnum;
-   char   *chain,
-          *insert;
-   USHORT *ConservedProps,
-          *RangeOfProps;
-   int    NRes,                  /* Number of common residue ids        */
-          length;                /* Length of loop itself               */
-   BOOL   *absolute,
-          *First;
-   char   *ConsRes;
-}  CLUSTERINFO;
-
-typedef struct
-{
-   int  resnum;
-   char chain,
-        insert;
-   BOOL flag;
-}  RESSPEC;
-
-/************************************************************************/
-/* Globals
-*/
-
-/************************************************************************/
-/* Prototypes
-*/
+#define DELETED_FLAG   0x8000
 

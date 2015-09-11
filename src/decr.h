@@ -3,11 +3,11 @@
    Program:    
    File:       decr.h
    
-   Version:    V3.4
-   Date:       10.10.95
+   Version:    V3.6
+   Date:       09.01.96
    Function:   DEfine Critical Residues
    
-   Copyright:  (c) Dr. Andrew C. R. Martin 1995
+   Copyright:  (c) Dr. Andrew C. R. Martin 1995-6
    Author:     Dr. Andrew C. R. Martin
    Address:    Biomolecular Structure & Modelling Unit,
                Department of Biochemistry & Molecular Biology,
@@ -48,8 +48,10 @@
    Revision History:
    =================
    V0.1  01.08.95 Original
-   V3.4  10.10.95 Various changes to make deleted residues work with residues
-                  conserved in at least one cluster
+   V3.4  10.10.95 Various changes to make deleted residues work with 
+                  residues conserved in at least one cluster
+   V3.5  06.11.95 Skipped
+   V3.6  09.01.96 Skipped
 
 *************************************************************************/
 /* Includes
@@ -60,41 +62,14 @@
 #include "bioplib/seq.h"
 #include "bioplib/macros.h"
 
+#include "resprops.h"
+
 /************************************************************************/
 /* Defines and macros
 */
 
 #define ALLOCQUANTUM 16
 #define CONTACTDIST  ((REAL)4.0)
-
-/* This is rge variable type used to store property flags. It must be
-   sufficiently wide for all the flags we use. (Currently 2 bytes.)
-*/
-typedef USHORT PROP_T;
-
-/* Bit-wise flags for residue properties                                */
-#define HPHOB_FLAG     0x0001
-#define HPHIL_FLAG     0x0002
-
-#define NEGATIVE_FLAG  0x0004
-#define POSITIVE_FLAG  0x0008
-#define UNCHARGED_FLAG 0x0010
-
-#define AROMATIC_FLAG  0x0020
-#define ALIPHATIC_FLAG 0x0040
-
-#define SMALL_FLAG     0x0080
-#define MEDIUM_FLAG    0x0100
-#define LARGE_FLAG     0x0200
-
-#define GLY_FLAG       0x0400
-#define PRO_FLAG       0x0800
-#define OTHER_FLAG     0x1000
-
-#define HBOND_FLAG     0x2000
-#define NOHBOND_FLAG   0x4000
-
-#define DELETED_FLAG   0x8000
 
 typedef struct
 {

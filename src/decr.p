@@ -11,15 +11,9 @@ BOOL MergeProperties(int NLoops, LOOPINFO *loopinfo, int clusnum,
 ;
 void BlankClusterInfo(CLUSTERINFO *clusterinfo)
 ;
+void BlankLoopInfo(LOOPINFO *loopinfo)
+;
 int FlagCommonResidues(int NLoops, LOOPINFO *loopinfo, int clusnum)
-;
-void PrintProps(FILE *fp, PROP_T props, BOOL deletable)
-;
-void InitProperties(void)
-;
-PROP_T SetProperties(char res)
-;
-void PrintSampleResidues(FILE *fp, PROP_T props, BOOL deletable)
 ;
 void CleanLoopInfo(LOOPINFO *loopinfo, int NMembers)
 ;

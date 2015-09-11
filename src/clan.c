@@ -3,11 +3,11 @@
    Program:    clan
    File:       clan.c
    
-   Version:    V3.4
-   Date:       10.10.95
+   Version:    V3.6
+   Date:       09.01.96
    Function:   Perform cluster analysis on loop conformations
    
-   Copyright:  (c) Dr. Andrew C. R. Martin 1995
+   Copyright:  (c) Dr. Andrew C. R. Martin 1995-6
    Author:     Dr. Andrew C. R. Martin
    Address:    Biomolecular Structure & Modelling Unit,
                Department of Biochemistry & Molecular Biology,
@@ -66,8 +66,12 @@
    V3.2  02.10.95 Modifications to decr.c
    V3.3  04.10.95 Modified critical residue definition to show residues
                   which are conserved in at least one cluster.
-   V3.4  10.10.95 Various changes to make deleted residues work with residues
-                  conserved in at least one cluster
+   V3.4  10.10.95 Various changes to make deleted residues work with 
+                  residues conserved in at least one cluster
+   V3.5  06.11.95 Added EXCLUDE command for excluding from template 
+                  analysis
+   V3.6  09.01.95 Added code to free up unneeded storage when not doing
+                  critical residues
 
 *************************************************************************/
 /* Includes
@@ -97,7 +101,8 @@
 #define KEY_ANGLE            14
 #define KEY_TRUETORSIONS     15
 #define KEY_PSEUDOTORSIONS   16
-#define PARSER_NCOMM         17
+#define KEY_EXCLUDE          17
+#define PARSER_NCOMM         18
 #define PARSER_MAXSTRPARAM   3
 #define PARSER_MAXSTRLEN     80
 #define PARSER_MAXREALPARAM  MAXLOOPLEN
@@ -127,6 +132,7 @@ static int    sInfoLevel = 0;                  /* Info level            */
 #include "clan.p"
 #include "acaca.p"
 #include "decr.p"
+#include "decr2.p"
 
 
 /************************************************************************/
@@ -271,6 +277,7 @@ BOOL ReadInputFile(FILE *fp, BOOL CATorsions)
    18.08.95 Added infolevel
    13.09.95 Added nodistance
    21.09.95 Added angle/noangle
+   06.11.95 Added exclude
 */
 BOOL SetupParser(void)
 {
@@ -313,6 +320,8 @@ BOOL SetupParser(void)
 
    MAKEMKEY(sKeyWords[KEY_TRUETORSIONS],  "TRUETORSIONS",    STRING,0,0);
    MAKEMKEY(sKeyWords[KEY_PSEUDOTORSIONS],"PSEUDOTORSIONS",  STRING,0,0);
+
+   MAKEMKEY(sKeyWords[KEY_EXCLUDE],       "EXCLUDE",         STRING,1,1);
    
    /* Check all allocations OK                                          */
    for(i=0; i<PARSER_NCOMM; i++)
@@ -344,10 +353,12 @@ BOOL SetupParser(void)
    13.09.95 Added nodistance
    21.09.95 Added distance, angle, noangle
    26.09.95 Added truetorsions/pseudotorsions and GotLoop checking
+   06.11.95 Added exclude
 */
 BOOL DoCmdLoop(FILE *fp, BOOL CATorsions)
 {
-   char buffer[MAXBUFF];
+   char buffer[MAXBUFF],
+        loopid[MAXBUFF];
    int  NParams,
         i,
         key;
@@ -490,6 +501,15 @@ before all LOOP commands\n",sKeyWords[key].name);
             return(FALSE);
          }
          gCATorsions = TRUE;
+         break;
+      case KEY_EXCLUDE:
+         sprintf(loopid,"%s-%s-%s",
+                 sStrParam[0],sStrParam[1],sStrParam[2]);
+         if((gStringList=StoreString(gStringList, loopid))==NULL)
+         {
+            fprintf(stderr,"Error: No memory for string: %s\n", loopid);
+            return(FALSE);
+         }
          break;
       default:
          break;
@@ -1362,10 +1382,12 @@ BOOL DoClustering(BOOL CATorsions)
    24.07.95 V1.4
    25.07.95 V2.0
    10.10.95 V3.4
+   06.11.95 V3.5
+   09.01.96 V3.6
 */
 void Usage(void)
 {
-   fprintf(stderr,"\nCLAN V3.4 (c) 1995, Dr. Andrew C.R. Martin, UCL\n");
+   fprintf(stderr,"\nCLAN V3.6 (c) 1995, Dr. Andrew C.R. Martin, UCL\n");
 
    fprintf(stderr,"\nUsage: clan [-t] <datafile>\n");
    fprintf(stderr,"       -t Do true torsions\n");
@@ -2491,6 +2513,7 @@ DATALIST *FindLoop(int *clusters, int NVec, int ClusNum, int loopnum)
             code to handle cinfo as an array.
    05.10.95 Removed First checking for MergeAllProperties() as this
             is now done on a per-residue basis within that routine.
+   06.11.95 Added check on exclude list before processing
 */
 BOOL DefineCriticalResidues(FILE *fp, int *clusters, REAL **data, 
                             int NVec, int VecDim, REAL *crit, int NClus)
@@ -2512,6 +2535,10 @@ BOOL DefineCriticalResidues(FILE *fp, int *clusters, REAL **data,
    /* Allocate memory for maximum possible amount of loop data          */
    if((loopinfo=(LOOPINFO *)malloc(NVec * sizeof(LOOPINFO)))==NULL)
       return(FALSE);
+
+   /* Blank the loopinfo structures                                     */
+   for(i=0; i<NVec; i++)
+      BlankLoopInfo(&(loopinfo[i]));
 
    /* Allocate memory for the cluster info structures                   */
    if((cinfo=(CLUSTERINFO *)malloc(NClus * sizeof(CLUSTERINFO)))==NULL)
@@ -2567,16 +2594,22 @@ BOOL DefineCriticalResidues(FILE *fp, int *clusters, REAL **data,
             
             if(pdb_start != NULL)
             {
-               /* Store the loop properties in the array                */
-               if(!FindNeighbourProps(pdb, pdb_start, pdb_end, clusnum,
-                                      &(loopinfo[InfoPos])))
+               /* If this loop is not in the list of loops to be ignored
+                  in sequence template analysis
+               */
+               if(!InStringList(gStringList, p->loopid))
                {
-                  free(loopinfo);
-                  return(FALSE);
+                  /* Store the loop properties in the array             */
+                  if(!FindNeighbourProps(pdb, pdb_start, pdb_end, clusnum,
+                                         &(loopinfo[InfoPos])))
+                  {
+                     free(loopinfo);
+                     return(FALSE);
+                  }
+                  
+                  InfoPos++;
+                  (NMembers[clusnum])++;
                }
-               
-               InfoPos++;
-               (NMembers[clusnum])++;
             }
             else
             {
@@ -2644,16 +2677,20 @@ file (%s)\n",p->start,p->loopid);
                   /* Find the PDB linked list for this example          */
                   for(j=0, p=gDataList; j<i && p!=NULL; j++, NEXT(p));
 
-                  /* Find PDB pointer for the structure.                */
-                  pdb = p->allatompdb;
-
-                  if(!MergeAllProperties(pdb, ConsList, NCons,
-                                         &(cinfo[clusnum-1])))
+                  if(!InStringList(gStringList, p->loopid))
                   {
-                     fprintf(fp, "END ALLCRITICALRESIDUES (failed!)\n");
-                     fprintf(stderr,"MergeAllProperties() failed\n");
-                     return(FALSE);
+                     /* Find PDB pointer for the structure.             */
+                     pdb = p->allatompdb;
+                     
+                     if(!MergeAllProperties(pdb, ConsList, NCons,
+                                            &(cinfo[clusnum-1])))
+                     {
+                        fprintf(fp,"END ALLCRITICALRESIDUES (failed!)\n");
+                        fprintf(stderr,"MergeAllProperties() failed\n");
+                        return(FALSE);
+                     }
                   }
+                  
                }  /* Correct cluster                                    */
             }  /* End of for(each vector)                               */
          }  /* There were members of this cluster                       */
@@ -2670,7 +2707,9 @@ file (%s)\n",p->start,p->loopid);
    
 
    /* Clean up allocated memory in the loopinfo and clusinfo structures */
-   CleanLoopInfo(loopinfo, NVec);
+   CleanLoopInfo(loopinfo, InfoPos);  /* 07.11.95 Changed to InfoPos
+                                         rather than NVec
+                                      */
    for(i=0; i<NClus; i++)
       CleanClusInfo(&(cinfo[i]));
       

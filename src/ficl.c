@@ -3,11 +3,11 @@
    Program:    ficl
    File:       ficl.c
    
-   Version:    V3.4
-   Date:       10.10.95
+   Version:    V3.6
+   Date:       09.01.96
    Function:   Find the cluster into which a PDB loop fits
    
-   Copyright:  (c) Dr. Andrew C. R. Martin 1995
+   Copyright:  (c) Dr. Andrew C. R. Martin 1995-6
    Author:     Dr. Andrew C. R. Martin
    Address:    Biomolecular Structure & Modelling Unit,
                Department of Biochemistry & Molecular Biology,
@@ -49,6 +49,8 @@
    =================
    V1.0  26.07.95 Original
    V3.4  10.09.95 Skipped
+   V3.5  06.11.95 Skipped
+   V3.6  09.01.96 Skipped
 
 *************************************************************************/
 /* Includes

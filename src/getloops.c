@@ -3,11 +3,11 @@
    Program:    GetLoops
    File:       getloops.c
    
-   Version:    V3.4
-   Date:       10.10.95
+   Version:    V3.6
+   Date:       09.01.96
    Function:   Get loops specified in a clan input file
    
-   Copyright:  (c) Dr. Andrew C. R. Martin 1995
+   Copyright:  (c) Dr. Andrew C. R. Martin 1995-6
    Author:     Dr. Andrew C. R. Martin
    Address:    Biomolecular Structure & Modelling Unit,
                Department of Biochemistry & Molecular Biology,
@@ -49,6 +49,8 @@
    =================
    V1.0  03.07.95 Original
    V3.4  10.09.95 Skipped
+   V3.5  06.11.95 Skipped
+   V3.6  09.01.96 Filenames have start and end residues
 
 
 *************************************************************************/
@@ -57,6 +59,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <unistd.h>
 #include "bioplib/pdb.h"
 #include "bioplib/general.h"
 #include "bioplib/macros.h"
@@ -136,6 +139,7 @@ int main(int argc, char **argv)
 /*>BOOL GetLoop(char *filename, char *firstres, char *lastres)
    -----------------------------------------------------------
    03.07.95 Original    By: ACRM
+   09.01.96 Filename now contains start and end residues
 */
 BOOL GetLoop(char *filename, char *firstres, char *lastres)
 {
@@ -145,7 +149,8 @@ BOOL GetLoop(char *filename, char *firstres, char *lastres)
         natoms;
    char chain1,  chain2,
         insert1, insert2,
-        *outfile;
+        *outfile,
+        namebuffer[MAXBUFF];
    BOOL InLoop = FALSE,
         InLast = FALSE;
    
@@ -160,7 +165,8 @@ BOOL GetLoop(char *filename, char *firstres, char *lastres)
    fclose(fp);
 
    outfile = MakeOutFilename(filename);
-   if((fpout=fopen(outfile,"w")) == NULL)
+   sprintf(namebuffer,"%s-%s-%s",outfile,firstres,lastres);
+   if((fpout=fopen(namebuffer,"w")) == NULL)
    {
       FREELIST(pdb, PDB);
       fclose(fp);
@@ -198,6 +204,12 @@ BOOL GetLoop(char *filename, char *firstres, char *lastres)
 
    fclose(fpout);
    FREELIST(pdb, PDB);
+
+   if(!InLast)
+   {
+      fprintf(stderr,"%s skipped! Last residue (%s) not found\n",filename,lastres);
+      unlink(namebuffer);
+   }
    
    return(TRUE);
 }

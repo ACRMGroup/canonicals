@@ -3,11 +3,11 @@
    Program:    clan/ficl
    File:       acaca.c
    
-   Version:    V3.4
-   Date:       10.10.95
+   Version:    V3.6
+   Date:       09.01.96
    Function:   Perform cluster analysis on loop conformations
    
-   Copyright:  (c) Dr. Andrew C. R. Martin 1995
+   Copyright:  (c) Dr. Andrew C. R. Martin 1995-6
    Author:     Dr. Andrew C. R. Martin
    Address:    Biomolecular Structure & Modelling Unit,
                Department of Biochemistry & Molecular Biology,
@@ -57,6 +57,10 @@
                   acaca package
    V3.3  04.10.95 Skipped
    V3.4  10.09.95 Skipped
+   V3.5  06.11.95 Skipped
+   V3.6  09.01.96 Frees memory not needed when not doing critical residues
+                  Truncated structures were causing the whole data list to
+                  be freed.
 
 *************************************************************************/
 /* Includes
@@ -164,6 +168,8 @@ BOOL SetOutputFile(char *filename)
             well as the selected atoms linked list. Consequently, the 
             main linked list is no longer freed.
    15.08.95 Initialise the sel[] array
+   09.01.95 Added !gDoCritRes handling; we can free up the PDB linked
+            lists
 */
 BOOL HandleLoopSpec(char *filename, char *start, char *end, 
                     BOOL CATorsions, BOOL Verbose)
@@ -285,6 +291,15 @@ BOOL HandleLoopSpec(char *filename, char *start, char *end,
    if(sel[0] != NULL) free(sel[0]);
    if(sel[1] != NULL) free(sel[1]);
    if(sel[2] != NULL) free(sel[2]);
+   if(!gDoCritRes)
+   {
+      if(pdb   != NULL) FREELIST(pdb,   PDB);
+      /* Note that we can't free the CA linked list if we're doing
+         postclustering
+
+         if(pdbca != NULL) FREELIST(pdbca, PDB);
+      */
+   }
    
    return(retval);
 }
@@ -397,13 +412,17 @@ BOOL FindCAResidues(PDB *pdbca, char chain1, int resnum1, char insert1,
             list. Start and end strings stored explicitly in structure
    13.09.95 Also stores distances between CAs if gDoDistances is TRUE
    21.09.95 Also stores the angles at each CA if gDoAngles is TRUE
+   09.01.96 Added !gDoCritRes handling
+            Truncated structures were causing the whole data list to
+            be freed rather than just this entry.
 */
 BOOL StoreTorsions(PDB *allatompdb, PDB *pdb, PDB *p_start, PDB *p_end, 
                    char *filename, char *start, char *end)
 {
    PDB             *p1, *p2, 
                    *p3, *p4;
-   static DATALIST *p = NULL;
+   static DATALIST *p = NULL,
+                   *prev = NULL;
    int             i;
 
    /* Allocate space in data linked list                                */
@@ -414,6 +433,7 @@ BOOL StoreTorsions(PDB *allatompdb, PDB *pdb, PDB *p_start, PDB *p_end,
    }
    else
    {
+      prev = p;
       ALLOCNEXT(p, DATALIST);
    }
    if(p==NULL)
@@ -423,9 +443,18 @@ BOOL StoreTorsions(PDB *allatompdb, PDB *pdb, PDB *p_start, PDB *p_end,
       return(FALSE);
    }
 
-   p->allatompdb  = allatompdb;
+   if(!gDoCritRes)
+   {
+      p->allatompdb  = NULL;
+      p->torsionpdb  = NULL;
+   }
+   else
+   {
+      p->allatompdb  = allatompdb;
+      p->torsionpdb  = pdb;
+   }
+   
    p->length      = 0;
-   p->torsionpdb  = pdb;
    p->pdbloop     = p_start->next; /* Start of loop itself since p_start
                                       is the atom before the loop
                                    */
@@ -444,7 +473,12 @@ BOOL StoreTorsions(PDB *allatompdb, PDB *pdb, PDB *p_start, PDB *p_end,
       /* Check all are valid atoms                                      */
       if(p1==NULL || p2==NULL || p3==NULL || p4==NULL)
       {
-         FREELIST(gDataList, DATALIST);
+         /* 09.01.95 Fixed destruction of whole list...                 
+---      FREELIST(gDataList, DATALIST);
+         */
+         free(p);
+         p = prev;
+         
          fprintf(stderr,"Structure is truncated, unable to calculate all \
 torsions.\n");
          return(FALSE);

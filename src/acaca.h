@@ -3,11 +3,11 @@
    Program:    acaca suite
    File:       acaca.h
    
-   Version:    V3.4
-   Date:       10.10.95
+   Version:    V3.6
+   Date:       09.01.96
    Function:   Perform cluster analysis on loop conformations
    
-   Copyright:  (c) Dr. Andrew C. R. Martin 1995
+   Copyright:  (c) Dr. Andrew C. R. Martin 1995-6
    Author:     Dr. Andrew C. R. Martin
    Address:    Biomolecular Structure & Modelling Unit,
                Department of Biochemistry & Molecular Biology,
@@ -57,6 +57,9 @@
                   acaca package
    V3.0  13.09.95 Added gDoDistance
    V3.4  10.09.95 Skipped
+   V3.5  06.11.95 Added gStringList
+   V3.6  09.01.96 Skipped
+   V3.7  14.03.96 gPClusCut[] now 3 long rather than 2
 
 *************************************************************************/
 /* Includes
@@ -85,6 +88,7 @@
 
 #define RMSCUT               1.0
 #define MAXDEV               1.5
+#define MAXCBDEV             1.9
 
 #define DUMMY                ((REAL)10.0)  /* For non-existent torsions */
 #define DUMMY2               ((REAL)100.0) /* For non-existent dists.   */
@@ -115,33 +119,35 @@ typedef struct _cluster
 /* Globals
 */
 #ifdef MAIN /* ------------------- Define externals ------------------- */
-int      gMaxLoopLen    = 0,
-         gScheme[MAXLOOPLEN],
-         gClusterMethod = 1;
-BOOL     gDoDendogram   = FALSE,
-         gDoTable       = FALSE,
-         gDoData        = FALSE,
-         gDoCritRes     = FALSE,
-         gDoDistance    = FALSE,    /* Handle dists. in clustering      */
-         gDoAngles      = FALSE,    /* Handle angles in clustering      */
-         gCATorsions    = FALSE;    /* Do CA pseudo torsions            */
-FILE     *gOutfp        = stdout;
-DATALIST *gDataList     = NULL;
-REAL     gPClusCut[2];
+int        gMaxLoopLen    = 0,
+           gScheme[MAXLOOPLEN],
+           gClusterMethod = 1;
+BOOL       gDoDendogram   = FALSE,
+           gDoTable       = FALSE,
+           gDoData        = FALSE,
+           gDoCritRes     = FALSE,
+           gDoDistance    = FALSE,    /* Handle dists. in clustering    */
+           gDoAngles      = FALSE,    /* Handle angles in clustering    */
+           gCATorsions    = FALSE;    /* Do CA pseudo torsions          */
+FILE       *gOutfp        = stdout;
+DATALIST   *gDataList     = NULL;
+STRINGLIST *gStringList   = NULL;
+REAL       gPClusCut[3];
 #else       /* ----------------- Reference externals ------------------ */
-extern int      gMaxLoopLen,
-                gScheme[MAXLOOPLEN],
-                gClusterMethod;
-extern BOOL     gDoDendogram,
-                gDoTable,
-                gDoData,
-                gDoCritRes,
-                gDoDistance,
-                gDoAngles,
-                gCATorsions;
-extern FILE     *gOutfp;
-extern DATALIST *gDataList;
-extern REAL     gPClusCut[2];
+extern int        gMaxLoopLen,
+                  gScheme[MAXLOOPLEN],
+                  gClusterMethod;
+extern BOOL       gDoDendogram,
+                  gDoTable,
+                  gDoData,
+                  gDoCritRes,
+                  gDoDistance,
+                  gDoAngles,
+                  gCATorsions;
+extern FILE       *gOutfp;
+extern DATALIST   *gDataList;
+extern STRINGLIST *gStringList;
+extern REAL       gPClusCut[2];
 #endif
 
 /************************************************************************/

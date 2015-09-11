@@ -1,0 +1,4 @@
+PDBFILE p1ibg.ab
+VDWFILE /home/bsm/martin/sa/vdw.radii
+PROBE 1.40
+ZSLICE 0.05

@@ -1,0 +1,11 @@
+
+CLUSTER 1 (Length = 7, Members = 55)
+
+CLUSTER 2 (Length = 7, Members = 1)
+L   34    0x30d2 /uncharged/hydrophilic/H-bonding/small/aliphatic/not glycine or proline/ [CONSERVED] (N)
+Observed residues for each cluster at unified SDR positions:
+
+CLUSTER 1 (Length = 7, Members = 55)
+
+CLUSTER 2 (Length = 7, Members = 1)
+L   34   :                    N (Makes contact)
