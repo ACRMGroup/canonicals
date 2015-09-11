@@ -1,0 +1,2197 @@
+<antibody distance='3.2957' name='fv fragment of mouse monoclonal antibody d1.3 (balb/c, igg1, k) variant for chain l glu81->asp and chain h leu312->val' >
+		<structure pdb_id='1a7n' resolution='2.01' rfac='0.155' method='crystal'/>
+	<chain type='' >
+		<accession>1a7n_H</accession>
+		<submission_date>16/03/98 </submission_date>
+		<last_update>9/04/98</last_update>
+		<name>fv fragment of mouse monoclonal antibody d1.3 (balb/c, igg1, k) variant for chain l glu81->asp and chain h leu312->val</name>
+		<species>MUS MUSCULUS</species>
+		<sequence>
+		<aa_sequence>qvqlqesgpglvapsqslsitctvsgfsltgygvnwvrqppgkglewlgmiwgdgntdynsalksrlsiskdnsksqvflkmnslhtddtaryycarerdyrldywgqgttvtvss</aa_sequence>
+		<residue aa='Q' kabat_no='H1' chothia_no='H1'>
+			<atom atom_id='818' atom_type='N' x='-6.923'  y='44.293'  z='38.146'></atom>
+			<atom atom_id='819' atom_type='CA' x='-8.235'  y='43.568'  z='38.219'></atom>
+			<atom atom_id='820' atom_type='C' x='-8.604'  y='43.177'  z='36.767'></atom>
+			<atom atom_id='821' atom_type='O' x='-9.042'  y='43.747'  z='35.756'></atom>
+			<atom atom_id='822' atom_type='CB' x='-9.264'  y='44.363'  z='38.992'></atom>
+			<atom atom_id='823' atom_type='CG' x='-10.245'  y='45.361'  z='38.451'></atom>
+			<atom atom_id='824' atom_type='CD' x='-9.636'  y='46.248'  z='37.392'></atom>
+			<atom atom_id='825' atom_type='OE1' x='-8.503'  y='45.983'  z='37.024'></atom>
+			<atom atom_id='826' atom_type='NE2' x='-10.412'  y='47.21'  z='36.933'></atom>
+			<atom atom_id='827' atom_type='N' x='-8.288'  y='41.9'  z='36.714'></atom>
+		</residue>
+		<residue aa='V' kabat_no='H2' chothia_no='H2'>
+			<atom atom_id='828' atom_type='CA' x='-8.461'  y='40.971'  z='35.618'></atom>
+			<atom atom_id='829' atom_type='C' x='-9.578'  y='40.097'  z='36.213'></atom>
+			<atom atom_id='830' atom_type='O' x='-9.464'  y='39.748'  z='37.403'></atom>
+			<atom atom_id='831' atom_type='CB' x='-7.126'  y='40.283'  z='35.314'></atom>
+			<atom atom_id='832' atom_type='CG1' x='-7.374'  y='39.057'  z='34.44'></atom>
+			<atom atom_id='833' atom_type='CG2' x='-6.165'  y='41.301'  z='34.747'></atom>
+			<atom atom_id='834' atom_type='N' x='-10.559'  y='39.814'  z='35.411'></atom>
+		</residue>
+		<residue aa='Q' kabat_no='H3' chothia_no='H3'>
+			<atom atom_id='835' atom_type='CA' x='-11.625'  y='38.95'  z='35.941'></atom>
+			<atom atom_id='836' atom_type='C' x='-11.945'  y='37.998'  z='34.81'></atom>
+			<atom atom_id='837' atom_type='O' x='-11.932'  y='38.387'  z='33.627'></atom>
+			<atom atom_id='838' atom_type='CB' x='-12.662'  y='39.95'  z='36.45'></atom>
+			<atom atom_id='839' atom_type='CG' x='-13.933'  y='39.309'  z='36.877'></atom>
+			<atom atom_id='840' atom_type='CD' x='-15.088'  y='40.156'  z='37.363'></atom>
+			<atom atom_id='841' atom_type='OE1' x='-14.993'  y='40.88'  z='38.359'></atom>
+			<atom atom_id='842' atom_type='NE2' x='-16.183'  y='39.968'  z='36.646'></atom>
+			<atom atom_id='843' atom_type='N' x='-12.146'  y='36.737'  z='35.136'></atom>
+		</residue>
+		<residue aa='L' kabat_no='H4' chothia_no='H4'>
+			<atom atom_id='844' atom_type='CA' x='-12.533'  y='35.684'  z='34.203'></atom>
+			<atom atom_id='845' atom_type='C' x='-13.687'  y='34.962'  z='34.941'></atom>
+			<atom atom_id='846' atom_type='O' x='-13.388'  y='34.555'  z='36.064'></atom>
+			<atom atom_id='847' atom_type='CB' x='-11.426'  y='34.753'  z='33.733'></atom>
+			<atom atom_id='848' atom_type='CG' x='-10.21'  y='35.396'  z='33.028'></atom>
+			<atom atom_id='849' atom_type='CD1' x='-9.218'  y='35.86'  z='34.066'></atom>
+			<atom atom_id='850' atom_type='CD2' x='-9.617'  y='34.315'  z='32.151'></atom>
+			<atom atom_id='851' atom_type='N' x='-14.802'  y='34.873'  z='34.268'></atom>
+		</residue>
+		<residue aa='Q' kabat_no='H5' chothia_no='H5'>
+			<atom atom_id='852' atom_type='CA' x='-15.987'  y='34.214'  z='34.827'></atom>
+			<atom atom_id='853' atom_type='C' x='-16.618'  y='33.31'  z='33.772'></atom>
+			<atom atom_id='854' atom_type='O' x='-17.02'  y='33.68'  z='32.675'></atom>
+			<atom atom_id='855' atom_type='CB' x='-17.008'  y='35.179'  z='35.437'></atom>
+			<atom atom_id='856' atom_type='CG' x='-16.468'  y='35.993'  z='36.601'></atom>
+			<atom atom_id='857' atom_type='CD' x='-17.619'  y='36.723'  z='37.303'></atom>
+			<atom atom_id='858' atom_type='OE1' x='-18.528'  y='37.175'  z='36.605'></atom>
+			<atom atom_id='859' atom_type='NE2' x='-17.527'  y='36.835'  z='38.613'></atom>
+			<atom atom_id='860' atom_type='N' x='-16.731'  y='32.04'  z='34.193'></atom>
+		</residue>
+		<residue aa='E' kabat_no='H6' chothia_no='H6'>
+			<atom atom_id='861' atom_type='CA' x='-17.258'  y='30.994'  z='33.327'></atom>
+			<atom atom_id='862' atom_type='C' x='-18.737'  y='30.736'  z='33.617'></atom>
+			<atom atom_id='863' atom_type='O' x='-19.042'  y='30.84'  z='34.813'></atom>
+			<atom atom_id='864' atom_type='CB' x='-16.535'  y='29.648'  z='33.501'></atom>
+			<atom atom_id='865' atom_type='CG' x='-15.019'  y='29.5'  z='33.351'></atom>
+			<atom atom_id='866' atom_type='CD' x='-14.143'  y='29.807'  z='34.535'></atom>
+			<atom atom_id='867' atom_type='OE1' x='-14.677'  y='30.429'  z='35.509'></atom>
+			<atom atom_id='868' atom_type='OE2' x='-12.951'  y='29.539'  z='34.683'></atom>
+			<atom atom_id='869' atom_type='N' x='-19.507'  y='30.414'  z='32.602'></atom>
+		</residue>
+		<residue aa='S' kabat_no='H7' chothia_no='H7'>
+			<atom atom_id='870' atom_type='CA' x='-20.912'  y='30.05'  z='32.848'></atom>
+			<atom atom_id='871' atom_type='C' x='-21.126'  y='28.898'  z='31.862'></atom>
+			<atom atom_id='872' atom_type='O' x='-20.583'  y='28.947'  z='30.723'></atom>
+			<atom atom_id='873' atom_type='CB' x='-21.956'  y='31.141'  z='32.704'></atom>
+			<atom atom_id='874' atom_type='OG' x='-21.486'  y='31.86'  z='31.556'></atom>
+			<atom atom_id='875' atom_type='N' x='-21.848'  y='27.892'  z='32.316'></atom>
+		</residue>
+		<residue aa='G' kabat_no='H8' chothia_no='H8'>
+			<atom atom_id='876' atom_type='CA' x='-22.128'  y='26.687'  z='31.536'></atom>
+			<atom atom_id='877' atom_type='C' x='-23.549'  y='26.182'  z='31.833'></atom>
+			<atom atom_id='878' atom_type='O' x='-24.225'  y='26.84'  z='32.604'></atom>
+			<atom atom_id='879' atom_type='N' x='-23.892'  y='25.06'  z='31.221'></atom>
+		</residue>
+		<residue aa='P' kabat_no='H9' chothia_no='H9'>
+			<atom atom_id='880' atom_type='CA' x='-25.22'  y='24.471'  z='31.319'></atom>
+			<atom atom_id='881' atom_type='C' x='-25.491'  y='23.645'  z='32.557'></atom>
+			<atom atom_id='882' atom_type='O' x='-26.687'  y='23.379'  z='32.616'></atom>
+			<atom atom_id='883' atom_type='CB' x='-25.341'  y='23.638'  z='30.035'></atom>
+			<atom atom_id='884' atom_type='CG' x='-23.936'  y='23.124'  z='29.82'></atom>
+			<atom atom_id='885' atom_type='CD' x='-23.039'  y='24.28'  z='30.287'></atom>
+			<atom atom_id='886' atom_type='N' x='-24.526'  y='23.282'  z='33.378'></atom>
+		</residue>
+		<residue aa='G' kabat_no='H10' chothia_no='H10'>
+			<atom atom_id='887' atom_type='CA' x='-24.818'  y='22.481'  z='34.584'></atom>
+			<atom atom_id='888' atom_type='C' x='-24.908'  y='21.026'  z='34.164'></atom>
+			<atom atom_id='889' atom_type='O' x='-23.925'  y='20.46'  z='33.651'></atom>
+			<atom atom_id='890' atom_type='N' x='-26.069'  y='20.422'  z='34.326'></atom>
+		</residue>
+		<residue aa='L' kabat_no='H11' chothia_no='H11'>
+			<atom atom_id='891' atom_type='CA' x='-26.346'  y='19.05'  z='33.944'></atom>
+			<atom atom_id='892' atom_type='C' x='-26.76'  y='18.986'  z='32.5'></atom>
+			<atom atom_id='893' atom_type='O' x='-27.602'  y='19.82'  z='32.111'></atom>
+			<atom atom_id='894' atom_type='CB' x='-27.579'  y='18.493'  z='34.685'></atom>
+			<atom atom_id='895' atom_type='CG' x='-27.416'  y='17.784'  z='35.994'></atom>
+			<atom atom_id='896' atom_type='CD1' x='-26.716'  y='16.482'  z='35.68'></atom>
+			<atom atom_id='897' atom_type='CD2' x='-26.54'  y='18.689'  z='36.897'></atom>
+			<atom atom_id='898' atom_type='N' x='-26.217'  y='18.042'  z='31.794'></atom>
+		</residue>
+		<residue aa='V' kabat_no='H12' chothia_no='H12'>
+			<atom atom_id='899' atom_type='CA' x='-26.521'  y='17.832'  z='30.376'></atom>
+			<atom atom_id='900' atom_type='C' x='-26.543'  y='16.332'  z='30.1'></atom>
+			<atom atom_id='901' atom_type='O' x='-25.816'  y='15.554'  z='30.758'></atom>
+			<atom atom_id='902' atom_type='CB' x='-25.43'  y='18.485'  z='29.49'></atom>
+			<atom atom_id='903' atom_type='CG1' x='-25.853'  y='18.471'  z='28.006'></atom>
+			<atom atom_id='904' atom_type='CG2' x='-25.103'  y='19.901'  z='29.905'></atom>
+			<atom atom_id='905' atom_type='N' x='-27.317'  y='15.922'  z='29.121'></atom>
+		</residue>
+		<residue aa='A' kabat_no='H13' chothia_no='H13'>
+			<atom atom_id='906' atom_type='CA' x='-27.367'  y='14.477'  z='28.813'></atom>
+			<atom atom_id='907' atom_type='C' x='-26.228'  y='14.053'  z='27.898'></atom>
+			<atom atom_id='908' atom_type='O' x='-25.743'  y='14.858'  z='27.078'></atom>
+			<atom atom_id='909' atom_type='CB' x='-28.732'  y='14.256'  z='28.131'></atom>
+			<atom atom_id='910' atom_type='N' x='-25.819'  y='12.798'  z='27.967'></atom>
+		</residue>
+		<residue aa='P' kabat_no='H14' chothia_no='H14'>
+			<atom atom_id='911' atom_type='CA' x='-24.785'  y='12.251'  z='27.078'></atom>
+			<atom atom_id='912' atom_type='C' x='-25.206'  y='12.449'  z='25.637'></atom>
+			<atom atom_id='913' atom_type='O' x='-26.431'  y='12.439'  z='25.347'></atom>
+			<atom atom_id='914' atom_type='CB' x='-24.728'  y='10.762'  z='27.348'></atom>
+			<atom atom_id='915' atom_type='CG' x='-25.586'  y='10.522'  z='28.537'></atom>
+			<atom atom_id='916' atom_type='CD' x='-26.35'  y='11.788'  z='28.895'></atom>
+			<atom atom_id='917' atom_type='N' x='-24.262'  y='12.61'  z='24.729'></atom>
+		</residue>
+		<residue aa='S' kabat_no='H15' chothia_no='H15'>
+			<atom atom_id='918' atom_type='CA' x='-24.531'  y='12.782'  z='23.311'></atom>
+			<atom atom_id='919' atom_type='C' x='-24.985'  y='14.187'  z='22.945'></atom>
+			<atom atom_id='920' atom_type='O' x='-25.182'  y='14.38'  z='21.71'></atom>
+			<atom atom_id='921' atom_type='CB' x='-25.64'  y='11.867'  z='22.724'></atom>
+			<atom atom_id='922' atom_type='OG' x='-25.044'  y='10.583'  z='22.71'></atom>
+			<atom atom_id='923' atom_type='N' x='-25.174'  y='15.006'  z='23.966'></atom>
+		</residue>
+		<residue aa='Q' kabat_no='H16' chothia_no='H16'>
+			<atom atom_id='924' atom_type='CA' x='-25.579'  y='16.39'  z='23.577'></atom>
+			<atom atom_id='925' atom_type='C' x='-24.274'  y='17.175'  z='23.345'></atom>
+			<atom atom_id='926' atom_type='O' x='-23.154'  y='16.628'  z='23.432'></atom>
+			<atom atom_id='927' atom_type='CB' x='-26.502'  y='17.098'  z='24.554'></atom>
+			<atom atom_id='928' atom_type='CG' x='-27.815'  y='16.375'  z='24.8'></atom>
+			<atom atom_id='929' atom_type='CD' x='-28.59'  y='16.132'  z='23.539'></atom>
+			<atom atom_id='930' atom_type='OE1' x='-29.128'  y='15.053'  z='23.344'></atom>
+			<atom atom_id='931' atom_type='NE2' x='-28.61'  y='17.137'  z='22.683'></atom>
+			<atom atom_id='932' atom_type='N' x='-24.484'  y='18.436'  z='22.986'></atom>
+		</residue>
+		<residue aa='S' kabat_no='H17' chothia_no='H17'>
+			<atom atom_id='933' atom_type='CA' x='-23.295'  y='19.29'  z='22.781'></atom>
+			<atom atom_id='934' atom_type='C' x='-23.345'  y='20.228'  z='23.988'></atom>
+			<atom atom_id='935' atom_type='O' x='-24.323'  y='20.424'  z='24.724'></atom>
+			<atom atom_id='936' atom_type='CB' x='-23.227'  y='19.975'  z='21.458'></atom>
+			<atom atom_id='937' atom_type='OG' x='-24.376'  y='20.808'  z='21.378'></atom>
+			<atom atom_id='938' atom_type='N' x='-22.206'  y='20.803'  z='24.234'></atom>
+		</residue>
+		<residue aa='L' kabat_no='H18' chothia_no='H18'>
+			<atom atom_id='939' atom_type='CA' x='-21.925'  y='21.714'  z='25.327'></atom>
+			<atom atom_id='940' atom_type='C' x='-21.319'  y='23.049'  z='24.907'></atom>
+			<atom atom_id='941' atom_type='O' x='-20.464'  y='23.02'  z='24'></atom>
+			<atom atom_id='942' atom_type='CB' x='-20.807'  y='20.926'  z='26.067'></atom>
+			<atom atom_id='943' atom_type='CG' x='-20.233'  y='21.622'  z='27.283'></atom>
+			<atom atom_id='944' atom_type='CD1' x='-21.027'  y='21.137'  z='28.49'></atom>
+			<atom atom_id='945' atom_type='CD2' x='-18.766'  y='21.266'  z='27.394'></atom>
+			<atom atom_id='946' atom_type='N' x='-21.716'  y='24.093'  z='25.606'></atom>
+		</residue>
+		<residue aa='S' kabat_no='H19' chothia_no='H19'>
+			<atom atom_id='947' atom_type='CA' x='-21.096'  y='25.381'  z='25.237'></atom>
+			<atom atom_id='948' atom_type='C' x='-20.792'  y='26.071'  z='26.558'></atom>
+			<atom atom_id='949' atom_type='O' x='-21.718'  y='26.126'  z='27.395'></atom>
+			<atom atom_id='950' atom_type='CB' x='-21.908'  y='26.227'  z='24.273'></atom>
+			<atom atom_id='951' atom_type='OG' x='-21.147'  y='27.446'  z='24.093'></atom>
+			<atom atom_id='952' atom_type='N' x='-19.553'  y='26.512'  z='26.71'></atom>
+		</residue>
+		<residue aa='I' kabat_no='H20' chothia_no='H20'>
+			<atom atom_id='953' atom_type='CA' x='-19.195'  y='27.223'  z='27.942'></atom>
+			<atom atom_id='954' atom_type='C' x='-18.741'  y='28.629'  z='27.516'></atom>
+			<atom atom_id='955' atom_type='O' x='-18.05'  y='28.762'  z='26.496'></atom>
+			<atom atom_id='956' atom_type='CB' x='-18.095'  y='26.54'  z='28.805'></atom>
+			<atom atom_id='957' atom_type='CG1' x='-18.604'  y='25.156'  z='29.244'></atom>
+			<atom atom_id='958' atom_type='CG2' x='-17.718'  y='27.418'  z='30.038'></atom>
+			<atom atom_id='959' atom_type='CD1' x='-17.409'  y='24.186'  z='29.449'></atom>
+			<atom atom_id='960' atom_type='N' x='-19.107'  y='29.604'  z='28.335'></atom>
+		</residue>
+		<residue aa='T' kabat_no='H21' chothia_no='H21'>
+			<atom atom_id='961' atom_type='CA' x='-18.698'  y='30.983'  z='28.04'></atom>
+			<atom atom_id='962' atom_type='C' x='-17.737'  y='31.45'  z='29.114'></atom>
+			<atom atom_id='963' atom_type='O' x='-18.011'  y='31.304'  z='30.295'></atom>
+			<atom atom_id='964' atom_type='CB' x='-19.901'  y='32.002'  z='27.948'></atom>
+			<atom atom_id='965' atom_type='OG1' x='-20.678'  y='31.462'  z='26.853'></atom>
+			<atom atom_id='966' atom_type='CG2' x='-19.514'  y='33.436'  z='27.658'></atom>
+			<atom atom_id='967' atom_type='N' x='-16.655'  y='32.026'  z='28.684'></atom>
+		</residue>
+		<residue aa='C' kabat_no='H22' chothia_no='H22'>
+			<atom atom_id='968' atom_type='CA' x='-15.635'  y='32.595'  z='29.575'></atom>
+			<atom atom_id='969' atom_type='C' x='-15.778'  y='34.1'  z='29.389'></atom>
+			<atom atom_id='970' atom_type='O' x='-15.373'  y='34.543'  z='28.291'></atom>
+			<atom atom_id='971' atom_type='CB' x='-14.237'  y='32.076'  z='29.219'></atom>
+			<atom atom_id='972' atom_type='SG' x='-12.946'  y='32.917'  z='30.151'></atom>
+			<atom atom_id='973' atom_type='N' x='-16.298'  y='34.865'  z='30.333'></atom>
+		</residue>
+		<residue aa='T' kabat_no='H23' chothia_no='H23'>
+			<atom atom_id='974' atom_type='CA' x='-16.371'  y='36.328'  z='30.096'></atom>
+			<atom atom_id='975' atom_type='C' x='-15.192'  y='36.958'  z='30.795'></atom>
+			<atom atom_id='976' atom_type='O' x='-15.052'  y='36.65'  z='31.979'></atom>
+			<atom atom_id='977' atom_type='CB' x='-17.686'  y='36.965'  z='30.671'></atom>
+			<atom atom_id='978' atom_type='OG1' x='-18.723'  y='36.121'  z='30.064'></atom>
+			<atom atom_id='979' atom_type='CG2' x='-17.73'  y='38.492'  z='30.463'></atom>
+			<atom atom_id='980' atom_type='N' x='-14.445'  y='37.776'  z='30.091'></atom>
+		</residue>
+		<residue aa='V' kabat_no='H24' chothia_no='H24'>
+			<atom atom_id='981' atom_type='CA' x='-13.271'  y='38.418'  z='30.713'></atom>
+			<atom atom_id='982' atom_type='C' x='-13.496'  y='39.911'  z='30.888'></atom>
+			<atom atom_id='983' atom_type='O' x='-14.203'  y='40.535'  z='30.082'></atom>
+			<atom atom_id='984' atom_type='CB' x='-11.987'  y='38.082'  z='29.896'></atom>
+			<atom atom_id='985' atom_type='CG1' x='-11.879'  y='36.636'  z='29.436'></atom>
+			<atom atom_id='986' atom_type='CG2' x='-11.83'  y='39.018'  z='28.71'></atom>
+			<atom atom_id='987' atom_type='N' x='-12.796'  y='40.461'  z='31.868'></atom>
+		</residue>
+		<residue aa='S' kabat_no='H25' chothia_no='H25'>
+			<atom atom_id='988' atom_type='CA' x='-12.801'  y='41.874'  z='32.178'></atom>
+			<atom atom_id='989' atom_type='C' x='-11.415'  y='42.359'  z='32.588'></atom>
+			<atom atom_id='990' atom_type='O' x='-10.662'  y='41.631'  z='33.224'></atom>
+			<atom atom_id='991' atom_type='CB' x='-13.702'  y='42.183'  z='33.382'></atom>
+			<atom atom_id='992' atom_type='OG' x='-15.035'  y='41.823'  z='33.075'></atom>
+			<atom atom_id='993' atom_type='N' x='-11.125'  y='43.601'  z='32.228'></atom>
+		</residue>
+		<residue aa='G' kabat_no='H26' chothia_no='H26'>
+			<atom atom_id='994' atom_type='CA' x='-9.885'  y='44.276'  z='32.592'></atom>
+			<atom atom_id='995' atom_type='C' x='-8.758'  y='44.092'  z='31.618'></atom>
+			<atom atom_id='996' atom_type='O' x='-7.7'  y='44.66'  z='31.921'></atom>
+			<atom atom_id='997' atom_type='N' x='-8.884'  y='43.376'  z='30.553'></atom>
+		</residue>
+		<residue aa='F' kabat_no='H27' chothia_no='H27'>
+			<atom atom_id='998' atom_type='CA' x='-7.75'  y='43.177'  z='29.623'></atom>
+			<atom atom_id='999' atom_type='C' x='-8.439'  y='42.909'  z='28.302'></atom>
+			<atom atom_id='1000' atom_type='O' x='-9.603'  y='42.471'  z='28.323'></atom>
+			<atom atom_id='1001' atom_type='CB' x='-6.801'  y='42.062'  z='30.032'></atom>
+			<atom atom_id='1002' atom_type='CG' x='-7.343'  y='40.668'  z='29.993'></atom>
+			<atom atom_id='1003' atom_type='CD1' x='-8.069'  y='40.187'  z='31.099'></atom>
+			<atom atom_id='1004' atom_type='CD2' x='-7.148'  y='39.838'  z='28.885'></atom>
+			<atom atom_id='1005' atom_type='CE1' x='-8.59'  y='38.888'  z='31.109'></atom>
+			<atom atom_id='1006' atom_type='CE2' x='-7.657'  y='38.537'  z='28.839'></atom>
+			<atom atom_id='1007' atom_type='CZ' x='-8.368'  y='38.071'  z='29.972'></atom>
+			<atom atom_id='1008' atom_type='N' x='-7.693'  y='43.093'  z='27.245'></atom>
+		</residue>
+		<residue aa='S' kabat_no='H28' chothia_no='H28'>
+			<atom atom_id='1009' atom_type='CA' x='-8.2'  y='42.881'  z='25.89'></atom>
+			<atom atom_id='1010' atom_type='C' x='-7.761'  y='41.503'  z='25.369'></atom>
+			<atom atom_id='1011' atom_type='O' x='-6.603'  y='41.072'  z='25.516'></atom>
+			<atom atom_id='1012' atom_type='CB' x='-7.714'  y='44.033'  z='25.021'></atom>
+			<atom atom_id='1013' atom_type='OG' x='-7.209'  y='43.597'  z='23.754'></atom>
+			<atom atom_id='1014' atom_type='N' x='-8.723'  y='40.879'  z='24.706'></atom>
+		</residue>
+		<residue aa='L' kabat_no='H29' chothia_no='H29'>
+			<atom atom_id='1015' atom_type='CA' x='-8.557'  y='39.553'  z='24.113'></atom>
+			<atom atom_id='1016' atom_type='C' x='-7.549'  y='39.618'  z='22.972'></atom>
+			<atom atom_id='1017' atom_type='O' x='-7.126'  y='38.555'  z='22.5'></atom>
+			<atom atom_id='1018' atom_type='CB' x='-9.937'  y='38.984'  z='23.753'></atom>
+			<atom atom_id='1019' atom_type='CG' x='-10.81'  y='38.349'  z='24.847'></atom>
+			<atom atom_id='1020' atom_type='CD1' x='-12.112'  y='37.771'  z='24.273'></atom>
+			<atom atom_id='1021' atom_type='CD2' x='-10.069'  y='37.226'  z='25.603'></atom>
+			<atom atom_id='1022' atom_type='N' x='-7.186'  y='40.811'  z='22.542'></atom>
+		</residue>
+		<residue aa='T' kabat_no='H30' chothia_no='H30'>
+			<atom atom_id='1023' atom_type='CA' x='-6.204'  y='40.805'  z='21.425'></atom>
+			<atom atom_id='1024' atom_type='C' x='-4.796'  y='40.69'  z='21.959'></atom>
+			<atom atom_id='1025' atom_type='O' x='-3.91'  y='40.307'  z='21.177'></atom>
+			<atom atom_id='1026' atom_type='CB' x='-6.467'  y='42.041'  z='20.479'></atom>
+			<atom atom_id='1027' atom_type='OG1' x='-6.387'  y='43.206'  z='21.346'></atom>
+			<atom atom_id='1028' atom_type='CG2' x='-7.843'  y='41.965'  z='19.823'></atom>
+			<atom atom_id='1029' atom_type='N' x='-4.569'  y='40.989'  z='23.217'></atom>
+		</residue>
+		<residue aa='G' kabat_no='H31' chothia_no='H31'>
+			<atom atom_id='1030' atom_type='CA' x='-3.205'  y='40.893'  z='23.706'></atom>
+			<atom atom_id='1031' atom_type='C' x='-2.783'  y='39.719'  z='24.553'></atom>
+			<atom atom_id='1032' atom_type='O' x='-1.624'  y='39.705'  z='25.035'></atom>
+			<atom atom_id='1033' atom_type='N' x='-3.714'  y='38.779'  z='24.778'></atom>
+		</residue>
+		<residue aa='Y' kabat_no='H32' chothia_no='H32'>
+			<atom atom_id='1034' atom_type='CA' x='-3.4'  y='37.623'  z='25.634'></atom>
+			<atom atom_id='1035' atom_type='C' x='-4.047'  y='36.39'  z='25.055'></atom>
+			<atom atom_id='1036' atom_type='O' x='-5.017'  y='36.514'  z='24.315'></atom>
+			<atom atom_id='1037' atom_type='CB' x='-4.037'  y='37.883'  z='27.014'></atom>
+			<atom atom_id='1038' atom_type='CG' x='-3.417'  y='39.044'  z='27.753'></atom>
+			<atom atom_id='1039' atom_type='CD1' x='-3.885'  y='40.361'  z='27.585'></atom>
+			<atom atom_id='1040' atom_type='CD2' x='-2.313'  y='38.837'  z='28.581'></atom>
+			<atom atom_id='1041' atom_type='CE1' x='-3.326'  y='41.439'  z='28.26'></atom>
+			<atom atom_id='1042' atom_type='CE2' x='-1.725'  y='39.895'  z='29.264'></atom>
+			<atom atom_id='1043' atom_type='CZ' x='-2.245'  y='41.188'  z='29.095'></atom>
+			<atom atom_id='1044' atom_type='OH' x='-1.6'  y='42.194'  z='29.786'></atom>
+			<atom atom_id='1045' atom_type='N' x='-3.583'  y='35.24'  z='25.464'></atom>
+		</residue>
+		<residue aa='G' kabat_no='H33' chothia_no='H33'>
+			<atom atom_id='1046' atom_type='CA' x='-4.216'  y='33.979'  z='24.993'></atom>
+			<atom atom_id='1047' atom_type='C' x='-5.111'  y='33.555'  z='26.186'></atom>
+			<atom atom_id='1048' atom_type='O' x='-4.934'  y='34.014'  z='27.331'></atom>
+			<atom atom_id='1049' atom_type='N' x='-6.084'  y='32.723'  z='25.837'></atom>
+		</residue>
+		<residue aa='V' kabat_no='H34' chothia_no='H34'>
+			<atom atom_id='1050' atom_type='CA' x='-7.006'  y='32.16'  z='26.85'></atom>
+			<atom atom_id='1051' atom_type='C' x='-6.946'  y='30.637'  z='26.671'></atom>
+			<atom atom_id='1052' atom_type='O' x='-7.196'  y='30.174'  z='25.554'></atom>
+			<atom atom_id='1053' atom_type='CB' x='-8.424'  y='32.754'  z='26.86'></atom>
+			<atom atom_id='1054' atom_type='CG1' x='-9.415'  y='31.919'  z='27.709'></atom>
+			<atom atom_id='1055' atom_type='CG2' x='-8.328'  y='34.184'  z='27.337'></atom>
+			<atom atom_id='1056' atom_type='N' x='-6.638'  y='29.954'  z='27.772'></atom>
+		</residue>
+		<residue aa='N' kabat_no='H35' chothia_no='H35'>
+			<atom atom_id='1057' atom_type='CA' x='-6.543'  y='28.498'  z='27.796'></atom>
+			<atom atom_id='1058' atom_type='C' x='-7.799'  y='27.893'  z='28.439'></atom>
+			<atom atom_id='1059' atom_type='O' x='-8.358'  y='28.503'  z='29.342'></atom>
+			<atom atom_id='1060' atom_type='CB' x='-5.343'  y='27.954'  z='28.609'></atom>
+			<atom atom_id='1061' atom_type='CG' x='-3.992'  y='28.223'  z='27.937'></atom>
+			<atom atom_id='1062' atom_type='OD1' x='-3.197'  y='27.291'  z='27.737'></atom>
+			<atom atom_id='1063' atom_type='ND2' x='-3.606'  y='29.474'  z='27.608'></atom>
+			<atom atom_id='1064' atom_type='N' x='-8.156'  y='26.699'  z='28.024'></atom>
+		</residue>
+		<residue aa='W' kabat_no='H36' chothia_no='H36'>
+			<atom atom_id='1065' atom_type='CA' x='-9.301'  y='25.968'  z='28.594'></atom>
+			<atom atom_id='1066' atom_type='C' x='-8.636'  y='24.756'  z='29.265'></atom>
+			<atom atom_id='1067' atom_type='O' x='-7.784'  y='24.088'  z='28.652'></atom>
+			<atom atom_id='1068' atom_type='CB' x='-10.312'  y='25.581'  z='27.553'></atom>
+			<atom atom_id='1069' atom_type='CG' x='-11.222'  y='26.713'  z='27.179'></atom>
+			<atom atom_id='1070' atom_type='CD1' x='-11.127'  y='27.452'  z='26.038'></atom>
+			<atom atom_id='1071' atom_type='CD2' x='-12.352'  y='27.194'  z='27.917'></atom>
+			<atom atom_id='1072' atom_type='NE1' x='-12.175'  y='28.358'  z='26.01'></atom>
+			<atom atom_id='1073' atom_type='CE2' x='-12.919'  y='28.238'  z='27.145'></atom>
+			<atom atom_id='1074' atom_type='CE3' x='-12.928'  y='26.846'  z='29.134'></atom>
+			<atom atom_id='1075' atom_type='CZ2' x='-14.044'  y='28.958'  z='27.536'></atom>
+			<atom atom_id='1076' atom_type='CZ3' x='-14.055'  y='27.544'  z='29.565'></atom>
+			<atom atom_id='1077' atom_type='CH2' x='-14.598'  y='28.583'  z='28.761'></atom>
+			<atom atom_id='1078' atom_type='N' x='-9.027'  y='24.577'  z='30.516'></atom>
+		</residue>
+		<residue aa='V' kabat_no='H37' chothia_no='H37'>
+			<atom atom_id='1079' atom_type='CA' x='-8.529'  y='23.496'  z='31.367'></atom>
+			<atom atom_id='1080' atom_type='C' x='-9.689'  y='22.773'  z='32.069'></atom>
+			<atom atom_id='1081' atom_type='O' x='-10.612'  y='23.501'  z='32.504'></atom>
+			<atom atom_id='1082' atom_type='CB' x='-7.529'  y='24.046'  z='32.396'></atom>
+			<atom atom_id='1083' atom_type='CG1' x='-6.991'  y='22.926'  z='33.286'></atom>
+			<atom atom_id='1084' atom_type='CG2' x='-6.357'  y='24.707'  z='31.688'></atom>
+			<atom atom_id='1085' atom_type='N' x='-9.58'  y='21.439'  z='32.187'></atom>
+		</residue>
+		<residue aa='R' kabat_no='H38' chothia_no='H38'>
+			<atom atom_id='1086' atom_type='CA' x='-10.742'  y='20.821'  z='32.928'></atom>
+			<atom atom_id='1087' atom_type='C' x='-10.156'  y='19.914'  z='34.014'></atom>
+			<atom atom_id='1088' atom_type='O' x='-8.989'  y='19.538'  z='33.932'></atom>
+			<atom atom_id='1089' atom_type='CB' x='-11.749'  y='20.107'  z='32.048'></atom>
+			<atom atom_id='1090' atom_type='CG' x='-11.2'  y='18.75'  z='31.533'></atom>
+			<atom atom_id='1091' atom_type='CD' x='-12.278'  y='18.122'  z='30.662'></atom>
+			<atom atom_id='1092' atom_type='NE' x='-11.844'  y='16.832'  z='30.12'></atom>
+			<atom atom_id='1093' atom_type='CZ' x='-12.602'  y='16.061'  z='29.344'></atom>
+			<atom atom_id='1094' atom_type='NH1' x='-13.836'  y='16.403'  z='28.943'></atom>
+			<atom atom_id='1095' atom_type='NH2' x='-12.034'  y='14.906'  z='28.952'></atom>
+			<atom atom_id='1096' atom_type='N' x='-11.014'  y='19.611'  z='34.974'></atom>
+		</residue>
+		<residue aa='Q' kabat_no='H39' chothia_no='H39'>
+			<atom atom_id='1097' atom_type='CA' x='-10.664'  y='18.783'  z='36.126'></atom>
+			<atom atom_id='1098' atom_type='C' x='-11.829'  y='17.868'  z='36.557'></atom>
+			<atom atom_id='1099' atom_type='O' x='-12.771'  y='18.384'  z='37.176'></atom>
+			<atom atom_id='1100' atom_type='CB' x='-10.257'  y='19.709'  z='37.307'></atom>
+			<atom atom_id='1101' atom_type='CG' x='-9.856'  y='18.912'  z='38.553'></atom>
+			<atom atom_id='1102' atom_type='CD' x='-9.19'  y='19.836'  z='39.568'></atom>
+			<atom atom_id='1103' atom_type='OE1' x='-9.718'  y='20.936'  z='39.733'></atom>
+			<atom atom_id='1104' atom_type='NE2' x='-8.091'  y='19.404'  z='40.205'></atom>
+			<atom atom_id='1105' atom_type='N' x='-11.726'  y='16.587'  z='36.243'></atom>
+		</residue>
+		<residue aa='P' kabat_no='H40' chothia_no='H40'>
+			<atom atom_id='1106' atom_type='CA' x='-12.701'  y='15.573'  z='36.629'></atom>
+			<atom atom_id='1107' atom_type='C' x='-12.644'  y='15.518'  z='38.158'></atom>
+			<atom atom_id='1108' atom_type='O' x='-11.594'  y='15.8'  z='38.779'></atom>
+			<atom atom_id='1109' atom_type='CB' x='-12.296'  y='14.286'  z='35.968'></atom>
+			<atom atom_id='1110' atom_type='CG' x='-11.312'  y='14.782'  z='34.925'></atom>
+			<atom atom_id='1111' atom_type='CD' x='-10.617'  y='15.986'  z='35.5'></atom>
+			<atom atom_id='1112' atom_type='N' x='-13.797'  y='15.213'  z='38.74'></atom>
+		</residue>
+		<residue aa='P' kabat_no='H41' chothia_no='H41'>
+			<atom atom_id='1113' atom_type='CA' x='-13.949'  y='15.146'  z='40.205'></atom>
+			<atom atom_id='1114' atom_type='C' x='-12.838'  y='14.33'  z='40.823'></atom>
+			<atom atom_id='1115' atom_type='O' x='-12.666'  y='13.185'  z='40.401'></atom>
+			<atom atom_id='1116' atom_type='CB' x='-15.324'  y='14.523'  z='40.422'></atom>
+			<atom atom_id='1117' atom_type='CG' x='-16.088'  y='14.906'  z='39.178'></atom>
+			<atom atom_id='1118' atom_type='CD' x='-15.058'  y='14.868'  z='38.036'></atom>
+			<atom atom_id='1119' atom_type='N' x='-12.119'  y='14.889'  z='41.739'></atom>
+		</residue>
+		<residue aa='G' kabat_no='H42' chothia_no='H42'>
+			<atom atom_id='1120' atom_type='CA' x='-11.028'  y='14.18'  z='42.397'></atom>
+			<atom atom_id='1121' atom_type='C' x='-9.809'  y='13.825'  z='41.556'></atom>
+			<atom atom_id='1122' atom_type='O' x='-8.956'  y='13.092'  z='42.102'></atom>
+			<atom atom_id='1123' atom_type='N' x='-9.654'  y='14.302'  z='40.343'></atom>
+		</residue>
+		<residue aa='K' kabat_no='H43' chothia_no='H43'>
+			<atom atom_id='1124' atom_type='CA' x='-8.517'  y='14.025'  z='39.456'></atom>
+			<atom atom_id='1125' atom_type='C' x='-7.69'  y='15.278'  z='39.202'></atom>
+			<atom atom_id='1126' atom_type='O' x='-7.941'  y='16.319'  z='39.86'></atom>
+			<atom atom_id='1127' atom_type='CB' x='-9.088'  y='13.392'  z='38.189'></atom>
+			<atom atom_id='1128' atom_type='CG' x='-9.493'  y='11.932'  z='38.514'></atom>
+			<atom atom_id='1129' atom_type='CD' x='-9.588'  y='11.199'  z='37.176'></atom>
+			<atom atom_id='1130' atom_type='CE' x='-9.739'  y='9.695'  z='37.326'></atom>
+			<atom atom_id='1131' atom_type='NZ' x='-10.083'  y='9.095'  z='35.987'></atom>
+			<atom atom_id='1132' atom_type='N' x='-6.718'  y='15.186'  z='38.279'></atom>
+		</residue>
+		<residue aa='G' kabat_no='H44' chothia_no='H44'>
+			<atom atom_id='1133' atom_type='CA' x='-5.864'  y='16.373'  z='38.049'></atom>
+			<atom atom_id='1134' atom_type='C' x='-6.363'  y='17.24'  z='36.896'></atom>
+			<atom atom_id='1135' atom_type='O' x='-7.445'  y='16.987'  z='36.323'></atom>
+			<atom atom_id='1136' atom_type='N' x='-5.563'  y='18.24'  z='36.552'></atom>
+		</residue>
+		<residue aa='L' kabat_no='H45' chothia_no='H45'>
+			<atom atom_id='1137' atom_type='CA' x='-5.887'  y='19.173'  z='35.481'></atom>
+			<atom atom_id='1138' atom_type='C' x='-5.563'  y='18.558'  z='34.134'></atom>
+			<atom atom_id='1139' atom_type='O' x='-4.551'  y='17.83'  z='34.048'></atom>
+			<atom atom_id='1140' atom_type='CB' x='-5.12'  y='20.477'  z='35.682'></atom>
+			<atom atom_id='1141' atom_type='CG' x='-5.247'  y='21.104'  z='37.05'></atom>
+			<atom atom_id='1142' atom_type='CD1' x='-4.296'  y='22.303'  z='37.15'></atom>
+			<atom atom_id='1143' atom_type='CD2' x='-6.682'  y='21.573'  z='37.274'></atom>
+			<atom atom_id='1144' atom_type='N' x='-6.427'  y='18.864'  z='33.188'></atom>
+		</residue>
+		<residue aa='E' kabat_no='H46' chothia_no='H46'>
+			<atom atom_id='1145' atom_type='CA' x='-6.236'  y='18.375'  z='31.833'></atom>
+			<atom atom_id='1146' atom_type='C' x='-6.362'  y='19.565'  z='30.893'></atom>
+			<atom atom_id='1147' atom_type='O' x='-7.42'  y='20.22'  z='30.893'></atom>
+			<atom atom_id='1148' atom_type='CB' x='-7.285'  y='17.349'  z='31.504'></atom>
+			<atom atom_id='1149' atom_type='CG' x='-7.341'  y='16.892'  z='30.056'></atom>
+			<atom atom_id='1150' atom_type='CD' x='-8.329'  y='15.775'  z='29.756'></atom>
+			<atom atom_id='1151' atom_type='OE1' x='-9.136'  y='15.594'  z='30.718'></atom>
+			<atom atom_id='1152' atom_type='OE2' x='-8.268'  y='15.129'  z='28.693'></atom>
+			<atom atom_id='1153' atom_type='N' x='-5.29'  y='19.791'  z='30.129'></atom>
+		</residue>
+		<residue aa='W' kabat_no='H47' chothia_no='H47'>
+			<atom atom_id='1154' atom_type='CA' x='-5.278'  y='20.906'  z='29.134'></atom>
+			<atom atom_id='1155' atom_type='C' x='-6.165'  y='20.552'  z='27.954'></atom>
+			<atom atom_id='1156' atom_type='O' x='-5.968'  y='19.527'  z='27.319'></atom>
+			<atom atom_id='1157' atom_type='CB' x='-3.857'  y='21.2'  z='28.708'></atom>
+			<atom atom_id='1158' atom_type='CG' x='-3.665'  y='22.441'  z='27.891'></atom>
+			<atom atom_id='1159' atom_type='CD1' x='-3.634'  y='23.735'  z='28.374'></atom>
+			<atom atom_id='1160' atom_type='CD2' x='-3.484'  y='22.532'  z='26.467'></atom>
+			<atom atom_id='1161' atom_type='NE1' x='-3.456'  y='24.603'  z='27.331'></atom>
+			<atom atom_id='1162' atom_type='CE2' x='-3.351'  y='23.894'  z='26.159'></atom>
+			<atom atom_id='1163' atom_type='CE3' x='-3.431'  y='21.582'  z='25.461'></atom>
+			<atom atom_id='1164' atom_type='CZ2' x='-3.117'  y='24.378'  z='24.887'></atom>
+			<atom atom_id='1165' atom_type='CZ3' x='-3.221'  y='22.047'  z='24.171'></atom>
+			<atom atom_id='1166' atom_type='CH2' x='-3.078'  y='23.397'  z='23.89'></atom>
+			<atom atom_id='1167' atom_type='N' x='-7.058'  y='21.438'  z='27.58'></atom>
+		</residue>
+		<residue aa='L' kabat_no='H48' chothia_no='H48'>
+			<atom atom_id='1168' atom_type='CA' x='-7.967'  y='21.214'  z='26.441'></atom>
+			<atom atom_id='1169' atom_type='C' x='-7.549'  y='21.954'  z='25.168'></atom>
+			<atom atom_id='1170' atom_type='O' x='-7.701'  y='21.345'  z='24.099'></atom>
+			<atom atom_id='1171' atom_type='CB' x='-9.425'  y='21.595'  z='26.843'></atom>
+			<atom atom_id='1172' atom_type='CG' x='-9.978'  y='20.911'  z='28.082'></atom>
+			<atom atom_id='1173' atom_type='CD1' x='-11.373'  y='21.457'  z='28.409'></atom>
+			<atom atom_id='1174' atom_type='CD2' x='-9.99'  y='19.403'  z='27.832'></atom>
+			<atom atom_id='1175' atom_type='N' x='-7.092'  y='23.164'  z='25.391'></atom>
+		</residue>
+		<residue aa='G' kabat_no='H49' chothia_no='H49'>
+			<atom atom_id='1176' atom_type='CA' x='-6.706'  y='23.964'  z='24.214'></atom>
+			<atom atom_id='1177' atom_type='C' x='-6.619'  y='25.44'  z='24.591'></atom>
+			<atom atom_id='1178' atom_type='O' x='-6.724'  y='25.772'  z='25.8'></atom>
+			<atom atom_id='1179' atom_type='N' x='-6.363'  y='26.241'  z='23.554'></atom>
+		</residue>
+		<residue aa='M' kabat_no='H50' chothia_no='H50'>
+			<atom atom_id='1180' atom_type='CA' x='-6.242'  y='27.681'  z='23.824'></atom>
+			<atom atom_id='1181' atom_type='C' x='-6.568'  y='28.424'  z='22.514'></atom>
+			<atom atom_id='1182' atom_type='O' x='-6.491'  y='27.822'  z='21.429'></atom>
+			<atom atom_id='1183' atom_type='CB' x='-4.811'  y='28.047'  z='24.324'></atom>
+			<atom atom_id='1184' atom_type='CG' x='-3.828'  y='27.818'  z='23.186'></atom>
+			<atom atom_id='1185' atom_type='SD' x='-2.092'  y='28.168'  z='23.704'></atom>
+			<atom atom_id='1186' atom_type='CE' x='-2.235'  y='29.916'  z='24.165'></atom>
+			<atom atom_id='1187' atom_type='N' x='-6.831'  y='29.699'  z='22.646'></atom>
+		</residue>
+		<residue aa='I' kabat_no='H51' chothia_no='H51'>
+			<atom atom_id='1188' atom_type='CA' x='-7.027'  y='30.606'  z='21.54'></atom>
+			<atom atom_id='1189' atom_type='C' x='-5.982'  y='31.73'  z='21.775'></atom>
+			<atom atom_id='1190' atom_type='O' x='-5.971'  y='32.322'  z='22.861'></atom>
+			<atom atom_id='1191' atom_type='CB' x='-8.509'  y='31.088'  z='21.385'></atom>
+			<atom atom_id='1192' atom_type='CG1' x='-8.536'  y='32.021'  z='20.126'></atom>
+			<atom atom_id='1193' atom_type='CG2' x='-9.068'  y='31.757'  z='22.66'></atom>
+			<atom atom_id='1194' atom_type='CD1' x='-9.897'  y='31.95'  z='19.381'></atom>
+			<atom atom_id='1195' atom_type='N' x='-5.132'  y='32.029'  z='20.808'></atom>
+		</residue>
+		<residue aa='W' kabat_no='H52' chothia_no='H52'>
+			<atom atom_id='1196' atom_type='CA' x='-4.121'  y='33.068'  z='20.954'></atom>
+			<atom atom_id='1197' atom_type='C' x='-4.708'  y='34.442'  z='20.734'></atom>
+			<atom atom_id='1198' atom_type='O' x='-5.779'  y='34.512'  z='20.107'></atom>
+			<atom atom_id='1199' atom_type='CB' x='-3.006'  y='32.793'  z='19.89'></atom>
+			<atom atom_id='1200' atom_type='CG' x='-2.158'  y='31.588'  z='20.187'></atom>
+			<atom atom_id='1201' atom_type='CD1' x='-2.418'  y='30.301'  z='19.805'></atom>
+			<atom atom_id='1202' atom_type='CD2' x='-0.913'  y='31.551'  z='20.899'></atom>
+			<atom atom_id='1203' atom_type='NE1' x='-1.426'  y='29.472'  z='20.28'></atom>
+			<atom atom_id='1204' atom_type='CE2' x='-0.506'  y='30.201'  z='20.953'></atom>
+			<atom atom_id='1205' atom_type='CE3' x='-0.13'  y='32.546'  z='21.516'></atom>
+			<atom atom_id='1206' atom_type='CZ2' x='0.668'  y='29.786'  z='21.592'></atom>
+			<atom atom_id='1207' atom_type='CZ3' x='1.019'  y='32.138'  z='22.174'></atom>
+			<atom atom_id='1208' atom_type='CH2' x='1.408'  y='30.798'  z='22.2'></atom>
+			<atom atom_id='1209' atom_type='N' x='-4.046'  y='35.503'  z='21.13'></atom>
+		</residue>
+		<residue aa='G' kabat_no='H53' chothia_no='H53'>
+			<atom atom_id='1210' atom_type='CA' x='-4.547'  y='36.859'  z='20.907'></atom>
+			<atom atom_id='1211' atom_type='C' x='-4.884'  y='37.076'  z='19.425'></atom>
+			<atom atom_id='1212' atom_type='O' x='-5.83'  y='37.829'  z='19.089'></atom>
+			<atom atom_id='1213' atom_type='N' x='-4.197'  y='36.415'  z='18.509'></atom>
+		</residue>
+		<residue aa='D' kabat_no='H54' chothia_no='H54'>
+			<atom atom_id='1214' atom_type='CA' x='-4.458'  y='36.612'  z='17.075'></atom>
+			<atom atom_id='1215' atom_type='C' x='-5.549'  y='35.684'  z='16.528'></atom>
+			<atom atom_id='1216' atom_type='O' x='-5.658'  y='35.623'  z='15.284'></atom>
+			<atom atom_id='1217' atom_type='CB' x='-3.167'  y='36.495'  z='16.228'></atom>
+			<atom atom_id='1218' atom_type='CG' x='-2.641'  y='35.088'  z='16.328'></atom>
+			<atom atom_id='1219' atom_type='OD1' x='-3.238'  y='34.164'  z='16.931'></atom>
+			<atom atom_id='1220' atom_type='OD2' x='-1.573'  y='34.868'  z='15.724'></atom>
+			<atom atom_id='1221' atom_type='N' x='-6.199'  y='34.927'  z='17.397'></atom>
+		</residue>
+		<residue aa='G' kabat_no='H55' chothia_no='H55'>
+			<atom atom_id='1222' atom_type='CA' x='-7.245'  y='34.064'  z='16.893'></atom>
+			<atom atom_id='1223' atom_type='C' x='-6.766'  y='32.683'  z='16.566'></atom>
+			<atom atom_id='1224' atom_type='O' x='-7.708'  y='31.903'  z='16.323'></atom>
+			<atom atom_id='1225' atom_type='N' x='-5.493'  y='32.375'  z='16.529'></atom>
+		</residue>
+		<residue aa='N' kabat_no='H56' chothia_no='H56'>
+			<atom atom_id='1226' atom_type='CA' x='-5.101'  y='30.964'  z='16.228'></atom>
+			<atom atom_id='1227' atom_type='C' x='-5.468'  y='30.074'  z='17.421'></atom>
+			<atom atom_id='1228' atom_type='O' x='-5.44'  y='30.558'  z='18.568'></atom>
+			<atom atom_id='1229' atom_type='CB' x='-3.625'  y='30.804'  z='15.882'></atom>
+			<atom atom_id='1230' atom_type='CG' x='-3.457'  y='31.472'  z='14.511'></atom>
+			<atom atom_id='1231' atom_type='OD1' x='-3.714'  y='30.792'  z='13.511'></atom>
+			<atom atom_id='1232' atom_type='ND2' x='-3.136'  y='32.757'  z='14.431'></atom>
+			<atom atom_id='1233' atom_type='N' x='-5.785'  y='28.828'  z='17.136'></atom>
+		</residue>
+		<residue aa='T' kabat_no='H57' chothia_no='H57'>
+			<atom atom_id='1234' atom_type='CA' x='-6.151'  y='27.913'  z='18.21'></atom>
+			<atom atom_id='1235' atom_type='C' x='-5.238'  y='26.7'  z='18.233'></atom>
+			<atom atom_id='1236' atom_type='O' x='-4.7'  y='26.341'  z='17.158'></atom>
+			<atom atom_id='1237' atom_type='CB' x='-7.676'  y='27.469'  z='18.154'></atom>
+			<atom atom_id='1238' atom_type='OG1' x='-7.866'  y='26.913'  z='16.825'></atom>
+			<atom atom_id='1239' atom_type='CG2' x='-8.654'  y='28.607'  z='18.421'></atom>
+			<atom atom_id='1240' atom_type='N' x='-5.11'  y='26.089'  z='19.412'></atom>
+		</residue>
+		<residue aa='D' kabat_no='H58' chothia_no='H58'>
+			<atom atom_id='1241' atom_type='CA' x='-4.323'  y='24.86'  z='19.568'></atom>
+			<atom atom_id='1242' atom_type='C' x='-5.208'  y='23.968'  z='20.456'></atom>
+			<atom atom_id='1243' atom_type='O' x='-5.861'  y='24.528'  z='21.335'></atom>
+			<atom atom_id='1244' atom_type='CB' x='-2.94'  y='25.032'  z='20.176'></atom>
+			<atom atom_id='1245' atom_type='CG' x='-1.988'  y='25.705'  z='19.179'></atom>
+			<atom atom_id='1246' atom_type='OD1' x='-1.775'  y='25.038'  z='18.126'></atom>
+			<atom atom_id='1247' atom_type='OD2' x='-1.477'  y='26.809'  z='19.438'></atom>
+			<atom atom_id='1248' atom_type='N' x='-5.167'  y='22.686'  z='20.204'></atom>
+		</residue>
+		<residue aa='Y' kabat_no='H59' chothia_no='H59'>
+			<atom atom_id='1249' atom_type='CA' x='-5.974'  y='21.763'  z='20.983'></atom>
+			<atom atom_id='1250' atom_type='C' x='-5.21'  y='20.541'  z='21.474'></atom>
+			<atom atom_id='1251' atom_type='O' x='-4.152'  y='20.157'  z='20.998'></atom>
+			<atom atom_id='1252' atom_type='CB' x='-7.064'  y='21.182'  z='20.056'></atom>
+			<atom atom_id='1253' atom_type='CG' x='-8.015'  y='22.216'  z='19.514'></atom>
+			<atom atom_id='1254' atom_type='CD1' x='-9.006'  y='22.707'  z='20.38'></atom>
+			<atom atom_id='1255' atom_type='CD2' x='-7.925'  y='22.714'  z='18.222'></atom>
+			<atom atom_id='1256' atom_type='CE1' x='-9.925'  y='23.664'  z='19.923'></atom>
+			<atom atom_id='1257' atom_type='CE2' x='-8.838'  y='23.667'  z='17.763'></atom>
+			<atom atom_id='1258' atom_type='CZ' x='-9.841'  y='24.144'  z='18.605'></atom>
+			<atom atom_id='1259' atom_type='OH' x='-10.706'  y='25.091'  z='18.18'></atom>
+			<atom atom_id='1260' atom_type='N' x='-5.837'  y='19.931'  z='22.466'></atom>
+		</residue>
+		<residue aa='N' kabat_no='H60' chothia_no='H60'>
+			<atom atom_id='1261' atom_type='CA' x='-5.318'  y='18.682'  z='23.038'></atom>
+			<atom atom_id='1262' atom_type='C' x='-5.464'  y='17.683'  z='21.869'></atom>
+			<atom atom_id='1263' atom_type='O' x='-6.585'  y='17.606'  z='21.328'></atom>
+			<atom atom_id='1264' atom_type='CB' x='-6.196'  y='18.422'  z='24.236'></atom>
+			<atom atom_id='1265' atom_type='CG' x='-6.161'  y='16.995'  z='24.717'></atom>
+			<atom atom_id='1266' atom_type='OD1' x='-6.244'  y='16.035'  z='23.926'></atom>
+			<atom atom_id='1267' atom_type='ND2' x='-6.076'  y='16.948'  z='26.053'></atom>
+			<atom atom_id='1268' atom_type='N' x='-4.448'  y='16.917'  z='21.624'></atom>
+		</residue>
+		<residue aa='S' kabat_no='H61' chothia_no='H61'>
+			<atom atom_id='1269' atom_type='CA' x='-4.431'  y='15.918'  z='20.579'></atom>
+			<atom atom_id='1270' atom_type='C' x='-5.605'  y='14.945'  z='20.637'></atom>
+			<atom atom_id='1271' atom_type='O' x='-6.287'  y='14.685'  z='19.644'></atom>
+			<atom atom_id='1272' atom_type='CB' x='-3.177'  y='15.029'  z='20.741'></atom>
+			<atom atom_id='1273' atom_type='OG' x='-2.035'  y='15.81'  z='20.98'></atom>
+			<atom atom_id='1274' atom_type='N' x='-5.805'  y='14.365'  z='21.806'></atom>
+		</residue>
+		<residue aa='A' kabat_no='H62' chothia_no='H62'>
+			<atom atom_id='1275' atom_type='CA' x='-6.841'  y='13.382'  z='22.047'></atom>
+			<atom atom_id='1276' atom_type='C' x='-8.242'  y='13.908'  z='21.828'></atom>
+			<atom atom_id='1277' atom_type='O' x='-9.017'  y='13.115'  z='21.248'></atom>
+			<atom atom_id='1278' atom_type='CB' x='-6.703'  y='12.825'  z='23.457'></atom>
+			<atom atom_id='1279' atom_type='N' x='-8.563'  y='15.114'  z='22.215'></atom>
+		</residue>
+		<residue aa='L' kabat_no='H63' chothia_no='H63'>
+			<atom atom_id='1280' atom_type='CA' x='-9.952'  y='15.602'  z='22.076'></atom>
+			<atom atom_id='1281' atom_type='C' x='-10.277'  y='16.514'  z='20.919'></atom>
+			<atom atom_id='1282' atom_type='O' x='-11.443'  y='16.869'  z='20.722'></atom>
+			<atom atom_id='1283' atom_type='CB' x='-10.265'  y='16.284'  z='23.437'></atom>
+			<atom atom_id='1284' atom_type='CG' x='-10.019'  y='15.513'  z='24.717'></atom>
+			<atom atom_id='1285' atom_type='CD1' x='-9.844'  y='16.441'  z='25.916'></atom>
+			<atom atom_id='1286' atom_type='CD2' x='-11.26'  y='14.647'  z='24.92'></atom>
+			<atom atom_id='1287' atom_type='N' x='-9.256'  y='16.887'  z='20.19'></atom>
+		</residue>
+		<residue aa='K' kabat_no='H64' chothia_no='H64'>
+			<atom atom_id='1288' atom_type='CA' x='-9.323'  y='17.819'  z='19.061'></atom>
+			<atom atom_id='1289' atom_type='C' x='-10.554'  y='17.66'  z='18.177'></atom>
+			<atom atom_id='1290' atom_type='O' x='-11.144'  y='18.659'  z='17.721'></atom>
+			<atom atom_id='1291' atom_type='CB' x='-8.06'  y='17.698'  z='18.203'></atom>
+			<atom atom_id='1292' atom_type='CG' x='-7.931'  y='18.646'  z='17.018'></atom>
+			<atom atom_id='1293' atom_type='CD' x='-6.495'  y='18.534'  z='16.5'></atom>
+			<atom atom_id='1294' atom_type='CE' x='-6.296'  y='19.194'  z='15.157'></atom>
+			<atom atom_id='1295' atom_type='NZ' x='-6.424'  y='20.669'  z='15.219'></atom>
+			<atom atom_id='1296' atom_type='N' x='-10.888'  y='16.419'  z='17.916'></atom>
+		</residue>
+		<residue aa='S' kabat_no='H65' chothia_no='H65'>
+			<atom atom_id='1297' atom_type='CA' x='-12.034'  y='16.073'  z='17.081'></atom>
+			<atom atom_id='1298' atom_type='C' x='-13.41'  y='16.482'  z='17.608'></atom>
+			<atom atom_id='1299' atom_type='O' x='-14.389'  y='16.692'  z='16.87'></atom>
+			<atom atom_id='1300' atom_type='CB' x='-11.919'  y='14.53'  z='17.021'></atom>
+			<atom atom_id='1301' atom_type='OG' x='-12.899'  y='14.143'  z='16.059'></atom>
+			<atom atom_id='1302' atom_type='N' x='-13.516'  y='16.592'  z='18.932'></atom>
+		</residue>
+		<residue aa='R' kabat_no='H66' chothia_no='H66'>
+			<atom atom_id='1303' atom_type='CA' x='-14.756'  y='16.945'  z='19.623'></atom>
+			<atom atom_id='1304' atom_type='C' x='-14.804'  y='18.39'  z='20.126'></atom>
+			<atom atom_id='1305' atom_type='O' x='-15.873'  y='18.765'  z='20.628'></atom>
+			<atom atom_id='1306' atom_type='CB' x='-15.019'  y='16.044'  z='20.858'></atom>
+			<atom atom_id='1307' atom_type='CG' x='-15.273'  y='14.604'  z='20.48'></atom>
+			<atom atom_id='1308' atom_type='CD' x='-16.134'  y='13.828'  z='21.424'></atom>
+			<atom atom_id='1309' atom_type='NE' x='-15.339'  y='13.658'  z='22.64'></atom>
+			<atom atom_id='1310' atom_type='CZ' x='-15.785'  y='14.007'  z='23.86'></atom>
+			<atom atom_id='1311' atom_type='NH1' x='-16.966'  y='14.529'  z='24.141'></atom>
+			<atom atom_id='1312' atom_type='NH2' x='-14.896'  y='13.729'  z='24.823'></atom>
+			<atom atom_id='1313' atom_type='N' x='-13.721'  y='19.123'  z='20.005'></atom>
+		</residue>
+		<residue aa='L' kabat_no='H67' chothia_no='H67'>
+			<atom atom_id='1314' atom_type='CA' x='-13.603'  y='20.477'  z='20.458'></atom>
+			<atom atom_id='1315' atom_type='C' x='-13.538'  y='21.631'  z='19.467'></atom>
+			<atom atom_id='1316' atom_type='O' x='-12.887'  y='21.481'  z='18.428'></atom>
+			<atom atom_id='1317' atom_type='CB' x='-12.248'  y='20.676'  z='21.231'></atom>
+			<atom atom_id='1318' atom_type='CG' x='-12.072'  y='19.874'  z='22.488'></atom>
+			<atom atom_id='1319' atom_type='CD1' x='-10.68'  y='20.055'  z='23.113'></atom>
+			<atom atom_id='1320' atom_type='CD2' x='-13.152'  y='20.306'  z='23.461'></atom>
+			<atom atom_id='1321' atom_type='N' x='-14.128'  y='22.74'  z='19.952'></atom>
+		</residue>
+		<residue aa='S' kabat_no='H68' chothia_no='H68'>
+			<atom atom_id='1322' atom_type='CA' x='-14.038'  y='23.959'  z='19.127'></atom>
+			<atom atom_id='1323' atom_type='C' x='-13.828'  y='25.103'  z='20.095'></atom>
+			<atom atom_id='1324' atom_type='O' x='-14.583'  y='25.202'  z='21.097'></atom>
+			<atom atom_id='1325' atom_type='CB' x='-15.311'  y='24.075'  z='18.29'></atom>
+			<atom atom_id='1326' atom_type='OG' x='-15.23'  y='25.286'  z='17.584'></atom>
+			<atom atom_id='1327' atom_type='N' x='-12.862'  y='25.966'  z='19.859'></atom>
+		</residue>
+		<residue aa='I' kabat_no='H69' chothia_no='H69'>
+			<atom atom_id='1328' atom_type='CA' x='-12.663'  y='27.138'  z='20.736'></atom>
+			<atom atom_id='1329' atom_type='C' x='-12.795'  y='28.373'  z='19.849'></atom>
+			<atom atom_id='1330' atom_type='O' x='-12.169'  y='28.357'  z='18.761'></atom>
+			<atom atom_id='1331' atom_type='CB' x='-11.319'  y='27.148'  z='21.522'></atom>
+			<atom atom_id='1332' atom_type='CG1' x='-11.35'  y='25.976'  z='22.538'></atom>
+			<atom atom_id='1333' atom_type='CG2' x='-11.03'  y='28.5'  z='22.215'></atom>
+			<atom atom_id='1334' atom_type='CD1' x='-9.929'  y='25.563'  z='23.038'></atom>
+			<atom atom_id='1335' atom_type='N' x='-13.529'  y='29.372'  z='20.333'></atom>
+		</residue>
+		<residue aa='S' kabat_no='H70' chothia_no='H70'>
+			<atom atom_id='1336' atom_type='CA' x='-13.639'  y='30.598'  z='19.525'></atom>
+			<atom atom_id='1337' atom_type='C' x='-13.783'  y='31.783'  z='20.491'></atom>
+			<atom atom_id='1338' atom_type='O' x='-13.882'  y='31.586'  z='21.696'></atom>
+			<atom atom_id='1339' atom_type='CB' x='-14.797'  y='30.54'  z='18.521'></atom>
+			<atom atom_id='1340' atom_type='OG' x='-16.011'  y='30.354'  z='19.251'></atom>
+			<atom atom_id='1341' atom_type='N' x='-13.757'  y='32.992'  z='19.948'></atom>
+		</residue>
+		<residue aa='K' kabat_no='H71' chothia_no='H71'>
+			<atom atom_id='1342' atom_type='CA' x='-13.902'  y='34.16'  z='20.806'></atom>
+			<atom atom_id='1343' atom_type='C' x='-14.599'  y='35.26'  z='20.008'></atom>
+			<atom atom_id='1344' atom_type='O' x='-14.719'  y='35.261'  z='18.777'></atom>
+			<atom atom_id='1345' atom_type='CB' x='-12.589'  y='34.668'  z='21.346'></atom>
+			<atom atom_id='1346' atom_type='CG' x='-11.587'  y='35.206'  z='20.315'></atom>
+			<atom atom_id='1347' atom_type='CD' x='-10.265'  y='35.635'  z='20.989'></atom>
+			<atom atom_id='1348' atom_type='CE' x='-9.273'  y='36.124'  z='19.953'></atom>
+			<atom atom_id='1349' atom_type='NZ' x='-8.287'  y='37.023'  z='20.608'></atom>
+			<atom atom_id='1350' atom_type='N' x='-15.042'  y='36.227'  z='20.788'></atom>
+		</residue>
+		<residue aa='D' kabat_no='H72' chothia_no='H72'>
+			<atom atom_id='1351' atom_type='CA' x='-15.713'  y='37.453'  z='20.297'></atom>
+			<atom atom_id='1352' atom_type='C' x='-14.918'  y='38.58'  z='20.926'></atom>
+			<atom atom_id='1353' atom_type='O' x='-15.222'  y='38.886'  z='22.088'></atom>
+			<atom atom_id='1354' atom_type='CB' x='-17.203'  y='37.421'  z='20.656'></atom>
+			<atom atom_id='1355' atom_type='CG' x='-17.935'  y='38.529'  z='19.903'></atom>
+			<atom atom_id='1356' atom_type='OD1' x='-17.374'  y='39.641'  z='19.866'></atom>
+			<atom atom_id='1357' atom_type='OD2' x='-19.026'  y='38.364'  z='19.344'></atom>
+			<atom atom_id='1358' atom_type='N' x='-13.94'  y='39.139'  z='20.233'></atom>
+		</residue>
+		<residue aa='N' kabat_no='H73' chothia_no='H73'>
+			<atom atom_id='1359' atom_type='CA' x='-13.146'  y='40.227'  z='20.853'></atom>
+			<atom atom_id='1360' atom_type='C' x='-14.071'  y='41.342'  z='21.321'></atom>
+			<atom atom_id='1361' atom_type='O' x='-13.85'  y='41.851'  z='22.419'></atom>
+			<atom atom_id='1362' atom_type='CB' x='-12.01'  y='40.826'  z='20.019'></atom>
+			<atom atom_id='1363' atom_type='CG' x='-11.019'  y='39.728'  z='19.669'></atom>
+			<atom atom_id='1364' atom_type='OD1' x='-10.495'  y='39.011'  z='20.533'></atom>
+			<atom atom_id='1365' atom_type='ND2' x='-10.747'  y='39.554'  z='18.385'></atom>
+			<atom atom_id='1366' atom_type='N' x='-15.069'  y='41.625'  z='20.533'></atom>
+		</residue>
+		<residue aa='S' kabat_no='H74' chothia_no='H74'>
+			<atom atom_id='1367' atom_type='CA' x='-16.023'  y='42.693'  z='20.838'></atom>
+			<atom atom_id='1368' atom_type='C' x='-16.738'  y='42.618'  z='22.168'></atom>
+			<atom atom_id='1369' atom_type='O' x='-16.895'  y='43.575'  z='22.956'></atom>
+			<atom atom_id='1370' atom_type='CB' x='-17.06'  y='42.608'  z='19.688'></atom>
+			<atom atom_id='1371' atom_type='OG' x='-17.564'  y='43.908'  z='19.481'></atom>
+			<atom atom_id='1372' atom_type='N' x='-17.248'  y='41.438'  z='22.443'></atom>
+		</residue>
+		<residue aa='K' kabat_no='H75' chothia_no='H75'>
+			<atom atom_id='1373' atom_type='CA' x='-18.014'  y='41.103'  z='23.641'></atom>
+			<atom atom_id='1374' atom_type='C' x='-17.121'  y='40.651'  z='24.791'></atom>
+			<atom atom_id='1375' atom_type='O' x='-17.637'  y='40.455'  z='25.922'></atom>
+			<atom atom_id='1376' atom_type='CB' x='-18.982'  y='39.958'  z='23.326'></atom>
+			<atom atom_id='1377' atom_type='CG' x='-19.914'  y='40.184'  z='22.142'></atom>
+			<atom atom_id='1378' atom_type='CD' x='-21.319'  y='39.816'  z='22.592'></atom>
+			<atom atom_id='1379' atom_type='CE' x='-21.983'  y='38.668'  z='21.871'></atom>
+			<atom atom_id='1380' atom_type='NZ' x='-21.313'  y='37.359'  z='22.126'></atom>
+			<atom atom_id='1381' atom_type='N' x='-15.829'  y='40.471'  z='24.503'></atom>
+		</residue>
+		<residue aa='S' kabat_no='H76' chothia_no='H76'>
+			<atom atom_id='1382' atom_type='CA' x='-14.908'  y='40.027'  z='25.555'></atom>
+			<atom atom_id='1383' atom_type='C' x='-15.272'  y='38.619'  z='26.033'></atom>
+			<atom atom_id='1384' atom_type='O' x='-15.216'  y='38.341'  z='27.264'></atom>
+			<atom atom_id='1385' atom_type='CB' x='-14.955'  y='40.944'  z='26.763'></atom>
+			<atom atom_id='1386' atom_type='OG' x='-14.047'  y='42.011'  z='26.618'></atom>
+			<atom atom_id='1387' atom_type='N' x='-15.671'  y='37.747'  z='25.127'></atom>
+		</residue>
+		<residue aa='Q' kabat_no='H77' chothia_no='H77'>
+			<atom atom_id='1388' atom_type='CA' x='-16.042'  y='36.381'  z='25.523'></atom>
+			<atom atom_id='1389' atom_type='C' x='-15.256'  y='35.316'  z='24.766'></atom>
+			<atom atom_id='1390' atom_type='O' x='-15.034'  y='35.536'  z='23.544'></atom>
+			<atom atom_id='1391' atom_type='CB' x='-17.531'  y='36.108'  z='25.256'></atom>
+			<atom atom_id='1392' atom_type='CG' x='-18.317'  y='36.981'  z='26.233'></atom>
+			<atom atom_id='1393' atom_type='CD' x='-19.804'  y='36.83'  z='25.976'></atom>
+			<atom atom_id='1394' atom_type='OE1' x='-20.189'  y='36.608'  z='24.825'></atom>
+			<atom atom_id='1395' atom_type='NE2' x='-20.571'  y='36.94'  z='27.07'></atom>
+			<atom atom_id='1396' atom_type='N' x='-14.925'  y='34.252'  z='25.471'></atom>
+		</residue>
+		<residue aa='V' kabat_no='H78' chothia_no='H78'>
+			<atom atom_id='1397' atom_type='CA' x='-14.207'  y='33.16'  z='24.797'></atom>
+			<atom atom_id='1398' atom_type='C' x='-15.186'  y='31.992'  z='24.926'></atom>
+			<atom atom_id='1399' atom_type='O' x='-15.81'  y='31.921'  z='26.006'></atom>
+			<atom atom_id='1400' atom_type='CB' x='-12.834'  y='32.903'  z='25.432'></atom>
+			<atom atom_id='1401' atom_type='CG1' x='-12.167'  y='31.664'  z='24.787'></atom>
+			<atom atom_id='1402' atom_type='CG2' x='-11.934'  y='34.117'  z='25.38'></atom>
+			<atom atom_id='1403' atom_type='N' x='-15.261'  y='31.133'  z='23.941'></atom>
+		</residue>
+		<residue aa='F' kabat_no='H79' chothia_no='H79'>
+			<atom atom_id='1404' atom_type='CA' x='-16.191'  y='29.99'  z='24'></atom>
+			<atom atom_id='1405' atom_type='C' x='-15.474'  y='28.677'  z='23.794'></atom>
+			<atom atom_id='1406' atom_type='O' x='-14.511'  y='28.559'  z='23.023'></atom>
+			<atom atom_id='1407' atom_type='CB' x='-17.295'  y='30.081'  z='22.887'></atom>
+			<atom atom_id='1408' atom_type='CG' x='-17.915'  y='31.456'  z='22.874'></atom>
+			<atom atom_id='1409' atom_type='CD1' x='-18.872'  y='31.79'  z='23.853'></atom>
+			<atom atom_id='1410' atom_type='CD2' x='-17.516'  y='32.399'  z='21.926'></atom>
+			<atom atom_id='1411' atom_type='CE1' x='-19.443'  y='33.066'  z='23.883'></atom>
+			<atom atom_id='1412' atom_type='CE2' x='-18.101'  y='33.674'  z='21.947'></atom>
+			<atom atom_id='1413' atom_type='CZ' x='-19.041'  y='34.013'  z='22.919'></atom>
+			<atom atom_id='1414' atom_type='N' x='-16.029'  y='27.707'  z='24.464'></atom>
+		</residue>
+		<residue aa='L' kabat_no='H80' chothia_no='H80'>
+			<atom atom_id='1415' atom_type='CA' x='-15.613'  y='26.325'  z='24.383'></atom>
+			<atom atom_id='1416' atom_type='C' x='-16.917'  y='25.553'  z='24.032'></atom>
+			<atom atom_id='1417' atom_type='O' x='-17.92'  y='25.646'  z='24.758'></atom>
+			<atom atom_id='1418' atom_type='CB' x='-14.904'  y='25.76'  z='25.628'></atom>
+			<atom atom_id='1419' atom_type='CG' x='-14.761'  y='24.222'  z='25.557'></atom>
+			<atom atom_id='1420' atom_type='CD1' x='-13.573'  y='23.809'  z='24.75'></atom>
+			<atom atom_id='1421' atom_type='CD2' x='-14.582'  y='23.648'  z='26.946'></atom>
+			<atom atom_id='1422' atom_type='N' x='-16.799'  y='24.782'  z='22.974'></atom>
+		</residue>
+		<residue aa='K' kabat_no='H81' chothia_no='H81'>
+			<atom atom_id='1423' atom_type='CA' x='-17.907'  y='23.912'  z='22.511'></atom>
+			<atom atom_id='1424' atom_type='C' x='-17.355'  y='22.495'  z='22.372'></atom>
+			<atom atom_id='1425' atom_type='O' x='-16.253'  y='22.27'  z='21.866'></atom>
+			<atom atom_id='1426' atom_type='CB' x='-18.541'  y='24.37'  z='21.204'></atom>
+			<atom atom_id='1427' atom_type='CG' x='-18.751'  y='25.919'  z='21.305'></atom>
+			<atom atom_id='1428' atom_type='CD' x='-19.952'  y='26.416'  z='20.516'></atom>
+			<atom atom_id='1429' atom_type='CE' x='-19.836'  y='27.905'  z='20.203'></atom>
+			<atom atom_id='1430' atom_type='NZ' x='-20.774'  y='28.623'  z='21.114'></atom>
+			<atom atom_id='1431' atom_type='N' x='-18.151'  y='21.567'  z='22.854'></atom>
+		</residue>
+		<residue aa='M' kabat_no='H82' chothia_no='H82'>
+			<atom atom_id='1432' atom_type='CA' x='-17.784'  y='20.148'  z='22.796'></atom>
+			<atom atom_id='1433' atom_type='C' x='-19.073'  y='19.416'  z='22.38'></atom>
+			<atom atom_id='1434' atom_type='O' x='-20.163'  y='19.661'  z='22.897'></atom>
+			<atom atom_id='1435' atom_type='CB' x='-17.279'  y='19.488'  z='24.037'></atom>
+			<atom atom_id='1436' atom_type='CG' x='-16.235'  y='19.95'  z='24.982'></atom>
+			<atom atom_id='1437' atom_type='SD' x='-15.71'  y='18.578'  z='26.102'></atom>
+			<atom atom_id='1438' atom_type='CE' x='-15.277'  y='17.342'  z='24.9'></atom>
+			<atom atom_id='1439' atom_type='N' x='-18.831'  y='18.515'  z='21.453'></atom>
+		</residue>
+		<residue aa='N' kabat_no='H82A' chothia_no='H82A'>
+			<atom atom_id='1440' atom_type='CA' x='-19.794'  y='17.605'  z='20.856'></atom>
+			<atom atom_id='1441' atom_type='C' x='-19.671'  y='16.223'  z='21.548'></atom>
+			<atom atom_id='1442' atom_type='O' x='-18.635'  y='15.881'  z='22.13'></atom>
+			<atom atom_id='1443' atom_type='CB' x='-19.465'  y='17.233'  z='19.404'></atom>
+			<atom atom_id='1444' atom_type='CG' x='-19.209'  y='18.446'  z='18.555'></atom>
+			<atom atom_id='1445' atom_type='OD1' x='-20.115'  y='19.301'  z='18.648'></atom>
+			<atom atom_id='1446' atom_type='ND2' x='-18.075'  y='18.458'  z='17.845'></atom>
+			<atom atom_id='1447' atom_type='N' x='-20.773'  y='15.537'  z='21.305'></atom>
+		</residue>
+		<residue aa='S' kabat_no='H82B' chothia_no='H82B'>
+			<atom atom_id='1448' atom_type='CA' x='-20.982'  y='14.157'  z='21.748'></atom>
+			<atom atom_id='1449' atom_type='C' x='-20.443'  y='13.89'  z='23.143'></atom>
+			<atom atom_id='1450' atom_type='O' x='-19.45'  y='13.188'  z='23.264'></atom>
+			<atom atom_id='1451' atom_type='CB' x='-20.259'  y='13.159'  z='20.837'></atom>
+			<atom atom_id='1452' atom_type='OG' x='-20.619'  y='13.568'  z='19.516'></atom>
+			<atom atom_id='1453' atom_type='N' x='-21.154'  y='14.516'  z='24.054'></atom>
+		</residue>
+		<residue aa='L' kabat_no='H82C' chothia_no='H82C'>
+			<atom atom_id='1454' atom_type='CA' x='-20.694'  y='14.324'  z='25.439'></atom>
+			<atom atom_id='1455' atom_type='C' x='-20.708'  y='12.861'  z='25.832'></atom>
+			<atom atom_id='1456' atom_type='O' x='-21.595'  y='12.14'  z='25.384'></atom>
+			<atom atom_id='1457' atom_type='CB' x='-21.599'  y='15.256'  z='26.256'></atom>
+			<atom atom_id='1458' atom_type='CG' x='-21.422'  y='16.745'  z='25.96'></atom>
+			<atom atom_id='1459' atom_type='CD1' x='-22.376'  y='17.562'  z='26.804'></atom>
+			<atom atom_id='1460' atom_type='CD2' x='-19.977'  y='17.133'  z='26.285'></atom>
+			<atom atom_id='1461' atom_type='N' x='-19.775'  y='12.556'  z='26.69'></atom>
+		</residue>
+		<residue aa='H' kabat_no='H83' chothia_no='H83'>
+			<atom atom_id='1462' atom_type='CA' x='-19.622'  y='11.243'  z='27.301'></atom>
+			<atom atom_id='1463' atom_type='C' x='-19.725'  y='11.49'  z='28.803'></atom>
+			<atom atom_id='1464' atom_type='O' x='-19.397'  y='12.619'  z='29.211'></atom>
+			<atom atom_id='1465' atom_type='CB' x='-18.249'  y='10.581'  z='27.032'></atom>
+			<atom atom_id='1466' atom_type='CG' x='-18.105'  y='10.499'  z='25.548'></atom>
+			<atom atom_id='1467' atom_type='ND1' x='-18.468'  y='9.369'  z='24.873'></atom>
+			<atom atom_id='1468' atom_type='CD2' x='-17.722'  y='11.37'  z='24.609'></atom>
+			<atom atom_id='1469' atom_type='CE1' x='-18.243'  y='9.546'  z='23.57'></atom>
+			<atom atom_id='1470' atom_type='NE2' x='-17.801'  y='10.758'  z='23.386'></atom>
+			<atom atom_id='1471' atom_type='N' x='-20.078'  y='10.482'  z='29.552'></atom>
+		</residue>
+		<residue aa='T' kabat_no='H84' chothia_no='H84'>
+			<atom atom_id='1472' atom_type='CA' x='-20.161'  y='10.698'  z='30.995'></atom>
+			<atom atom_id='1473' atom_type='C' x='-18.805'  y='11.135'  z='31.55'></atom>
+			<atom atom_id='1474' atom_type='O' x='-18.755'  y='11.906'  z='32.524'></atom>
+			<atom atom_id='1475' atom_type='CB' x='-20.781'  y='9.473'  z='31.798'></atom>
+			<atom atom_id='1476' atom_type='OG1' x='-20.018'  y='8.347'  z='31.316'></atom>
+			<atom atom_id='1477' atom_type='CG2' x='-22.276'  y='9.295'  z='31.527'></atom>
+			<atom atom_id='1478' atom_type='N' x='-17.756'  y='10.681'  z='30.881'></atom>
+		</residue>
+		<residue aa='D' kabat_no='H85' chothia_no='H85'>
+			<atom atom_id='1479' atom_type='CA' x='-16.423'  y='11.049'  z='31.443'></atom>
+			<atom atom_id='1480' atom_type='C' x='-16.059'  y='12.485'  z='31.087'></atom>
+			<atom atom_id='1481' atom_type='O' x='-14.924'  y='12.885'  z='31.412'></atom>
+			<atom atom_id='1482' atom_type='CB' x='-15.397'  y='9.983'  z='31.119'></atom>
+			<atom atom_id='1483' atom_type='CG' x='-15.046'  y='10.042'  z='29.647'></atom>
+			<atom atom_id='1484' atom_type='OD1' x='-14.281'  y='10.916'  z='29.187'></atom>
+			<atom atom_id='1485' atom_type='OD2' x='-15.567'  y='9.217'  z='28.877'></atom>
+			<atom atom_id='1486' atom_type='N' x='-16.98'  y='13.211'  z='30.487'></atom>
+		</residue>
+		<residue aa='D' kabat_no='H86' chothia_no='H86'>
+			<atom atom_id='1487' atom_type='CA' x='-16.719'  y='14.634'  z='30.189'></atom>
+			<atom atom_id='1488' atom_type='C' x='-17.114'  y='15.433'  z='31.44'></atom>
+			<atom atom_id='1489' atom_type='O' x='-16.969'  y='16.683'  z='31.435'></atom>
+			<atom atom_id='1490' atom_type='CB' x='-17.385'  y='15.117'  z='28.931'></atom>
+			<atom atom_id='1491' atom_type='CG' x='-16.777'  y='14.587'  z='27.656'></atom>
+			<atom atom_id='1492' atom_type='OD1' x='-15.521'  y='14.586'  z='27.636'></atom>
+			<atom atom_id='1493' atom_type='OD2' x='-17.487'  y='14.198'  z='26.705'></atom>
+			<atom atom_id='1494' atom_type='N' x='-17.587'  y='14.736'  z='32.475'></atom>
+		</residue>
+		<residue aa='T' kabat_no='H87' chothia_no='H87'>
+			<atom atom_id='1495' atom_type='CA' x='-17.986'  y='15.378'  z='33.734'></atom>
+			<atom atom_id='1496' atom_type='C' x='-16.769'  y='16.055'  z='34.352'></atom>
+			<atom atom_id='1497' atom_type='O' x='-15.791'  y='15.321'  z='34.579'></atom>
+			<atom atom_id='1498' atom_type='CB' x='-18.668'  y='14.356'  z='34.742'></atom>
+			<atom atom_id='1499' atom_type='OG1' x='-19.893'  y='13.926'  z='34.043'></atom>
+			<atom atom_id='1500' atom_type='CG2' x='-18.965'  y='14.892'  z='36.146'></atom>
+			<atom atom_id='1501' atom_type='N' x='-16.8'  y='17.348'  z='34.645'></atom>
+		</residue>
+		<residue aa='A' kabat_no='H88' chothia_no='H88'>
+			<atom atom_id='1502' atom_type='CA' x='-15.597'  y='17.967'  z='35.223'></atom>
+			<atom atom_id='1503' atom_type='C' x='-15.875'  y='19.429'  z='35.51'></atom>
+			<atom atom_id='1504' atom_type='O' x='-16.967'  y='19.926'  z='35.1'></atom>
+			<atom atom_id='1505' atom_type='CB' x='-14.464'  y='17.941'  z='34.201'></atom>
+			<atom atom_id='1506' atom_type='N' x='-14.841'  y='20.02'  z='36.145'></atom>
+		</residue>
+		<residue aa='R' kabat_no='H89' chothia_no='H89'>
+			<atom atom_id='1507' atom_type='CA' x='-15.006'  y='21.483'  z='36.384'></atom>
+			<atom atom_id='1508' atom_type='C' x='-14.203'  y='22.082'  z='35.213'></atom>
+			<atom atom_id='1509' atom_type='O' x='-13.06'  y='21.594'  z='35.015'></atom>
+			<atom atom_id='1510' atom_type='CB' x='-14.506'  y='21.952'  z='37.717'></atom>
+			<atom atom_id='1511' atom_type='CG' x='-14.608'  y='23.474'  z='37.929'></atom>
+			<atom atom_id='1512' atom_type='CD' x='-14.885'  y='23.662'  z='39.364'></atom>
+			<atom atom_id='1513' atom_type='NE' x='-15.204'  y='24.985'  z='39.825'></atom>
+			<atom atom_id='1514' atom_type='CZ' x='-16.409'  y='25.531'  z='40.055'></atom>
+			<atom atom_id='1515' atom_type='NH1' x='-17.54'  y='24.847'  z='39.843'></atom>
+			<atom atom_id='1516' atom_type='NH2' x='-16.491'  y='26.787'  z='40.529'></atom>
+			<atom atom_id='1517' atom_type='N' x='-14.789'  y='23.04'  z='34.517'></atom>
+		</residue>
+		<residue aa='Y' kabat_no='H90' chothia_no='H90'>
+			<atom atom_id='1518' atom_type='CA' x='-14.1'  y='23.64'  z='33.35'></atom>
+			<atom atom_id='1519' atom_type='C' x='-13.638'  y='25.055'  z='33.696'></atom>
+			<atom atom_id='1520' atom_type='O' x='-14.411'  y='25.896'  z='34.186'></atom>
+			<atom atom_id='1521' atom_type='CB' x='-14.998'  y='23.676'  z='32.094'></atom>
+			<atom atom_id='1522' atom_type='CG' x='-15.215'  y='22.272'  z='31.543'></atom>
+			<atom atom_id='1523' atom_type='CD1' x='-16.023'  y='21.333'  z='32.201'></atom>
+			<atom atom_id='1524' atom_type='CD2' x='-14.618'  y='21.895'  z='30.355'></atom>
+			<atom atom_id='1525' atom_type='CE1' x='-16.251'  y='20.058'  z='31.705'></atom>
+			<atom atom_id='1526' atom_type='CE2' x='-14.842'  y='20.594'  z='29.844'></atom>
+			<atom atom_id='1527' atom_type='CZ' x='-15.606'  y='19.69'  z='30.542'></atom>
+			<atom atom_id='1528' atom_type='OH' x='-15.741'  y='18.478'  z='29.947'></atom>
+			<atom atom_id='1529' atom_type='N' x='-12.379'  y='25.338'  z='33.403'></atom>
+		</residue>
+		<residue aa='Y' kabat_no='H91' chothia_no='H91'>
+			<atom atom_id='1530' atom_type='CA' x='-11.81'  y='26.677'  z='33.682'></atom>
+			<atom atom_id='1531' atom_type='C' x='-11.229'  y='27.384'  z='32.454'></atom>
+			<atom atom_id='1532' atom_type='O' x='-10.702'  y='26.664'  z='31.569'></atom>
+			<atom atom_id='1533' atom_type='CB' x='-10.594'  y='26.49'  z='34.616'></atom>
+			<atom atom_id='1534' atom_type='CG' x='-10.708'  y='25.826'  z='35.958'></atom>
+			<atom atom_id='1535' atom_type='CD1' x='-11.107'  y='26.552'  z='37.083'></atom>
+			<atom atom_id='1536' atom_type='CD2' x='-10.42'  y='24.46'  z='36.104'></atom>
+			<atom atom_id='1537' atom_type='CE1' x='-11.195'  y='25.968'  z='38.362'></atom>
+			<atom atom_id='1538' atom_type='CE2' x='-10.494'  y='23.862'  z='37.37'></atom>
+			<atom atom_id='1539' atom_type='CZ' x='-10.88'  y='24.635'  z='38.477'></atom>
+			<atom atom_id='1540' atom_type='OH' x='-10.922'  y='23.96'  z='39.651'></atom>
+			<atom atom_id='1541' atom_type='N' x='-11.265'  y='28.701'  z='32.485'></atom>
+		</residue>
+		<residue aa='C' kabat_no='H92' chothia_no='H92'>
+			<atom atom_id='1542' atom_type='CA' x='-10.616'  y='29.506'  z='31.419'></atom>
+			<atom atom_id='1543' atom_type='C' x='-9.49'  y='30.183'  z='32.221'></atom>
+			<atom atom_id='1544' atom_type='O' x='-9.638'  y='30.441'  z='33.428'></atom>
+			<atom atom_id='1545' atom_type='CB' x='-11.497'  y='30.393'  z='30.576'></atom>
+			<atom atom_id='1546' atom_type='SG' x='-12.367'  y='31.597'  z='31.593'></atom>
+			<atom atom_id='1547' atom_type='N' x='-8.363'  y='30.391'  z='31.556'></atom>
+		</residue>
+		<residue aa='A' kabat_no='H93' chothia_no='H93'>
+			<atom atom_id='1548' atom_type='CA' x='-7.178'  y='30.974'  z='32.199'></atom>
+			<atom atom_id='1549' atom_type='C' x='-6.471'  y='31.862'  z='31.194'></atom>
+			<atom atom_id='1550' atom_type='O' x='-6.33'  y='31.478'  z='30.033'></atom>
+			<atom atom_id='1551' atom_type='CB' x='-6.23'  y='29.818'  z='32.666'></atom>
+			<atom atom_id='1552' atom_type='N' x='-6.057'  y='33.004'  z='31.716'></atom>
+		</residue>
+		<residue aa='R' kabat_no='H94' chothia_no='H94'>
+			<atom atom_id='1553' atom_type='CA' x='-5.333'  y='33.976'  z='30.87'></atom>
+			<atom atom_id='1554' atom_type='C' x='-3.852'  y='33.551'  z='30.754'></atom>
+			<atom atom_id='1555' atom_type='O' x='-3.209'  y='33.151'  z='31.746'></atom>
+			<atom atom_id='1556' atom_type='CB' x='-5.342'  y='35.391'  z='31.493'></atom>
+			<atom atom_id='1557' atom_type='CG' x='-4.821'  y='36.367'  z='30.417'></atom>
+			<atom atom_id='1558' atom_type='CD' x='-4.836'  y='37.78'  z='30.859'></atom>
+			<atom atom_id='1559' atom_type='NE' x='-3.728'  y='37.968'  z='31.814'></atom>
+			<atom atom_id='1560' atom_type='CZ' x='-3.466'  y='39.204'  z='32.279'></atom>
+			<atom atom_id='1561' atom_type='NH1' x='-4.162'  y='40.29'  z='31.92'></atom>
+			<atom atom_id='1562' atom_type='NH2' x='-2.45'  y='39.304'  z='33.136'></atom>
+			<atom atom_id='1563' atom_type='N' x='-3.334'  y='33.691'  z='29.539'></atom>
+		</residue>
+		<residue aa='E' kabat_no='H95' chothia_no='H95'>
+			<atom atom_id='1564' atom_type='CA' x='-1.925'  y='33.365'  z='29.307'></atom>
+			<atom atom_id='1565' atom_type='C' x='-1.128'  y='34.618'  z='28.838'></atom>
+			<atom atom_id='1566' atom_type='O' x='-1.497'  y='35.404'  z='27.962'></atom>
+			<atom atom_id='1567' atom_type='CB' x='-1.724'  y='32.297'  z='28.261'></atom>
+			<atom atom_id='1568' atom_type='CG' x='-0.241'  y='32.008'  z='27.953'></atom>
+			<atom atom_id='1569' atom_type='CD' x='0.047'  y='30.815'  z='27.101'></atom>
+			<atom atom_id='1570' atom_type='OE1' x='-0.884'  y='29.96'  z='27.091'></atom>
+			<atom atom_id='1571' atom_type='OE2' x='1.128'  y='30.668'  z='26.524'></atom>
+			<atom atom_id='1572' atom_type='N' x='0.05'  y='34.695'  z='29.461'></atom>
+		</residue>
+		<residue aa='R' kabat_no='H96' chothia_no='H96'>
+			<atom atom_id='1573' atom_type='CA' x='1.028'  y='35.748'  z='29.135'></atom>
+			<atom atom_id='1574' atom_type='C' x='2.433'  y='35.216'  z='29.476'></atom>
+			<atom atom_id='1575' atom_type='O' x='2.745'  y='34.779'  z='30.613'></atom>
+			<atom atom_id='1576' atom_type='CB' x='0.686'  y='37.096'  z='29.803'></atom>
+			<atom atom_id='1577' atom_type='CG' x='1.527'  y='37.417'  z='31.034'></atom>
+			<atom atom_id='1578' atom_type='CD' x='1.27'  y='38.822'  z='31.447'></atom>
+			<atom atom_id='1579' atom_type='NE' x='1.429'  y='38.947'  z='32.895'></atom>
+			<atom atom_id='1580' atom_type='CZ' x='2.41'  y='39.753'  z='33.355'></atom>
+			<atom atom_id='1581' atom_type='NH1' x='3.191'  y='40.403'  z='32.509'></atom>
+			<atom atom_id='1582' atom_type='NH2' x='2.649'  y='39.964'  z='34.649'></atom>
+			<atom atom_id='1583' atom_type='N' x='3.299'  y='35.27'  z='28.498'></atom>
+		</residue>
+		<residue aa='D' kabat_no='H97' chothia_no='H97'>
+			<atom atom_id='1584' atom_type='CA' x='4.691'  y='34.83'  z='28.655'></atom>
+			<atom atom_id='1585' atom_type='C' x='4.795'  y='33.532'  z='29.441'></atom>
+			<atom atom_id='1586' atom_type='O' x='5.108'  y='33.417'  z='30.656'></atom>
+			<atom atom_id='1587' atom_type='CB' x='5.409'  y='36.113'  z='29.155'></atom>
+			<atom atom_id='1588' atom_type='CG' x='6.813'  y='35.645'  z='29.564'></atom>
+			<atom atom_id='1589' atom_type='OD1' x='6.763'  y='34.852'  z='30.568'></atom>
+			<atom atom_id='1590' atom_type='OD2' x='7.843'  y='35.987'  z='28.922'></atom>
+			<atom atom_id='1591' atom_type='N' x='4.49'  y='32.4'  z='28.866'></atom>
+		</residue>
+		<residue aa='Y' kabat_no='H98' chothia_no='H98'>
+			<atom atom_id='1592' atom_type='CA' x='4.662'  y='31.138'  z='29.6'></atom>
+			<atom atom_id='1593' atom_type='C' x='4.12'  y='30.95'  z='30.995'></atom>
+			<atom atom_id='1594' atom_type='O' x='4.799'  y='30.35'  z='31.87'></atom>
+			<atom atom_id='1595' atom_type='CB' x='6.217'  y='30.883'  z='29.697'></atom>
+			<atom atom_id='1596' atom_type='CG' x='6.81'  y='31.127'  z='28.325'></atom>
+			<atom atom_id='1597' atom_type='CD1' x='6.415'  y='30.262'  z='27.311'></atom>
+			<atom atom_id='1598' atom_type='CD2' x='7.654'  y='32.177'  z='28.037'></atom>
+			<atom atom_id='1599' atom_type='CE1' x='6.91'  y='30.401'  z='26.021'></atom>
+			<atom atom_id='1600' atom_type='CE2' x='8.135'  y='32.365'  z='26.752'></atom>
+			<atom atom_id='1601' atom_type='CZ' x='7.772'  y='31.462'  z='25.755'></atom>
+			<atom atom_id='1602' atom_type='OH' x='8.233'  y='31.539'  z='24.459'></atom>
+			<atom atom_id='1603' atom_type='N' x='2.896'  y='31.419'  z='31.168'></atom>
+		</residue>
+		<residue aa='R' kabat_no='H99' chothia_no='H99'>
+			<atom atom_id='1604' atom_type='CA' x='2.215'  y='31.161'  z='32.456'></atom>
+			<atom atom_id='1605' atom_type='C' x='0.712'  y='31.487'  z='32.344'></atom>
+			<atom atom_id='1606' atom_type='O' x='0.406'  y='32.379'  z='31.558'></atom>
+			<atom atom_id='1607' atom_type='CB' x='2.872'  y='31.925'  z='33.593'></atom>
+			<atom atom_id='1608' atom_type='CG' x='2.584'  y='33.432'  z='33.421'></atom>
+			<atom atom_id='1609' atom_type='CD' x='3.924'  y='33.955'  z='33.724'></atom>
+			<atom atom_id='1610' atom_type='NE' x='3.785'  y='35.263'  z='34.34'></atom>
+			<atom atom_id='1611' atom_type='CZ' x='4.565'  y='36.259'  z='33.877'></atom>
+			<atom atom_id='1612' atom_type='NH1' x='5.411'  y='36.06'  z='32.88'></atom>
+			<atom atom_id='1613' atom_type='NH2' x='4.427'  y='37.408'  z='34.504'></atom>
+			<atom atom_id='1614' atom_type='N' x='-0.037'  y='30.818'  z='33.177'></atom>
+		</residue>
+		<residue aa='L' kabat_no='H100' chothia_no='H100'>
+			<atom atom_id='1615' atom_type='CA' x='-1.52'  y='31.066'  z='33.266'></atom>
+			<atom atom_id='1616' atom_type='C' x='-1.589'  y='31.859'  z='34.557'></atom>
+			<atom atom_id='1617' atom_type='O' x='-1.519'  y='31.25'  z='35.623'></atom>
+			<atom atom_id='1618' atom_type='CB' x='-2.25'  y='29.744'  z='33.227'></atom>
+			<atom atom_id='1619' atom_type='CG' x='-1.943'  y='28.799'  z='32.063'></atom>
+			<atom atom_id='1620' atom_type='CD1' x='-2.855'  y='27.562'  z='32.109'></atom>
+			<atom atom_id='1621' atom_type='CD2' x='-2.139'  y='29.495'  z='30.725'></atom>
+			<atom atom_id='1622' atom_type='N' x='-1.596'  y='33.167'  z='34.429'></atom>
+		</residue>
+		<residue aa='D' kabat_no='H101' chothia_no='H101'>
+			<atom atom_id='1623' atom_type='CA' x='-1.566'  y='34.044'  z='35.61'></atom>
+			<atom atom_id='1624' atom_type='C' x='-2.91'  y='34.285'  z='36.244'></atom>
+			<atom atom_id='1625' atom_type='O' x='-2.862'  y='34.434'  z='37.475'></atom>
+			<atom atom_id='1626' atom_type='CB' x='-0.814'  y='35.356'  z='35.301'></atom>
+			<atom atom_id='1627' atom_type='CG' x='-1.48'  y='36.195'  z='34.221'></atom>
+			<atom atom_id='1628' atom_type='OD1' x='-2.392'  y='35.847'  z='33.449'></atom>
+			<atom atom_id='1629' atom_type='OD2' x='-1.049'  y='37.378'  z='34.072'></atom>
+			<atom atom_id='1630' atom_type='N' x='-4.003'  y='34.351'  z='35.535'></atom>
+		</residue>
+		<residue aa='Y' kabat_no='H102' chothia_no='H102'>
+			<atom atom_id='1631' atom_type='CA' x='-5.338'  y='34.577'  z='36.121'></atom>
+			<atom atom_id='1632' atom_type='C' x='-6.275'  y='33.457'  z='35.627'></atom>
+			<atom atom_id='1633' atom_type='O' x='-6.285'  y='33.137'  z='34.417'></atom>
+			<atom atom_id='1634' atom_type='CB' x='-5.962'  y='35.929'  z='35.757'></atom>
+			<atom atom_id='1635' atom_type='CG' x='-5.283'  y='37.094'  z='36.426'></atom>
+			<atom atom_id='1636' atom_type='CD1' x='-5.744'  y='37.52'  z='37.673'></atom>
+			<atom atom_id='1637' atom_type='CD2' x='-4.223'  y='37.788'  z='35.815'></atom>
+			<atom atom_id='1638' atom_type='CE1' x='-5.139'  y='38.594'  z='38.335'></atom>
+			<atom atom_id='1639' atom_type='CE2' x='-3.622'  y='38.871'  z='36.44'></atom>
+			<atom atom_id='1640' atom_type='CZ' x='-4.081'  y='39.253'  z='37.706'></atom>
+			<atom atom_id='1641' atom_type='OH' x='-3.517'  y='40.294'  z='38.397'></atom>
+			<atom atom_id='1642' atom_type='N' x='-6.997'  y='32.895'  z='36.584'></atom>
+		</residue>
+		<residue aa='W' kabat_no='H103' chothia_no='H103'>
+			<atom atom_id='1643' atom_type='CA' x='-7.927'  y='31.813'  z='36.255'></atom>
+			<atom atom_id='1644' atom_type='C' x='-9.357'  y='32.167'  z='36.625'></atom>
+			<atom atom_id='1645' atom_type='O' x='-9.473'  y='32.889'  z='37.613'></atom>
+			<atom atom_id='1646' atom_type='CB' x='-7.601'  y='30.578'  z='37.14'></atom>
+			<atom atom_id='1647' atom_type='CG' x='-6.328'  y='29.92'  z='36.788'></atom>
+			<atom atom_id='1648' atom_type='CD1' x='-5.046'  y='30.449'  z='36.925'></atom>
+			<atom atom_id='1649' atom_type='CD2' x='-6.156'  y='28.586'  z='36.275'></atom>
+			<atom atom_id='1650' atom_type='NE1' x='-4.121'  y='29.517'  z='36.53'></atom>
+			<atom atom_id='1651' atom_type='CE2' x='-4.762'  y='28.362'  z='36.121'></atom>
+			<atom atom_id='1652' atom_type='CE3' x='-7.066'  y='27.575'  z='35.925'></atom>
+			<atom atom_id='1653' atom_type='CZ2' x='-4.243'  y='27.182'  z='35.61'></atom>
+			<atom atom_id='1654' atom_type='CZ3' x='-6.568'  y='26.396'  z='35.417'></atom>
+			<atom atom_id='1655' atom_type='CH2' x='-5.172'  y='26.218'  z='35.267'></atom>
+			<atom atom_id='1656' atom_type='N' x='-10.368'  y='31.676'  z='35.929'></atom>
+		</residue>
+		<residue aa='G' kabat_no='H104' chothia_no='H104'>
+			<atom atom_id='1657' atom_type='CA' x='-11.744'  y='31.953'  z='36.438'></atom>
+			<atom atom_id='1658' atom_type='C' x='-11.914'  y='30.907'  z='37.559'></atom>
+			<atom atom_id='1659' atom_type='O' x='-11.049'  y='30.066'  z='37.862'></atom>
+			<atom atom_id='1660' atom_type='N' x='-13.049'  y='30.889'  z='38.22'></atom>
+		</residue>
+		<residue aa='Q' kabat_no='H105' chothia_no='H105'>
+			<atom atom_id='1661' atom_type='CA' x='-13.27'  y='29.887'  z='39.289'></atom>
+			<atom atom_id='1662' atom_type='C' x='-13.821'  y='28.543'  z='38.781'></atom>
+			<atom atom_id='1663' atom_type='O' x='-14.071'  y='27.659'  z='39.594'></atom>
+			<atom atom_id='1664' atom_type='CB' x='-14.223'  y='30.552'  z='40.296'></atom>
+			<atom atom_id='1665' atom_type='CG' x='-15.449'  y='30.543'  z='39.46'></atom>
+			<atom atom_id='1666' atom_type='CD' x='-16.384'  y='30.975'  z='38.424'></atom>
+			<atom atom_id='1667' atom_type='OE1' x='-16.234'  y='31.926'  z='37.637'></atom>
+			<atom atom_id='1668' atom_type='NE2' x='-17.565'  y='30.326'  z='38.255'></atom>
+			<atom atom_id='1669' atom_type='N' x='-14.148'  y='28.496'  z='37.527'></atom>
+		</residue>
+		<residue aa='G' kabat_no='H106' chothia_no='H106'>
+			<atom atom_id='1670' atom_type='CA' x='-14.638'  y='27.293'  z='36.885'></atom>
+			<atom atom_id='1671' atom_type='C' x='-16.144'  y='27.122'  z='36.943'></atom>
+			<atom atom_id='1672' atom_type='O' x='-16.874'  y='27.774'  z='37.666'></atom>
+			<atom atom_id='1673' atom_type='N' x='-16.614'  y='26.223'  z='36.126'></atom>
+		</residue>
+		<residue aa='T' kabat_no='H107' chothia_no='H107'>
+			<atom atom_id='1674' atom_type='CA' x='-18.032'  y='25.858'  z='36.008'></atom>
+			<atom atom_id='1675' atom_type='C' x='-18.082'  y='24.33'  z='35.975'></atom>
+			<atom atom_id='1676' atom_type='O' x='-17.343'  y='23.704'  z='35.189'></atom>
+			<atom atom_id='1677' atom_type='CB' x='-18.725'  y='26.567'  z='34.782'></atom>
+			<atom atom_id='1678' atom_type='OG1' x='-20.168'  y='26.366'  z='34.941'></atom>
+			<atom atom_id='1679' atom_type='CG2' x='-18.298'  y='26.077'  z='33.405'></atom>
+			<atom atom_id='1680' atom_type='N' x='-18.918'  y='23.75'  z='36.83'></atom>
+		</residue>
+		<residue aa='T' kabat_no='H108' chothia_no='H108'>
+			<atom atom_id='1681' atom_type='CA' x='-19.059'  y='22.297'  z='36.871'></atom>
+			<atom atom_id='1682' atom_type='C' x='-20.085'  y='21.835'  z='35.841'></atom>
+			<atom atom_id='1683' atom_type='O' x='-21.216'  y='22.362'  z='35.728'></atom>
+			<atom atom_id='1684' atom_type='CB' x='-19.528'  y='21.807'  z='38.283'></atom>
+			<atom atom_id='1685' atom_type='OG1' x='-18.435'  y='22.223'  z='39.164'></atom>
+			<atom atom_id='1686' atom_type='CG2' x='-19.868'  y='20.316'  z='38.3'></atom>
+			<atom atom_id='1687' atom_type='N' x='-19.669'  y='20.802'  z='35.144'></atom>
+		</residue>
+		<residue aa='V' kabat_no='H109' chothia_no='H109'>
+			<atom atom_id='1688' atom_type='CA' x='-20.528'  y='20.19'  z='34.12'></atom>
+			<atom atom_id='1689' atom_type='C' x='-20.733'  y='18.724'  z='34.488'></atom>
+			<atom atom_id='1690' atom_type='O' x='-19.681'  y='18.115'  z='34.734'></atom>
+			<atom atom_id='1691' atom_type='CB' x='-19.909'  y='20.403'  z='32.734'></atom>
+			<atom atom_id='1692' atom_type='CG1' x='-20.505'  y='19.539'  z='31.631'></atom>
+			<atom atom_id='1693' atom_type='CG2' x='-19.947'  y='21.867'  z='32.303'></atom>
+			<atom atom_id='1694' atom_type='N' x='-21.986'  y='18.273'  z='34.511'></atom>
+		</residue>
+		<residue aa='T' kabat_no='H110' chothia_no='H110'>
+			<atom atom_id='1695' atom_type='CA' x='-22.253'  y='16.844'  z='34.851'></atom>
+			<atom atom_id='1696' atom_type='C' x='-23.053'  y='16.243'  z='33.693'></atom>
+			<atom atom_id='1697' atom_type='O' x='-24.097'  y='16.819'  z='33.343'></atom>
+			<atom atom_id='1698' atom_type='CB' x='-23.057'  y='16.67'  z='36.182'></atom>
+			<atom atom_id='1699' atom_type='OG1' x='-22.306'  y='17.501'  z='37.098'></atom>
+			<atom atom_id='1700' atom_type='CG2' x='-23.257'  y='15.213'  z='36.654'></atom>
+			<atom atom_id='1701' atom_type='N' x='-22.489'  y='15.206'  z='33.136'></atom>
+		</residue>
+		<residue aa='V' kabat_no='H111' chothia_no='H111'>
+			<atom atom_id='1702' atom_type='CA' x='-23.084'  y='14.493'  z='31.997'></atom>
+			<atom atom_id='1703' atom_type='C' x='-23.86'  y='13.346'  z='32.652'></atom>
+			<atom atom_id='1704' atom_type='O' x='-23.301'  y='12.35'  z='33.082'></atom>
+			<atom atom_id='1705' atom_type='CB' x='-22.002'  y='14.141'  z='30.959'></atom>
+			<atom atom_id='1706' atom_type='CG1' x='-22.607'  y='13.314'  z='29.808'></atom>
+			<atom atom_id='1707' atom_type='CG2' x='-21.271'  y='15.41'  z='30.537'></atom>
+			<atom atom_id='1708' atom_type='N' x='-25.144'  y='13.556'  z='32.703'></atom>
+		</residue>
+		<residue aa='S' kabat_no='H112' chothia_no='H112'>
+			<atom atom_id='1709' atom_type='CA' x='-26.112'  y='12.651'  z='33.348'></atom>
+			<atom atom_id='1710' atom_type='C' x='-27.368'  y='12.555'  z='32.499'></atom>
+			<atom atom_id='1711' atom_type='O' x='-27.939'  y='13.592'  z='32.096'></atom>
+			<atom atom_id='1712' atom_type='CB' x='-26.431'  y='13.316'  z='34.696'></atom>
+			<atom atom_id='1713' atom_type='OG' x='-26.846'  y='12.38'  z='35.669'></atom>
+			<atom atom_id='1714' atom_type='N' x='-27.816'  y='11.352'  z='32.2'></atom>
+		</residue>
+		<residue aa='S' kabat_no='H113' chothia_no='H113'>
+			<atom atom_id='1715' atom_type='CA' x='-29.03'  y='11.188'  z='31.339'></atom>
+			<atom atom_id='1716' atom_type='C' x='-30.322'  y='11.382'  z='32.104'></atom>
+			<atom atom_id='1717' atom_type='O' x='-30.941'  y='10.462'  z='32.664'></atom>
+			<atom atom_id='1718' atom_type='CB' x='-28.919'  y='9.834'  z='30.654'></atom>
+			<atom atom_id='1720' atom_type='O' x='-6.877'  y='33.974'  z='39.336'></atom>
+		</residue>
+		</sequence>
+		<data_source>pdb</data_source>
+	</chain>
+	<chain type='' >
+		<accession>1a7n_L</accession>
+		<submission_date>16/03/98 </submission_date>
+		<last_update>9/04/98</last_update>
+		<name>fv fragment of mouse monoclonal antibody d1.3 (balb/c, igg1, k) variant for chain l glu81->asp and chain h leu312->val</name>
+		<species>MUS MUSCULUS</species>
+		<sequence>
+		<aa_sequence>divltqspaslsasvgetvtitcrasgnihnylawyqqkqgkspqllvyytttladgvpsrfsgsgsgtqyslkinslqpddfgsyycqhfwstprtfgggtkleik</aa_sequence>
+		<residue aa='D' kabat_no='L1' chothia_no='L1'>
+			<atom atom_id='1' atom_type='N' x='3.636'  y='13.848'  z='22.12'></atom>
+			<atom atom_id='2' atom_type='CA' x='3.278'  y='14.688'  z='23.26'></atom>
+			<atom atom_id='3' atom_type='C' x='4.199'  y='14.302'  z='24.433'></atom>
+			<atom atom_id='4' atom_type='O' x='4.499'  y='13.125'  z='24.661'></atom>
+			<atom atom_id='5' atom_type='CB' x='1.846'  y='14.489'  z='23.702'></atom>
+			<atom atom_id='6' atom_type='CG' x='0.868'  y='14.887'  z='22.601'></atom>
+			<atom atom_id='7' atom_type='OD1' x='1.202'  y='15.024'  z='21.407'></atom>
+			<atom atom_id='8' atom_type='OD2' x='-0.273'  y='15.008'  z='23.135'></atom>
+			<atom atom_id='9' atom_type='N' x='4.53'  y='15.366'  z='25.134'></atom>
+		</residue>
+		<residue aa='I' kabat_no='L2' chothia_no='L2'>
+			<atom atom_id='10' atom_type='CA' x='5.368'  y='15.284'  z='26.31'></atom>
+			<atom atom_id='11' atom_type='C' x='4.454'  y='15.082'  z='27.506'></atom>
+			<atom atom_id='12' atom_type='O' x='3.563'  y='15.93'  z='27.702'></atom>
+			<atom atom_id='13' atom_type='CB' x='6.261'  y='16.558'  z='26.516'></atom>
+			<atom atom_id='14' atom_type='CG1' x='7.172'  y='16.691'  z='25.27'></atom>
+			<atom atom_id='15' atom_type='CG2' x='7.023'  y='16.428'  z='27.847'></atom>
+			<atom atom_id='16' atom_type='CD1' x='8.364'  y='17.674'  z='25.393'></atom>
+			<atom atom_id='17' atom_type='N' x='4.741'  y='14.044'  z='28.262'></atom>
+		</residue>
+		<residue aa='V' kabat_no='L3' chothia_no='L3'>
+			<atom atom_id='18' atom_type='CA' x='3.86'  y='13.955'  z='29.451'></atom>
+			<atom atom_id='19' atom_type='C' x='4.74'  y='14.267'  z='30.676'></atom>
+			<atom atom_id='20' atom_type='O' x='5.941'  y='14.069'  z='30.632'></atom>
+			<atom atom_id='21' atom_type='CB' x='3.064'  y='12.65'  z='29.496'></atom>
+			<atom atom_id='22' atom_type='CG1' x='2.379'  y='12.252'  z='28.184'></atom>
+			<atom atom_id='23' atom_type='CG2' x='3.946'  y='11.585'  z='30.079'></atom>
+			<atom atom_id='24' atom_type='N' x='4.08'  y='14.668'  z='31.724'></atom>
+		</residue>
+		<residue aa='L' kabat_no='L4' chothia_no='L4'>
+			<atom atom_id='25' atom_type='CA' x='4.675'  y='15.01'  z='32.988'></atom>
+			<atom atom_id='26' atom_type='C' x='4.237'  y='14.022'  z='34.047'></atom>
+			<atom atom_id='27' atom_type='O' x='3.025'  y='13.758'  z='34.092'></atom>
+			<atom atom_id='28' atom_type='CB' x='4.262'  y='16.45'  z='33.379'></atom>
+			<atom atom_id='29' atom_type='CG' x='4.588'  y='17.488'  z='32.304'></atom>
+			<atom atom_id='30' atom_type='CD1' x='4.102'  y='18.897'  z='32.714'></atom>
+			<atom atom_id='31' atom_type='CD2' x='6.111'  y='17.48'  z='32.196'></atom>
+			<atom atom_id='32' atom_type='N' x='5.232'  y='13.607'  z='34.795'></atom>
+		</residue>
+		<residue aa='T' kabat_no='L5' chothia_no='L5'>
+			<atom atom_id='33' atom_type='CA' x='4.937'  y='12.654'  z='35.877'></atom>
+			<atom atom_id='34' atom_type='C' x='5.41'  y='13.331'  z='37.162'></atom>
+			<atom atom_id='35' atom_type='O' x='6.526'  y='13.837'  z='37.219'></atom>
+			<atom atom_id='36' atom_type='CB' x='5.639'  y='11.277'  z='35.618'></atom>
+			<atom atom_id='37' atom_type='OG1' x='5.098'  y='10.792'  z='34.351'></atom>
+			<atom atom_id='38' atom_type='CG2' x='5.374'  y='10.278'  z='36.735'></atom>
+			<atom atom_id='39' atom_type='N' x='4.504'  y='13.342'  z='38.118'></atom>
+		</residue>
+		<residue aa='Q' kabat_no='L6' chothia_no='L6'>
+			<atom atom_id='40' atom_type='CA' x='4.77'  y='13.991'  z='39.385'></atom>
+			<atom atom_id='41' atom_type='C' x='4.983'  y='12.968'  z='40.488'></atom>
+			<atom atom_id='42' atom_type='O' x='4.257'  y='11.955'  z='40.515'></atom>
+			<atom atom_id='43' atom_type='CB' x='3.605'  y='14.92'  z='39.782'></atom>
+			<atom atom_id='44' atom_type='CG' x='3.752'  y='16.22'  z='38.994'></atom>
+			<atom atom_id='45' atom_type='CD' x='2.823'  y='17.222'  z='39.608'></atom>
+			<atom atom_id='46' atom_type='OE1' x='1.957'  y='17.66'  z='38.882'></atom>
+			<atom atom_id='47' atom_type='NE2' x='2.945'  y='17.57'  z='40.893'></atom>
+			<atom atom_id='48' atom_type='N' x='5.926'  y='13.344'  z='41.344'></atom>
+		</residue>
+		<residue aa='S' kabat_no='L7' chothia_no='L7'>
+			<atom atom_id='49' atom_type='CA' x='6.137'  y='12.356'  z='42.43'></atom>
+			<atom atom_id='50' atom_type='C' x='6.52'  y='13.076'  z='43.688'></atom>
+			<atom atom_id='51' atom_type='O' x='7.276'  y='14.043'  z='43.593'></atom>
+			<atom atom_id='52' atom_type='CB' x='7.151'  y='11.395'  z='41.79'></atom>
+			<atom atom_id='53' atom_type='OG' x='7.69'  y='10.656'  z='42.839'></atom>
+			<atom atom_id='54' atom_type='N' x='6.01'  y='12.648'  z='44.823'></atom>
+		</residue>
+		<residue aa='P' kabat_no='L8' chothia_no='L8'>
+			<atom atom_id='55' atom_type='CA' x='5.068'  y='11.546'  z='45.022'></atom>
+			<atom atom_id='56' atom_type='C' x='3.662'  y='11.989'  z='44.664'></atom>
+			<atom atom_id='57' atom_type='O' x='3.477'  y='13.201'  z='44.477'></atom>
+			<atom atom_id='58' atom_type='CB' x='5.107'  y='11.316'  z='46.528'></atom>
+			<atom atom_id='59' atom_type='CG' x='5.468'  y='12.629'  z='47.136'></atom>
+			<atom atom_id='60' atom_type='CD' x='6.372'  y='13.321'  z='46.106'></atom>
+			<atom atom_id='61' atom_type='N' x='2.701'  y='11.087'  z='44.632'></atom>
+		</residue>
+		<residue aa='A' kabat_no='L9' chothia_no='L9'>
+			<atom atom_id='62' atom_type='CA' x='1.33'  y='11.517'  z='44.335'></atom>
+			<atom atom_id='63' atom_type='C' x='0.678'  y='12.196'  z='45.546'></atom>
+			<atom atom_id='64' atom_type='O' x='-0.241'  y='13.02'  z='45.426'></atom>
+			<atom atom_id='65' atom_type='CB' x='0.531'  y='10.303'  z='43.872'></atom>
+			<atom atom_id='66' atom_type='N' x='1.082'  y='11.827'  z='46.744'></atom>
+		</residue>
+		<residue aa='S' kabat_no='L10' chothia_no='L10'>
+			<atom atom_id='67' atom_type='CA' x='0.58'  y='12.385'  z='48.001'></atom>
+			<atom atom_id='68' atom_type='C' x='1.744'  y='12.247'  z='48.997'></atom>
+			<atom atom_id='69' atom_type='O' x='2.568'  y='11.331'  z='48.927'></atom>
+			<atom atom_id='70' atom_type='CB' x='-0.669'  y='11.849'  z='48.673'></atom>
+			<atom atom_id='71' atom_type='OG' x='-0.664'  y='10.445'  z='48.524'></atom>
+			<atom atom_id='72' atom_type='N' x='1.723'  y='13.183'  z='49.898'></atom>
+		</residue>
+		<residue aa='L' kabat_no='L11' chothia_no='L11'>
+			<atom atom_id='73' atom_type='CA' x='2.756'  y='13.306'  z='50.929'></atom>
+			<atom atom_id='74' atom_type='C' x='2.067'  y='13.809'  z='52.178'></atom>
+			<atom atom_id='75' atom_type='O' x='1.217'  y='14.714'  z='52.027'></atom>
+			<atom atom_id='76' atom_type='CB' x='3.743'  y='14.315'  z='50.305'></atom>
+			<atom atom_id='77' atom_type='CG' x='4.944'  y='14.878'  z='51.025'></atom>
+			<atom atom_id='78' atom_type='CD1' x='5.792'  y='13.794'  z='51.659'></atom>
+			<atom atom_id='79' atom_type='CD2' x='5.854'  y='15.571'  z='49.996'></atom>
+			<atom atom_id='80' atom_type='N' x='2.394'  y='13.229'  z='53.301'></atom>
+		</residue>
+		<residue aa='S' kabat_no='L12' chothia_no='L12'>
+			<atom atom_id='81' atom_type='CA' x='1.815'  y='13.716'  z='54.574'></atom>
+			<atom atom_id='82' atom_type='C' x='2.985'  y='14.496'  z='55.189'></atom>
+			<atom atom_id='83' atom_type='O' x='4.146'  y='14.006'  z='55.065'></atom>
+			<atom atom_id='84' atom_type='CB' x='1.252'  y='12.663'  z='55.476'></atom>
+			<atom atom_id='85' atom_type='OG' x='-0.131'  y='12.505'  z='55.136'></atom>
+			<atom atom_id='86' atom_type='N' x='2.719'  y='15.646'  z='55.764'></atom>
+		</residue>
+		<residue aa='A' kabat_no='L13' chothia_no='L13'>
+			<atom atom_id='87' atom_type='CA' x='3.846'  y='16.406'  z='56.328'></atom>
+			<atom atom_id='88' atom_type='C' x='3.335'  y='17.318'  z='57.425'></atom>
+			<atom atom_id='89' atom_type='O' x='2.135'  y='17.615'  z='57.454'></atom>
+			<atom atom_id='90' atom_type='CB' x='4.547'  y='17.181'  z='55.231'></atom>
+			<atom atom_id='91' atom_type='N' x='4.272'  y='17.737'  z='58.273'></atom>
+		</residue>
+		<residue aa='S' kabat_no='L14' chothia_no='L14'>
+			<atom atom_id='92' atom_type='CA' x='3.898'  y='18.614'  z='59.38'></atom>
+			<atom atom_id='93' atom_type='C' x='4.312'  y='20.035'  z='59.068'></atom>
+			<atom atom_id='94' atom_type='O' x='5.228'  y='20.224'  z='58.271'></atom>
+			<atom atom_id='95' atom_type='CB' x='4.633'  y='18.215'  z='60.67'></atom>
+			<atom atom_id='96' atom_type='OG' x='4.477'  y='16.816'  z='60.825'></atom>
+			<atom atom_id='97' atom_type='N' x='3.661'  y='20.91'  z='59.798'></atom>
+		</residue>
+		<residue aa='V' kabat_no='L15' chothia_no='L15'>
+			<atom atom_id='98' atom_type='CA' x='3.963'  y='22.356'  z='59.689'></atom>
+			<atom atom_id='99' atom_type='C' x='5.436'  y='22.432'  z='60.086'></atom>
+			<atom atom_id='100' atom_type='O' x='5.834'  y='21.662'  z='60.98'></atom>
+			<atom atom_id='101' atom_type='CB' x='2.983'  y='23.203'  z='60.515'></atom>
+			<atom atom_id='102' atom_type='CG1' x='3.418'  y='24.667'  z='60.56'></atom>
+			<atom atom_id='103' atom_type='CG2' x='1.55'  y='23.036'  z='60.005'></atom>
+			<atom atom_id='104' atom_type='N' x='6.189'  y='23.244'  z='59.416'></atom>
+		</residue>
+		<residue aa='G' kabat_no='L16' chothia_no='L16'>
+			<atom atom_id='105' atom_type='CA' x='7.609'  y='23.361'  z='59.749'></atom>
+			<atom atom_id='106' atom_type='C' x='8.469'  y='22.416'  z='58.956'></atom>
+			<atom atom_id='107' atom_type='O' x='9.694'  y='22.715'  z='58.873'></atom>
+			<atom atom_id='108' atom_type='N' x='7.958'  y='21.337'  z='58.397'></atom>
+		</residue>
+		<residue aa='E' kabat_no='L17' chothia_no='L17'>
+			<atom atom_id='109' atom_type='CA' x='8.863'  y='20.502'  z='57.589'></atom>
+			<atom atom_id='110' atom_type='C' x='9.168'  y='21.128'  z='56.198'></atom>
+			<atom atom_id='111' atom_type='O' x='8.505'  y='21.989'  z='55.594'></atom>
+			<atom atom_id='112' atom_type='CB' x='8.296'  y='19.138'  z='57.318'></atom>
+			<atom atom_id='113' atom_type='CG' x='8.022'  y='18.148'  z='58.442'></atom>
+			<atom atom_id='114' atom_type='CD' x='7.452'  y='16.834'  z='57.962'></atom>
+			<atom atom_id='115' atom_type='OE1' x='7.77'  y='16.648'  z='56.766'></atom>
+			<atom atom_id='116' atom_type='OE2' x='6.785'  y='16.043'  z='58.6'></atom>
+			<atom atom_id='117' atom_type='N' x='10.269'  y='20.62'  z='55.661'></atom>
+		</residue>
+		<residue aa='T' kabat_no='L18' chothia_no='L18'>
+			<atom atom_id='118' atom_type='CA' x='10.785'  y='20.986'  z='54.341'></atom>
+			<atom atom_id='119' atom_type='C' x='10.498'  y='19.827'  z='53.373'></atom>
+			<atom atom_id='120' atom_type='O' x='10.876'  y='18.672'  z='53.7'></atom>
+			<atom atom_id='121' atom_type='CB' x='12.312'  y='21.374'  z='54.327'></atom>
+			<atom atom_id='122' atom_type='OG1' x='12.323'  y='22.631'  z='55.063'></atom>
+			<atom atom_id='123' atom_type='CG2' x='12.883'  y='21.473'  z='52.918'></atom>
+			<atom atom_id='124' atom_type='N' x='9.858'  y='20.14'  z='52.244'></atom>
+		</residue>
+		<residue aa='V' kabat_no='L19' chothia_no='L19'>
+			<atom atom_id='125' atom_type='CA' x='9.541'  y='19.031'  z='51.314'></atom>
+			<atom atom_id='126' atom_type='C' x='9.981'  y='19.394'  z='49.889'></atom>
+			<atom atom_id='127' atom_type='O' x='10.093'  y='20.588'  z='49.574'></atom>
+			<atom atom_id='128' atom_type='CB' x='8.034'  y='18.729'  z='51.389'></atom>
+			<atom atom_id='129' atom_type='CG1' x='7.566'  y='18.434'  z='52.813'></atom>
+			<atom atom_id='130' atom_type='CG2' x='7.209'  y='19.857'  z='50.782'></atom>
+			<atom atom_id='131' atom_type='N' x='10.131'  y='18.325'  z='49.125'></atom>
+		</residue>
+		<residue aa='T' kabat_no='L20' chothia_no='L20'>
+			<atom atom_id='132' atom_type='CA' x='10.507'  y='18.461'  z='47.719'></atom>
+			<atom atom_id='133' atom_type='C' x='9.611'  y='17.61'  z='46.854'></atom>
+			<atom atom_id='134' atom_type='O' x='9.366'  y='16.414'  z='47.098'></atom>
+			<atom atom_id='135' atom_type='CB' x='11.999'  y='18.048'  z='47.457'></atom>
+			<atom atom_id='136' atom_type='OG1' x='12.795'  y='18.871'  z='48.347'></atom>
+			<atom atom_id='137' atom_type='CG2' x='12.449'  y='18.248'  z='46.011'></atom>
+			<atom atom_id='138' atom_type='N' x='9.116'  y='18.247'  z='45.821'></atom>
+		</residue>
+		<residue aa='I' kabat_no='L21' chothia_no='L21'>
+			<atom atom_id='139' atom_type='CA' x='8.229'  y='17.45'  z='44.894'></atom>
+			<atom atom_id='140' atom_type='C' x='8.871'  y='17.536'  z='43.509'></atom>
+			<atom atom_id='141' atom_type='O' x='9.472'  y='18.563'  z='43.174'></atom>
+			<atom atom_id='142' atom_type='CB' x='6.749'  y='17.837'  z='45.12'></atom>
+			<atom atom_id='143' atom_type='CG1' x='6.436'  y='19.274'  z='44.728'></atom>
+			<atom atom_id='144' atom_type='CG2' x='6.443'  y='17.544'  z='46.65'></atom>
+			<atom atom_id='145' atom_type='CD1' x='5.033'  y='19.739'  z='45.27'></atom>
+			<atom atom_id='146' atom_type='N' x='8.705'  y='16.453'  z='42.798'></atom>
+		</residue>
+		<residue aa='T' kabat_no='L22' chothia_no='L22'>
+			<atom atom_id='147' atom_type='CA' x='9.302'  y='16.315'  z='41.472'></atom>
+			<atom atom_id='148' atom_type='C' x='8.344'  y='16.258'  z='40.299'></atom>
+			<atom atom_id='149' atom_type='O' x='7.27'  y='15.653'  z='40.467'></atom>
+			<atom atom_id='150' atom_type='CB' x='10.127'  y='14.945'  z='41.531'></atom>
+			<atom atom_id='151' atom_type='OG1' x='11.126'  y='15.281'  z='42.548'></atom>
+			<atom atom_id='152' atom_type='CG2' x='10.808'  y='14.542'  z='40.24'></atom>
+			<atom atom_id='153' atom_type='N' x='8.83'  y='16.83'  z='39.207'></atom>
+		</residue>
+		<residue aa='C' kabat_no='L23' chothia_no='L23'>
+			<atom atom_id='154' atom_type='CA' x='8.059'  y='16.82'  z='37.966'></atom>
+			<atom atom_id='155' atom_type='C' x='9.041'  y='16.302'  z='36.915'></atom>
+			<atom atom_id='156' atom_type='O' x='10.086'  y='16.932'  z='36.729'></atom>
+			<atom atom_id='157' atom_type='CB' x='7.516'  y='18.21'  z='37.718'></atom>
+			<atom atom_id='158' atom_type='SG' x='6.591'  y='18.246'  z='36.181'></atom>
+			<atom atom_id='159' atom_type='N' x='8.733'  y='15.154'  z='36.286'></atom>
+		</residue>
+		<residue aa='R' kabat_no='L24' chothia_no='L24'>
+			<atom atom_id='160' atom_type='CA' x='9.676'  y='14.614'  z='35.273'></atom>
+			<atom atom_id='161' atom_type='C' x='8.933'  y='14.614'  z='33.964'></atom>
+			<atom atom_id='162' atom_type='O' x='7.703'  y='14.304'  z='33.938'></atom>
+			<atom atom_id='163' atom_type='CB' x='10.199'  y='13.24'  z='35.704'></atom>
+			<atom atom_id='164' atom_type='N' x='9.645'  y='14.988'  z='32.915'></atom>
+		</residue>
+		<residue aa='A' kabat_no='L25' chothia_no='L25'>
+			<atom atom_id='165' atom_type='CA' x='9.063'  y='15.082'  z='31.567'></atom>
+			<atom atom_id='166' atom_type='C' x='9.53'  y='13.893'  z='30.733'></atom>
+			<atom atom_id='167' atom_type='O' x='10.666'  y='13.414'  z='30.926'></atom>
+			<atom atom_id='168' atom_type='CB' x='9.41'  y='16.428'  z='30.928'></atom>
+			<atom atom_id='169' atom_type='N' x='8.657'  y='13.525'  z='29.788'></atom>
+		</residue>
+		<residue aa='S' kabat_no='L26' chothia_no='L26'>
+			<atom atom_id='170' atom_type='CA' x='9.007'  y='12.404'  z='28.916'></atom>
+			<atom atom_id='171' atom_type='C' x='9.831'  y='12.931'  z='27.761'></atom>
+			<atom atom_id='172' atom_type='O' x='10.195'  y='12.094'  z='26.921'></atom>
+			<atom atom_id='173' atom_type='CB' x='7.783'  y='11.647'  z='28.438'></atom>
+			<atom atom_id='174' atom_type='OG' x='7.026'  y='12.423'  z='27.513'></atom>
+			<atom atom_id='175' atom_type='N' x='10.153'  y='14.186'  z='27.713'></atom>
+		</residue>
+		<residue aa='G' kabat_no='L27' chothia_no='L27'>
+			<atom atom_id='176' atom_type='CA' x='10.971'  y='14.754'  z='26.586'></atom>
+			<atom atom_id='177' atom_type='C' x='11.513'  y='16.086'  z='27.126'></atom>
+			<atom atom_id='178' atom_type='O' x='10.936'  y='16.523'  z='28.142'></atom>
+			<atom atom_id='179' atom_type='N' x='12.541'  y='16.627'  z='26.512'></atom>
+		</residue>
+		<residue aa='N' kabat_no='L28' chothia_no='L28'>
+			<atom atom_id='180' atom_type='CA' x='13.144'  y='17.881'  z='26.959'></atom>
+			<atom atom_id='181' atom_type='C' x='12.17'  y='19.063'  z='26.79'></atom>
+			<atom atom_id='182' atom_type='O' x='11.724'  y='19.355'  z='25.687'></atom>
+			<atom atom_id='183' atom_type='CB' x='14.417'  y='18.12'  z='26.158'></atom>
+			<atom atom_id='184' atom_type='CG' x='15.334'  y='19.171'  z='26.756'></atom>
+			<atom atom_id='185' atom_type='OD1' x='14.894'  y='19.884'  z='27.639'></atom>
+			<atom atom_id='186' atom_type='ND2' x='16.601'  y='19.226'  z='26.3'></atom>
+			<atom atom_id='187' atom_type='N' x='11.884'  y='19.757'  z='27.873'></atom>
+		</residue>
+		<residue aa='I' kabat_no='L29' chothia_no='L29'>
+			<atom atom_id='188' atom_type='CA' x='10.97'  y='20.906'  z='27.818'></atom>
+			<atom atom_id='189' atom_type='C' x='11.783'  y='22.198'  z='27.931'></atom>
+			<atom atom_id='190' atom_type='O' x='11.135'  y='23.258'  z='27.97'></atom>
+			<atom atom_id='191' atom_type='CB' x='9.796'  y='20.701'  z='28.809'></atom>
+			<atom atom_id='192' atom_type='CG1' x='10.274'  y='20.562'  z='30.278'></atom>
+			<atom atom_id='193' atom_type='CG2' x='8.898'  y='19.505'  z='28.336'></atom>
+			<atom atom_id='194' atom_type='CD1' x='9.194'  y='20.852'  z='31.356'></atom>
+			<atom atom_id='195' atom_type='N' x='13.121'  y='22.107'  z='27.954'></atom>
+		</residue>
+		<residue aa='H' kabat_no='L30' chothia_no='L30'>
+			<atom atom_id='196' atom_type='CA' x='13.939'  y='23.322'  z='27.975'></atom>
+			<atom atom_id='197' atom_type='C' x='13.561'  y='24.424'  z='28.961'></atom>
+			<atom atom_id='198' atom_type='O' x='13.482'  y='25.601'  z='28.587'></atom>
+			<atom atom_id='199' atom_type='CB' x='13.861'  y='23.948'  z='26.548'></atom>
+			<atom atom_id='200' atom_type='CG' x='14.305'  y='22.935'  z='25.526'></atom>
+			<atom atom_id='201' atom_type='ND1' x='13.465'  y='22.123'  z='24.781'></atom>
+			<atom atom_id='202' atom_type='CD2' x='15.568'  y='22.621'  z='25.148'></atom>
+			<atom atom_id='203' atom_type='CE1' x='14.172'  y='21.352'  z='23.961'></atom>
+			<atom atom_id='204' atom_type='NE2' x='15.428'  y='21.653'  z='24.176'></atom>
+			<atom atom_id='205' atom_type='N' x='13.32'  y='24.065'  z='30.213'></atom>
+		</residue>
+		<residue aa='N' kabat_no='L31' chothia_no='L31'>
+			<atom atom_id='206' atom_type='CA' x='12.968'  y='24.972'  z='31.295'></atom>
+			<atom atom_id='207' atom_type='C' x='11.612'  y='25.679'  z='31.19'></atom>
+			<atom atom_id='208' atom_type='O' x='11.403'  y='26.512'  z='32.087'></atom>
+			<atom atom_id='209' atom_type='CB' x='14.067'  y='26.048'  z='31.454'></atom>
+			<atom atom_id='210' atom_type='CG' x='15.29'  y='25.368'  z='32.053'></atom>
+			<atom atom_id='211' atom_type='OD1' x='16.275'  y='25.148'  z='31.384'></atom>
+			<atom atom_id='212' atom_type='ND2' x='15.277'  y='25.03'  z='33.328'></atom>
+			<atom atom_id='213' atom_type='N' x='10.78'  y='25.354'  z='30.212'></atom>
+		</residue>
+		<residue aa='Y' kabat_no='L32' chothia_no='L32'>
+			<atom atom_id='214' atom_type='CA' x='9.464'  y='26.036'  z='30.156'></atom>
+			<atom atom_id='215' atom_type='C' x='8.501'  y='25.248'  z='31.057'></atom>
+			<atom atom_id='216' atom_type='O' x='7.663'  y='24.437'  z='30.608'></atom>
+			<atom atom_id='217' atom_type='CB' x='8.969'  y='26.003'  z='28.735'></atom>
+			<atom atom_id='218' atom_type='CG' x='9.72'  y='26.885'  z='27.777'></atom>
+			<atom atom_id='219' atom_type='CD1' x='9.387'  y='28.242'  z='27.774'></atom>
+			<atom atom_id='220' atom_type='CD2' x='10.712'  y='26.406'  z='26.903'></atom>
+			<atom atom_id='221' atom_type='CE1' x='10.049'  y='29.111'  z='26.928'></atom>
+			<atom atom_id='222' atom_type='CE2' x='11.366'  y='27.29'  z='26.025'></atom>
+			<atom atom_id='223' atom_type='CZ' x='11.023'  y='28.621'  z='26.07'></atom>
+			<atom atom_id='224' atom_type='OH' x='11.509'  y='29.599'  z='25.248'></atom>
+			<atom atom_id='225' atom_type='N' x='8.702'  y='25.472'  z='32.341'></atom>
+		</residue>
+		<residue aa='L' kabat_no='L33' chothia_no='L33'>
+			<atom atom_id='226' atom_type='CA' x='7.893'  y='24.741'  z='33.344'></atom>
+			<atom atom_id='227' atom_type='C' x='7.355'  y='25.689'  z='34.403'></atom>
+			<atom atom_id='228' atom_type='O' x='8.13'  y='26.469'  z='34.944'></atom>
+			<atom atom_id='229' atom_type='CB' x='8.84'  y='23.672'  z='33.876'></atom>
+			<atom atom_id='230' atom_type='CG' x='8.396'  y='22.449'  z='34.668'></atom>
+			<atom atom_id='231' atom_type='CD1' x='8.287'  y='22.804'  z='36.143'></atom>
+			<atom atom_id='232' atom_type='CD2' x='7.12'  y='21.83'  z='34.098'></atom>
+			<atom atom_id='233' atom_type='N' x='6.071'  y='25.571'  z='34.666'></atom>
+		</residue>
+		<residue aa='A' kabat_no='L34' chothia_no='L34'>
+			<atom atom_id='234' atom_type='CA' x='5.35'  y='26.352'  z='35.694'></atom>
+			<atom atom_id='235' atom_type='C' x='4.792'  y='25.408'  z='36.735'></atom>
+			<atom atom_id='236' atom_type='O' x='4.521'  y='24.211'  z='36.52'></atom>
+			<atom atom_id='237' atom_type='CB' x='4.255'  y='27.221'  z='35.049'></atom>
+			<atom atom_id='238' atom_type='N' x='4.649'  y='25.927'  z='37.95'></atom>
+		</residue>
+		<residue aa='W' kabat_no='L35' chothia_no='L35'>
+			<atom atom_id='239' atom_type='CA' x='4.109'  y='25.215'  z='39.094'></atom>
+			<atom atom_id='240' atom_type='C' x='2.863'  y='25.962'  z='39.582'></atom>
+			<atom atom_id='241' atom_type='O' x='2.92'  y='27.219'  z='39.665'></atom>
+			<atom atom_id='242' atom_type='CB' x='5.081'  y='25.11'  z='40.277'></atom>
+			<atom atom_id='243' atom_type='CG' x='6.235'  y='24.161'  z='40.095'></atom>
+			<atom atom_id='244' atom_type='CD1' x='7.496'  y='24.488'  z='39.652'></atom>
+			<atom atom_id='245' atom_type='CD2' x='6.243'  y='22.739'  z='40.325'></atom>
+			<atom atom_id='246' atom_type='NE1' x='8.274'  y='23.33'  z='39.624'></atom>
+			<atom atom_id='247' atom_type='CE2' x='7.528'  y='22.266'  z='40.029'></atom>
+			<atom atom_id='248' atom_type='CE3' x='5.271'  y='21.839'  z='40.78'></atom>
+			<atom atom_id='249' atom_type='CZ2' x='7.883'  y='20.924'  z='40.149'></atom>
+			<atom atom_id='250' atom_type='CZ3' x='5.595'  y='20.517'  z='40.917'></atom>
+			<atom atom_id='251' atom_type='CH2' x='6.879'  y='20.058'  z='40.611'></atom>
+			<atom atom_id='252' atom_type='N' x='1.821'  y='25.244'  z='39.945'></atom>
+		</residue>
+		<residue aa='Y' kabat_no='L36' chothia_no='L36'>
+			<atom atom_id='253' atom_type='CA' x='0.585'  y='25.84'  z='40.466'></atom>
+			<atom atom_id='254' atom_type='C' x='0.181'  y='25.165'  z='41.764'></atom>
+			<atom atom_id='255' atom_type='O' x='0.465'  y='23.974'  z='41.942'></atom>
+			<atom atom_id='256' atom_type='CB' x='-0.648'  y='25.647'  z='39.514'></atom>
+			<atom atom_id='257' atom_type='CG' x='-0.402'  y='26.251'  z='38.167'></atom>
+			<atom atom_id='258' atom_type='CD1' x='0.252'  y='25.494'  z='37.169'></atom>
+			<atom atom_id='259' atom_type='CD2' x='-0.767'  y='27.566'  z='37.862'></atom>
+			<atom atom_id='260' atom_type='CE1' x='0.565'  y='26.031'  z='35.934'></atom>
+			<atom atom_id='261' atom_type='CE2' x='-0.485'  y='28.106'  z='36.593'></atom>
+			<atom atom_id='262' atom_type='CZ' x='0.173'  y='27.341'  z='35.646'></atom>
+			<atom atom_id='263' atom_type='OH' x='0.439'  y='27.878'  z='34.417'></atom>
+			<atom atom_id='264' atom_type='N' x='-0.476'  y='25.928'  z='42.611'></atom>
+		</residue>
+		<residue aa='Q' kabat_no='L37' chothia_no='L37'>
+			<atom atom_id='265' atom_type='CA' x='-0.989'  y='25.372'  z='43.879'></atom>
+			<atom atom_id='266' atom_type='C' x='-2.517'  y='25.47'  z='43.755'></atom>
+			<atom atom_id='267' atom_type='O' x='-3.025'  y='26.47'  z='43.225'></atom>
+			<atom atom_id='268' atom_type='CB' x='-0.581'  y='26.137'  z='45.112'></atom>
+			<atom atom_id='269' atom_type='CG' x='-1.174'  y='25.591'  z='46.423'></atom>
+			<atom atom_id='270' atom_type='CD' x='-0.866'  y='26.641'  z='47.475'></atom>
+			<atom atom_id='271' atom_type='OE1' x='-1.034'  y='27.84'  z='47.362'></atom>
+			<atom atom_id='272' atom_type='NE2' x='-0.274'  y='26.273'  z='48.592'></atom>
+			<atom atom_id='273' atom_type='N' x='-3.202'  y='24.463'  z='44.23'></atom>
+		</residue>
+		<residue aa='Q' kabat_no='L38' chothia_no='L38'>
+			<atom atom_id='274' atom_type='CA' x='-4.668'  y='24.453'  z='44.196'></atom>
+			<atom atom_id='275' atom_type='C' x='-5.232'  y='24.059'  z='45.576'></atom>
+			<atom atom_id='276' atom_type='O' x='-4.912'  y='22.957'  z='46.069'></atom>
+			<atom atom_id='277' atom_type='CB' x='-5.246'  y='23.51'  z='43.12'></atom>
+			<atom atom_id='278' atom_type='CG' x='-6.774'  y='23.763'  z='42.987'></atom>
+			<atom atom_id='279' atom_type='CD' x='-7.367'  y='22.79'  z='41.993'></atom>
+			<atom atom_id='280' atom_type='OE1' x='-6.861'  y='21.681'  z='41.771'></atom>
+			<atom atom_id='281' atom_type='NE2' x='-8.474'  y='23.227'  z='41.354'></atom>
+			<atom atom_id='282' atom_type='N' x='-6.047'  y='24.915'  z='46.15'></atom>
+		</residue>
+		<residue aa='K' kabat_no='L39' chothia_no='L39'>
+			<atom atom_id='283' atom_type='CA' x='-6.657'  y='24.539'  z='47.444'></atom>
+			<atom atom_id='284' atom_type='C' x='-8.069'  y='24.073'  z='47.087'></atom>
+			<atom atom_id='285' atom_type='O' x='-8.623'  y='24.325'  z='45.996'></atom>
+			<atom atom_id='286' atom_type='CB' x='-6.687'  y='25.643'  z='48.429'></atom>
+			<atom atom_id='287' atom_type='CG' x='-5.649'  y='26.711'  z='48.132'></atom>
+			<atom atom_id='288' atom_type='CD' x='-5.123'  y='27.384'  z='49.394'></atom>
+			<atom atom_id='289' atom_type='CE' x='-4.413'  y='26.398'  z='50.306'></atom>
+			<atom atom_id='290' atom_type='NZ' x='-3.414'  y='25.676'  z='49.447'></atom>
+			<atom atom_id='291' atom_type='N' x='-8.632'  y='23.357'  z='48.077'></atom>
+		</residue>
+		<residue aa='Q' kabat_no='L40' chothia_no='L40'>
+			<atom atom_id='292' atom_type='CA' x='-9.977'  y='22.786'  z='47.959'></atom>
+			<atom atom_id='293' atom_type='C' x='-11.039'  y='23.791'  z='47.524'></atom>
+			<atom atom_id='294' atom_type='O' x='-11.171'  y='24.861'  z='48.168'></atom>
+			<atom atom_id='295' atom_type='CB' x='-10.411'  y='22.151'  z='49.293'></atom>
+			<atom atom_id='296' atom_type='CG' x='-11.64'  y='21.288'  z='49.085'></atom>
+			<atom atom_id='297' atom_type='CD' x='-11.301'  y='20.015'  z='48.365'></atom>
+			<atom atom_id='298' atom_type='OE1' x='-11.726'  y='19.909'  z='47.231'></atom>
+			<atom atom_id='299' atom_type='NE2' x='-10.59'  y='19.087'  z='48.983'></atom>
+			<atom atom_id='300' atom_type='N' x='-11.736'  y='23.428'  z='46.457'></atom>
+		</residue>
+		<residue aa='G' kabat_no='L41' chothia_no='L41'>
+			<atom atom_id='301' atom_type='CA' x='-12.774'  y='24.349'  z='45.964'></atom>
+			<atom atom_id='302' atom_type='C' x='-12.342'  y='25.69'  z='45.429'></atom>
+			<atom atom_id='303' atom_type='O' x='-13.11'  y='26.685'  z='45.428'></atom>
+			<atom atom_id='304' atom_type='N' x='-11.134'  y='25.837'  z='44.937'></atom>
+		</residue>
+		<residue aa='K' kabat_no='L42' chothia_no='L42'>
+			<atom atom_id='305' atom_type='CA' x='-10.573'  y='27.045'  z='44.349'></atom>
+			<atom atom_id='306' atom_type='C' x='-9.831'  y='26.626'  z='43.063'></atom>
+			<atom atom_id='307' atom_type='O' x='-9.476'  y='25.461'  z='42.841'></atom>
+			<atom atom_id='308' atom_type='CB' x='-9.578'  y='27.774'  z='45.229'></atom>
+			<atom atom_id='309' atom_type='CG' x='-10.041'  y='28.126'  z='46.631'></atom>
+			<atom atom_id='310' atom_type='CD' x='-10.905'  y='29.371'  z='46.522'></atom>
+			<atom atom_id='311' atom_type='CE' x='-10.59'  y='30.423'  z='47.583'></atom>
+			<atom atom_id='312' atom_type='NZ' x='-10.836'  y='29.938'  z='48.965'></atom>
+			<atom atom_id='313' atom_type='N' x='-9.62'  y='27.618'  z='42.22'></atom>
+		</residue>
+		<residue aa='S' kabat_no='L43' chothia_no='L43'>
+			<atom atom_id='314' atom_type='CA' x='-8.893'  y='27.386'  z='40.968'></atom>
+			<atom atom_id='315' atom_type='C' x='-7.395'  y='27.422'  z='41.354'></atom>
+			<atom atom_id='316' atom_type='O' x='-6.946'  y='27.922'  z='42.416'></atom>
+			<atom atom_id='317' atom_type='CB' x='-9.334'  y='28.376'  z='39.912'></atom>
+			<atom atom_id='318' atom_type='OG' x='-8.951'  y='29.637'  z='40.402'></atom>
+			<atom atom_id='319' atom_type='N' x='-6.618'  y='26.822'  z='40.456'></atom>
+		</residue>
+		<residue aa='P' kabat_no='L44' chothia_no='L44'>
+			<atom atom_id='320' atom_type='CA' x='-5.174'  y='26.743'  z='40.637'></atom>
+			<atom atom_id='321' atom_type='C' x='-4.565'  y='28.13'  z='40.693'></atom>
+			<atom atom_id='322' atom_type='O' x='-5.118'  y='29.061'  z='40.107'></atom>
+			<atom atom_id='323' atom_type='CB' x='-4.698'  y='25.935'  z='39.42'></atom>
+			<atom atom_id='324' atom_type='CG' x='-5.923'  y='25.229'  z='38.936'></atom>
+			<atom atom_id='325' atom_type='CD' x='-7.07'  y='26.217'  z='39.188'></atom>
+			<atom atom_id='326' atom_type='N' x='-3.459'  y='28.321'  z='41.367'></atom>
+		</residue>
+		<residue aa='Q' kabat_no='L45' chothia_no='L45'>
+			<atom atom_id='327' atom_type='CA' x='-2.812'  y='29.629'  z='41.468'></atom>
+			<atom atom_id='328' atom_type='C' x='-1.33'  y='29.438'  z='41.086'></atom>
+			<atom atom_id='329' atom_type='O' x='-0.653'  y='28.508'  z='41.572'></atom>
+			<atom atom_id='330' atom_type='CB' x='-2.989'  y='30.274'  z='42.845'></atom>
+			<atom atom_id='331' atom_type='CG' x='-2.607'  y='29.35'  z='43.966'></atom>
+			<atom atom_id='332' atom_type='CD' x='-2.87'  y='29.24'  z='45.427'></atom>
+			<atom atom_id='333' atom_type='OE1' x='-3.814'  y='28.636'  z='45.983'></atom>
+			<atom atom_id='334' atom_type='NE2' x='-1.89'  y='29.824'  z='46.185'></atom>
+			<atom atom_id='335' atom_type='N' x='-0.912'  y='30.372'  z='40.255'></atom>
+		</residue>
+		<residue aa='L' kabat_no='L46' chothia_no='L46'>
+			<atom atom_id='336' atom_type='CA' x='0.483'  y='30.36'  z='39.793'></atom>
+			<atom atom_id='337' atom_type='C' x='1.503'  y='30.579'  z='40.914'></atom>
+			<atom atom_id='338' atom_type='O' x='1.342'  y='31.578'  z='41.65'></atom>
+			<atom atom_id='339' atom_type='CB' x='0.642'  y='31.416'  z='38.67'></atom>
+			<atom atom_id='340' atom_type='CG' x='2.07'  y='31.447'  z='38.076'></atom>
+			<atom atom_id='341' atom_type='CD1' x='2.348'  y='30.205'  z='37.233'></atom>
+			<atom atom_id='342' atom_type='CD2' x='2.174'  y='32.707'  z='37.242'></atom>
+			<atom atom_id='343' atom_type='N' x='2.493'  y='29.701'  z='41.024'></atom>
+		</residue>
+		<residue aa='L' kabat_no='L47' chothia_no='L47'>
+			<atom atom_id='344' atom_type='CA' x='3.527'  y='29.895'  z='42.021'></atom>
+			<atom atom_id='345' atom_type='C' x='4.873'  y='30.318'  z='41.392'></atom>
+			<atom atom_id='346' atom_type='O' x='5.542'  y='31.275'  z='41.797'></atom>
+			<atom atom_id='347' atom_type='CB' x='3.841'  y='28.669'  z='42.876'></atom>
+			<atom atom_id='348' atom_type='CG' x='2.738'  y='28.094'  z='43.743'></atom>
+			<atom atom_id='349' atom_type='CD1' x='3.134'  y='26.678'  z='44.165'></atom>
+			<atom atom_id='350' atom_type='CD2' x='2.533'  y='28.996'  z='44.949'></atom>
+			<atom atom_id='351' atom_type='N' x='5.282'  y='29.519'  z='40.442'></atom>
+		</residue>
+		<residue aa='V' kabat_no='L48' chothia_no='L48'>
+			<atom atom_id='352' atom_type='CA' x='6.564'  y='29.616'  z='39.76'></atom>
+			<atom atom_id='353' atom_type='C' x='6.41'  y='29.399'  z='38.276'></atom>
+			<atom atom_id='354' atom_type='O' x='5.564'  y='28.589'  z='37.897'></atom>
+			<atom atom_id='355' atom_type='CB' x='7.435'  y='28.444'  z='40.333'></atom>
+			<atom atom_id='356' atom_type='CG1' x='8.843'  y='28.353'  z='39.723'></atom>
+			<atom atom_id='357' atom_type='CG2' x='7.509'  y='28.442'  z='41.843'></atom>
+			<atom atom_id='358' atom_type='N' x='7.239'  y='30.076'  z='37.522'></atom>
+		</residue>
+		<residue aa='Y' kabat_no='L49' chothia_no='L49'>
+			<atom atom_id='359' atom_type='CA' x='7.249'  y='29.928'  z='36.042'></atom>
+			<atom atom_id='360' atom_type='C' x='8.751'  y='30.02'  z='35.649'></atom>
+			<atom atom_id='361' atom_type='O' x='9.656'  y='30.483'  z='36.35'></atom>
+			<atom atom_id='362' atom_type='CB' x='6.32'  y='30.905'  z='35.326'></atom>
+			<atom atom_id='363' atom_type='CG' x='6.607'  y='32.38'  z='35.611'></atom>
+			<atom atom_id='364' atom_type='CD1' x='6.182'  y='33.01'  z='36.758'></atom>
+			<atom atom_id='365' atom_type='CD2' x='7.33'  y='33.142'  z='34.687'></atom>
+			<atom atom_id='366' atom_type='CE1' x='6.478'  y='34.342'  z='37.022'></atom>
+			<atom atom_id='367' atom_type='CE2' x='7.649'  y='34.485'  z='34.954'></atom>
+			<atom atom_id='368' atom_type='CZ' x='7.212'  y='35.077'  z='36.113'></atom>
+			<atom atom_id='369' atom_type='OH' x='7.492'  y='36.401'  z='36.421'></atom>
+			<atom atom_id='370' atom_type='N' x='8.966'  y='29.552'  z='34.441'></atom>
+		</residue>
+		<residue aa='Y' kabat_no='L50' chothia_no='L50'>
+			<atom atom_id='371' atom_type='CA' x='10.248'  y='29.421'  z='33.773'></atom>
+			<atom atom_id='372' atom_type='C' x='11.241'  y='28.772'  z='34.743'></atom>
+			<atom atom_id='373' atom_type='O' x='12.372'  y='29.21'  z='34.978'></atom>
+			<atom atom_id='374' atom_type='CB' x='10.74'  y='30.748'  z='33.116'></atom>
+			<atom atom_id='375' atom_type='CG' x='11.813'  y='30.324'  z='32.11'></atom>
+			<atom atom_id='376' atom_type='CD1' x='11.493'  y='29.57'  z='30.99'></atom>
+			<atom atom_id='377' atom_type='CD2' x='13.144'  y='30.674'  z='32.331'></atom>
+			<atom atom_id='378' atom_type='CE1' x='12.431'  y='29.152'  z='30.064'></atom>
+			<atom atom_id='379' atom_type='CE2' x='14.108'  y='30.258'  z='31.415'></atom>
+			<atom atom_id='380' atom_type='CZ' x='13.756'  y='29.504'  z='30.299'></atom>
+			<atom atom_id='381' atom_type='OH' x='14.773'  y='29.132'  z='29.444'></atom>
+			<atom atom_id='382' atom_type='N' x='10.771'  y='27.705'  z='35.344'></atom>
+		</residue>
+		<residue aa='T' kabat_no='L51' chothia_no='L51'>
+			<atom atom_id='383' atom_type='CA' x='11.486'  y='26.892'  z='36.322'></atom>
+			<atom atom_id='384' atom_type='C' x='11.791'  y='27.512'  z='37.679'></atom>
+			<atom atom_id='385' atom_type='O' x='11.574'  y='26.832'  z='38.689'></atom>
+			<atom atom_id='386' atom_type='CB' x='12.866'  y='26.347'  z='35.715'></atom>
+			<atom atom_id='387' atom_type='OG1' x='12.557'  y='25.593'  z='34.505'></atom>
+			<atom atom_id='388' atom_type='CG2' x='13.673'  y='25.435'  z='36.65'></atom>
+			<atom atom_id='389' atom_type='N' x='12.322'  y='28.724'  z='37.766'></atom>
+		</residue>
+		<residue aa='T' kabat_no='L52' chothia_no='L52'>
+			<atom atom_id='390' atom_type='CA' x='12.756'  y='29.32'  z='39.005'></atom>
+			<atom atom_id='391' atom_type='C' x='12.161'  y='30.659'  z='39.355'></atom>
+			<atom atom_id='392' atom_type='O' x='12.468'  y='31.085'  z='40.479'></atom>
+			<atom atom_id='393' atom_type='CB' x='14.36'  y='29.466'  z='38.99'></atom>
+			<atom atom_id='394' atom_type='OG1' x='14.626'  y='30.553'  z='38.032'></atom>
+			<atom atom_id='395' atom_type='CG2' x='15.156'  y='28.209'  z='38.627'></atom>
+			<atom atom_id='396' atom_type='N' x='11.401'  y='31.262'  z='38.485'></atom>
+		</residue>
+		<residue aa='T' kabat_no='L53' chothia_no='L53'>
+			<atom atom_id='397' atom_type='CA' x='10.837'  y='32.576'  z='38.857'></atom>
+			<atom atom_id='398' atom_type='C' x='9.535'  y='32.507'  z='39.646'></atom>
+			<atom atom_id='399' atom_type='O' x='8.541'  y='31.983'  z='39.116'></atom>
+			<atom atom_id='400' atom_type='CB' x='10.543'  y='33.455'  z='37.58'></atom>
+			<atom atom_id='401' atom_type='OG1' x='11.781'  y='33.451'  z='36.8'></atom>
+			<atom atom_id='402' atom_type='CG2' x='10.048'  y='34.842'  z='37.966'></atom>
+			<atom atom_id='403' atom_type='N' x='9.557'  y='33.093'  z='40.832'></atom>
+		</residue>
+		<residue aa='L' kabat_no='L54' chothia_no='L54'>
+			<atom atom_id='404' atom_type='CA' x='8.363'  y='33.155'  z='41.693'></atom>
+			<atom atom_id='405' atom_type='C' x='7.379'  y='34.2'  z='41.167'></atom>
+			<atom atom_id='406' atom_type='O' x='7.847'  y='35.257'  z='40.688'></atom>
+			<atom atom_id='407' atom_type='CB' x='8.84'  y='33.511'  z='43.1'></atom>
+			<atom atom_id='408' atom_type='CG' x='9.648'  y='32.535'  z='43.908'></atom>
+			<atom atom_id='409' atom_type='CD1' x='9.752'  y='32.995'  z='45.346'></atom>
+			<atom atom_id='410' atom_type='CD2' x='8.93'  y='31.198'  z='43.91'></atom>
+			<atom atom_id='411' atom_type='N' x='6.103'  y='33.899'  z='41.237'></atom>
+		</residue>
+		<residue aa='A' kabat_no='L55' chothia_no='L55'>
+			<atom atom_id='412' atom_type='CA' x='5.059'  y='34.874'  z='40.83'></atom>
+			<atom atom_id='413' atom_type='C' x='5.007'  y='35.935'  z='41.962'></atom>
+			<atom atom_id='414' atom_type='O' x='5.468'  y='35.777'  z='43.119'></atom>
+			<atom atom_id='415' atom_type='CB' x='3.74'  y='34.168'  z='40.59'></atom>
+			<atom atom_id='416' atom_type='N' x='4.417'  y='37.071'  z='41.65'></atom>
+		</residue>
+		<residue aa='D' kabat_no='L56' chothia_no='L56'>
+			<atom atom_id='417' atom_type='CA' x='4.321'  y='38.17'  z='42.646'></atom>
+			<atom atom_id='418' atom_type='C' x='3.561'  y='37.702'  z='43.872'></atom>
+			<atom atom_id='419' atom_type='O' x='2.525'  y='37.059'  z='43.712'></atom>
+			<atom atom_id='420' atom_type='CB' x='3.691'  y='39.443'  z='42.048'></atom>
+			<atom atom_id='421' atom_type='N' x='4.063'  y='38.05'  z='45.043'></atom>
+		</residue>
+		<residue aa='G' kabat_no='L57' chothia_no='L57'>
+			<atom atom_id='422' atom_type='CA' x='3.344'  y='37.646'  z='46.261'></atom>
+			<atom atom_id='423' atom_type='C' x='3.543'  y='36.239'  z='46.758'></atom>
+			<atom atom_id='424' atom_type='O' x='2.964'  y='35.869'  z='47.809'></atom>
+			<atom atom_id='425' atom_type='N' x='4.334'  y='35.432'  z='46.042'></atom>
+		</residue>
+		<residue aa='V' kabat_no='L58' chothia_no='L58'>
+			<atom atom_id='426' atom_type='CA' x='4.578'  y='34.06'  z='46.529'></atom>
+			<atom atom_id='427' atom_type='C' x='5.695'  y='34.177'  z='47.562'></atom>
+			<atom atom_id='428' atom_type='O' x='6.717'  y='34.796'  z='47.26'></atom>
+			<atom atom_id='429' atom_type='CB' x='4.893'  y='33.142'  z='45.328'></atom>
+			<atom atom_id='430' atom_type='CG1' x='5.469'  y='31.821'  z='45.826'></atom>
+			<atom atom_id='431' atom_type='CG2' x='3.692'  y='32.915'  z='44.427'></atom>
+			<atom atom_id='432' atom_type='N' x='5.515'  y='33.558'  z='48.694'></atom>
+		</residue>
+		<residue aa='P' kabat_no='L59' chothia_no='L59'>
+			<atom atom_id='433' atom_type='CA' x='6.519'  y='33.534'  z='49.775'></atom>
+			<atom atom_id='434' atom_type='C' x='7.799'  y='32.918'  z='49.238'></atom>
+			<atom atom_id='435' atom_type='O' x='7.707'  y='31.989'  z='48.422'></atom>
+			<atom atom_id='436' atom_type='CB' x='5.901'  y='32.738'  z='50.92'></atom>
+			<atom atom_id='437' atom_type='CG' x='4.682'  y='32.074'  z='50.35'></atom>
+			<atom atom_id='438' atom_type='CD' x='4.315'  y='32.785'  z='49.064'></atom>
+			<atom atom_id='439' atom_type='N' x='8.943'  y='33.406'  z='49.653'></atom>
+		</residue>
+		<residue aa='S' kabat_no='L60' chothia_no='L60'>
+			<atom atom_id='440' atom_type='CA' x='10.269'  y='32.948'  z='49.205'></atom>
+			<atom atom_id='441' atom_type='C' x='10.671'  y='31.573'  z='49.729'></atom>
+			<atom atom_id='442' atom_type='O' x='11.725'  y='31.057'  z='49.299'></atom>
+			<atom atom_id='443' atom_type='CB' x='11.382'  y='33.93'  z='49.584'></atom>
+			<atom atom_id='444' atom_type='OG' x='11.356'  y='34.031'  z='51.017'></atom>
+			<atom atom_id='445' atom_type='N' x='9.801'  y='31.028'  z='50.569'></atom>
+		</residue>
+		<residue aa='R' kabat_no='L61' chothia_no='L61'>
+			<atom atom_id='446' atom_type='CA' x='9.982'  y='29.682'  z='51.124'></atom>
+			<atom atom_id='447' atom_type='C' x='9.789'  y='28.644'  z='50.009'></atom>
+			<atom atom_id='448' atom_type='O' x='10.091'  y='27.465'  z='50.206'></atom>
+			<atom atom_id='449' atom_type='CB' x='9.082'  y='29.349'  z='52.291'></atom>
+			<atom atom_id='450' atom_type='CG' x='7.635'  y='29.063'  z='52.077'></atom>
+			<atom atom_id='451' atom_type='CD' x='7.018'  y='28.723'  z='53.424'></atom>
+			<atom atom_id='452' atom_type='NE' x='5.583'  y='28.817'  z='53.366'></atom>
+			<atom atom_id='453' atom_type='CZ' x='4.802'  y='29.885'  z='53.433'></atom>
+			<atom atom_id='454' atom_type='NH1' x='5.284'  y='31.127'  z='53.593'></atom>
+			<atom atom_id='455' atom_type='NH2' x='3.466'  y='29.798'  z='53.35'></atom>
+			<atom atom_id='456' atom_type='N' x='9.301'  y='29.12'  z='48.88'></atom>
+		</residue>
+		<residue aa='F' kabat_no='L62' chothia_no='L62'>
+			<atom atom_id='457' atom_type='CA' x='9.093'  y='28.247'  z='47.706'></atom>
+			<atom atom_id='458' atom_type='C' x='10.259'  y='28.378'  z='46.737'></atom>
+			<atom atom_id='459' atom_type='O' x='10.551'  y='29.591'  z='46.546'></atom>
+			<atom atom_id='460' atom_type='CB' x='7.834'  y='28.729'  z='46.986'></atom>
+			<atom atom_id='461' atom_type='CG' x='6.552'  y='28.268'  z='47.646'></atom>
+			<atom atom_id='462' atom_type='CD1' x='6.04'  y='26.999'  z='47.366'></atom>
+			<atom atom_id='463' atom_type='CD2' x='5.885'  y='29.096'  z='48.532'></atom>
+			<atom atom_id='464' atom_type='CE1' x='4.839'  y='26.569'  z='47.919'></atom>
+			<atom atom_id='465' atom_type='CE2' x='4.687'  y='28.687'  z='49.122'></atom>
+			<atom atom_id='466' atom_type='CZ' x='4.168'  y='27.419'  z='48.793'></atom>
+			<atom atom_id='467' atom_type='N' x='10.812'  y='27.323'  z='46.198'></atom>
+		</residue>
+		<residue aa='S' kabat_no='L63' chothia_no='L63'>
+			<atom atom_id='468' atom_type='CA' x='11.86'  y='27.605'  z='45.182'></atom>
+			<atom atom_id='469' atom_type='C' x='11.83'  y='26.466'  z='44.144'></atom>
+			<atom atom_id='470' atom_type='O' x='11.662'  y='25.294'  z='44.594'></atom>
+			<atom atom_id='471' atom_type='CB' x='13.279'  y='27.785'  z='45.668'></atom>
+			<atom atom_id='472' atom_type='OG' x='13.521'  y='26.612'  z='46.426'></atom>
+			<atom atom_id='473' atom_type='N' x='11.969'  y='26.862'  z='42.899'></atom>
+		</residue>
+		<residue aa='G' kabat_no='L64' chothia_no='L64'>
+			<atom atom_id='474' atom_type='CA' x='11.953'  y='25.765'  z='41.897'></atom>
+			<atom atom_id='475' atom_type='C' x='13.357'  y='25.611'  z='41.268'></atom>
+			<atom atom_id='476' atom_type='O' x='14.117'  y='26.592'  z='41.259'></atom>
+			<atom atom_id='477' atom_type='N' x='13.608'  y='24.407'  z='40.748'></atom>
+		</residue>
+		<residue aa='S' kabat_no='L65' chothia_no='L65'>
+			<atom atom_id='478' atom_type='CA' x='14.899'  y='24.167'  z='40.08'></atom>
+			<atom atom_id='479' atom_type='C' x='14.686'  y='23.1'  z='39.009'></atom>
+			<atom atom_id='480' atom_type='O' x='13.572'  y='22.51'  z='38.98'></atom>
+			<atom atom_id='481' atom_type='CB' x='15.921'  y='23.768'  z='41.124'></atom>
+			<atom atom_id='482' atom_type='OG' x='15.599'  y='22.548'  z='41.719'></atom>
+			<atom atom_id='483' atom_type='N' x='15.698'  y='22.93'  z='38.156'></atom>
+		</residue>
+		<residue aa='G' kabat_no='L66' chothia_no='L66'>
+			<atom atom_id='484' atom_type='CA' x='15.575'  y='21.882'  z='37.115'></atom>
+			<atom atom_id='485' atom_type='C' x='16.087'  y='22.306'  z='35.768'></atom>
+			<atom atom_id='486' atom_type='O' x='16.445'  y='23.471'  z='35.548'></atom>
+			<atom atom_id='487' atom_type='N' x='16.145'  y='21.337'  z='34.869'></atom>
+		</residue>
+		<residue aa='S' kabat_no='L67' chothia_no='L67'>
+			<atom atom_id='488' atom_type='CA' x='16.527'  y='21.546'  z='33.47'></atom>
+			<atom atom_id='489' atom_type='C' x='16.241'  y='20.19'  z='32.783'></atom>
+			<atom atom_id='490' atom_type='O' x='16.095'  y='19.21'  z='33.544'></atom>
+			<atom atom_id='491' atom_type='CB' x='17.981'  y='21.925'  z='33.113'></atom>
+			<atom atom_id='492' atom_type='OG' x='18.768'  y='21.02'  z='33.849'></atom>
+			<atom atom_id='493' atom_type='N' x='16.222'  y='20.277'  z='31.468'></atom>
+		</residue>
+		<residue aa='G' kabat_no='L68' chothia_no='L68'>
+			<atom atom_id='494' atom_type='CA' x='15.996'  y='19.04'  z='30.692'></atom>
+			<atom atom_id='495' atom_type='C' x='14.651'  y='18.39'  z='30.984'></atom>
+			<atom atom_id='496' atom_type='O' x='13.591'  y='18.946'  z='30.676'></atom>
+			<atom atom_id='497' atom_type='N' x='14.652'  y='17.21'  z='31.58'></atom>
+		</residue>
+		<residue aa='T' kabat_no='L69' chothia_no='L69'>
+			<atom atom_id='498' atom_type='CA' x='13.426'  y='16.471'  z='31.893'></atom>
+			<atom atom_id='499' atom_type='C' x='13.19'  y='16.333'  z='33.38'></atom>
+			<atom atom_id='500' atom_type='O' x='12.309'  y='15.557'  z='33.758'></atom>
+			<atom atom_id='501' atom_type='CB' x='13.581'  y='15.023'  z='31.231'></atom>
+			<atom atom_id='502' atom_type='OG1' x='14.804'  y='14.467'  z='31.786'></atom>
+			<atom atom_id='503' atom_type='CG2' x='13.686'  y='14.977'  z='29.7'></atom>
+			<atom atom_id='504' atom_type='N' x='13.959'  y='17.022'  z='34.225'></atom>
+		</residue>
+		<residue aa='Q' kabat_no='L70' chothia_no='L70'>
+			<atom atom_id='505' atom_type='CA' x='13.879'  y='16.864'  z='35.705'></atom>
+			<atom atom_id='506' atom_type='C' x='13.77'  y='18.209'  z='36.381'></atom>
+			<atom atom_id='507' atom_type='O' x='14.635'  y='19.098'  z='36.258'></atom>
+			<atom atom_id='508' atom_type='CB' x='15.191'  y='16.129'  z='35.958'></atom>
+			<atom atom_id='509' atom_type='CG' x='15.347'  y='15.546'  z='37.269'></atom>
+			<atom atom_id='510' atom_type='CD' x='14.499'  y='14.31'  z='37.455'></atom>
+			<atom atom_id='511' atom_type='OE1' x='14.752'  y='13.289'  z='36.811'></atom>
+			<atom atom_id='512' atom_type='NE2' x='13.571'  y='14.593'  z='38.378'></atom>
+			<atom atom_id='513' atom_type='N' x='12.655'  y='18.402'  z='37.075'></atom>
+		</residue>
+		<residue aa='Y' kabat_no='L71' chothia_no='L71'>
+			<atom atom_id='514' atom_type='CA' x='12.325'  y='19.671'  z='37.739'></atom>
+			<atom atom_id='515' atom_type='C' x='11.883'  y='19.429'  z='39.164'></atom>
+			<atom atom_id='516' atom_type='O' x='11.252'  y='18.408'  z='39.513'></atom>
+			<atom atom_id='517' atom_type='CB' x='11.189'  y='20.414'  z='36.975'></atom>
+			<atom atom_id='518' atom_type='CG' x='11.667'  y='20.715'  z='35.581'></atom>
+			<atom atom_id='519' atom_type='CD1' x='11.584'  y='19.757'  z='34.565'></atom>
+			<atom atom_id='520' atom_type='CD2' x='12.286'  y='21.946'  z='35.284'></atom>
+			<atom atom_id='521' atom_type='CE1' x='12.116'  y='20.016'  z='33.297'></atom>
+			<atom atom_id='522' atom_type='CE2' x='12.791'  y='22.199'  z='33.991'></atom>
+			<atom atom_id='523' atom_type='CZ' x='12.705'  y='21.24'  z='33.014'></atom>
+			<atom atom_id='524' atom_type='OH' x='13.206'  y='21.531'  z='31.755'></atom>
+			<atom atom_id='525' atom_type='N' x='12.165'  y='20.443'  z='39.958'></atom>
+		</residue>
+		<residue aa='S' kabat_no='L72' chothia_no='L72'>
+			<atom atom_id='526' atom_type='CA' x='11.753'  y='20.238'  z='41.359'></atom>
+			<atom atom_id='527' atom_type='C' x='11.194'  y='21.471'  z='42.008'></atom>
+			<atom atom_id='528' atom_type='O' x='11.538'  y='22.607'  z='41.657'></atom>
+			<atom atom_id='529' atom_type='CB' x='13.116'  y='19.695'  z='41.86'></atom>
+			<atom atom_id='530' atom_type='OG' x='12.881'  y='19.343'  z='43.171'></atom>
+			<atom atom_id='531' atom_type='N' x='10.287'  y='21.259'  z='42.948'></atom>
+		</residue>
+		<residue aa='L' kabat_no='L73' chothia_no='L73'>
+			<atom atom_id='532' atom_type='CA' x='9.673'  y='22.295'  z='43.756'></atom>
+			<atom atom_id='533' atom_type='C' x='9.943'  y='21.899'  z='45.231'></atom>
+			<atom atom_id='534' atom_type='O' x='9.566'  y='20.843'  z='45.788'></atom>
+			<atom atom_id='535' atom_type='CB' x='8.181'  y='22.559'  z='43.547'></atom>
+			<atom atom_id='536' atom_type='CG' x='7.619'  y='23.72'  z='44.373'></atom>
+			<atom atom_id='537' atom_type='CD1' x='8.09'  y='25.045'  z='43.818'></atom>
+			<atom atom_id='538' atom_type='CD2' x='6.081'  y='23.658'  z='44.292'></atom>
+			<atom atom_id='539' atom_type='N' x='10.629'  y='22.849'  z='45.829'></atom>
+		</residue>
+		<residue aa='K' kabat_no='L74' chothia_no='L74'>
+			<atom atom_id='540' atom_type='CA' x='11.001'  y='22.77'  z='47.245'></atom>
+			<atom atom_id='541' atom_type='C' x='10.266'  y='23.825'  z='48.092'></atom>
+			<atom atom_id='542' atom_type='O' x='10.245'  y='25.034'  z='47.787'></atom>
+			<atom atom_id='543' atom_type='CB' x='12.496'  y='23.063'  z='47.381'></atom>
+			<atom atom_id='544' atom_type='CG' x='12.878'  y='22.835'  z='48.847'></atom>
+			<atom atom_id='545' atom_type='CD' x='14.4'  y='22.895'  z='49.061'></atom>
+			<atom atom_id='546' atom_type='CE' x='15.089'  y='21.85'  z='48.201'></atom>
+			<atom atom_id='547' atom_type='NZ' x='15.878'  y='20.856'  z='49.003'></atom>
+			<atom atom_id='548' atom_type='N' x='9.692'  y='23.291'  z='49.148'></atom>
+		</residue>
+		<residue aa='I' kabat_no='L75' chothia_no='L75'>
+			<atom atom_id='549' atom_type='CA' x='8.957'  y='24.134'  z='50.098'></atom>
+			<atom atom_id='550' atom_type='C' x='9.649'  y='23.982'  z='51.474'></atom>
+			<atom atom_id='551' atom_type='O' x='9.641'  y='22.921'  z='52.098'></atom>
+			<atom atom_id='552' atom_type='CB' x='7.44'  y='23.835'  z='50.192'></atom>
+			<atom atom_id='553' atom_type='CG1' x='6.811'  y='23.58'  z='48.81'></atom>
+			<atom atom_id='554' atom_type='CG2' x='6.77'  y='25.038'  z='50.948'></atom>
+			<atom atom_id='555' atom_type='CD1' x='5.378'  y='22.977'  z='48.898'></atom>
+			<atom atom_id='556' atom_type='N' x='10.248'  y='25.092'  z='51.823'></atom>
+		</residue>
+		<residue aa='N' kabat_no='L76' chothia_no='L76'>
+			<atom atom_id='557' atom_type='CA' x='10.978'  y='25.246'  z='53.073'></atom>
+			<atom atom_id='558' atom_type='C' x='9.989'  y='25.499'  z='54.206'></atom>
+			<atom atom_id='559' atom_type='O' x='9.203'  y='26.44'  z='54.144'></atom>
+			<atom atom_id='560' atom_type='CB' x='12.025'  y='26.328'  z='52.81'></atom>
+			<atom atom_id='561' atom_type='CG' x='13.096'  y='26.251'  z='53.872'></atom>
+			<atom atom_id='562' atom_type='OD1' x='14.084'  y='27.003'  z='53.755'></atom>
+			<atom atom_id='563' atom_type='ND2' x='13.059'  y='25.437'  z='54.933'></atom>
+			<atom atom_id='564' atom_type='N' x='10.025'  y='24.692'  z='55.243'></atom>
+		</residue>
+		<residue aa='S' kabat_no='L77' chothia_no='L77'>
+			<atom atom_id='565' atom_type='CA' x='9.19'  y='24.769'  z='56.429'></atom>
+			<atom atom_id='566' atom_type='C' x='7.753'  y='25.21'  z='56.148'></atom>
+			<atom atom_id='567' atom_type='O' x='7.345'  y='26.395'  z='56.21'></atom>
+			<atom atom_id='568' atom_type='CB' x='9.8'  y='25.734'  z='57.447'></atom>
+			<atom atom_id='569' atom_type='OG' x='10.271'  y='26.833'  z='56.671'></atom>
+			<atom atom_id='570' atom_type='N' x='7.016'  y='24.139'  z='55.891'></atom>
+		</residue>
+		<residue aa='L' kabat_no='L78' chothia_no='L78'>
+			<atom atom_id='571' atom_type='CA' x='5.613'  y='24.285'  z='55.552'></atom>
+			<atom atom_id='572' atom_type='C' x='4.759'  y='25.061'  z='56.552'></atom>
+			<atom atom_id='573' atom_type='O' x='4.843'  y='24.811'  z='57.758'></atom>
+			<atom atom_id='574' atom_type='CB' x='5.079'  y='22.848'  z='55.409'></atom>
+			<atom atom_id='575' atom_type='CG' x='5.45'  y='22.112'  z='54.141'></atom>
+			<atom atom_id='576' atom_type='CD1' x='5.091'  y='20.648'  z='54.335'></atom>
+			<atom atom_id='577' atom_type='CD2' x='4.651'  y='22.715'  z='52.988'></atom>
+			<atom atom_id='578' atom_type='N' x='3.922'  y='25.925'  z='56.003'></atom>
+		</residue>
+		<residue aa='Q' kabat_no='L79' chothia_no='L79'>
+			<atom atom_id='579' atom_type='CA' x='2.921'  y='26.71'  z='56.734'></atom>
+			<atom atom_id='580' atom_type='C' x='1.567'  y='26.053'  z='56.414'></atom>
+			<atom atom_id='581' atom_type='O' x='1.406'  y='25.388'  z='55.372'></atom>
+			<atom atom_id='582' atom_type='CB' x='2.981'  y='28.209'  z='56.466'></atom>
+			<atom atom_id='583' atom_type='CG' x='4.249'  y='28.821'  z='57.046'></atom>
+			<atom atom_id='584' atom_type='CD' x='4.368'  y='28.586'  z='58.541'></atom>
+			<atom atom_id='585' atom_type='OE1' x='3.662'  y='29.211'  z='59.368'></atom>
+			<atom atom_id='586' atom_type='NE2' x='5.265'  y='27.664'  z='58.966'></atom>
+			<atom atom_id='587' atom_type='N' x='0.636'  y='26.209'  z='57.353'></atom>
+		</residue>
+		<residue aa='P' kabat_no='L80' chothia_no='L80'>
+			<atom atom_id='588' atom_type='CA' x='-0.705'  y='25.62'  z='57.207'></atom>
+			<atom atom_id='589' atom_type='C' x='-1.351'  y='25.98'  z='55.875'></atom>
+			<atom atom_id='590' atom_type='O' x='-2.102'  y='25.218'  z='55.264'></atom>
+			<atom atom_id='591' atom_type='CB' x='-1.514'  y='26.153'  z='58.409'></atom>
+			<atom atom_id='592' atom_type='CG' x='-0.474'  y='26.634'  z='59.383'></atom>
+			<atom atom_id='593' atom_type='CD' x='0.793'  y='26.982'  z='58.606'></atom>
+			<atom atom_id='594' atom_type='N' x='-1.053'  y='27.153'  z='55.404'></atom>
+		</residue>
+		<residue aa='D' kabat_no='L81' chothia_no='L81'>
+			<atom atom_id='595' atom_type='CA' x='-1.556'  y='27.741'  z='54.158'></atom>
+			<atom atom_id='596' atom_type='C' x='-1.03'  y='26.996'  z='52.922'></atom>
+			<atom atom_id='597' atom_type='O' x='-1.64'  y='27.123'  z='51.851'></atom>
+			<atom atom_id='598' atom_type='CB' x='-1.252'  y='29.233'  z='54.134'></atom>
+			<atom atom_id='599' atom_type='CG' x='-0.185'  y='29.874'  z='54.989'></atom>
+			<atom atom_id='600' atom_type='OD1' x='-0.133'  y='29.717'  z='56.257'></atom>
+			<atom atom_id='601' atom_type='OD2' x='0.661'  y='30.644'  z='54.436'></atom>
+			<atom atom_id='602' atom_type='N' x='0.044'  y='26.245'  z='53.068'></atom>
+		</residue>
+		<residue aa='D' kabat_no='L82' chothia_no='L82'>
+			<atom atom_id='603' atom_type='CA' x='0.648'  y='25.502'  z='51.97'></atom>
+			<atom atom_id='604' atom_type='C' x='0.025'  y='24.14'  z='51.669'></atom>
+			<atom atom_id='605' atom_type='O' x='0.412'  y='23.609'  z='50.604'></atom>
+			<atom atom_id='606' atom_type='CB' x='2.143'  y='25.324'  z='52.292'></atom>
+			<atom atom_id='607' atom_type='CG' x='2.867'  y='26.639'  z='52.469'></atom>
+			<atom atom_id='608' atom_type='OD1' x='2.441'  y='27.69'  z='51.956'></atom>
+			<atom atom_id='609' atom_type='OD2' x='3.929'  y='26.594'  z='53.114'></atom>
+			<atom atom_id='610' atom_type='N' x='-0.816'  y='23.558'  z='52.501'></atom>
+		</residue>
+		<residue aa='F' kabat_no='L83' chothia_no='L83'>
+			<atom atom_id='611' atom_type='CA' x='-1.385'  y='22.216'  z='52.178'></atom>
+			<atom atom_id='612' atom_type='C' x='-2.346'  y='22.441'  z='51.012'></atom>
+			<atom atom_id='613' atom_type='O' x='-2.947'  y='23.516'  z='50.794'></atom>
+			<atom atom_id='614' atom_type='CB' x='-1.902'  y='21.529'  z='53.421'></atom>
+			<atom atom_id='615' atom_type='CG' x='-0.779'  y='21.208'  z='54.395'></atom>
+			<atom atom_id='616' atom_type='CD1' x='-0.024'  y='20.055'  z='54.251'></atom>
+			<atom atom_id='617' atom_type='CD2' x='-0.477'  y='22.093'  z='55.44'></atom>
+			<atom atom_id='618' atom_type='CE1' x='1.021'  y='19.751'  z='55.137'></atom>
+			<atom atom_id='619' atom_type='CE2' x='0.56'  y='21.831'  z='56.325'></atom>
+			<atom atom_id='620' atom_type='CZ' x='1.305'  y='20.657'  z='56.164'></atom>
+			<atom atom_id='621' atom_type='N' x='-2.446'  y='21.403'  z='50.193'></atom>
+		</residue>
+		<residue aa='G' kabat_no='L84' chothia_no='L84'>
+			<atom atom_id='622' atom_type='CA' x='-3.284'  y='21.481'  z='48.98'></atom>
+			<atom atom_id='623' atom_type='C' x='-2.608'  y='20.657'  z='47.893'></atom>
+			<atom atom_id='624' atom_type='O' x='-1.731'  y='19.821'  z='48.181'></atom>
+			<atom atom_id='625' atom_type='N' x='-3.003'  y='20.828'  z='46.648'></atom>
+		</residue>
+		<residue aa='S' kabat_no='L85' chothia_no='L85'>
+			<atom atom_id='626' atom_type='CA' x='-2.438'  y='20.089'  z='45.523'></atom>
+			<atom atom_id='627' atom_type='C' x='-1.471'  y='20.962'  z='44.724'></atom>
+			<atom atom_id='628' atom_type='O' x='-1.748'  y='22.17'  z='44.643'></atom>
+			<atom atom_id='629' atom_type='CB' x='-3.571'  y='19.635'  z='44.597'></atom>
+			<atom atom_id='630' atom_type='OG' x='-4.199'  y='18.633'  z='45.395'></atom>
+			<atom atom_id='631' atom_type='N' x='-0.445'  y='20.344'  z='44.186'></atom>
+		</residue>
+		<residue aa='Y' kabat_no='L86' chothia_no='L86'>
+			<atom atom_id='632' atom_type='CA' x='0.564'  y='21.042'  z='43.381'></atom>
+			<atom atom_id='633' atom_type='C' x='0.631'  y='20.361'  z='42.009'></atom>
+			<atom atom_id='634' atom_type='O' x='0.657'  y='19.126'  z='41.994'></atom>
+			<atom atom_id='635' atom_type='CB' x='1.982'  y='21.006'  z='44.044'></atom>
+			<atom atom_id='636' atom_type='CG' x='1.966'  y='21.895'  z='45.281'></atom>
+			<atom atom_id='637' atom_type='CD1' x='1.424'  y='21.445'  z='46.499'></atom>
+			<atom atom_id='638' atom_type='CD2' x='2.411'  y='23.207'  z='45.186'></atom>
+			<atom atom_id='639' atom_type='CE1' x='1.344'  y='22.281'  z='47.606'></atom>
+			<atom atom_id='640' atom_type='CE2' x='2.348'  y='24.036'  z='46.306'></atom>
+			<atom atom_id='641' atom_type='CZ' x='1.836'  y='23.582'  z='47.51'></atom>
+			<atom atom_id='642' atom_type='OH' x='1.826'  y='24.504'  z='48.557'></atom>
+			<atom atom_id='643' atom_type='N' x='0.63'  y='21.228'  z='40.994'></atom>
+		</residue>
+		<residue aa='Y' kabat_no='L87' chothia_no='L87'>
+			<atom atom_id='644' atom_type='CA' x='0.68'  y='20.803'  z='39.609'></atom>
+			<atom atom_id='645' atom_type='C' x='1.828'  y='21.477'  z='38.838'></atom>
+			<atom atom_id='646' atom_type='O' x='1.994'  y='22.685'  z='39.048'></atom>
+			<atom atom_id='647' atom_type='CB' x='-0.66'  y='21.135'  z='38.887'></atom>
+			<atom atom_id='648' atom_type='CG' x='-1.839'  y='20.361'  z='39.456'></atom>
+			<atom atom_id='649' atom_type='CD1' x='-2.104'  y='19.045'  z='39.03'></atom>
+			<atom atom_id='650' atom_type='CD2' x='-2.694'  y='20.941'  z='40.418'></atom>
+			<atom atom_id='651' atom_type='CE1' x='-3.189'  y='18.308'  z='39.565'></atom>
+			<atom atom_id='652' atom_type='CE2' x='-3.771'  y='20.248'  z='40.955'></atom>
+			<atom atom_id='653' atom_type='CZ' x='-3.99'  y='18.943'  z='40.509'></atom>
+			<atom atom_id='654' atom_type='OH' x='-5.037'  y='18.208'  z='40.976'></atom>
+			<atom atom_id='655' atom_type='N' x='2.483'  y='20.716'  z='37.99'></atom>
+		</residue>
+		<residue aa='C' kabat_no='L88' chothia_no='L88'>
+			<atom atom_id='656' atom_type='CA' x='3.548'  y='21.314'  z='37.119'></atom>
+			<atom atom_id='657' atom_type='C' x='2.879'  y='21.313'  z='35.743'></atom>
+			<atom atom_id='658' atom_type='O' x='1.959'  y='20.511'  z='35.44'></atom>
+			<atom atom_id='659' atom_type='CB' x='4.898'  y='20.605'  z='37.129'></atom>
+			<atom atom_id='660' atom_type='SG' x='4.699'  y='18.842'  z='36.712'></atom>
+			<atom atom_id='661' atom_type='N' x='3.286'  y='22.187'  z='34.872'></atom>
+		</residue>
+		<residue aa='Q' kabat_no='L89' chothia_no='L89'>
+			<atom atom_id='662' atom_type='CA' x='2.77'  y='22.318'  z='33.517'></atom>
+			<atom atom_id='663' atom_type='C' x='3.895'  y='22.827'  z='32.596'></atom>
+			<atom atom_id='664' atom_type='O' x='4.641'  y='23.732'  z='32.995'></atom>
+			<atom atom_id='665' atom_type='CB' x='1.624'  y='23.323'  z='33.503'></atom>
+			<atom atom_id='666' atom_type='CG' x='0.933'  y='23.461'  z='32.161'></atom>
+			<atom atom_id='667' atom_type='CD' x='0.415'  y='24.847'  z='31.89'></atom>
+			<atom atom_id='668' atom_type='OE1' x='0.088'  y='25.098'  z='30.713'></atom>
+			<atom atom_id='669' atom_type='NE2' x='0.3'  y='25.765'  z='32.828'></atom>
+			<atom atom_id='670' atom_type='N' x='4.026'  y='22.259'  z='31.422'></atom>
+		</residue>
+		<residue aa='H' kabat_no='L90' chothia_no='L90'>
+			<atom atom_id='671' atom_type='CA' x='5.085'  y='22.71'  z='30.498'></atom>
+			<atom atom_id='672' atom_type='C' x='4.45'  y='23.631'  z='29.436'></atom>
+			<atom atom_id='673' atom_type='O' x='3.246'  y='23.56'  z='29.186'></atom>
+			<atom atom_id='674' atom_type='CB' x='5.91'  y='21.576'  z='29.892'></atom>
+			<atom atom_id='675' atom_type='CG' x='5.223'  y='20.886'  z='28.744'></atom>
+			<atom atom_id='676' atom_type='ND1' x='5.223'  y='21.39'  z='27.474'></atom>
+			<atom atom_id='677' atom_type='CD2' x='4.535'  y='19.701'  z='28.7'></atom>
+			<atom atom_id='678' atom_type='CE1' x='4.553'  y='20.576'  z='26.679'></atom>
+			<atom atom_id='679' atom_type='NE2' x='4.126'  y='19.55'  z='27.394'></atom>
+			<atom atom_id='680' atom_type='N' x='5.325'  y='24.406'  z='28.819'></atom>
+		</residue>
+		<residue aa='F' kabat_no='L91' chothia_no='L91'>
+			<atom atom_id='681' atom_type='CA' x='4.973'  y='25.37'  z='27.793'></atom>
+			<atom atom_id='682' atom_type='C' x='5.895'  y='25.144'  z='26.587'></atom>
+			<atom atom_id='683' atom_type='O' x='6.187'  y='26.106'  z='25.845'></atom>
+			<atom atom_id='684' atom_type='CB' x='5.056'  y='26.821'  z='28.314'></atom>
+			<atom atom_id='685' atom_type='CG' x='3.99'  y='27.256'  z='29.271'></atom>
+			<atom atom_id='686' atom_type='CD1' x='4.076'  y='26.959'  z='30.628'></atom>
+			<atom atom_id='687' atom_type='CD2' x='2.858'  y='27.941'  z='28.822'></atom>
+			<atom atom_id='688' atom_type='CE1' x='3.077'  y='27.347'  z='31.526'></atom>
+			<atom atom_id='689' atom_type='CE2' x='1.853'  y='28.351'  z='29.679'></atom>
+			<atom atom_id='690' atom_type='CZ' x='1.98'  y='28.057'  z='31.029'></atom>
+			<atom atom_id='691' atom_type='N' x='6.317'  y='23.907'  z='26.411'></atom>
+		</residue>
+		<residue aa='W' kabat_no='L92' chothia_no='L92'>
+			<atom atom_id='692' atom_type='CA' x='7.212'  y='23.582'  z='25.265'></atom>
+			<atom atom_id='693' atom_type='C' x='6.33'  y='23.175'  z='24.069'></atom>
+			<atom atom_id='694' atom_type='O' x='5.729'  y='22.092'  z='24.061'></atom>
+			<atom atom_id='695' atom_type='CB' x='8.27'  y='22.497'  z='25.582'></atom>
+			<atom atom_id='696' atom_type='CG' x='9.121'  y='22.154'  z='24.39'></atom>
+			<atom atom_id='697' atom_type='CD1' x='9.143'  y='21.009'  z='23.654'></atom>
+			<atom atom_id='698' atom_type='CD2' x='10.081'  y='23.026'  z='23.779'></atom>
+			<atom atom_id='699' atom_type='NE1' x='10.02'  y='21.099'  z='22.598'></atom>
+			<atom atom_id='700' atom_type='CE2' x='10.63'  y='22.313'  z='22.663'></atom>
+			<atom atom_id='701' atom_type='CE3' x='10.518'  y='24.316'  z='24.083'></atom>
+			<atom atom_id='702' atom_type='CZ2' x='11.617'  y='22.861'  z='21.828'></atom>
+			<atom atom_id='703' atom_type='CZ3' x='11.505'  y='24.872'  z='23.259'></atom>
+			<atom atom_id='704' atom_type='CH2' x='12.031'  y='24.164'  z='22.175'></atom>
+			<atom atom_id='705' atom_type='N' x='6.316'  y='24.091'  z='23.124'></atom>
+		</residue>
+		<residue aa='S' kabat_no='L93' chothia_no='L93'>
+			<atom atom_id='706' atom_type='CA' x='5.505'  y='23.877'  z='21.881'></atom>
+			<atom atom_id='707' atom_type='C' x='4.052'  y='23.623'  z='22.306'></atom>
+			<atom atom_id='708' atom_type='O' x='3.55'  y='24.244'  z='23.274'></atom>
+			<atom atom_id='709' atom_type='CB' x='6.229'  y='22.788'  z='21.093'></atom>
+			<atom atom_id='710' atom_type='OG' x='5.51'  y='22.465'  z='19.914'></atom>
+			<atom atom_id='711' atom_type='N' x='3.334'  y='22.733'  z='21.645'></atom>
+		</residue>
+		<residue aa='T' kabat_no='L94' chothia_no='L94'>
+			<atom atom_id='712' atom_type='CA' x='1.958'  y='22.374'  z='21.969'></atom>
+			<atom atom_id='713' atom_type='C' x='1.783'  y='20.899'  z='21.559'></atom>
+			<atom atom_id='714' atom_type='O' x='2.515'  y='20.389'  z='20.695'></atom>
+			<atom atom_id='715' atom_type='CB' x='0.763'  y='23.107'  z='21.247'></atom>
+			<atom atom_id='716' atom_type='OG1' x='1.164'  y='23.024'  z='19.824'></atom>
+			<atom atom_id='717' atom_type='CG2' x='0.479'  y='24.534'  z='21.673'></atom>
+			<atom atom_id='718' atom_type='N' x='0.833'  y='20.225'  z='22.161'></atom>
+		</residue>
+		<residue aa='P' kabat_no='L95' chothia_no='L95'>
+			<atom atom_id='719' atom_type='CA' x='-0.041'  y='20.716'  z='23.192'></atom>
+			<atom atom_id='720' atom_type='C' x='0.683'  y='20.837'  z='24.519'></atom>
+			<atom atom_id='721' atom_type='O' x='1.712'  y='20.195'  z='24.728'></atom>
+			<atom atom_id='722' atom_type='CB' x='-1.072'  y='19.561'  z='23.275'></atom>
+			<atom atom_id='723' atom_type='CG' x='-0.232'  y='18.308'  z='23.029'></atom>
+			<atom atom_id='724' atom_type='CD' x='0.632'  y='18.787'  z='21.835'></atom>
+			<atom atom_id='725' atom_type='N' x='0.159'  y='21.6'  z='25.442'></atom>
+		</residue>
+		<residue aa='R' kabat_no='L96' chothia_no='L96'>
+			<atom atom_id='726' atom_type='CA' x='0.675'  y='21.762'  z='26.804'></atom>
+			<atom atom_id='727' atom_type='C' x='0.022'  y='20.586'  z='27.583'></atom>
+			<atom atom_id='728' atom_type='O' x='-1.043'  y='20.087'  z='27.171'></atom>
+			<atom atom_id='729' atom_type='CB' x='0.27'  y='23.059'  z='27.484'></atom>
+			<atom atom_id='730' atom_type='CG' x='1.05'  y='24.328'  z='27.097'></atom>
+			<atom atom_id='731' atom_type='CD' x='0.808'  y='24.767'  z='25.695'></atom>
+			<atom atom_id='732' atom_type='NE' x='1.674'  y='25.868'  z='25.243'></atom>
+			<atom atom_id='733' atom_type='CZ' x='1.543'  y='27.143'  z='25.602'></atom>
+			<atom atom_id='734' atom_type='NH1' x='0.561'  y='27.471'  z='26.412'></atom>
+			<atom atom_id='735' atom_type='NH2' x='2.417'  y='27.999'  z='25.079'></atom>
+			<atom atom_id='736' atom_type='N' x='0.634'  y='20.172'  z='28.654'></atom>
+		</residue>
+		<residue aa='T' kabat_no='L97' chothia_no='L97'>
+			<atom atom_id='737' atom_type='CA' x='0.12'  y='19.112'  z='29.517'></atom>
+			<atom atom_id='738' atom_type='C' x='0.48'  y='19.509'  z='30.954'></atom>
+			<atom atom_id='739' atom_type='O' x='1.434'  y='20.292'  z='31.143'></atom>
+			<atom atom_id='740' atom_type='CB' x='0.6'  y='17.65'  z='29.218'></atom>
+			<atom atom_id='741' atom_type='OG1' x='2.056'  y='17.575'  z='29.406'></atom>
+			<atom atom_id='742' atom_type='CG2' x='0.357'  y='17.124'  z='27.8'></atom>
+			<atom atom_id='743' atom_type='N' x='-0.269'  y='18.913'  z='31.862'></atom>
+		</residue>
+		<residue aa='F' kabat_no='L98' chothia_no='L98'>
+			<atom atom_id='744' atom_type='CA' x='-0.074'  y='19.118'  z='33.286'></atom>
+			<atom atom_id='745' atom_type='C' x='0.444'  y='17.801'  z='33.876'></atom>
+			<atom atom_id='746' atom_type='O' x='0.126'  y='16.737'  z='33.272'></atom>
+			<atom atom_id='747' atom_type='CB' x='-1.376'  y='19.54'  z='33.992'></atom>
+			<atom atom_id='748' atom_type='CG' x='-1.9'  y='20.933'  z='33.715'></atom>
+			<atom atom_id='749' atom_type='CD1' x='-2.761'  y='21.186'  z='32.63'></atom>
+			<atom atom_id='750' atom_type='CD2' x='-1.536'  y='22.01'  z='34.552'></atom>
+			<atom atom_id='751' atom_type='CE1' x='-3.246'  y='22.469'  z='32.386'></atom>
+			<atom atom_id='752' atom_type='CE2' x='-2.008'  y='23.319'  z='34.32'></atom>
+			<atom atom_id='753' atom_type='CZ' x='-2.848'  y='23.53'  z='33.222'></atom>
+			<atom atom_id='754' atom_type='N' x='1.183'  y='17.838'  z='34.967'></atom>
+		</residue>
+		<residue aa='G' kabat_no='L99' chothia_no='L99'>
+			<atom atom_id='755' atom_type='CA' x='1.571'  y='16.575'  z='35.623'></atom>
+			<atom atom_id='756' atom_type='C' x='0.26'  y='16.155'  z='36.372'></atom>
+			<atom atom_id='757' atom_type='O' x='-0.761'  y='16.855'  z='36.498'></atom>
+			<atom atom_id='758' atom_type='N' x='0.273'  y='14.934'  z='36.884'></atom>
+		</residue>
+		<residue aa='G' kabat_no='L100' chothia_no='L100'>
+			<atom atom_id='759' atom_type='CA' x='-0.834'  y='14.326'  z='37.619'></atom>
+			<atom atom_id='760' atom_type='C' x='-1.207'  y='14.949'  z='38.944'></atom>
+			<atom atom_id='761' atom_type='O' x='-2.297'  y='14.661'  z='39.481'></atom>
+			<atom atom_id='762' atom_type='N' x='-0.369'  y='15.806'  z='39.51'></atom>
+		</residue>
+		<residue aa='G' kabat_no='L101' chothia_no='L101'>
+			<atom atom_id='763' atom_type='CA' x='-0.598'  y='16.477'  z='40.768'></atom>
+			<atom atom_id='764' atom_type='C' x='0.049'  y='15.672'  z='41.923'></atom>
+			<atom atom_id='765' atom_type='O' x='0.283'  y='14.44'  z='41.94'></atom>
+			<atom atom_id='766' atom_type='N' x='0.337'  y='16.497'  z='42.939'></atom>
+		</residue>
+		<residue aa='T' kabat_no='L102' chothia_no='L102'>
+			<atom atom_id='767' atom_type='CA' x='0.896'  y='16.02'  z='44.202'></atom>
+			<atom atom_id='768' atom_type='C' x='-0.035'  y='16.57'  z='45.313'></atom>
+			<atom atom_id='769' atom_type='O' x='-0.119'  y='17.806'  z='45.471'></atom>
+			<atom atom_id='770' atom_type='CB' x='2.393'  y='16.383'  z='44.55'></atom>
+			<atom atom_id='771' atom_type='OG1' x='3.173'  y='15.753'  z='43.51'></atom>
+			<atom atom_id='772' atom_type='CG2' x='2.839'  y='15.921'  z='45.943'></atom>
+			<atom atom_id='773' atom_type='N' x='-0.64'  y='15.668'  z='46.056'></atom>
+		</residue>
+		<residue aa='K' kabat_no='L103' chothia_no='L103'>
+			<atom atom_id='774' atom_type='CA' x='-1.482'  y='16.168'  z='47.148'></atom>
+			<atom atom_id='775' atom_type='C' x='-0.614'  y='16.256'  z='48.426'></atom>
+			<atom atom_id='776' atom_type='O' x='-0.028'  y='15.249'  z='48.883'></atom>
+			<atom atom_id='777' atom_type='CB' x='-2.65'  y='15.246'  z='47.442'></atom>
+			<atom atom_id='778' atom_type='CG' x='-3.419'  y='15.777'  z='48.67'></atom>
+			<atom atom_id='779' atom_type='CD' x='-4.85'  y='15.203'  z='48.557'></atom>
+			<atom atom_id='780' atom_type='CE' x='-5.766'  y='15.963'  z='49.5'></atom>
+			<atom atom_id='781' atom_type='NZ' x='-5.702'  y='17.448'  z='49.226'></atom>
+			<atom atom_id='782' atom_type='N' x='-0.616'  y='17.449'  z='48.976'></atom>
+		</residue>
+		<residue aa='L' kabat_no='L104' chothia_no='L104'>
+			<atom atom_id='783' atom_type='CA' x='0.098'  y='17.768'  z='50.194'></atom>
+			<atom atom_id='784' atom_type='C' x='-0.897'  y='17.902'  z='51.353'></atom>
+			<atom atom_id='785' atom_type='O' x='-1.657'  y='18.874'  z='51.409'></atom>
+			<atom atom_id='786' atom_type='CB' x='0.888'  y='19.051'  z='50.086'></atom>
+			<atom atom_id='787' atom_type='CG' x='2.323'  y='19.152'  z='50.526'></atom>
+			<atom atom_id='788' atom_type='CD1' x='2.568'  y='20.595'  z='51.004'></atom>
+			<atom atom_id='789' atom_type='CD2' x='2.641'  y='18.174'  z='51.642'></atom>
+			<atom atom_id='790' atom_type='N' x='-0.811'  y='16.934'  z='52.228'></atom>
+		</residue>
+		<residue aa='E' kabat_no='L105' chothia_no='L105'>
+			<atom atom_id='791' atom_type='CA' x='-1.676'  y='16.885'  z='53.422'></atom>
+			<atom atom_id='792' atom_type='C' x='-0.883'  y='16.81'  z='54.728'></atom>
+			<atom atom_id='793' atom_type='O' x='0.212'  y='16.277'  z='54.935'></atom>
+			<atom atom_id='794' atom_type='CB' x='-2.62'  y='15.7'  z='53.391'></atom>
+			<atom atom_id='795' atom_type='CG' x='-1.9'  y='14.441'  z='52.889'></atom>
+			<atom atom_id='796' atom_type='CD' x='-2.955'  y='13.454'  z='52.432'></atom>
+			<atom atom_id='797' atom_type='OE1' x='-3.432'  y='13.449'  z='51.3'></atom>
+			<atom atom_id='798' atom_type='OE2' x='-3.215'  y='12.71'  z='53.416'></atom>
+			<atom atom_id='799' atom_type='N' x='-1.579'  y='17.444'  z='55.644'></atom>
+		</residue>
+		<residue aa='I' kabat_no='L106' chothia_no='L106'>
+			<atom atom_id='800' atom_type='CA' x='-1.157'  y='17.653'  z='57.05'></atom>
+			<atom atom_id='801' atom_type='C' x='-1.148'  y='16.329'  z='57.762'></atom>
+			<atom atom_id='802' atom_type='O' x='-2.076'  y='15.523'  z='57.681'></atom>
+			<atom atom_id='803' atom_type='CB' x='-2.083'  y='18.794'  z='57.567'></atom>
+			<atom atom_id='804' atom_type='CG1' x='-1.406'  y='19.518'  z='58.749'></atom>
+			<atom atom_id='805' atom_type='CG2' x='-3.493'  y='18.282'  z='57.888'></atom>
+			<atom atom_id='806' atom_type='CD1' x='-1.937'  y='21.019'  z='58.803'></atom>
+			<atom atom_id='807' atom_type='N' x='-0.016'  y='16.09'  z='58.392'></atom>
+		</residue>
+		<residue aa='K' kabat_no='L107' chothia_no='L107'>
+			<atom atom_id='808' atom_type='CA' x='0.187'  y='14.828'  z='59.143'></atom>
+			<atom atom_id='809' atom_type='C' x='-0.603'  y='15.025'  z='60.444'></atom>
+			<atom atom_id='810' atom_type='O' x='-1.481'  y='14.153'  z='60.663'></atom>
+			<atom atom_id='811' atom_type='CB' x='1.63'  y='14.519'  z='59.44'></atom>
+			<atom atom_id='812' atom_type='CG' x='1.987'  y='13.042'  z='59.59'></atom>
+			<atom atom_id='813' atom_type='CD' x='3.457'  y='12.894'  z='59.964'></atom>
+			<atom atom_id='814' atom_type='CE' x='4.38'  y='13.207'  z='58.808'></atom>
+			<atom atom_id='815' atom_type='NZ' x='5.784'  y='13.484'  z='59.239'></atom>
+			<atom atom_id='816' atom_type='OXT' x='-0.294'  y='16.044'  z='61.114'></atom>
+			<atom atom_id='818' atom_type='N' x='-6.923'  y='44.293'  z='38.146'></atom>
+		</residue>
+		</sequence>
+		<data_source>pdb</data_source>
+	</chain>
+		<reference>
+			<title>X-RAY STRUCTURES OF D1.3 FV MUTANTS</title>
+			<publication> TO BE PUBLISHED </publication>
+			<authors>C MARKS</authors>
+			<authors>K HENRICK</authors>
+			<authors>G WINTER</authors>
+		</reference>
+</antibody>
