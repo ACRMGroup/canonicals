@@ -1,0 +1,35 @@
+scheme 1 3 5 7 12 13 14 15 16 17 18 19 20 11 10 9 8 6 4 2
+dendogram
+table
+data
+critical
+postcluster 1.0 1.5
+nodist
+noangle
+
+loop /export/data/acaca/ab_pdb_sections//pdb1r0a.ent l24 l34
+loop /export/data/acaca/ab_pdb_sections//pdb2p91.ent l24 l34
+loop /export/data/acaca/ab_pdb_sections//pdb2pcp.ent l24 l34
+loop /export/data/acaca/ab_pdb_sections//pdb1um6.ent l24 l34
+loop /export/data/acaca/ab_pdb_sections//pdb1xct.ent l24 l34
+loop /export/data/acaca/ab_pdb_sections//pdb1u8m.ent l24 l34
+loop /export/data/acaca/ab_pdb_sections//pdb1ezv.ent l24 l34
+loop /export/data/acaca/ab_pdb_sections//pdb1gig.ent l24 l34
+loop /export/data/acaca/ab_pdb_sections//pdb2gfy.ent l24 l34
+loop /export/data/acaca/ab_pdb_sections//pdb2h2t.ent l24 l34
+loop /export/data/acaca/ab_pdb_sections//pdb1jz2.ent l24 l34
+loop /export/data/acaca/ab_pdb_sections//pdb1fcl.ent l24 l34
+loop /export/data/acaca/ab_pdb_sections//pdb2fat.ent l24 l34
+loop /export/data/acaca/ab_pdb_sections//pdb1ai1.ent l24 l34
+loop /export/data/acaca/ab_pdb_sections//pdb2bfv.ent l24 l34
+loop /export/data/acaca/ab_pdb_sections//pdb1i7z.ent l24 l34
+loop /export/data/acaca/ab_pdb_sections//pdb1mqk.ent l24 l34
+loop /export/data/acaca/ab_pdb_sections//pdb1cft.ent l24 l34
+loop /export/data/acaca/ab_pdb_sections//pdb2itc.ent l24 l34
+loop /export/data/acaca/ab_pdb_sections//pdb1nbz.ent l24 l34
+loop /export/data/acaca/ab_pdb_sections//pdb1b6d.ent l24 l34
+loop /export/data/acaca/ab_pdb_sections//pdb1b2w.ent l24 l34
+loop /export/data/acaca/ab_pdb_sections//pdb1uv6.ent l24 l34
+loop /export/data/acaca/ab_pdb_sections//pdb1oak.ent l24 l34
+loop /export/data/acaca/ab_pdb_sections//pdb1nca.ent l24 l34
+loop /export/data/acaca/ab_pdb_sections//pdb1bfv.ent l24 l34

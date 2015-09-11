@@ -1,0 +1,10 @@
+output results/L2_clan.out
+scheme 1 3 5 7 6  4  2
+table
+dendogram
+data
+critical
+postcluster 1.0 1.5
+nodist
+noangle
+

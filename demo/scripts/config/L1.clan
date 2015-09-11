@@ -1,0 +1,10 @@
+output results/L1_clan.out
+scheme 1 3 5 7 12 13 14 15 16 17 18 19 20 11 10 9 8 6 4 2
+dendogram
+table
+data
+critical
+postcluster 1.0 1.5
+nodist
+noangle
+
