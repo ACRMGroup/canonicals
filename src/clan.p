@@ -51,15 +51,18 @@ REAL RmsCAPDB(PDB *pdb1, PDB *pdb2, int length)
 ;
 REAL MaxCADeviationPDB(PDB *pdb1, PDB *pdb2, int length)
 ;
+REAL MaxCBDeviationPDB(PDB *pdb1, PDB *pdb2, int length)
+;
 int RenumClusters(int *clusters, int NVec)
 ;
 int PostCluster(FILE *fp, int *clusters, REAL **data, int NVec, 
                 int VecDim, REAL *crit, int NClus)
 ;
-BOOL TestMerge(DATALIST *loop1, DATALIST *loop2, REAL *rms, REAL *dev)
+BOOL TestMerge(DATALIST *loop1, DATALIST *loop2, REAL *rms, REAL *CADev,
+               REAL *CBDev)
 ;
 void DoMerge(FILE *fp, int i, DATALIST *loop1, int j, DATALIST *loop2, 
-             REAL rms, REAL dev, int *NewNumbers, int NClus)
+             REAL rms, REAL CADev, REAL CBDev, int *NewNumbers, int NClus)
 ;
 DATALIST *FindLoop(int *clusters, int NVec, int ClusNum, int loopnum)
 ;

@@ -68,6 +68,7 @@
 /* Defines and macros
 */
 #define MAXBUFF 160
+#define MAXRES  16
 
 /************************************************************************/
 /* Globals
@@ -91,8 +92,8 @@ int main(int argc, char **argv)
    char filename[MAXBUFF],
         buffer[MAXBUFF],
         word[MAXBUFF],
-        firstres[16],
-        lastres[16],
+        firstres[MAXRES],
+        lastres[MAXRES],
         *p;
    FILE *fp;
 
@@ -112,13 +113,13 @@ int main(int argc, char **argv)
    {
       TERMINATE(buffer);
 
-      if((p = GetWord(buffer,word))!=NULL)
+      if((p = GetWord(buffer,word,MAXBUFF))!=NULL)
       {
          if(!upstrncmp(word,"LOOP",4))
          {
-            p = GetWord(p,filename);
-            p = GetWord(p,firstres);
-            p = GetWord(p,lastres);
+            p = GetWord(p,filename,MAXBUFF);
+            p = GetWord(p,firstres,MAXRES);
+            p = GetWord(p,lastres,MAXRES);
             
             if(!GetLoop(filename,firstres,lastres))
             {

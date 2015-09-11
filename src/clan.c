@@ -70,8 +70,9 @@
                   residues conserved in at least one cluster
    V3.5  06.11.95 Added EXCLUDE command for excluding from template 
                   analysis
-   V3.6  09.01.95 Added code to free up unneeded storage when not doing
+   V3.6  09.01.96 Added code to free up unneeded storage when not doing
                   critical residues
+   V3.7  14.03.96 Cluster merging now considers CB as well
 
 *************************************************************************/
 /* Includes
@@ -148,10 +149,13 @@ int main(int argc, char **argv)
    FILE *fp=NULL;
    int  retval = 0;
 
+   gOutfp = stdout;
+
    InitProperties();
 
    gPClusCut[0] = RMSCUT;
    gPClusCut[1] = MAXDEV;
+   gPClusCut[2] = MAXCBDEV;
 
    if(ParseCmdLine(argc, argv, infile, &gCATorsions))
    {
@@ -308,7 +312,7 @@ BOOL SetupParser(void)
                                                              MAXLOOPLEN);
    MAKEMKEY(sKeyWords[KEY_DENDOGRAM],     "DENDOGRAM",       STRING,0,0);
    MAKEMKEY(sKeyWords[KEY_TABLE],         "TABLE",           STRING,0,0);
-   MAKEMKEY(sKeyWords[KEY_POSTCLUSTER],   "POSTCLUSTER",     NUMBER,1,2);
+   MAKEMKEY(sKeyWords[KEY_POSTCLUSTER],   "POSTCLUSTER",     NUMBER,1,3);
    MAKEMKEY(sKeyWords[KEY_DATA],          "DATA",            STRING,0,0);
    MAKEMKEY(sKeyWords[KEY_CRITICAL],      "CRITICALRESIDUES",
                                                              STRING,0,0);
@@ -436,8 +440,10 @@ definition does not match the number\n");
          break;
       case KEY_POSTCLUSTER:
          gPClusCut[0] = sRealParam[0];
-         if(NParams==2)
+         if(NParams>1)
             gPClusCut[1] = sRealParam[1];
+         if(NParams>2)
+            gPClusCut[2] = sRealParam[2];
          break;
       case KEY_DATA:
          gDoData = TRUE;
@@ -1491,6 +1497,7 @@ BOOL InsertIorder(int *iorder, int lev, int cluster, int parent)
    13.09.95 Prints NODISTANCE if appropriate.
    21.09.95 Also print DISTANCE and now does (NO)ANGLE as well
    26.09.95 Added TRUETORSIONS/PSEUDOTORSION
+   14.03.96 Added gPClusCut[2] to POSTCLUSTER
 */
 void WriteHeader(FILE *fp, int Method, int NVec, int VecDim, int *Scheme)
 {
@@ -1499,7 +1506,8 @@ void WriteHeader(FILE *fp, int Method, int NVec, int VecDim, int *Scheme)
    fprintf(fp,"BEGIN HEADER\n");
    fprintf(fp,"   METHOD %d\n",Method);
    fprintf(fp,"   NLOOPS %d\n",NVec);
-   fprintf(fp,"   POSTCLUSTER %f %f\n",gPClusCut[0], gPClusCut[1]);
+   fprintf(fp,"   POSTCLUSTER %f %f %f\n",gPClusCut[0], gPClusCut[1],
+           gPClusCut[2]);
    fprintf(fp,"   MAXLENGTH %d\n",gMaxLoopLen);
    fprintf(fp,"   SCHEME ");
    for(i=0; i<gMaxLoopLen; i++)
@@ -1974,25 +1982,20 @@ REAL RmsCAPDB(PDB *pdb1, PDB *pdb2, int length)
    26.09.95 Modified so fitting is done on CAs only
             If FitPDB() returned an error, the lists weren't being
             reassembled
-    
+   14.03.96 Changed to use FitCaPDB() which fits the complete PDB linked
+            lists on CAs.
 */
 REAL MaxCADeviationPDB(PDB *pdb1, PDB *pdb2, int length)
 {
    PDB  *end1, 
         *end2, 
-        *p, *q,
-        *pdbca1 = NULL,
-        *pdbca2 = NULL;
+        *p,   *q,
+        *pcb, *qcb;
    REAL dev,
         maxdev = (REAL)0.0;
    int  natoms;
    BOOL ok = TRUE;
-   char *sel[2];
 
-   SELECT(sel[0], "CA  ");
-   if(sel[0]==NULL)
-      return((REAL)9999.0);
-  
    if(length)
    {
       /* Terminate each PDB linked list after length residues           */
@@ -2000,21 +2003,13 @@ REAL MaxCADeviationPDB(PDB *pdb1, PDB *pdb2, int length)
       end2 = TermPDB(pdb2, length);
    }
    
-   if((pdbca1 = SelectAtomsPDB(pdb1, 1, sel, &natoms))==NULL)
+   if(!FitCaPDB(pdb1, pdb2, NULL))
       ok = FALSE;
-   if((pdbca2 = SelectAtomsPDB(pdb2, 1, sel, &natoms))==NULL)
-      ok = FALSE;
-   free(sel[0]);
 
+   /* Check max CA deviation                                            */
    if(ok)
    {
-      if(!FitPDB(pdbca1, pdbca2, NULL))
-         ok = FALSE;
-   }
-
-   if(ok)
-   {
-      for(p=pdbca1, q=pdbca2; p!=NULL; NEXT(p))
+      for(p=pdb1, q=pdb2; p!=NULL; NEXT(p))
       {
          if(!strncmp(p->atnam,"CA  ",4))
          {
@@ -2026,13 +2021,14 @@ REAL MaxCADeviationPDB(PDB *pdb1, PDB *pdb2, int length)
                dev = DISTSQ(p,q);
                if(dev > maxdev)
                   maxdev = dev;
-               
+
                /* Step q on by one                                      */
                NEXT(q);
             }
             else
             {
-               fprintf(stderr,"MaxCADeviationPDB(): second list expired!\n");
+               fprintf(stderr,"MaxCADeviationPDB(): second list \
+expired!\n");
                ok=FALSE;
                break;
             }
@@ -2051,10 +2047,99 @@ REAL MaxCADeviationPDB(PDB *pdb1, PDB *pdb2, int length)
       p->next = end2;
    }
 
-   if(pdbca1 != NULL)
-      FREELIST(pdbca1,PDB);
-   if(pdbca2 != NULL)
-      FREELIST(pdbca2,PDB);
+   return((ok)?(REAL)sqrt((double)maxdev):(REAL)9999.0);
+}
+
+
+/************************************************************************/
+/*>REAL MaxCBDeviationPDB(PDB *pdb1, PDB *pdb2, int length)
+   --------------------------------------------------------
+   Input:   PDB   *pdb1        Reference PDB linked list
+            int   length       Number of residues to fit
+   I/O:     PDB   *pdb2        Mobile PDB linked list
+                               Note that this will be moved in space
+   Returns: REAL               RMS deviation
+
+   Returns the max CB-CB deviation over length residues of the two PDB 
+   linked lists.
+   If length is zero, all residues will be used.
+
+   Note that pdb2 will be moved in space at the end of this.
+
+   14.03.96 Original based on MaxCADeviationPDB()   By: ACRM
+*/
+REAL MaxCBDeviationPDB(PDB *pdb1, PDB *pdb2, int length)
+{
+   PDB  *end1, 
+        *end2, 
+        *p,   *q,
+        *pcb, *qcb;
+   REAL dev,
+        maxdev = (REAL)0.0;
+   int  natoms;
+   BOOL ok = TRUE;
+
+   if(length)
+   {
+      /* Terminate each PDB linked list after length residues           */
+      end1 = TermPDB(pdb1, length);
+      end2 = TermPDB(pdb2, length);
+   }
+   
+   if(!FitCaPDB(pdb1, pdb2, NULL))
+      ok = FALSE;
+
+   /* Check max CB deviation                                            */
+   if(ok)
+   {
+      for(p=pdb1, q=pdb2; p!=NULL; NEXT(p))
+      {
+         if(!strncmp(p->atnam,"N   ",4))
+         {
+            /* Step q, until we hit a N                                 */
+            while((q!=NULL) && (strncmp(q->atnam,"N   ",4))) NEXT(q);
+            
+            if(q!=NULL)
+            {
+               /* Now check CB                                          */
+               if(strncmp(p->resnam,"GLY ",4) && 
+                  strncmp(q->resnam,"GLY ",4))
+               {
+                  pcb=FindAtomInRes(p,"CB  ");
+                  qcb=FindAtomInRes(q,"CB  ");
+
+                  if(pcb!=NULL && qcb!=NULL)
+                  {
+                     dev = DISTSQ(pcb,qcb);
+                     if(dev > maxdev)
+                        maxdev = dev;
+                  }
+               }
+               
+               /* Step q on by one                                      */
+               NEXT(q);
+            }
+            else
+            {
+               fprintf(stderr,"MaxCBDeviationPDB(): second list \
+expired!\n");
+               ok=FALSE;
+               break;
+            }
+         }
+      }
+   }
+   
+   if(length)
+   {
+      /* Rejoin PDB linked lists                                        */
+      p=pdb1;
+      LAST(p);
+      p->next = end1;
+      p=pdb2;
+      LAST(p);
+      p->next = end2;
+   }
 
    return((ok)?(REAL)sqrt((double)maxdev):(REAL)9999.0);
 }
@@ -2155,7 +2240,8 @@ int PostCluster(FILE *fp, int *clusters, REAL **data, int NVec,
             *rep_k,
             *rep_l;
    REAL     rms, rms1, rms2, rms3, rms4,
-            dev, dev1, dev2, dev3, dev4;
+            CADev, CADev1, CADev2, CADev3, CADev4,
+            CBDev, CBDev1, CBDev2, CBDev3, CBDev4;
    
    /* Allocate memory for array of representitives                      */
    if((repres = (DATALIST **)malloc(NClus * sizeof(DATALIST *)))==NULL)
@@ -2194,8 +2280,9 @@ int PostCluster(FILE *fp, int *clusters, REAL **data, int NVec,
    fprintf(fp,"\nBEGIN POSTCLUSTER\n");
 
    /* Compare each representitive against each other and if any matches 
-      with RMS < gPClusCut[0] and max CA deviation < gPClusCut[1], 
-      merge the clusters, printing a message.
+      with RMS < gPClusCut[0] and max CA deviation < gPClusCut[1]
+      and max CB deviation < gPClusCut[2] merge the clusters, printing 
+      a message.
    */
    for(i=0; i<NClus-1; i++)
    {
@@ -2203,11 +2290,11 @@ int PostCluster(FILE *fp, int *clusters, REAL **data, int NVec,
       {
          if((NMembers[i] != 2) && (NMembers[j] != 2))
          {
-            if(TestMerge(repres[i], repres[j], &rms, &dev))
+            if(TestMerge(repres[i], repres[j], &rms, &CADev, &CBDev))
             {
                NMerge++;
-               DoMerge(fp,i,repres[i],j,repres[j],rms,dev,NewNumbers,
-                       NClus);
+               DoMerge(fp,i,repres[i],j,repres[j],rms,CADev,CBDev,
+                       NewNumbers,NClus);
             }
          }
          else if((NMembers[i] == 2) && (NMembers[j] != 2))
@@ -2217,14 +2304,15 @@ int PostCluster(FILE *fp, int *clusters, REAL **data, int NVec,
             
             if((rep_i != NULL) && (rep_j != NULL))
             {
-               if(TestMerge(rep_i, repres[j], &rms1, &dev1) &&
-                  TestMerge(rep_j, repres[j], &rms2, &dev2))
+               if(TestMerge(rep_i, repres[j], &rms1, &CADev1, &CBDev1) &&
+                  TestMerge(rep_j, repres[j], &rms2, &CADev2, &CBDev2))
                {
                   NMerge++;
                   rms = (rms1 + rms2) / (REAL)2.0;
-                  dev = (dev1 + dev2) / (REAL)2.0;               
-                  DoMerge(fp,i,repres[i],j,repres[j],rms,dev,NewNumbers,
-                          NClus);
+                  CADev = (CADev1 + CADev2) / (REAL)2.0;               
+                  CBDev = (CBDev1 + CBDev2) / (REAL)2.0;               
+                  DoMerge(fp,i,repres[i],j,repres[j],rms,CADev,CBDev,
+                          NewNumbers,NClus);
                }
             }
             else
@@ -2244,14 +2332,15 @@ int PostCluster(FILE *fp, int *clusters, REAL **data, int NVec,
             
             if((rep_i != NULL) && (rep_j != NULL))
             {
-               if(TestMerge(repres[i], rep_i, &rms1, &dev1) &&
-                  TestMerge(repres[i], rep_j, &rms2, &dev2))
+               if(TestMerge(repres[i], rep_i, &rms1, &CADev1, &CBDev1) &&
+                  TestMerge(repres[i], rep_j, &rms2, &CADev2, &CBDev2))
                {               
                   NMerge++;
                   rms = (rms1 + rms2) / (REAL)2.0;
-                  dev = (dev1 + dev2) / (REAL)2.0;
-                  DoMerge(fp,i,repres[i],j,repres[j],rms,dev,NewNumbers,
-                          NClus);
+                  CADev = (CADev1 + CADev2) / (REAL)2.0;
+                  CBDev = (CBDev1 + CBDev2) / (REAL)2.0;               
+                  DoMerge(fp,i,repres[i],j,repres[j],rms,CADev,CBDev,
+                          NewNumbers,NClus);
                }
             }
             else
@@ -2274,16 +2363,17 @@ int PostCluster(FILE *fp, int *clusters, REAL **data, int NVec,
             if((rep_i != NULL) && (rep_j != NULL) && 
                (rep_k != NULL) && (rep_l != NULL))
             {
-               if(TestMerge(rep_i, rep_k, &rms1, &dev1) &&
-                  TestMerge(rep_i, rep_l, &rms2, &dev2) &&
-                  TestMerge(rep_j, rep_l, &rms3, &dev3) &&
-                  TestMerge(rep_j, rep_k, &rms4, &dev4))
+               if(TestMerge(rep_i, rep_k, &rms1, &CADev1, &CBDev1) &&
+                  TestMerge(rep_i, rep_l, &rms2, &CADev2, &CBDev2) &&
+                  TestMerge(rep_j, rep_l, &rms3, &CADev3, &CBDev3) &&
+                  TestMerge(rep_j, rep_k, &rms4, &CADev4, &CBDev4))
                {
                   NMerge++;
                   rms = (rms1 + rms2 + rms3 + rms4) / (REAL)4.0;
-                  dev = (dev1 + dev2 + dev3 + dev4) / (REAL)4.0;
-                  DoMerge(fp,i,repres[i],j,repres[j],rms,dev,NewNumbers,
-                          NClus);
+                  CADev = (CADev1 + CADev2 + CADev3 + CADev4) / (REAL)4.0;
+                  CBDev = (CBDev1 + CBDev2 + CBDev3 + CBDev4) / (REAL)4.0;
+                  DoMerge(fp,i,repres[i],j,repres[j],rms,CADev,CBDev,
+                          NewNumbers,NClus);
                }
             }
             else
@@ -2341,12 +2431,14 @@ expect strange results!\n");
 
 
 /************************************************************************/
-/*>BOOL TestMerge(DATALIST *loop1, DATALIST *loop2, REAL *rms, REAL *dev)
-   ----------------------------------------------------------------------
+/*>BOOL TestMerge(DATALIST *loop1, DATALIST *loop2, REAL *rms, 
+                  REAL *CADev, REAL *CBDev)
+   -----------------------------------------------------------
    Input:   DATALIST *loop1         First loop to test
             DATALIST *loop2         Second loop to test
    Output:  REAL     *rms           RMS between loops
-            REAL     *dev           Max CA deviation between loops
+            REAL     *CADev         Max CA deviation between loops
+            REAL     *CBDev         Max CB deviation between loops
    Returns: BOOL                    Should they be merged?
 
    Tests whether two loop examples should be merged into one cluster
@@ -2354,9 +2446,22 @@ expect strange results!\n");
    12.09.95 Original    By: ACRM
    26.09.95 Changed to use RmsCAPDB()
             Changed comparison from < to <= 
+   14.03.96 Checks CB deviation as well as CA. Required code to duplicate
+            the main PDB linked list.
+            Added CBDev parameter
+   15.04.96 This causes a problem if critical residues have not been
+            requested, as these data are not available. Prompts with
+            a message in this case. Only gives one warning message.
 */
-BOOL TestMerge(DATALIST *loop1, DATALIST *loop2, REAL *rms, REAL *dev)
+BOOL TestMerge(DATALIST *loop1, DATALIST *loop2, REAL *rms, REAL *CADev,
+               REAL *CBDev)
 {
+   static BOOL Warned = FALSE;
+   PDB         *dupe1 = NULL,
+               *dupe2 = NULL,
+               *p, *end;
+   BOOL        DupeDone = TRUE;
+   
    if((loop1 != (DATALIST *)(-1)) && (loop2 != (DATALIST *)(-1)))
    {
       /* Only bother trying to merge clusters if loops are of the same 
@@ -2364,26 +2469,81 @@ BOOL TestMerge(DATALIST *loop1, DATALIST *loop2, REAL *rms, REAL *dev)
       */
       if(loop1->length == loop2->length)
       {
+
          /* If less than cutoff, merge clusters. Note that this must
-            be done with the CA/backbone linked list not the all-atom
-            linked list, otherwise the search for critical residues
-            will fail 
+            be done on a copy of the all-atom linked list, otherwise
+            the search for critical residues will fail since these
+            routines move the loops in space 
          */
-         *rms = RmsCAPDB(loop1->pdbloop, 
-                         loop2->pdbloop, 
+         if((p=FindResidueSpec(loop1->allatompdb,loop1->start))!=NULL)
+         {
+            /* Duplicate from the start res on                          */
+            if((dupe1 = DupePDB(p))!=NULL)
+            {
+               if((end = TermPDB(dupe1, loop1->length + 1))!=NULL)
+                  FREELIST(end,PDB);
+            }
+         }
+         if((p=FindResidueSpec(loop2->allatompdb,loop2->start))!=NULL)
+         {
+            /* Duplicate from the start res on                          */
+            if((dupe2 = DupePDB(p))!=NULL)
+            {
+               if((end = TermPDB(dupe2, loop2->length + 1))!=NULL)
+                  FREELIST(end,PDB);
+            }
+         }
+         
+         if(dupe1==NULL || dupe2==NULL)
+         {
+            if(dupe1!=NULL) FREELIST(dupe1, PDB);
+            if(dupe2!=NULL) FREELIST(dupe2, PDB);
+            if(!Warned)
+            {
+               fprintf(stderr,"Warning: Unable to duplicate PDB linked \
+lists.\n");
+               fprintf(stderr,"         Max deviations in merging will \
+only be done on CA, not CB\n");
+
+               if(loop1->allatompdb == NULL || loop2->allatompdb == NULL)
+               {
+                  fprintf(stderr,"         You can solve this by using \
+the CRITICAL keyword.\n");
+               }
+               Warned = TRUE;
+            }
+            
+            dupe1    = loop1->pdbloop;
+            dupe2    = loop2->pdbloop;
+            DupeDone = FALSE;
+         }
+            
+         *rms = RmsCAPDB(dupe1, 
+                         dupe2, 
                          loop1->length);
-         *dev = MaxCADeviationPDB(loop1->pdbloop, 
-                                  loop2->pdbloop, 
-                                  loop1->length);
+         *CADev = MaxCADeviationPDB(dupe1, 
+                                    dupe2,
+                                    loop1->length);
+         *CBDev = MaxCBDeviationPDB(dupe1, 
+                                    dupe2,
+                                    loop1->length);
+
+         /* If we managed to duplicate our PDB linked lists, free them  */
+         if(DupeDone)
+         {
+            FREELIST(dupe1, PDB);
+            FREELIST(dupe2, PDB);
+         }
 
          if(sInfoLevel)
          {
-            fprintf(stderr,"Test %s with %s. RMS=%.3f MAXCA=%.3f\n",
-                    loop1->loopid, loop2->loopid, *rms, *dev);
+            fprintf(stderr,"Test %s with %s. RMS=%.3f MAXCA=%.3f \
+MAXCB=%.3f\n", loop1->loopid, loop2->loopid, *rms, *CADev, *CBDev);
          }
 
-         if(((gPClusCut[0] == 0.0) || (*rms <= gPClusCut[0])) &&
-            ((gPClusCut[1] == 0.0) || (*dev <= gPClusCut[1])))
+         if(((gPClusCut[0] == 0.0) || (*rms   <= gPClusCut[0])) &&
+            ((gPClusCut[1] == 0.0) || (*CADev <= gPClusCut[1])) &&
+            ((gPClusCut[2] == 0.0) || (*CBDev <= gPClusCut[2])))
          {
             return(TRUE);
          }
@@ -2395,7 +2555,8 @@ BOOL TestMerge(DATALIST *loop1, DATALIST *loop2, REAL *rms, REAL *dev)
 
 /************************************************************************/
 /*>void DoMerge(FILE *fp, int i, DATALIST *loop1, int j, DATALIST *loop2,
-                REAL rms, REAL dev, int *NewNumbers, int NClus)
+                REAL rms, REAL CADev, REAL CBDev, int *NewNumbers, 
+                int NClus)
    ----------------------------------------------------------------------
    Input:   FILE     *fp          File to write information to
             int      i            First cluster number
@@ -2403,7 +2564,8 @@ BOOL TestMerge(DATALIST *loop1, DATALIST *loop2, REAL *rms, REAL *dev)
             int      j            Second cluster number
             DATALIST *loop2       Representative of second cluster
             REAL     rms          RMS between clusters
-            REAL     dev          Max deviation between clusters
+            REAL     CADev        Max CA deviation between clusters
+            REAL     CBDev        Max CB deviation between clusters
             int      NClus        Initial number of clusters
    I/O:     int      *NewNumbers  Array of new cluster numbers  
            
@@ -2414,21 +2576,22 @@ BOOL TestMerge(DATALIST *loop1, DATALIST *loop2, REAL *rms, REAL *dev)
    into the cluster number array
 
    12.09.95 Original    By: ACRM
+   14.03.96 Added CBDev printing & parameter
 */
 void DoMerge(FILE *fp, int i, DATALIST *loop1, int j, DATALIST *loop2, 
-             REAL rms, REAL dev, int *NewNumbers, int NClus)
+             REAL rms, REAL CADev, REAL CBDev, int *NewNumbers, int NClus)
 {
    int OldClusNum,
        NewClusNum,
        k;
 
    fprintf(fp,"MERGED cluster %d (%s) with %d (%s), rmsd = %f, \
-max CA deviation = %f\n",
+max CA deviation = %f, max CB deviation = %f\n",
            i+1,
            loop1->loopid,
            j+1,
            loop2->loopid,
-           rms, dev);
+           rms, CADev, CBDev);
    
    
    /* Merge these two clusters                                          */

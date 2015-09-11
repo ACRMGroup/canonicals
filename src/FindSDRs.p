@@ -59,3 +59,6 @@ void FlagRogueClusters(int nclus, int nloops)
 ;
 BOOL IsRogue(int clus, int LargestClus)
 ;
+BOOL IsCisProline(CLUSINFO *ClusInfo, int clusnum, int resoffset, 
+                  int nloops)
+;

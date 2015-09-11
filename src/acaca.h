@@ -85,6 +85,7 @@
 #define MAXBUFF              160
 #define MAXLOOPLEN           30
 #define TORPERRES            3
+#define MAXLOOPID            32
 
 #define RMSCUT               1.0
 #define MAXDEV               1.5
@@ -112,7 +113,7 @@ typedef struct _datalist
 typedef struct _cluster
 {
    int    clusnum;
-   char   loopid[32];
+   char   loopid[MAXLOOPID];
 }  CLUSTER;
 
 /************************************************************************/
@@ -129,7 +130,7 @@ BOOL       gDoDendogram   = FALSE,
            gDoDistance    = FALSE,    /* Handle dists. in clustering    */
            gDoAngles      = FALSE,    /* Handle angles in clustering    */
            gCATorsions    = FALSE;    /* Do CA pseudo torsions          */
-FILE       *gOutfp        = stdout;
+FILE       *gOutfp        = NULL;
 DATALIST   *gDataList     = NULL;
 STRINGLIST *gStringList   = NULL;
 REAL       gPClusCut[3];

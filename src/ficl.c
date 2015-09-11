@@ -106,6 +106,7 @@ int main(int argc, char **argv)
    CLUSTER *clusters  = NULL,
            *medians   = NULL;
    
+   gOutfp = stdout;
 
    if(ParseCmdLine(argc, argv, datafile, pdbfile, startres, lastres, 
                    &CATorsions, &Verbose))
@@ -353,7 +354,7 @@ BOOL ReadData(FILE *fp, REAL **data, int NLoops, int VecLength)
       {
          for(i=0, p=buffer; p!=NULL && i<VecLength; i++)
          {
-            p = GetWord(p,word);
+            p = GetWord(p,word,MAXBUFF);
             if(!sscanf(word,"%lf",&(data[LoopCount][i])))
                return(FALSE);
          }
@@ -407,7 +408,7 @@ BOOL ReadHeader(FILE *fp, int *pMethod, int *pNLoops, int *pMaxLen)
       /* If in section, check for required data                         */
       if(InSection)
       {
-         p = GetWord(buffer,word);
+         p = GetWord(buffer,word,MAXBUFF);
 
          if(!strncmp(word,"METHOD",6))
          {
@@ -429,7 +430,7 @@ BOOL ReadHeader(FILE *fp, int *pMethod, int *pNLoops, int *pMaxLen)
             /* Read the scheme out of the following values              */
             for(i=0;p!=NULL && i<MAXLOOPLEN;i++)
             {
-               p = GetWord(p,word);
+               p = GetWord(p,word,MAXBUFF);
                sscanf(word,"%d",&(gScheme[i]));
             }
             gMaxLoopLen = i;
@@ -580,9 +581,9 @@ of clusters\n");
          
          if(SecPos > 2)
          {
-            p = GetWord(p,(clusters[loopnum].loopid));
+            p = GetWord(p,(clusters[loopnum].loopid),MAXLOOPID);
             for(i=0; i<NClusters; i++)
-               p = GetWord(p,word);
+               p = GetWord(p,word,MAXBUFF);
 
             sscanf(word,"%d",&(clusters[loopnum].clusnum));
          }

@@ -13,6 +13,9 @@
 /* Use conserved Gly/Pro                                                */
 #define USE_GLYPRO             
 
+/* Use cis Pro even if there's only one                                 */
+#define USE_CISPRO
+
 /* Use Loop--loop s/c-m/c HBonds                                        */
 #define USE_LOOP_SM_HBONDS     
 
@@ -27,7 +30,7 @@
 /* When unifying SDR lists on length, exclude added residues if they do
    not give added descriminatory power
 */
-/* #define EXCLUDE_NONINFORM                                            */
+#define EXCLUDE_NONINFORM                                            
 
 
 
@@ -43,7 +46,7 @@
    Program:    FindSDRs
    File:       FindSDRs.c
    
-   Version:    V0.1
+   Version:    V1.0
    Date:       02.02.96
    Function:   Find SDRs in a set of loops
    
@@ -120,6 +123,9 @@
 
    Revision History:
    =================
+   V0.1  02.02.96 Original development version
+   V1.0  29.04.96 Finds rogues when parent isn't the largest cluster
+                  of a given length
 
 *************************************************************************/
 /* Includes
@@ -129,6 +135,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <errno.h>
+#include <math.h>
 
 #include "bioplib/general.h"
 #include "bioplib/fsscanf.h"
@@ -136,6 +143,7 @@
 #include "bioplib/seq.h"
 #include "bioplib/hbond.h"
 #include "bioplib/macros.h"
+#include "bioplib/angle.h"
 
 #include "resprops.h"
 
@@ -145,6 +153,9 @@
 
 /* Buffer size                                                          */
 #define MAXBUFF         160
+
+/* Max length of a word to pull out of the buffer                       */
+#define MAXWORD         32
 
 /* malloc() step                                                        */
 #define ALLOCQUANTUM    16  
@@ -159,7 +170,7 @@
 #define CPCOMMAND       "cp"
 
 /* Command to create an access file from PDB                            */
-#define SOLVACC         "runasurf %s %s" 
+#define SOLVACC         "./runasurf %s %s" 
 
 /* Dir for temp files; may need to be a blank string                    */
 #define TEMPDIR         ""
@@ -332,7 +343,7 @@ int ReadClanFile(FILE *in, int *NLoops)
 {
    int  nloops   = 0,
         nclus    = 0;
-   char word[32],
+   char word[MAXWORD],
         *buffer,
         *buffp;
    BOOL GotAssignments = FALSE,
@@ -349,9 +360,9 @@ int ReadClanFile(FILE *in, int *NLoops)
             buffp = buffer;
             
             /* Pull out NLOOPS                                          */
-            buffp = GetWord(buffp,word);
+            buffp = GetWord(buffp,word,MAXWORD);
             /* Pull out the actual number                               */
-            buffp = GetWord(buffp,word);
+            buffp = GetWord(buffp,word,MAXWORD);
             if(!sscanf(word,"%d",&nloops) || nloops==0)
             {
                fprintf(stderr,"Unable to read NLOOPS from clan file\n");
@@ -383,11 +394,11 @@ int ReadClanFile(FILE *in, int *NLoops)
             buffp = buffer;
             
             /* Pull out BEGIN                                           */
-            buffp = GetWord(buffp,word);
+            buffp = GetWord(buffp,word,MAXWORD);
             /* Pull out CRITICALRESIDUES                                */
-            buffp = GetWord(buffp,word);
+            buffp = GetWord(buffp,word,MAXWORD);
             /* Pull out the actual number                               */
-            buffp = GetWord(buffp,word);
+            buffp = GetWord(buffp,word,MAXWORD);
             if(!sscanf(word,"%d",&nclus) || nclus==0)
             {
                fprintf(stderr,"Unable to read number of clusters from \
@@ -881,8 +892,8 @@ BOOL FindSDRs(int nclus, int nloops, BOOL KeepSA)
 
 
 #ifdef USE_ABSCONS
-      /* If there is more than one member in the cluster, residues which
-         are absolutely conserved are marked
+      /* If there are more than MINABSCONS members in the cluster, residues
+         which are absolutely conserved are marked
       */
       if(gClusInfo[clus].NMembers >= MINABSCONS)
       {
@@ -900,8 +911,8 @@ BOOL FindSDRs(int nclus, int nloops, BOOL KeepSA)
 #endif
       
 #ifdef USE_GLYPRO
-      /* If there is more than one member in the cluster, residues which
-         are absolutely conserved are marked
+      /* If there are more than MINGLYPRO members in the cluster, residues
+         which are absolutely conserved are marked
       */
       if(gClusInfo[clus].NMembers >= MINGLYPRO)
       {
@@ -918,6 +929,25 @@ BOOL FindSDRs(int nclus, int nloops, BOOL KeepSA)
             }
          }
       }
+#ifdef USE_CISPRO
+      else
+      {
+         for(i=0; i<gClusInfo[clus].NRes; i++)
+         {
+            if(gClusInfo[clus].absolute[i] &&
+               gClusInfo[clus].ConsRes[i]  == 'P')
+            {
+               if(IsCisProline(&(gClusInfo[clus]), clus+1, i, nloops))
+               {
+                  gClusInfo[clus].key[i] = TRUE;
+#ifdef REPORT_REASONS
+                  Report(&(gClusInfo[clus]), i, "Cis-Pro");
+#endif
+               }
+            }
+         }
+      }
+#endif
 #endif
       
 #ifdef USE_HBONDS
@@ -2390,29 +2420,30 @@ BOOL ValueIsAdded(SDRLIST *s1, SDRLIST *s2)
    characteristics at the SDR positions
 
    16.02.96 Original   By: ACRM
+   29.04.96 Now also searches for clusters which are rogues wrt clusters
+            other than the largest one
 */
 void FlagRogueClusters(int nclus, int nloops)
 {
-   int     clus,
+   int     clus1, clus2, clus3,
+           clusa, clusb,
            LoopLength,
            LargestClus,
            LargestClusSize,
            MinLoopLength = 0,
            MaxLoopLength = 0;
-   SDRLIST *sdrlist1,
-           *sdrlist2;
 
    /* Assume all clusters are not rogues and find min and max loop
       lengths
    */
    MinLoopLength = MaxLoopLength = gClusInfo[0].length;
-   for(clus=0; clus<nclus; clus++)
+   for(clus1=0; clus1<nclus; clus1++)
    {
-      gClusInfo[clus].rogue = 0;
-      if(gClusInfo[clus].length > MaxLoopLength)
-         MaxLoopLength = gClusInfo[clus].length;
-      if(gClusInfo[clus].length < MinLoopLength)
-         MinLoopLength = gClusInfo[clus].length;
+      gClusInfo[clus1].rogue   = 0;
+      if(gClusInfo[clus1].length > MaxLoopLength)
+         MaxLoopLength = gClusInfo[clus1].length;
+      if(gClusInfo[clus1].length < MinLoopLength)
+         MinLoopLength = gClusInfo[clus1].length;
    }
 
    /* For each possible loop length                                     */
@@ -2423,14 +2454,14 @@ void FlagRogueClusters(int nclus, int nloops)
       
       /* For each cluster with this loop length, find the largest cluster
       */
-      for(clus=0; clus<nclus; clus++)
+      for(clus1=0; clus1<nclus; clus1++)
       {
-         if(gClusInfo[clus].length == LoopLength)
+         if(gClusInfo[clus1].length == LoopLength)
          {
-            if(gClusInfo[clus].NMembers > LargestClusSize)
+            if(gClusInfo[clus1].NMembers > LargestClusSize)
             {
-               LargestClusSize = gClusInfo[clus].NMembers;
-               LargestClus     = clus;
+               LargestClusSize = gClusInfo[clus1].NMembers;
+               LargestClus     = clus1;
             }
          }
       }
@@ -2441,16 +2472,68 @@ void FlagRogueClusters(int nclus, int nloops)
          /* Run through all the clusters of this length and see if any
             are rogues c.f. the largest cluster
          */
-         for(clus=0; clus<nclus; clus++)
+         for(clus1=0; clus1<nclus; clus1++)
          {
-            if((clus != LargestClus) &&
-               (gClusInfo[clus].length == LoopLength))
+            if((clus1 != LargestClus) &&
+               (gClusInfo[clus1].length == LoopLength))
             {
-               if(IsRogue(clus, LargestClus))
-                  gClusInfo[clus].rogue = LargestClus+1;
+               if(IsRogue(clus1, LargestClus))
+               {
+                  gClusInfo[clus1].rogue = LargestClus+1;
+               }
             }
          }
-      }
+
+         /* Now see if there are any rogues vs. non-largest cluster     
+
+            For each cluster of this length which is not already flagged
+            as a rogue
+         */
+         for(clus1=0; clus1<nclus; clus1++)
+         {
+            if((gClusInfo[clus1].length == LoopLength) &&
+               (!gClusInfo[clus1].rogue))
+            {
+               /* For each other cluster of the same length             */
+               for(clus2=clus1+1; clus2<nclus; clus2++)
+               {
+                  if(gClusInfo[clus2].length == LoopLength)
+                  {
+                     /* Set clusa to the larger and clusb to the smaller*/
+                     clusa = clus1;
+                     clusb = clus2;
+                     if(gClusInfo[clusa].NMembers <
+                        gClusInfo[clusb].NMembers)
+                     {
+                        int temp = clusa;
+                        clusa    = clusb;
+                        clusb    = temp;
+                     }
+                        
+                     if(IsRogue(clusb, clusa))
+                     {
+                        /* Update any rogue clusters for which clusb was
+                           the "parent" and switch the parent to clusa
+
+                           14.06.07 Did say
+                              gClusInfo[clus3].rogue -= clusa+1;
+                        */
+                        for(clus3=0; clus3<nclus; clus3++)
+                        {
+                           if(gClusInfo[clus3].rogue == clusb+1)
+                              gClusInfo[clus3].rogue = clusa+1;
+                        }
+                        
+                        /* Flag clusb as rogue, setting clusa as its
+                           parent
+                        */
+                        gClusInfo[clusb].rogue = clusa+1;
+                     }
+                  }
+               }
+            }
+         }  /* Finding rogues vs. non-largest cluster                   */
+      }  /* Have some clusters for this loop length                     */
    }  /* For each loop length                                           */
 }
 
@@ -2492,4 +2575,133 @@ BOOL IsRogue(int clus, int LargestClus)
    /* There were no `added-value' SDRs, so this is a rogue              */
    return(TRUE);
 }
+
+
+
+
+
+
+/************************************************************************/
+/*>BOOL IsCisProline(CLUSINFO *ClusInfo, int clusnum, int resoffset, 
+                     int nloops)
+   -----------------------------------------------------------------
+   Determines whether a residue from the first PDB file in a specified
+   cluster is a cis proline.
+
+   22.03.96 Original   By: ACRM
+*/
+BOOL IsCisProline(CLUSINFO *ClusInfo, int clusnum, int resoffset, 
+                  int nloops)
+{
+   PDB  *pdb,
+        *prev,
+        *ResPro,
+        *ResPrev,
+        *ResNext,
+        *p,
+        *CA1 = NULL,
+        *C1  = NULL,
+        *N2  = NULL,
+        *CA2 = NULL;
+   int  natom,
+        LoopNum;
+   FILE *fp;
+   REAL angle;
+   
+
+   /* Run through all the loops                                         */
+   for(LoopNum=0; LoopNum<nloops; LoopNum++)
+   {
+      /* If we've found a loop in this cluster                          */
+      if(gLoopClus[LoopNum].cluster == clusnum)
+      {
+#ifdef DEBUG
+         fprintf(stderr,"Marking cis-prolines for %s\n",
+                 gLoopClus[LoopNum].filename);
+#endif
+
+         /* Open the PDB file                                           */
+         if((fp=fopen(gLoopClus[LoopNum].filename, "r"))==NULL)
+         {
+            fprintf(stderr,"Warning: Unable to open %s for reading\n",
+                    gLoopClus[LoopNum].filename);
+            continue;
+         }
+
+         /* Read the PDB file and close it                              */
+         if((pdb=ReadPDB(fp, &natom))==NULL)
+         {
+            fprintf(stderr,"No atoms read from PDB file: %s\n",
+                    gLoopClus[LoopNum].filename);
+            fclose(fp);
+            return(FALSE);
+         }
+         fclose(fp);
+
+         /* Find the PDB pointer for the resoffset residue from the 
+            ClusInfo structure
+         */
+         ResPro = FindResidue(pdb,
+                              ClusInfo->chain[resoffset],
+                              ClusInfo->resnum[resoffset],
+                              ClusInfo->insert[resoffset]);
+
+         /* Find the previous residue. This is a little messy since the
+            PDB linked list is not doubly linked
+         */
+         for(prev = pdb; prev->next != ResPro; NEXT(prev));
+         ResPrev = FindResidue(pdb,
+                               prev->chain[0],
+                               prev->resnum,
+                               prev->insert[0]);
+
+         /* Find the next residue                                       */
+         ResNext = FindNextResidue(ResPro);
+
+         /* Find the atoms describing the omega torsion angle           */
+         for(p=ResPrev; p!=ResPro; NEXT(p))
+         {
+            if(!strncmp(p->atnam,"CA  ",4))
+               CA1 = p;
+            if(!strncmp(p->atnam,"C   ",4))
+               C1  = p;
+         }
+         for(p=ResPro; p!=ResNext; NEXT(p))
+         {
+            if(!strncmp(p->atnam,"N   ",4))
+               N2  = p;
+            if(!strncmp(p->atnam,"CA  ",4))
+               CA2 = p;
+         }
+         
+         if(CA1==NULL || C1==NULL || N2==NULL || CA2==NULL)
+         {
+            fprintf(stderr,"Warning: Missing atom around possible \
+cis-proline in %s %c%d%c\n",
+                    gLoopClus[LoopNum].filename,
+                    ClusInfo->chain[resoffset],
+                    ClusInfo->resnum[resoffset],
+                    ClusInfo->insert[resoffset]);
+         }
+         else
+         {
+            angle = phi(CA1->x, CA1->y, CA1->z,
+                        C1->x,  C1->y,  C1->z,
+                        N2->x,  N2->y,  N2->z,
+                        CA2->x, CA2->y, CA2->z);
+            FREELIST(pdb, PDB);
+            if((angle > (-PI/2.0)) && (angle < (PI/2.0)))
+               return(TRUE);
+            else
+               return(FALSE);
+         }
+
+         /* Free the PDB linked list and see if there's another struct. */
+         FREELIST(pdb, PDB);
+      }  /* In the correct cluster                                      */
+   }  /* For each loop                                                  */
+
+   return(FALSE);
+}
+
 
