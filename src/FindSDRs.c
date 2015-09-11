@@ -1,46 +1,3 @@
-/* Use absolute residue conservation                                    */
-#define USE_ABSCONS
-
-/* Use Loop--f/w HBonds                                                 */
-#define USE_HBONDS
-
-/* Use buried HPhobs in loop                                            */
-#define USE_HPHOB
-
-/* Use f/w h/phob partners                                              */
-#define USE_HPHOB_PARTNERS 
-
-/* Use conserved Gly/Pro                                                */
-#define USE_GLYPRO             
-
-/* Use cis Pro even if there's only one                                 */
-#define USE_CISPRO
-
-/* Use Loop--loop s/c-m/c HBonds                                        */
-#define USE_LOOP_SM_HBONDS     
-
-/* When unifying SDR lists, choose positions from all clusters of the
-   same loop length
-*/
-#define UNIFY_ON_LENGTH
-
-/* When unifying SDR lists, choose positions from all large clusters    */
-#define UNIFY_ON_LARGE_CLUSTER
-
-/* When unifying SDR lists on length, exclude added residues if they do
-   not give added descriminatory power
-*/
-#define EXCLUDE_NONINFORM                                            
-
-
-
-
-/* Report reasons for residues                                          */
-/* #define REPORT_REASONS */
-
-/* Various debugging                                                    */
-/* #define DEBUG */
-
 /*************************************************************************
 
    Program:    FindSDRs
@@ -126,9 +83,32 @@
                   of a given length
    V1.0a 30.01.09 Compile cleanups
    V1.1  01.04.09 Added check on Prolines at N-terminus
-   V3.8  11.09.15 Skipped
+   V3.8  11.09.15 Added CONS_THRESHOLD and >= NRequired rather than 
+                  == NRequired  By: AKR
+                  Updated SOLVACC to use new bioptools  By: ACRM
 
 *************************************************************************/
+/* Configuration Options
+*/
+#define USE_ABSCONS             /* Use absolute residue conservation    */
+#define USE_HBONDS              /* Use Loop--f/w HBonds                 */
+#define USE_HPHOB               /* Use buried HPhobs in loop            */
+#define USE_HPHOB_PARTNERS      /* Use f/w h/phob partners              */
+#define USE_GLYPRO              /* Use conserved Gly/Pro                */
+#define USE_CISPRO              /* Use cis Pro even if there's only one */
+#define USE_LOOP_SM_HBONDS      /* Use Loop--loop s/c-m/c HBonds        */
+#define UNIFY_ON_LENGTH         /* When unifying SDR lists, choose 
+                                   positions from all clusters of the
+                                   same loop length                     */
+#define UNIFY_ON_LARGE_CLUSTER  /* When unifying SDR lists, choose 
+                                   positions from all large clusters    */
+#define EXCLUDE_NONINFORM       /* When unifying SDR lists on length, 
+                                   exclude added residues if they do
+                                   not give added descriminatory power  */
+#define REPORT_REASONS          /* Report reasons for residues          */
+/* #define DEBUG */             /* Various debugging                    */
+
+/************************************************************************/
 /* Includes
 */
 #include <unistd.h>
@@ -151,46 +131,33 @@
 /************************************************************************/
 /* Defines and macros
 */
-
-/* Buffer size                                                          */
-#define MAXBUFF         160
-
-/* Max length of a word to pull out of the buffer                       */
-#define MAXWORD         32
-
-/* malloc() step                                                        */
-#define ALLOCQUANTUM    16  
-
-/* Max amino acid types                                                 */
-#define MAXRES          24  
-
-/* Max SA for a buried res                                              */
-#define SACUT           3.0 
-
-/* The copy command                                                     */
-#define CPCOMMAND       "cp"
+#define MAXBUFF         160          /* Buffer size                     */
+#define MAXWORD         32           /* Max length of a word            */
+#define ALLOCQUANTUM    16           /* malloc() step                   */
+#define MAXRES          24           /* Max amino acid types            */
+#define SACUT           3.0          /* Max SA for a buried res         */
+#define CPCOMMAND       "cp"         /* The copy command                */
+#define TEMPDIR         ""           /* Dir for temp files; may need to 
+                                        be a blank string               */
+#define HPHOBCONTDISTSQ ((REAL)25.0) /* Square distance considered to 
+                                        be a hphob contact              */
+#define MINCLUSSIZE     5            /* Min number of members of a cluster
+                                        when reporting unified SDR lists*/
+#define MINABSCONS      5            /* Min number of members if a cluster
+                                        when considering absolute 
+                                        conservation in defining SDRs   */
+#define MINGLYPRO       2            /* Min number of members of a cluster
+                                        when considering absolute 
+                                        conservation of Gly/Pro in 
+                                        defining SDRs                   */
+#define CONS_THRESHOLD 0.6           /* Specify the fraction of the 
+                                        cluster members that must be 
+                                        conserved                       */
 
 /* Command to create an access file from PDB                            */
-#define SOLVACC         "/home/bsm2/abhi/CANONICALS/acaca/tools/acaca2009/src/runasurf %s %s" 
-
-/* Dir for temp files; may need to be a blank string                    */
-#define TEMPDIR         ""
-
-/* Square distance considered to be a hphob contact                     */
-#define HPHOBCONTDISTSQ ((REAL)25.0)          
-
-/* Min number of members of a cluster when reporting unified SDR lists  */
-#define MINCLUSSIZE     5
-
-/* Min number of members if a cluster when considering absolute 
-   conservation in defining SDRs
-*/
-#define MINABSCONS      5
-
-/* Min number of members of a cluster when considering absolute 
-   conservation of Gly/Pro in defining SDRs       
-*/
-#define MINGLYPRO       2
+/* #define SOLVACC         "/home/bsm2/jacob/projects/acaca/tools/acaca2009/src/runasurf %s %s"  */
+/* #define SOLVACC         "/home/bsm2/abhi/CANONICALS/acaca/tools/acaca2009/src/runasurf %s %s" */
+#define SOLVACC         "pdbsolv %s | pdbsumbval > %s" 
 
 /* Position codes used by SDRLIST->position                             */
 #define POS_NOCONTACT   0
@@ -201,6 +168,10 @@
 #define OL_FALSE        0
 #define OL_ONLENGTH     1
 #define OL_DELETABLE    2
+
+
+
+
 
 /* Structure (linked list) used to store unified SDR list               */
 typedef struct _sdrlist
@@ -633,7 +604,6 @@ BOOL ParseCmdLine(int argc, char **argv, char *infile, char *outfile,
    Prints a usage message
 
    02.02.96 Original   By: ACRM
-   11.09.15 V3.8
 */
 void Usage(void)
 {
@@ -1282,10 +1252,9 @@ PDB *ReadPDBAsSA(char *filename, BOOL KeepSAFile)
       
       /* Create the command for building the SA file and run it         */
       sprintf(buffer,SOLVACC,tempfile,safile);
-
       system(buffer);
 
-      /* Remove our temp file if it didn't exists before we started     */
+      /* Remove our temp file if it didn't exist before we started      */
       if(!PDBExists)
          unlink(tempfile);
    }
@@ -1453,7 +1422,7 @@ BOOL MarkHPhob(CLUSINFO *ClusInfo, int clusnum, int nloops,
    BOOL L48;
 #endif
 
-   NRequired = ClusInfo->NMembers;
+   NRequired = CONS_THRESHOLD * (ClusInfo->NMembers);
    
    /* Zero the counts for each residue                                  */
    for(i=0; i<ClusInfo->NRes; i++)
@@ -1575,8 +1544,8 @@ accessibility file from %s\n",
    {
       for(i=0; i<ClusInfo->NRes; i++)
       {
-         if((ClusInfo->count[i]        == NRequired) ||
-            (ClusInfo->PartnerCount[i] == NRequired))
+         if((ClusInfo->count[i]        >= NRequired) ||
+            (ClusInfo->PartnerCount[i] >= NRequired))
          {
             ClusInfo->key[i] = TRUE;
 #ifdef REPORT_REASONS
@@ -1624,7 +1593,7 @@ BOOL MarkHBonders(CLUSINFO *ClusInfo, int clusnum, int nloops)
    FILE *fp;
    char resspec[16];
 
-   NRequired = ClusInfo->NMembers;
+   NRequired = CONS_THRESHOLD * (ClusInfo->NMembers);
    
    /* Zero the counts for each residue                                  */
    for(i=0; i<ClusInfo->NRes; i++)
@@ -1760,7 +1729,7 @@ BOOL MarkHBonders(CLUSINFO *ClusInfo, int clusnum, int nloops)
    {
       for(i=0; i<ClusInfo->NRes; i++)
       {
-         if(ClusInfo->count[i] == ClusInfo->NMembers)
+         if(ClusInfo->count[i] >= NRequired)
          {
             ClusInfo->key[i] = TRUE;
 #ifdef REPORT_REASONS
