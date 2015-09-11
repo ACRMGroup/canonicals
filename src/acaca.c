@@ -3,8 +3,8 @@
    Program:    clan/ficl
    File:       acaca.c
    
-   Version:    V3.3
-   Date:       04.10.95
+   Version:    V3.4
+   Date:       10.10.95
    Function:   Perform cluster analysis on loop conformations
    
    Copyright:  (c) Dr. Andrew C. R. Martin 1995
@@ -56,6 +56,7 @@
    V2.0  25.07.95 Rearranged source to share code between parts of the
                   acaca package
    V3.3  04.10.95 Skipped
+   V3.4  10.09.95 Skipped
 
 *************************************************************************/
 /* Includes

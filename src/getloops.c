@@ -3,8 +3,8 @@
    Program:    GetLoops
    File:       getloops.c
    
-   Version:    V1.0
-   Date:       03.07.95
+   Version:    V3.4
+   Date:       10.10.95
    Function:   Get loops specified in a clan input file
    
    Copyright:  (c) Dr. Andrew C. R. Martin 1995
@@ -47,6 +47,9 @@
 
    Revision History:
    =================
+   V1.0  03.07.95 Original
+   V3.4  10.09.95 Skipped
+
 
 *************************************************************************/
 /* Includes

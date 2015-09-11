@@ -3,8 +3,8 @@
    Program:    
    File:       decr.h
    
-   Version:    V0.1
-   Date:       01.08.95
+   Version:    V3.4
+   Date:       10.10.95
    Function:   DEfine Critical Residues
    
    Copyright:  (c) Dr. Andrew C. R. Martin 1995
@@ -47,6 +47,9 @@
 
    Revision History:
    =================
+   V0.1  01.08.95 Original
+   V3.4  10.10.95 Various changes to make deleted residues work with residues
+                  conserved in at least one cluster
 
 *************************************************************************/
 /* Includes
@@ -60,8 +63,14 @@
 /************************************************************************/
 /* Defines and macros
 */
+
 #define ALLOCQUANTUM 16
 #define CONTACTDIST  ((REAL)4.0)
+
+/* This is rge variable type used to store property flags. It must be
+   sufficiently wide for all the flags we use. (Currently 2 bytes.)
+*/
+typedef USHORT PROP_T;
 
 /* Bit-wise flags for residue properties                                */
 #define HPHOB_FLAG     0x0001
@@ -91,7 +100,7 @@ typedef struct
 {
    PDB    **contacts,
           **residues;
-   USHORT *ContactProps,
+   PROP_T *ContactProps,
           *ResProps;
    char   *AALoop,
           *AAContact;
@@ -107,7 +116,7 @@ typedef struct
    int    *resnum;
    char   *chain,
           *insert;
-   USHORT *ConservedProps,
+   PROP_T *ConservedProps,
           *RangeOfProps;
    int    NRes,                  /* Number of common residue ids        */
           length;                /* Length of loop itself               */

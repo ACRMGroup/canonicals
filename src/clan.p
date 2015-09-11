@@ -42,9 +42,6 @@ void WriteClusData(FILE *fp, int NVec, int VecDim, REAL **data)
 DATALIST *FindMedian(int *clusters, REAL **data, int NVec, int VecDim, 
                      int ClusNum, int *NMemb)
 ;
-BOOL DefineCriticalResidues(FILE *fp, int *clusters, REAL **data, 
-                            int NVec, int VecDim, REAL *crit, int NClus)
-;
 void FillClusterArray(int **clusters, int NVec, int NClus,
                       int *TheClusters)
 ;
@@ -65,4 +62,7 @@ void DoMerge(FILE *fp, int i, DATALIST *loop1, int j, DATALIST *loop2,
              REAL rms, REAL dev, int *NewNumbers, int NClus)
 ;
 DATALIST *FindLoop(int *clusters, int NVec, int ClusNum, int loopnum)
+;
+BOOL DefineCriticalResidues(FILE *fp, int *clusters, REAL **data, 
+                            int NVec, int VecDim, REAL *crit, int NClus)
 ;

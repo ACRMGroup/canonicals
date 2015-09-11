@@ -1,6 +1,6 @@
 CC       = cc
-COPT     = -g -fullwarn -ansi -I/home/bsm/martin/include -L/home/bsm/martin/lib
-PROTOIZE = ansi -p
+COPT     = -g -Wall -ansi -I/user/amartin/include -L/user/amartin/lib
+PROTOIZE = /user/amartin/bin/ansi -p
 
 CLANFILES = clan.o acaca.o decr.o
 FICLFILES = ficl.o acaca.o

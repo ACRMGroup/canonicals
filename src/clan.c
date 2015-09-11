@@ -3,8 +3,8 @@
    Program:    clan
    File:       clan.c
    
-   Version:    V3.3
-   Date:       04.10.95
+   Version:    V3.4
+   Date:       10.10.95
    Function:   Perform cluster analysis on loop conformations
    
    Copyright:  (c) Dr. Andrew C. R. Martin 1995
@@ -66,6 +66,8 @@
    V3.2  02.10.95 Modifications to decr.c
    V3.3  04.10.95 Modified critical residue definition to show residues
                   which are conserved in at least one cluster.
+   V3.4  10.10.95 Various changes to make deleted residues work with residues
+                  conserved in at least one cluster
 
 *************************************************************************/
 /* Includes
@@ -1359,10 +1361,11 @@ BOOL DoClustering(BOOL CATorsions)
    07.07.95 V1.3
    24.07.95 V1.4
    25.07.95 V2.0
+   10.10.95 V3.4
 */
 void Usage(void)
 {
-   fprintf(stderr,"\nCLAN V3.3 (c) 1995, Dr. Andrew C.R. Martin, UCL\n");
+   fprintf(stderr,"\nCLAN V3.4 (c) 1995, Dr. Andrew C.R. Martin, UCL\n");
 
    fprintf(stderr,"\nUsage: clan [-t] <datafile>\n");
    fprintf(stderr,"       -t Do true torsions\n");

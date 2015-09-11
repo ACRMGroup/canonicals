@@ -3,8 +3,8 @@
    Program:    ficl
    File:       ficl.c
    
-   Version:    V0.1
-   Date:       26.07.95
+   Version:    V3.4
+   Date:       10.10.95
    Function:   Find the cluster into which a PDB loop fits
    
    Copyright:  (c) Dr. Andrew C. R. Martin 1995
@@ -48,6 +48,7 @@
    Revision History:
    =================
    V1.0  26.07.95 Original
+   V3.4  10.09.95 Skipped
 
 *************************************************************************/
 /* Includes

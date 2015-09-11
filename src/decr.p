@@ -13,13 +13,13 @@ void BlankClusterInfo(CLUSTERINFO *clusterinfo)
 ;
 int FlagCommonResidues(int NLoops, LOOPINFO *loopinfo, int clusnum)
 ;
-void PrintProps(FILE *fp, USHORT props)
+void PrintProps(FILE *fp, PROP_T props, BOOL deletable)
 ;
 void InitProperties(void)
 ;
-USHORT SetProperties(char res)
+PROP_T SetProperties(char res)
 ;
-void PrintSampleResidues(FILE *fp, USHORT props)
+void PrintSampleResidues(FILE *fp, PROP_T props, BOOL deletable)
 ;
 void CleanLoopInfo(LOOPINFO *loopinfo, int NMembers)
 ;
@@ -27,4 +27,16 @@ void CleanClusInfo(CLUSTERINFO *cinfo)
 ;
 void PrintMergedProperties(FILE *fp, int clusnum, CLUSTERINFO cinfo,
                            int NMembers)
+;
+RESSPEC *BuildConservedList(CLUSTERINFO *cinfo, int NClus, int *NCons)
+;
+int InConsList(RESSPEC *ConsList, int NCons, char chain, int resnum, 
+                char insert)
+;
+BOOL MergeAllProperties(PDB *pdb,
+                        RESSPEC *ConsList, int NRes,
+                        CLUSTERINFO *clusterinfo)
+;
+void PrintDeletedResidues(FILE *fp, CLUSTERINFO cinfo, 
+                          RESSPEC *ConsList, int NCons)
 ;
