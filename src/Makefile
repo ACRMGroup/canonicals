@@ -1,6 +1,5 @@
 CC       = cc
 COPT     = -g -Wall -ansi -I$(HOME)/include -L$(HOME)/lib
-PROTOIZE = $(HOME)/bin/ansi -p
 
 CLANFILES = clan.o acaca.o decr.o decr2.o
 FICLFILES = ficl.o acaca.o
@@ -23,11 +22,8 @@ findsdrs : $(FSDRFILES)
 	$(CC) $(COPT) -o findsdrs $(FSDRFILES) $(LIBS)
 
 
-.c.o : $(HFILES)
+.c.o : $(HFILES) $(PFILES)
 	$(CC) $(COPT) -o $@ -c $<
-
-
-
 
 clean :
 	\rm -f $(CLANFILES) $(FICLFILES) $(GETLFILES) $(FSDRFILES)
@@ -35,7 +31,3 @@ clean :
 distclean : clean
 	\rm -f $(EXES)
 
-protos : $(PFILES)
-
-.c.p :
-	$(PROTOIZE) $< $@

@@ -3,8 +3,8 @@
    Program:    FindSDRs
    File:       FindSDRs.c
    
-   Version:    V3.8
-   Date:       11.09.15
+   Version:    V3.9
+   Date:       14.09.15
    Function:   Find SDRs in a set of loops
    
    Copyright:  (c) Dr. Andrew C. R. Martin 1996-2015
@@ -86,6 +86,8 @@
    V3.8  11.09.15 Added CONS_THRESHOLD and >= NRequired rather than 
                   == NRequired  By: AKR
                   Updated SOLVACC to use new bioptools  By: ACRM
+   V3.9  14.09.15 chains and inserts handled as strings. .p files all
+                  merged into .h files
 
 *************************************************************************/
 /* Configuration Options
@@ -243,8 +245,8 @@ int      gMinLoopLength,
 /************************************************************************/
 /* Prototypes
 */
-#include "FindSDRs.p"
-#include "decr2.p"
+#include "FindSDRs.h"
+#include "decr2.h"
 
 /************************************************************************/
 /*>int main(int argc, char **argv)
@@ -604,10 +606,11 @@ BOOL ParseCmdLine(int argc, char **argv, char *infile, char *outfile,
    Prints a usage message
 
    02.02.96 Original   By: ACRM
+   14.09.15 V3.9
 */
 void Usage(void)
 {
-   fprintf(stderr,"\nFindSDRs V3.8 (c) 1996-2015, Dr. Andrew C.R. \
+   fprintf(stderr,"\nFindSDRs V3.9 (c) 1996-2015, Dr. Andrew C.R. \
 Martin, UCL\n");
 
    fprintf(stderr,"\nUsage: findsdrs [-k] [clanfile [outfile]]\n");
@@ -1141,19 +1144,31 @@ void FillOoiData(void)
    if the first is within the range defined by the other two.
 
    07.02.96 Original   By: ACRM
+   14.09.15 ParseResSpec() expects arrays
 */
 BOOL IsInRange(char *resspec, char *firstres, char *lastres)
 {
+   char chainlabel[8],
+        insertlabel[8];
    char chain,  firstchain,  lastchain,
         insert, firstinsert, lastinsert;
    int  resnum, firstresnum, lastresnum;
    
-   if(ParseResSpec(resspec, &chain, &resnum, &insert))
+   if(ParseResSpec(resspec, chainlabel, &resnum, insertlabel))
    {
-      if(ParseResSpec(firstres, &firstchain, &firstresnum, &firstinsert))
+      chain  = chainlabel[0];
+      insert = insertlabel[0];
+      
+      if(ParseResSpec(firstres, chainlabel, &firstresnum, insertlabel))
       {
-         if(ParseResSpec(lastres, &lastchain, &lastresnum, &lastinsert))
+         firstchain  = chainlabel[0];
+         firstinsert = insertlabel[0];
+      
+         if(ParseResSpec(lastres, chainlabel, &lastresnum, insertlabel))
          {
+            lastchain  = chainlabel[0];
+            lastinsert = insertlabel[0];
+      
             /* If chains match                                          */
             if((chain     == firstchain) &&
                (lastchain == firstchain))

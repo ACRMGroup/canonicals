@@ -3,8 +3,8 @@
    Program:    
    File:       resprops.h
    
-   Version:    V3.8
-   Date:       11.09.15
+   Version:    V3.9
+   Date:       14.09.15
    Function:   Residue property flags
    
    Copyright:  (c) Dr. Andrew C. R. Martin 1995-2015
@@ -47,6 +47,8 @@
    =================
    V1.0  02.02.96 Original extracted from decr.h
    V3.8  11.09.15 Skipped
+   V3.9  14.09.15 chains and inserts handled as strings. .p files all
+                  merged into .h files
 
 *************************************************************************/
 /* Includes

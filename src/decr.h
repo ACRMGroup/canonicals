@@ -3,8 +3,8 @@
    Program:    
    File:       decr.h
    
-   Version:    V3.8
-   Date:       11.09.15
+   Version:    V3.9
+   Date:       14.09.15
    Function:   DEfine Critical Residues
    
    Copyright:  (c) Dr. Andrew C. R. Martin 1995-2015
@@ -51,6 +51,8 @@
    V3.5  06.11.95 Skipped
    V3.6  09.01.96 Skipped
    V3.8  11.09.15 Skipped
+   V3.9  14.09.15 chains and inserts handled as strings. .p files all
+                  merged into .h files
 
 *************************************************************************/
 /* Includes
@@ -116,3 +118,25 @@ typedef struct
 /* Prototypes
 */
 
+BOOL FindNeighbourProps(PDB *pdb, PDB *start, PDB *stop, int clusnum,
+                        LOOPINFO *loopinfo);
+BOOL ResidueContact(PDB *p_start, PDB *p_stop, PDB *q_start, PDB *q_stop,
+                    REAL dist);
+void FillLoopInfo(LOOPINFO *loopinfo);
+BOOL MergeProperties(int NLoops, LOOPINFO *loopinfo, int clusnum,
+                     CLUSTERINFO *clusterinfo);
+void BlankClusterInfo(CLUSTERINFO *clusterinfo);
+void BlankLoopInfo(LOOPINFO *loopinfo);
+int FlagCommonResidues(int NLoops, LOOPINFO *loopinfo, int clusnum);
+void CleanLoopInfo(LOOPINFO *loopinfo, int NMembers);
+void CleanClusInfo(CLUSTERINFO *cinfo);
+void PrintMergedProperties(FILE *fp, int clusnum, CLUSTERINFO cinfo,
+                           int NMembers);
+RESSPEC *BuildConservedList(CLUSTERINFO *cinfo, int NClus, int *NCons);
+int InConsList(RESSPEC *ConsList, int NCons, char chain, int resnum, 
+                char insert);
+BOOL MergeAllProperties(PDB *pdb,
+                        RESSPEC *ConsList, int NRes,
+                        CLUSTERINFO *clusterinfo);
+void PrintDeletedResidues(FILE *fp, CLUSTERINFO cinfo, 
+                          RESSPEC *ConsList, int NCons);

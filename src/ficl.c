@@ -3,8 +3,8 @@
    Program:    ficl
    File:       ficl.c
    
-   Version:    V3.8
-   Date:       11.09.15
+   Version:    V3.9
+   Date:       14.09.15
    Function:   Find the cluster into which a PDB loop fits
    
    Copyright:  (c) Dr. Andrew C. R. Martin 1995-2015
@@ -51,13 +51,16 @@
    V3.6  09.01.96 Skipped
    V3.6a 30.01.09 Compile cleanups
    V3.8  11.09.15 Compile cleanups
+   V3.9  14.09.15 chains and inserts handled as strings. .p files all
+                  merged into .h files
 
 *************************************************************************/
 /* Includes
 */
 #define MAIN
-#include "acaca.h"
 #include "bioplib/matrix.h"
+#include "acaca.h"
+#include "ficl.h"
 
 /************************************************************************/
 /* Defines and macros
@@ -72,8 +75,6 @@
 /************************************************************************/
 /* Prototypes
 */
-#include "ficl.p"
-#include "acaca.p"
 
 /************************************************************************/
 /*>int main(int argc, char **argv)
@@ -483,10 +484,11 @@ REAL **AllocateDataArrays(int NLoops, int VecLength, CLUSTER **ppClusters)
 
    26.07.95 Original    By: ACRM
    11.09.15 V3.8
+   14.09.15 V3.9
 */
 void Usage(void)
 {
-   fprintf(stderr,"\nficl V3.8 (c) 1995 Dr. Andrew C.R. Martin, UCL\n");
+   fprintf(stderr,"\nficl V3.9 (c) 1995 Dr. Andrew C.R. Martin, UCL\n");
 
    fprintf(stderr,"\nUsage: ficl [-t] clusterfile pdbfile startres \
 lastres\n");

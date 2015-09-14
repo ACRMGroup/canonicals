@@ -3,8 +3,8 @@
    Program:    
    File:       decr.c
    
-   Version:    V3.8
-   Date:       11.09.15
+   Version:    V3.9
+   Date:       14.09.15
    Function:   DEfine Critical Residues
    
    Copyright:  (c) Dr. Andrew C. R. Martin 1995-2015
@@ -56,12 +56,14 @@
    V3.7  06.02.96 Separated out bits for findsdrs
    V3.7a 30.01.09 Fixed initial check on same residue
    V3.8  11.09.15 Compile cleanup
+   V3.9  14.09.15 chains and inserts handled as strings. .p files all
+                  merged into .h files
 
 *************************************************************************/
 /* Includes
 */
 #include "decr.h"
-
+#include "decr2.h"
 
 /************************************************************************/
 /* Defines and macros
@@ -74,9 +76,6 @@
 /************************************************************************/
 /* Prototypes
 */
-#include "decr.p"
-#include "decr2.p"
-
 
 /************************************************************************/
 /*>BOOL FindNeighbourProps(PDB *pdb, PDB *start, PDB *stop, int clusnum,

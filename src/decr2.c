@@ -3,8 +3,8 @@
    Program:    
    File:       decr2.c
    
-   Version:    V3.8
-   Date:       11.09.15
+   Version:    V3.9
+   Date:       14.09.15
    Function:   DEfine Critical Residues
    
    Copyright:  (c) Dr. Andrew C. R. Martin 1995-2015
@@ -55,15 +55,18 @@
    V3.6  09.01.96 Skipped
    V3.7  06.02.96 Separated out bits for findsdrs
    V3.8  11.09.15 Skipped
+   V3.9  14.09.15 chains and inserts handled as strings. .p files all
+                  merged into .h files
 
 *************************************************************************/
 /* Includes
 */
 #include <stdio.h>
-
-#include "resprops.h"
 #include "bioplib/SysDefs.h"
 #include "bioplib/macros.h"
+
+#include "resprops.h"
+#include "decr2.h"
 
 /************************************************************************/
 /* Defines and macros
@@ -81,7 +84,6 @@ char   sResArray[MAXPROPAA];     /* 1-letter codes in same order        */
 /************************************************************************/
 /* Prototypes
 */
-#include "decr2.p"
 
 
 /************************************************************************/

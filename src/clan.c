@@ -3,8 +3,8 @@
    Program:    clan
    File:       clan.c
    
-   Version:    V3.8
-   Date:       11.09.15
+   Version:    V3.9
+   Date:       14.09.15
    Function:   Perform cluster analysis on loop conformations
    
    Copyright:  (c) Dr. Andrew C. R. Martin 1995-2015
@@ -73,6 +73,8 @@
    V3.7  14.03.96 Cluster merging now considers CB as well
    V3.7a 30.01.09 Compile cleanups
    V3.8  11.09.15 More compile cleanups   
+   V3.9  14.09.15 chains and inserts handled as strings. .p files all
+                  merged into .h files
 
 *************************************************************************/
 /* Includes
@@ -80,6 +82,8 @@
 #define MAIN
 #include "acaca.h"
 #include "decr.h"
+#include "decr2.h"
+#include "clan.h"
 
 
 /************************************************************************/
@@ -130,10 +134,6 @@ static int    sInfoLevel = 0;                  /* Info level            */
 /************************************************************************/
 /* Prototypes
 */
-#include "clan.p"
-#include "acaca.p"
-#include "decr.p"
-#include "decr2.p"
 
 
 /************************************************************************/
@@ -555,6 +555,7 @@ before all LOOP commands\n",sKeyWords[key].name);
    16.08.95 PostCluster() now returns the new number of clusters
    25.09.95 Passes VecDim to ClusterDendogram if Method==1 (else passes
             1.0)
+   14.09.15 Added check on NVec
 */
 BOOL ShowClusters(FILE *fp, REAL **data, int NVec, int VecDim, 
                   int Method, BOOL ShowTable, BOOL ShowDendogram)
@@ -571,6 +572,9 @@ BOOL ShowClusters(FILE *fp, REAL **data, int NVec, int VecDim,
         *critval     = NULL;
    BOOL ok           = TRUE;
    char **out        = NULL;
+
+   if(NVec <= 0)
+      return(FALSE);
 
    ia          = (int *)malloc(NVec * sizeof(int));
    ib          = (int *)malloc(NVec * sizeof(int));
@@ -693,6 +697,7 @@ BOOL ShowClusters(FILE *fp, REAL **data, int NVec, int VecDim,
    26.06.95 Fixed frees on error
    29.06.95 Fix the pointers in the data array when finished
    30.01.09 Initialize some variables
+   14.09.15 Added check that NVec is positive
 */
 BOOL HierClus(int NVec, int VecDim, int ClusterMethod, REAL **data, 
               int *ia, int *ib, REAL *crit)
@@ -718,6 +723,9 @@ BOOL HierClus(int NVec, int VecDim, int ClusterMethod, REAL **data,
         *LDDissim = NULL,
         *membr = NULL;
    BOOL *Flag = NULL;
+
+   if(NVec <= 0)
+      return(FALSE);
 
    /* Indicate agglomerable object/clusters                             */
    Flag  = (BOOL *)malloc(NVec * sizeof(BOOL));
@@ -1390,11 +1398,11 @@ BOOL DoClustering(BOOL CATorsions)
    06.11.95 V3.5
    09.01.96 V3.6
    11.09.15 V3.8   
-
+   14.09.15 V3.9
 */
 void Usage(void)
 {
-   fprintf(stderr,"\nCLAN V3.8 (c) 1995, Dr. Andrew C.R. Martin, UCL\n");
+   fprintf(stderr,"\nCLAN V3.9 (c) 1995, Dr. Andrew C.R. Martin, UCL\n");
 
    fprintf(stderr,"\nUsage: clan [-t] <datafile>\n");
    fprintf(stderr,"       -t Do true torsions\n");

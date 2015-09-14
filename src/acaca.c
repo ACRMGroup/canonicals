@@ -3,8 +3,8 @@
    Program:    clan/ficl
    File:       acaca.c
    
-   Version:    V3.8
-   Date:       11.09.15
+   Version:    V3.9
+   Date:       14.09.15
    Function:   Perform cluster analysis on loop conformations
    
    Copyright:  (c) Dr. Andrew C. R. Martin 1995-2015
@@ -61,6 +61,8 @@
                   be freed.
    V3.6a 30.01.09 Compile cleanups
    V3.8  11.09.15 Compile cleanups
+   V3.9  14.09.15 chains and inserts handled as strings. .p files all
+                  merged into .h files
 
 *************************************************************************/
 /* Includes
@@ -78,7 +80,6 @@
 /************************************************************************/
 /* Prototypes
 */
-#include "acaca.p"
 
 /************************************************************************/
 /*>BOOL SetClusterMethod(char *method)
@@ -170,6 +171,7 @@ BOOL SetOutputFile(char *filename)
    15.08.95 Initialise the sel[] array
    09.01.95 Added !gDoCritRes handling; we can free up the PDB linked
             lists
+   14.09.15 chain and insert now handled as a string
 */
 BOOL HandleLoopSpec(char *filename, char *start, char *end, 
                     BOOL CATorsions, BOOL Verbose)
@@ -181,8 +183,8 @@ BOOL HandleLoopSpec(char *filename, char *start, char *end,
         *p_end;
    int  natom,
         resnum1, resnum2;
-   char chain1,  chain2, 
-        insert1, insert2;
+   char chain1[8],  chain2[8], 
+        insert1[8], insert2[8];
    char *sel[3];
    BOOL retval = TRUE;
 
@@ -217,8 +219,8 @@ BOOL HandleLoopSpec(char *filename, char *start, char *end,
             (sel[2] != NULL))
          {
             /* Parse the resspecs for start and end                     */
-            ParseResSpec(start, &chain1, &resnum1, &insert1);
-            ParseResSpec(end,   &chain2, &resnum2, &insert2);
+            ParseResSpec(start, chain1, &resnum1, insert1);
+            ParseResSpec(end,   chain2, &resnum2, insert2);
                
             if(CATorsions)
             {
@@ -306,17 +308,18 @@ BOOL HandleLoopSpec(char *filename, char *start, char *end,
 
 
 /************************************************************************/
-/*>BOOL FindCAResidues(PDB *pdbca, char chain1, int resnum1, char insert1,
-                       char chain2, int resnum2, char insert2,
+/*>BOOL FindCAResidues(PDB *pdbca, 
+                       char *chain1, int resnum1, char *insert1,
+                       char *chain2, int resnum2, char *insert2,
                        PDB **pp_start, PDB **pp_end)
    ---------------------------------------------------------------------
    Input:   PDB  *pdbca      CA PDB linked list
-            char chain1      Start of loop chain spec
+            char *chain1     Start of loop chain spec
             int  resnum1     Start of loop residue number
-            char insert1     Start of loop insert code
-            char chain2      End of loop chain spec
+            char *insert1    Start of loop insert code
+            char *chain2     End of loop chain spec
             int  resnum2     End of loop residue number
-            char insert2     End of loop insert code
+            char *insert2    End of loop insert code
    Output:  PDB  **pp_start  Pointer to atom before start of loop in 
                              linked list
             PDB  **pp_end    Pointer to atom before end of loop in 
@@ -329,9 +332,11 @@ BOOL HandleLoopSpec(char *filename, char *start, char *end,
    N.B. This routine assumes that only CA atoms are in the linked list
 
    27.06.95 Original   By: ACRM
+   14.09.15 chain and insert are now strings - use CHAINMATCH() and 
+            INSERTMATCH() routines
 */
-BOOL FindCAResidues(PDB *pdbca, char chain1, int resnum1, char insert1,
-                    char chain2, int resnum2, char insert2,
+BOOL FindCAResidues(PDB *pdbca, char *chain1, int resnum1, char *insert1,
+                    char *chain2, int resnum2, char *insert2,
                     PDB **pp_start, PDB **pp_end)
 {
    PDB *p;
@@ -342,10 +347,10 @@ BOOL FindCAResidues(PDB *pdbca, char chain1, int resnum1, char insert1,
    /* Search for the residue before the one specified by ID 1           */
    for(p=pdbca; p!=NULL; NEXT(p))
    {
-      if((p->next != NULL)                &&
-         (p->next->resnum    == resnum1)  &&
-         (p->next->chain[0]  == chain1)   &&
-         (p->next->insert[0] == insert1))
+      if((p->next         != NULL)            &&
+         (p->next->resnum == resnum1)         &&
+         CHAINMATCH(p->next->chain, chain1)   &&
+         INSERTMATCH(p->next->insert, insert1))
       {
          *pp_start = p;
          break;
@@ -354,7 +359,7 @@ BOOL FindCAResidues(PDB *pdbca, char chain1, int resnum1, char insert1,
    
    if(*pp_start==NULL)
    {
-      fprintf(stderr,"Unable to find residue (before) %c%d%c\n",
+      fprintf(stderr,"Unable to find residue (before) %s%d%s\n",
               chain1, resnum1, insert1);
       return(FALSE);
    }
@@ -362,10 +367,10 @@ BOOL FindCAResidues(PDB *pdbca, char chain1, int resnum1, char insert1,
    /* Search for the residue before the one specified by ID 2           */
    for(p=pdbca; p!=NULL; NEXT(p))
    {
-      if((p->next != NULL)                &&
-         (p->next->resnum    == resnum2)  &&
-         (p->next->chain[0]  == chain2)   &&
-         (p->next->insert[0] == insert2))
+      if((p->next         != NULL)            &&
+         (p->next->resnum == resnum2)         &&
+         CHAINMATCH(p->next->chain, chain2)   &&
+         INSERTMATCH(p->next->insert, insert2))
       {
          *pp_end = p;
          break;
@@ -374,7 +379,7 @@ BOOL FindCAResidues(PDB *pdbca, char chain1, int resnum1, char insert1,
    
    if(*pp_end==NULL)
    {
-      fprintf(stderr,"Unable to find residue (before) %c%d%c\n",
+      fprintf(stderr,"Unable to find residue (before) %s%d%s\n",
               chain2, resnum2, insert2);
       return(FALSE);
    }
@@ -542,17 +547,18 @@ torsions.\n");
 
 
 /************************************************************************/
-/*>BOOL FindBBResidues(PDB *pdbbb, char chain1, int resnum1, char insert1,
-                       char chain2, int resnum2, char insert2,
+/*>BOOL FindBBResidues(PDB *pdbbb, 
+                       char *chain1, int resnum1, char *insert1,
+                       char *chain2, int resnum2, char *insert2,
                        PDB **pp_start, PDB **pp_end)
-   ---------------------------------------------------------------------
+   -------------------------------------------------------------
    Input:   PDB  *pdbbb      Backbone PDB linked list
-            char chain1      Start of loop chain spec
+            char *chain1     Start of loop chain spec
             int  resnum1     Start of loop residue number
-            char insert1     Start of loop insert code
-            char chain2      End of loop chain spec
+            char *insert1    Start of loop insert code
+            char *chain2     End of loop chain spec
             int  resnum2     End of loop residue number
-            char insert2     End of loop insert code
+            char *insert2    End of loop insert code
    Output:  PDB  **pp_start  Pointer to atom before start of loop in 
                              linked list
             PDB  **pp_end    Pointer to atom before end of loop in 
@@ -565,9 +571,11 @@ torsions.\n");
    N.B. This assumes N,CA,C ordering within the PDB file.
 
    27.06.95 Original   By: ACRM
+   14.09.15 resnum and insert are now strings and checked with
+            CHAINMATCH() and INSERTMATCH()
 */
-BOOL FindBBResidues(PDB *pdbbb, char chain1, int resnum1, char insert1,
-                    char chain2, int resnum2, char insert2,
+BOOL FindBBResidues(PDB *pdbbb, char *chain1, int resnum1, char *insert1,
+                    char *chain2, int resnum2, char *insert2,
                     PDB **pp_start, PDB **pp_end)
 {
    PDB *p;
@@ -578,11 +586,11 @@ BOOL FindBBResidues(PDB *pdbbb, char chain1, int resnum1, char insert1,
    /* Search for the C atom before the residue specified by ID 1        */
    for(p=pdbbb; p!=NULL; NEXT(p))
    {
-      if((!strncmp(p->atnam,"C   ",4))    &&
-         (p->next != NULL)                &&
-         (p->next->resnum    == resnum1)  &&
-         (p->next->chain[0]  == chain1)   &&
-         (p->next->insert[0] == insert1))
+      if((!strncmp(p->atnam,"C   ",4))       &&
+         (p->next != NULL)                   &&
+         (p->next->resnum    == resnum1)     &&
+         CHAINMATCH(p->next->chain, chain1)  &&
+         INSERTMATCH(p->next->insert, insert1))
       {
          *pp_start = p;
          break;
@@ -591,7 +599,7 @@ BOOL FindBBResidues(PDB *pdbbb, char chain1, int resnum1, char insert1,
    
    if(*pp_start==NULL)
    {
-      fprintf(stderr,"Unable to find C in residue before %c%d%c\n",
+      fprintf(stderr,"Unable to find C in residue before %s%d%s\n",
               chain1, resnum1, insert1);
       return(FALSE);
    }
@@ -599,10 +607,10 @@ BOOL FindBBResidues(PDB *pdbbb, char chain1, int resnum1, char insert1,
    /* Search for the CA in the residue specified by ID 2                */
    for(p=pdbbb; p!=NULL; NEXT(p))
    {
-      if((!strncmp(p->atnam,"CA  ",4)) &&
-         (p->resnum    == resnum2)     &&
-         (p->chain[0]  == chain2)      &&
-         (p->insert[0] == insert2))
+      if((!strncmp(p->atnam,"CA  ",4))   &&
+         (p->resnum  == resnum2)         &&
+         CHAINMATCH(p->chain, chain2)    &&
+         INSERTMATCH(p->insert, insert2))
       {
          *pp_end = p;
          break;
@@ -611,7 +619,7 @@ BOOL FindBBResidues(PDB *pdbbb, char chain1, int resnum1, char insert1,
    
    if(*pp_end==NULL)
    {
-      fprintf(stderr,"Unable to find CA in residue after %c%d%c\n",
+      fprintf(stderr,"Unable to find CA in residue after %s%d%s\n",
               chain2, resnum2, insert2);
       return(FALSE);
    }
@@ -636,10 +644,11 @@ BOOL FindBBResidues(PDB *pdbbb, char chain1, int resnum1, char insert1,
    13.09.95 Added storage of distances
    21.09.95 Modified method to calc storage requirements & handling of
             angle data
+   14.09.15 Added check on NData
 */
 REAL **ConvertData(DATALIST *indata, int *NData, BOOL CATorsions)
 {
-   REAL     **data;
+   REAL     **data = NULL;
    DATALIST *p;
    int      i,
             n,
@@ -674,7 +683,13 @@ REAL **ConvertData(DATALIST *indata, int *NData, BOOL CATorsions)
    /* Count items in data linked list                                   */
    for(p=indata, n=0; p!=NULL; NEXT(p), n++);
    *NData = n;
-   
+      
+   if(*NData == 0)                                 /* 14.09.15          */
+   {
+      fprintf(stderr,"No data points found\n");
+      return(NULL);
+   }
+
    /* Calculate array dimension                                         */
    ArrayDim = gMaxLoopLen * maxval;
 

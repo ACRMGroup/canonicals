@@ -3,8 +3,8 @@
    Program:    GetLoops
    File:       getloops.c
    
-   Version:    V3.8
-   Date:       11.09.15
+   Version:    V3.9
+   Date:       14.09.15
    Function:   Get loops specified in a clan input file
    
    Copyright:  (c) Dr. Andrew C. R. Martin 1995-2015
@@ -50,6 +50,8 @@
    V3.5  06.11.95 Skipped
    V3.6  09.01.96 Filenames have start and end residues
    V3.8  11.09.15 Skipped
+   V3.9  14.09.15 chains and inserts handled as strings. .p files all
+                  merged into .h files
 
 *************************************************************************/
 /* Includes
@@ -139,6 +141,7 @@ int main(int argc, char **argv)
    -----------------------------------------------------------
    03.07.95 Original    By: ACRM
    09.01.96 Filename now contains start and end residues
+   14.09.14 chain and insert now arrays
 */
 BOOL GetLoop(char *filename, char *firstres, char *lastres)
 {
@@ -146,8 +149,8 @@ BOOL GetLoop(char *filename, char *firstres, char *lastres)
    PDB  *pdb,    *p;
    int  res1,    res2,
         natoms;
-   char chain1,  chain2,
-        insert1, insert2,
+   char chain1[8],  chain2[8],
+        insert1[8], insert2[8],
         *outfile,
         namebuffer[MAXBUFF];
    BOOL InLoop = FALSE,
@@ -172,26 +175,26 @@ BOOL GetLoop(char *filename, char *firstres, char *lastres)
       return(FALSE);
    }
 
-   ParseResSpec(firstres, &chain1, &res1, &insert1);
-   ParseResSpec(lastres, &chain2, &res2, &insert2);
+   ParseResSpec(firstres, chain1, &res1, insert1);
+   ParseResSpec(lastres,  chain2, &res2, insert2);
    
    for(p=pdb; p!=NULL; NEXT(p))
    {
-      if((p->resnum    == res1) &&
-         (p->chain[0]  == chain1) &&
-         (p->insert[0] == insert1))
+      if((p->resnum == res1)            &&
+         CHAINMATCH(p->chain,   chain1) &&
+         INSERTMATCH(p->insert, insert1))
          InLoop = TRUE;
 
-      if((p->resnum    == res2) &&
-         (p->chain[0]  == chain2) &&
-         (p->insert[0] == insert2))
+      if((p->resnum == res2)            &&
+         CHAINMATCH(p->chain,   chain2) &&
+         INSERTMATCH(p->insert, insert2))
          InLast = TRUE;
 
       if(InLast)
       {
-         if((p->resnum    != res2) ||
-            (p->chain[0]  != chain2) ||
-            (p->insert[0] != insert2))
+         if((p->resnum != res2)             ||
+            !CHAINMATCH(p->chain,   chain2) ||
+            !INSERTMATCH(p->insert, insert2))
             InLoop = FALSE;
       }
       
@@ -206,7 +209,8 @@ BOOL GetLoop(char *filename, char *firstres, char *lastres)
 
    if(!InLast)
    {
-      fprintf(stderr,"%s skipped! Last residue (%s) not found\n",filename,lastres);
+      fprintf(stderr,"%s skipped! Last residue (%s) not found\n",
+              filename, lastres);
       unlink(namebuffer);
    }
    
@@ -235,10 +239,11 @@ char *MakeOutFilename(char *filename)
    ----------------
    03.07.95 Original    By: ACRM
    11.09.15 V3.8
+   14.09.15 V3.9
 */
 void Usage(void)
 {
-   fprintf(stderr,"\nGetLoops V3.8 (c) 1995-2015 Dr. Andrew C.R. Martin, \
+   fprintf(stderr,"\nGetLoops V3.9 (c) 1995-2015 Dr. Andrew C.R. Martin, \
 UCL\n");
 
    fprintf(stderr,"\nUsage: getloops <filename>\n");
@@ -247,7 +252,7 @@ UCL\n");
 a file of the form\n");
    fprintf(stderr,"used as input to CLAN.\n");
    fprintf(stderr,"\n");
-   fprintf(stderr,"N.B. If the input files are in teh current directory, \
+   fprintf(stderr,"N.B. If the input files are in the current directory, \
 they will be\n");
    fprintf(stderr,"OVER-WRITTEN by the loop files.\n");
 }
