@@ -70,7 +70,10 @@
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>
-#include <values.h>
+
+/* 16.09.15 Changed from values.h                                       */
+#include <float.h>
+#define MAXDOUBLE DBL_MAX
 
 #include "bioplib/MathType.h"
 #include "bioplib/SysDefs.h"
