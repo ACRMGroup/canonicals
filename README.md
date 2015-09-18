@@ -1,5 +1,10 @@
-# canonicals
+Canonicals
+==========
+
+# NOTE! This code is not really ready for use by people outside the ACRM group.
+
 Code for defining canonical classes
+
 ACACA - Automatic Canonical Assignment by Cluster Analysis
 ----------------------------------------------------------
 
@@ -16,10 +21,11 @@ Cluster analysis must provide the centre of the cluster, the dimensions of
 the cluster and the distance to the nearest other cluster such that new
 structures can be scanned against the clusters.
 
-Two programs:
+Three programs:
 
 1) CLAN - CLuster ANalysis.
 ---------------------------
+
 Performs cluster analysis on a loop in a set of PDB files. Generates
 information on the clusters.
 Takes an input file of the following syntax:
@@ -45,12 +51,13 @@ cluster and the distance to the nearest neighbouring cluster.
 
 2) FICL - FInd CLuster
 ----------------------
+
 Takes a loop in a PDB file and matches it against a set of clusters to
 find which cluster (if any) it matches.
 
-Is run with the followin syntax:
+Is run with the following syntax:
 
-        ficl <datafile> <pdb> <startres> <lastres>
+    ficl <datafile> <pdb> <startres> <lastres>
 
 where
 
@@ -60,3 +67,19 @@ where
 FICL will pick up the cluster method from the output of CLAN
 
 CLAN must be run with TABLE and DATA switched on!
+
+3) FINDSDRS - Find Structurally Determining Residues
+----------------------------------------------------
+
+Analyzes the output of CLAN to identify the key residues responsible for
+defining the canonical class.
+
+Run with:
+
+    findsdrs [-k] [clanfile [outfile]]
+             -k Keep intermediate solvent accessibility files so they
+                don't have to be recalculated for the next run.
+
+Note that solvent accessibility calculation requires pdbsolv from
+BiopTools to be in the path.
+
