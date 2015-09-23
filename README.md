@@ -83,3 +83,77 @@ Run with:
 Note that solvent accessibility calculation requires pdbsolv from
 BiopTools to be in the path.
 
+--------------------------------------------------------------------------
+
+Key Tasks
+=========
+
+1. Automation
+-------------
+
+- Ensure that you can carry cluster labels forward from one run of the
+  code to the next. There are probably scripts to do this already
+  somewhere here, but they are not documented and I don't know where
+  they are!
+
+- Generate a file in the correct format for our canonical
+  identification program
+
+2. Check the clusters
+---------------------
+
+- Are the clusters really sensible? Could we improve them by using
+  different clustering thresholds? For example, 12E8 CDR-L1 and 1A0Q
+  CDR-L1 are both in the same cluster, but have a backbone flip at
+  positions L30-L31. Should and could these be split into two
+  clusters?
+
+3. CDR-H3
+---------
+
+- CDR-H3 doesn't really form canonicals. However in our old paper we
+  found that there were some clusters for 7-residue CDR-H3s. Extend
+  this work and see if this holds up and whether we can now do longer
+  CDR-H3s.
+
+
+
+
+The basic procedure
+===================
+
+- Most of this is automated by the doit.sh script in the demo directory
+
+1. Get a list of antibody structures
+   (SACS: /acrm/www/html/abs/sacs/antibodies.xml
+    or preferably from Jake's database)
+   (You need to write this)
+2. All the PDB files live in /acrm/data/pdb/pdbXXXX.ent
+   Apply standard Chothia numbering to each PDB file
+   extracting just the numbered Fv fragment and storing them
+   in a directory
+   (We should have a script that does this already)
+3. For each of the CDRs, create an input file for CLAN (see
+   below) and run the CLAN program - generates the sets of
+   clusters and tells you which PDB files fall into each cluster.
+   (You need to automate the creation of the input files for CLAN)
+4. For each CDR, run the findsdrs program. This generates a list
+   of the key residues which define each of the clusters.
+   (This should simply be a case of running the program on the
+   CLAN output)
+
+- These stages are not yet automated
+
+5. You need to maintain some sort of historical mapping so that
+   you have cluster names (e.g. '11A') that are maintained in
+   a consistent way. This needs to look at the CLAN output and
+   check that antibodies that were assigned to a particular class
+   stay in a class with that name.
+   (You need to code this).
+6. You need to convert the output from findsdrs into an input file
+   for our canonicals program that assigns canonical class on the
+   basis of a sequence file.
+   (You need to code this).
+7. Run the complete pipeline on the ~700 available antibody structures
+   to update the results we had on ~50 antibodies.
+
