@@ -3,8 +3,8 @@
    Program:    clan
    File:       clan.c
    
-   Version:    V3.9
-   Date:       14.09.15
+   Version:    V3.10
+   Date:       04.11.15
    Function:   Perform cluster analysis on loop conformations
    
    Copyright:  (c) Dr. Andrew C. R. Martin 1995-2015
@@ -75,6 +75,7 @@
    V3.8  11.09.15 More compile cleanups   
    V3.9  14.09.15 chains and inserts handled as strings. .p files all
                   merged into .h files
+   V3.10 04.11.15 Added -c parameter
 
 *************************************************************************/
 /* Includes
@@ -112,6 +113,8 @@
 #define PARSER_MAXSTRLEN     80
 #define PARSER_MAXREALPARAM  MAXLOOPLEN
 
+#define DEF_CRITICAL         0.06
+
 #define UP '|'
 #define ACROSS '-'
 #define BLANK ' '
@@ -148,6 +151,7 @@ int main(int argc, char **argv)
    char infile[MAXBUFF];
    FILE *fp=NULL;
    int  retval = 0;
+   REAL critical = (REAL)DEF_CRITICAL;
 
    gOutfp = stdout;
 
@@ -157,13 +161,13 @@ int main(int argc, char **argv)
    gPClusCut[1] = MAXDEV;
    gPClusCut[2] = MAXCBDEV;
 
-   if(ParseCmdLine(argc, argv, infile, &gCATorsions))
+   if(ParseCmdLine(argc, argv, infile, &gCATorsions, &critical))
    {
       if((fp = fopen(infile, "r"))!=NULL)
       {
          if(ReadInputFile(fp,gCATorsions))
          {
-            if(!DoClustering(gCATorsions))
+            if(!DoClustering(gCATorsions, critical))
             {
                fprintf(stderr,"Clustering failed\n");
                retval = 1;
@@ -194,21 +198,24 @@ int main(int argc, char **argv)
 
 /************************************************************************/
 /*>BOOL ParseCmdLine(int argc, char **argv, char *infile, 
-                     BOOL *CATorsions)
+                     BOOL *CATorsions, REAL *critical)
    ------------------------------------------------------
    Input:   int    argc         Argument count
             char   **argv       Argument array
    Output:  char   *infile      Input file (or blank string)
             BOOL   *CATorsions  Do pseudo-CA torsions rather than true
                                 torsions.
+            REAL   *critical    Critical value for separating clusters
    Returns: BOOL                Success?
 
    Parse the command line
    
    26.06.95 Original    By: ACRM
    05.07.95 Added -t
+   04.11.15 Added -c
 */
-BOOL ParseCmdLine(int argc, char **argv, char *infile, BOOL *CATorsions)
+BOOL ParseCmdLine(int argc, char **argv, char *infile, BOOL *CATorsions,
+                  REAL *critical)
 {
    argc--;
    argv++;
@@ -222,6 +229,11 @@ BOOL ParseCmdLine(int argc, char **argv, char *infile, BOOL *CATorsions)
       {
       case 't':
          *CATorsions = FALSE;
+         break;
+      case 'c':
+         argc--; argv++;
+         if(!argc || !sscanf(argv[0],"%lf", critical))
+            return(FALSE);
          break;
       default:
          return(FALSE);
@@ -528,7 +540,8 @@ before all LOOP commands\n",sKeyWords[key].name);
 
 /************************************************************************/
 /*>BOOL ShowClusters(FILE *fp, REAL **data, int NVec, int VecDim, 
-                     int Method, BOOL ShowTable, BOOL ShowDendogram)
+                     int Method, BOOL ShowTable, BOOL ShowDendogram,
+                     REAL critical)
    -----------------------------------------------------------------
    Input:   FILE *fp              Output file pointer
             REAL **data           2D array of data to cluster
@@ -537,6 +550,8 @@ before all LOOP commands\n",sKeyWords[key].name);
             int  Method           Clustering method (1--7)
             BOOL ShowTable        Display clustering table?
             BOOL ShowDendogram    Display clustering dendogram?
+            REAL critical         Critical value for defining separate
+                                  clusters
    Returns: BOOL                  Success of memory allocations (local,
                                   in clustering or in critical residue
                                   definition)
@@ -556,9 +571,11 @@ before all LOOP commands\n",sKeyWords[key].name);
    25.09.95 Passes VecDim to ClusterDendogram if Method==1 (else passes
             1.0)
    14.09.15 Added check on NVec
+   04.11.15 Added critical parameter
 */
 BOOL ShowClusters(FILE *fp, REAL **data, int NVec, int VecDim, 
-                  int Method, BOOL ShowTable, BOOL ShowDendogram)
+                  int Method, BOOL ShowTable, BOOL ShowDendogram,
+                  REAL critical)
 {
    int  *ia          = NULL,
         *ib          = NULL,
@@ -628,7 +645,7 @@ BOOL ShowClusters(FILE *fp, REAL **data, int NVec, int VecDim,
 
 
          /* Find number of distinct clusters                            */
-         NClus = FindNumTrueClusters(crit, lev, VecDim);
+         NClus = FindNumTrueClusters(crit, lev, VecDim, critical);
 
          /* Setup the TheClusters array with these values               */
          FillClusterArray(clusters, NVec, NClus, TheClusters);
@@ -1339,9 +1356,10 @@ HIERARCHY).\n");
 
 
 /************************************************************************/
-/*>BOOL DoClustering(BOOL CATorsions)
-   ----------------------------------
+/*>BOOL DoClustering(BOOL CATorsions, REAL critical)
+   -------------------------------------------------
    Input:   BOOL      CATorsions    Do CA rather than true torsions?
+            REAL      critical      Critical value for separating clusters
    Returns: BOOL                    Success of memory allocations.
    Globals: DATALIST *gDataList     Linked list of data
             FILE     *gOutfp        Output file pointer
@@ -1359,7 +1377,7 @@ HIERARCHY).\n");
             wrong when doing true torsions) and account for distances.
    21.09.95 Modified calculation of VecDim
 */
-BOOL DoClustering(BOOL CATorsions)
+BOOL DoClustering(BOOL CATorsions, REAL critical)
 {
    REAL **data;
    int  NData,
@@ -1376,7 +1394,8 @@ BOOL DoClustering(BOOL CATorsions)
       return(FALSE);
 
    retval = ShowClusters(gOutfp, data, NData, VecDim, 
-                         gClusterMethod, gDoTable, gDoDendogram);
+                         gClusterMethod, gDoTable, gDoDendogram,
+                         critical);
    FreeArray2D((char **)data, NData, VecDim);
 
    return(retval);
@@ -1399,13 +1418,18 @@ BOOL DoClustering(BOOL CATorsions)
    09.01.96 V3.6
    11.09.15 V3.8   
    14.09.15 V3.9
+   04.10.15 V3.10
 */
 void Usage(void)
 {
-   fprintf(stderr,"\nCLAN V3.9 (c) 1995, Dr. Andrew C.R. Martin, UCL\n");
+   fprintf(stderr,"\nCLAN V3.10 (c) 1995-2015, Dr. Andrew C.R. \
+Martin, UCL\n");
 
-   fprintf(stderr,"\nUsage: clan [-t] <datafile>\n");
+   fprintf(stderr,"\nUsage: clan [-t] [-c critical] <datafile>\n");
    fprintf(stderr,"       -t Do true torsions\n");
+   fprintf(stderr,"       -c Specify critical value for defining \
+separate clusters [%.2f]\n", DEF_CRITICAL);
+
 
    fprintf(stderr,"\nCLAN (CLuster ANalysis of Loops) performs cluster \
 analysis to examine\n");
@@ -1593,12 +1617,13 @@ BOOL WriteResults(FILE *fp, int *clusters, int NClus, REAL **data,
 
 
 /************************************************************************/
-/*>int FindNumTrueClusters(REAL *crit, int lev, int VecDim)
-   --------------------------------------------------------
+/*>int FindNumTrueClusters(REAL *crit, int lev, int VecDim, REAL critical)
+   -----------------------------------------------------------------------
    Input:   REAL   *crit    Array of critical values in clustering
             int    lev      Number of clustering levels (length of crit[]
                             array)
             int    VecDim   Number of dimensions in vector
+            REAL   critical Threshold for defining separate clusters
    Returns: int             Number of truely different clusters
 
    Finds the number of really different clusters. 
@@ -1610,13 +1635,13 @@ BOOL WriteResults(FILE *fp, int *clusters, int NClus, REAL **data,
    03.07.95 Original    By: ACRM
    25.09.95 Added VecDim parameter and modified code to use it
 */
-int FindNumTrueClusters(REAL *crit, int lev, int VecDim)
+int FindNumTrueClusters(REAL *crit, int lev, int VecDim, REAL critical)
 {
    int i;
    
    for(i=0; i<lev-1; i++)
    {
-      if(crit[i]/(REAL)VecDim > (REAL)0.06)
+      if(crit[i]/(REAL)VecDim > (REAL)critical)
          return(lev-i);
    }
    

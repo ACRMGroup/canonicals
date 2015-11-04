@@ -1,24 +1,26 @@
 int main(int argc, char **argv);
-BOOL ParseCmdLine(int argc, char **argv, char *infile, BOOL *CATorsions);
+BOOL ParseCmdLine(int argc, char **argv, char *infile, BOOL *CATorsions,
+                  REAL *critical);
 BOOL ReadInputFile(FILE *fp, BOOL CATorsions);
 BOOL SetupParser(void);
 BOOL DoCmdLoop(FILE *fp, BOOL CATorsions);
 BOOL ShowClusters(FILE *fp, REAL **data, int NVec, int VecDim, 
-                  int Method, BOOL ShowTable, BOOL ShowDendogram);
+                  int Method, BOOL ShowTable, BOOL ShowDendogram,
+                  REAL critical);
 BOOL HierClus(int NVec, int VecDim, int ClusterMethod, REAL **data, 
               int *ia, int *ib, REAL *crit);
 int **ClusterAssign(FILE *fp, int NVec, int *ia, int *ib, REAL *crit, 
                     int lev, int *iorder, REAL *critval, int *height);
 char **ClusterDendogram(FILE *fp, int lev, int *iorder, int *height, 
                         REAL *critval, REAL DivFactor);
-BOOL DoClustering(BOOL CATorsions);
+BOOL DoClustering(BOOL CATorsions, REAL critical);
 void Usage(void);
 void CreateDefaultScheme(int maxres);
 BOOL InsertIorder(int *iorder, int lev, int cluster, int parent);
 void WriteHeader(FILE *fp, int Method, int NVec, int VecDim, int *Scheme);
 BOOL WriteResults(FILE *fp, int *clusters, int NClus, REAL **data, 
                   int NVec, int VecDim, REAL *crit, BOOL PostClus);
-int FindNumTrueClusters(REAL *crit, int lev, int VecDim);
+int FindNumTrueClusters(REAL *crit, int lev, int VecDim, REAL critical);
 void CleanUp(void);
 void WriteClusData(FILE *fp, int NVec, int VecDim, REAL **data);
 DATALIST *FindMedian(int *clusters, REAL **data, int NVec, int VecDim, 
