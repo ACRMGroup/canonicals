@@ -3,8 +3,8 @@
    Program:    clan
    File:       clan.c
    
-   Version:    V3.10
-   Date:       04.11.15
+   Version:    V3.11
+   Date:       04.12.15
    Function:   Perform cluster analysis on loop conformations
    
    Copyright:  (c) Dr. Andrew C. R. Martin 1995-2015
@@ -76,6 +76,8 @@
    V3.9  14.09.15 chains and inserts handled as strings. .p files all
                   merged into .h files
    V3.10 04.11.15 Added -c parameter
+   V3.11 04.12.15 Can now set the critical clustering value from the
+                  control file
 
 *************************************************************************/
 /* Includes
@@ -108,12 +110,13 @@
 #define KEY_TRUETORSIONS     15
 #define KEY_PSEUDOTORSIONS   16
 #define KEY_EXCLUDE          17
-#define PARSER_NCOMM         18
+#define KEY_CVALUE           18
+#define PARSER_NCOMM         19
 #define PARSER_MAXSTRPARAM   3
 #define PARSER_MAXSTRLEN     80
 #define PARSER_MAXREALPARAM  MAXLOOPLEN
 
-#define DEF_CRITICAL         0.06
+#define DEF_CVALUE           0.06
 
 #define UP '|'
 #define ACROSS '-'
@@ -151,7 +154,7 @@ int main(int argc, char **argv)
    char infile[MAXBUFF];
    FILE *fp=NULL;
    int  retval = 0;
-   REAL critical = (REAL)DEF_CRITICAL;
+   REAL critical = (REAL)DEF_CVALUE;
 
    gOutfp = stdout;
 
@@ -165,7 +168,7 @@ int main(int argc, char **argv)
    {
       if((fp = fopen(infile, "r"))!=NULL)
       {
-         if(ReadInputFile(fp,gCATorsions))
+         if(ReadInputFile(fp,gCATorsions, &critical))
          {
             if(!DoClustering(gCATorsions, critical))
             {
@@ -255,23 +258,25 @@ BOOL ParseCmdLine(int argc, char **argv, char *infile, BOOL *CATorsions,
 
 
 /************************************************************************/
-/*>BOOL ReadInputFile(FILE *fp, BOOL CATorsions)
-   ---------------------------------------------
+/*>BOOL ReadInputFile(FILE *fp, BOOL CATorsions, REAL *cvalue)
+   -----------------------------------------------------------
    Input:   FILE  *fp         Input file pointer
             BOOL  CATorsions  Do CA-pseudo-torsions rather than true
                               torsions
+   Output:  REAL  *cvalue     Critical value for clustering
    Returns: BOOL              Success?
 
    Calls routines to set up the command parser and to read the control 
    file.
 
    27.06.95 Original   By: ACRM
+   04.12.15 Added cvalue
 */
-BOOL ReadInputFile(FILE *fp, BOOL CATorsions)
+BOOL ReadInputFile(FILE *fp, BOOL CATorsions, REAL *cvalue)
 {
    if(SetupParser())
    {
-      if(DoCmdLoop(fp, CATorsions))
+      if(DoCmdLoop(fp, CATorsions, cvalue))
          return(TRUE);
    }
    
@@ -338,6 +343,7 @@ BOOL SetupParser(void)
    MAKEMKEY(sKeyWords[KEY_PSEUDOTORSIONS],"PSEUDOTORSIONS",  STRING,0,0);
 
    MAKEMKEY(sKeyWords[KEY_EXCLUDE],       "EXCLUDE",         STRING,1,1);
+   MAKEMKEY(sKeyWords[KEY_EXCLUDE],       "CVALUE",          NUMBER,1,1);
    
    /* Check all allocations OK                                          */
    for(i=0; i<PARSER_NCOMM; i++)
@@ -354,10 +360,11 @@ BOOL SetupParser(void)
 
 
 /************************************************************************/
-/*>BOOL DoCmdLoop(FILE *fp, BOOL CATorsions)
-   -----------------------------------------
+/*>BOOL DoCmdLoop(FILE *fp, BOOL CATorsions, REAL *cvalue)
+   -------------------------------------------------------
    Input:   FILE  *fp          Input file pointer
             BOOL  CATorsions   Do CA rather than true torsions
+   Output:  REAL  *cvalue      Critical value for clustering
    Returns: BOOL               Success? Fails if illegal input encountered
 
    Main loop to handle the command parser for the control file
@@ -370,8 +377,9 @@ BOOL SetupParser(void)
    21.09.95 Added distance, angle, noangle
    26.09.95 Added truetorsions/pseudotorsions and GotLoop checking
    06.11.95 Added exclude
+   04.12.15 Added KEY_CVALUE
 */
-BOOL DoCmdLoop(FILE *fp, BOOL CATorsions)
+BOOL DoCmdLoop(FILE *fp, BOOL CATorsions, REAL *cvalue)
 {
    char buffer[MAXBUFF],
         loopid[MAXBUFF];
@@ -528,6 +536,9 @@ before all LOOP commands\n",sKeyWords[key].name);
             fprintf(stderr,"Error: No memory for string: %s\n", loopid);
             return(FALSE);
          }
+         break;
+      case KEY_CVALUE:
+         *cvalue = sRealParam[0];
          break;
       default:
          break;
@@ -1418,24 +1429,29 @@ BOOL DoClustering(BOOL CATorsions, REAL critical)
    09.01.96 V3.6
    11.09.15 V3.8   
    14.09.15 V3.9
-   04.10.15 V3.10
+   04.11.15 V3.10
+   04.12.15 V3.11
 */
 void Usage(void)
 {
-   fprintf(stderr,"\nCLAN V3.10 (c) 1995-2015, Dr. Andrew C.R. \
+   fprintf(stderr,"\nCLAN V3.11 (c) 1995-2015, Dr. Andrew C.R. \
 Martin, UCL\n");
 
    fprintf(stderr,"\nUsage: clan [-t] [-c critical] <datafile>\n");
    fprintf(stderr,"       -t Do true torsions\n");
    fprintf(stderr,"       -c Specify critical value for defining \
-separate clusters [%.2f]\n", DEF_CRITICAL);
+separate clusters [%.2f]\n", DEF_CVALUE);
 
 
    fprintf(stderr,"\nCLAN (CLuster ANalysis of Loops) performs cluster \
 analysis to examine\n");
    fprintf(stderr,"loops in proteins. See the documentation for details \
 of the data file\n");
-   fprintf(stderr,"format.\n\n");
+   fprintf(stderr,"format.\n");
+
+   fprintf(stderr,"\nNote that values specified with -c will be \
+overridden by the CVALUE command\n");
+   fprintf(stderr,"in the control file.\n\n");
 }
 
 

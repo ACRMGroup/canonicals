@@ -1,9 +1,9 @@
 int main(int argc, char **argv);
 BOOL ParseCmdLine(int argc, char **argv, char *infile, BOOL *CATorsions,
                   REAL *critical);
-BOOL ReadInputFile(FILE *fp, BOOL CATorsions);
+BOOL ReadInputFile(FILE *fp, BOOL CATorsions, REAL *cvalue);
 BOOL SetupParser(void);
-BOOL DoCmdLoop(FILE *fp, BOOL CATorsions);
+BOOL DoCmdLoop(FILE *fp, BOOL CATorsions, REAL *cvalue);
 BOOL ShowClusters(FILE *fp, REAL **data, int NVec, int VecDim, 
                   int Method, BOOL ShowTable, BOOL ShowDendogram,
                   REAL critical);
