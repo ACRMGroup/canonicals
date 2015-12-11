@@ -4,7 +4,7 @@ clan=../src/clan
 findsdrs=../src/findsdrs
 
 # Uncomment this line for testing on a small set:
-# limit='-limit=10'   
+limit='-limit=20'   
 
 # Grab and unpack the non-redundant Chothia-numbered PDB files of antibodies
 wget www.bioinf.org.uk/abs/abdb/Data/NR_CombinedAb_Chothia.tar.bz2
