@@ -4,7 +4,7 @@ dendogram
 table
 data
 critical
-postcluster 1.0 1.5
+postcluster 1.1 1.3
 nodist
 noangle
 
