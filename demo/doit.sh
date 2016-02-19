@@ -1,10 +1,10 @@
 # Setup
 makeclan=./scripts/makeclan.pl
-clan=../src/clan
+clan="../src/clan -c 0.06"
 findsdrs=../src/findsdrs
 
 # Uncomment this line for testing on a small set:
-limit='-limit=20'   
+# limit='-limit=10'   
 
 # Grab and unpack the non-redundant Chothia-numbered PDB files of antibodies
 wget www.bioinf.org.uk/abs/abdb/Data/NR_CombinedAb_Chothia.tar.bz2
@@ -25,7 +25,7 @@ mkdir -p results
 for loop in L1 L2 L3 H1 H2
 do
    echo "Analyzing clusters for CDR $loop"
-   $clan $loop.clan
+   $clan  $loop.clan
 done
 
 # Run findsdrs

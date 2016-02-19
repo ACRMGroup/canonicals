@@ -2,15 +2,13 @@
 
 use strict;
 
-# a program that takes a file containing old cluster assignments for PDBs, 
+# a program that takes a file containing old cluster assignments for PDBs loops, 
 # a results file containing with new cluster assignments and PDB codes, and a file containing 
-# all of the take cluster names to return updated cluster names for all PDB codes. 
-
+ 
 # ---------- DECLARATION OF VARIABLES ----------
 
-my ($oldClusterAssignmentsFile, $newClusterAssignmentsFile, 
-    $takenClusterNamesFile) = @ARGV;
-                                # 
+my ($oldClusterAssignmentsFile, $newClanFile) = @ARGV;
+                                 
 my @clusterSuffixes = ("A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", 
                        "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z",
                        "Aa", "Ba", "Ca", "Da", "Ea", "Fa", "Ga", "Ha", "Ia", "Ja", "Ka", "La", "Ma", 
@@ -22,30 +20,20 @@ my @clusterSuffixes = ("A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L
                        "Ad", "Bd", "Cd", "Dd", "Ed", "Fd", "Gd", "Hd", "Id", "Jd", "Kd", "Ld", "Md", 
                        "Nd", "Od", "Pd", "Qd", "Rd", "Sd", "Td", "Ud", "Vd", "Wd", "Xd", "Yd", "Zd",);
 
-                                # 
+                                 
 # ---------- END OF VARIABLE DECLARATION SECTION ----------
-                                # 
+                                 
 # ---------- MAIN CODE ----------
 
-my ($aOldPDBs, $aOldClasses, $aOldClusts) = GetOldFileData($oldClusterAssignmentsFile);
-                                # 
-my ($hNewClusterData) = GetNewFileData($newClusterAssignmentsFile);
-                                # 
+my ($aClan, $aOldPDBs, $aOldClusts) = GetOldFileData($oldClusterAssignmentsFile);
+                                 
+my ($hNewClusterData) = GetNewFileData($newClanFile);
+                                 
 my ($hOldClusterData) = MakeHash($aOldClusts, $aOldPDBs);
 
-
-my ($hFinalData, $aTakenClusterNames) = FindClusterLabel($hNewClusterData, 
-                                                         $hOldClusterData, 
-                                                         $newClusterAssignmentsFile, 
-                                                         $takenClusterNamesFile, 
-                                                         \@clusterSuffixes);
-                                                                                                                
-#gives all array elements a uniform structure within the array
-my @editedTakenClusterNames = grep(s/\s*$//g, @$aTakenClusterNames);
-
-CommittNames($takenClusterNamesFile, \@editedTakenClusterNames);
-                                                        
-Show($hFinalData);
+my ($hFinalData) = FindClusterLabel($hNewClusterData, $hOldClusterData, $newClanFile, $aOldClusts,\@clusterSuffixes); 
+                                                                                                        
+Show($hFinalData, $aClan);
 
 # ---------- END OF MAIN CODE ----------
         
@@ -58,9 +46,9 @@ Show($hFinalData);
 sub GetOldFileData
 {
     my ($fileName) = @_;
-        
+    
+    my @clan = ();    
     my @pdbs = ();
-    my @classes = ();
     my @clusters = ();
         
     if(open(my $file, '<', $fileName))
@@ -68,21 +56,21 @@ sub GetOldFileData
         while(<$file>)
         {
             chomp;
-            my @fileComponents = split (/ |\//);
+            my @fileComponents = split (/ /);
             
+            push @clan, $fileComponents[0];
             push @pdbs, $fileComponents[1];
-            push @classes, $fileComponents[2];
-            push @clusters, $fileComponents[3];
+            push @clusters, $fileComponents[2];
         }
         close $file;
     }
     else
     {
-        printf STDERR "Can't read file $fileName yaya\n!!";
+        printf STDERR "Can't read file $fileName\n!!";
         
     }
         
-    return (\@pdbs, \@classes, \@clusters); 
+    return (\@clan, \@pdbs, \@clusters); 
 }
 
 # a subroutine to open a file containing new cluster assignments and extract class, pdb, 
@@ -181,19 +169,10 @@ sub FindClusterLabel
     my $bestClusterLabel = '';  # The label we will assign for this cluster     
     my $found = 0;              # Flag to say whether we made an assignment
     my $clusterNum = 0;
-        
-    #creates array that will store all old and new cluster labels that have already been used 
-    my @EditedClusterNames = ();
-        
-    #imports all old cluster labels that have been used
-    open(FILEDATA, "< $aAllClusterNames") or die "Can't open $aAllClusterNames";
-    my @EditedClusterNames; 
-    while (<FILEDATA>)
-    {
-        push (@EditedClusterNames, $_);
-    }
-    close FILEDATA; 
-        
+      
+    #creates array that will store all old and new used cluster labels 
+    my @EditedClusterNames = @$aAllClusterNames;
+                
     #returns an array of all pdb codes within the new, simple cluster names
     my($aArrayOfLoops) = GetArrayOfLoopsInNewClusterAssignments($hNewClusterAssignments, $clanResultsFile); 
         
@@ -222,7 +201,7 @@ sub FindClusterLabel
                 {
                     $bestCount = $assignmentCounts{$cluster};
                     $bestClusterLabel = $cluster;
-                }               # 
+                }                
             }
         }
         else
@@ -231,8 +210,7 @@ sub FindClusterLabel
             my $clusterLength= GetClusterLength ($clanResultsFile, $clusterNum);
             
             #returns a new cluster label
-            $bestClusterLabel = CreateNewLabel($clanResultsFile, $clusterLength, 
-                                               \@EditedClusterNames, $aSuffixes);
+            $bestClusterLabel = CreateNewLabel($clusterLength, \@EditedClusterNames, $aSuffixes);
 
             # adds new label to array of used cluster labels                                        
             push @EditedClusterNames, $bestClusterLabel; 
@@ -247,7 +225,7 @@ sub FindClusterLabel
 
     }
     # Return the best cluster label    
-    return ($hfinalData, \@EditedClusterNames);
+    return ($hfinalData);
 }
 
 # a routine that takes in new simple cluster assignments and the corresponding pdb codes 
@@ -261,7 +239,7 @@ sub GetArrayOfLoopsInNewClusterAssignments
     my $beginning = 'BEGIN ASSIGNMENTS';
     my $ending = 'END ASSIGNMENTS';
     my @AoA = (); #array to contain all new simple cluster assignments and their 
-    #corresponding pdb code 
+    			  #corresponding pdb code 
 
     if(open(my $file, '<', $clanResultsFile))
     {
@@ -327,10 +305,10 @@ sub GetClusterLength
 }
 
 # subroutine takes in a new clan assignments file, cluster length, array of used cluster names, and
-#       all potential cluster suffixes and return a novel cluster name
+# all potential cluster suffixes and return a novel cluster name
 sub CreateNewLabel
 {
-    my ($clanResultsFile, $length, $aAllClusterNames, $aSuffixes) = @_;
+    my ($length, $aAllClusterNames, $aSuffixes) = @_;
         
     my @usedNames = ();
 
@@ -370,55 +348,14 @@ sub SetFinalAssignments
 # subroutine to display new assignments on terminal
 sub Show
 {
-    my ($hFinalData) = @_;
+    my ($hFinalData, $aClanName) = @_;
     
     my @keys = keys %$hFinalData;
     my @values = values %$hFinalData;
     while (@keys) 
     {
-        print pop(@keys), '=', pop(@values), "\n";
+        print $$aClanName[1], ' ',pop(@keys), ' ', pop(@values), "\n";
     }
 }
 
-# subroutine to update file containing all the taken cluster assignment names
-sub CommittNames
-{
-    my ($nameFile,  $aUpdatedNames) = @_;
-                
-    unless (open NAMEFILE, '>'.$nameFile) 
-    {
-        die "\nCannot open folder $nameFile! boo\n";
-        exit;
-    }
-
-    foreach my $name (@$aUpdatedNames)
-    {
-        print NAMEFILE "$name\n";
-    }
-    close NAMEFILE;
-}       
-
-#unfinished subroutine to update "old" cluster assignment for all pdbs. I couldn't get it to work b/c 
-# for some reason the file wouldn't open. I tried many variations and it wasn't working..
-
-# sub CommittAssignments
-# {
-#       my ($clanFile, $hFinalsAssignments) = @_;
-#       
-#       my @keys = keys %$hFinalsAssignments;
-#       my @values = values %$hFinalsAssignments;
-#       
-#       unless (open CLANFILE, '>>'.$clanFile) 
-#       {
-#               die "\nCannot open folder $clanFile!\n";
-#               exit;
-#       }
-#       
-#     while (@keys) 
-#     {
-#         print CLANFILE   pop(@keys), ' /', pop(@values), '\n';
-#     }
-#       close CLANFILE;
-# 
-# }
 # ---------- END OF SUB ROUTINES ---------- 
